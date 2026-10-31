@@ -23,11 +23,10 @@ More host shops open when a niche has real install demand and a clear community 
 
 ## For plugin authors
 
-List a public plugin with a real install path (CLI, copy path, or marketplace source). Each shop publishes a **Listed on …** badge you can put in your README after acceptance.
+List a public plugin with a real install path (CLI, copy path, or marketplace source). Open a **Listing request** issue — we review and publish a detail page. After acceptance, each shop offers a **Listed on …** badge for your README.
 
-- [Submit via Any AI](https://aiaaii.com/submit/)
-- [Submit to Amp shop](https://amp.aiaaii.com/submit/)
-- [Submit to Orca shop](https://orca.aiaaii.com/submit/)
+- [Open a listing request](https://github.com/leexiangf/any-ai/issues/new?template=listing-request.yml)
+- [Submit via Any AI](https://aiaaii.com/submit/) · [Amp](https://amp.aiaaii.com/submit/) · [Orca](https://orca.aiaaii.com/submit/)
 
 ## Brand
 

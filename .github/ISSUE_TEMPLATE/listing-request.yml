@@ -1,0 +1,62 @@
+name: Listing request
+description: Propose a community plugin or marketplace source for an Any AI host shop
+title: "[listing] "
+labels: ["listing"]
+body:
+  - type: dropdown
+    id: shop
+    attributes:
+      label: Host shop
+      description: Which directory should list this?
+      options:
+        - Amp (amp.aiaaii.com)
+        - Orca (orca.aiaaii.com)
+        - Other / not sure
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Plugin or index name
+      placeholder: e.g. amp-autoresearch
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source URL
+      description: GitHub repo, Share URL, or marketplace index URL
+      placeholder: https://github.com/…
+    validations:
+      required: true
+  - type: textarea
+    id: install
+    attributes:
+      label: Install instructions
+      description: Real CLI / copy path / Marketplace source steps (no invented commands)
+      placeholder: amp plugins add …  or  Settings → Plugins → …
+    validations:
+      required: true
+  - type: input
+    id: oneliner
+    attributes:
+      label: One-line description
+      placeholder: What it does in one sentence
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Suggested category
+      placeholder: e.g. tools, security, marketplaces
+  - type: checkboxes
+    id: affirm
+    attributes:
+      label: Affirmations
+      options:
+        - label: Source is public and I can link to it
+          required: true
+        - label: I am not impersonating the host vendor or using reserved official ids
+          required: true
+        - label: Install path works (or is documented upstream)
+          required: true
