@@ -54,9 +54,31 @@
     return getStored() || systemTheme();
   }
 
+  function mountTopRail() {
+    if (document.querySelector(".top-rail")) return;
+
+    var rail = document.createElement("div");
+    rail.className = "top-rail";
+    rail.setAttribute("role", "navigation");
+    rail.setAttribute("aria-label", "Site");
+
+    var home = document.createElement("a");
+    home.className = "fixed-home";
+    home.href = "/";
+    home.textContent = "Home";
+    home.setAttribute("aria-label", "Home");
+    rail.appendChild(home);
+
+    var btn = document.querySelector("[data-theme-toggle]");
+    if (btn) rail.appendChild(btn);
+
+    document.body.appendChild(rail);
+  }
+
   apply(resolve());
 
   document.addEventListener("DOMContentLoaded", function () {
+    mountTopRail();
     apply(resolve());
     var btn = document.querySelector("[data-theme-toggle]");
     if (!btn) return;

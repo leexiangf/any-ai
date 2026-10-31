@@ -644,6 +644,56 @@ h2.section-center {
   }
 }
 
+
+/* Fixed top-right Home + theme (mounted by theme.js) */
+.top-rail {
+  position: fixed;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  pointer-events: none;
+}
+
+.top-rail > * {
+  pointer-events: auto;
+}
+
+.fixed-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.25rem;
+  padding: 0 0.95rem;
+  border-radius: 980px;
+  border: 1px solid var(--line-strong);
+  background: var(--bg-elevated);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  box-shadow: var(--shadow-soft);
+  transition: background 0.2s var(--ease), border-color 0.2s var(--ease), color 0.2s var(--ease);
+}
+
+.fixed-home:hover {
+  border-color: var(--blue);
+  background: var(--blue-soft);
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.fixed-home:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.top-rail .theme-toggle {
+  box-shadow: var(--shadow-soft);
+}
 @media (prefers-reduced-motion: reduce) {
   .hero-main,
   .hero-bg::before,
@@ -1035,6 +1085,56 @@ html[data-theme="dark"] .item:hover {
   box-shadow: var(--shadow-soft);
 }
 
+
+/* Fixed top-right Home + theme (mounted by theme.js) */
+.top-rail {
+  position: fixed;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  pointer-events: none;
+}
+
+.top-rail > * {
+  pointer-events: auto;
+}
+
+.fixed-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.25rem;
+  padding: 0 0.95rem;
+  border-radius: 980px;
+  border: 1px solid var(--line-strong);
+  background: var(--bg-elevated);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  box-shadow: var(--shadow-soft);
+  transition: background 0.2s var(--ease), border-color 0.2s var(--ease), color 0.2s var(--ease);
+}
+
+.fixed-home:hover {
+  border-color: var(--blue);
+  background: var(--blue-soft);
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.fixed-home:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.top-rail .theme-toggle {
+  box-shadow: var(--shadow-soft);
+}
 @media (prefers-reduced-motion: reduce) {
   .theme-toggle {
     transition: none;
