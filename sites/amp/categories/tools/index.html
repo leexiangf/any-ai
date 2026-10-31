@@ -6,6 +6,22 @@
     <title>Tools Amp plugins | Amp Plugin Market</title>
     <meta name="description" content="Tools Amp plugins — agent-callable tools and CLI helpers. Community directory." />
     <link rel="canonical" href="https://amp.aiaaii.com/categories/tools/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
@@ -13,7 +29,12 @@
       <div class="wrap-wide">
         <div class="site-header">
           <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
-          <nav class="nav"><a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a></nav>
+                    <div class="header-end">
+            <nav class="nav"><a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a></nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
         </div>
       </div>
       <header class="page-hero">
@@ -49,5 +70,6 @@
       </div>
     </main>
     <footer class="site-footer"><div class="wrap-wide"><p><a href="/">← Market</a></p></div></footer>
+      <script src="/theme.js" defer></script>
   </body>
 </html>

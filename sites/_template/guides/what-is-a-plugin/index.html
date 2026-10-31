@@ -9,6 +9,22 @@
       content="What a {{PRIMARY_KEYWORD}} is, how it extends {{HOST_NAME}}, and how to trust community listings."
     />
     <link rel="canonical" href="https://{{DOMAIN}}/guides/what-is-a-plugin/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
@@ -19,10 +35,15 @@
             <span class="brand-name">{{SHOP_NAME}}</span>
             <span class="brand-domain">{{DOMAIN}}</span>
           </a>
-          <nav class="nav">
+                    <div class="header-end">
+            <nav class="nav">
             <a href="/guides/">Guides</a>
             <a href="/items/">Plugins</a>
           </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
         </div>
       </div>
       <header class="page-hero">
@@ -51,5 +72,6 @@
     <footer class="site-footer">
       <div class="wrap-wide"><p>Not affiliated with {{VENDOR}}</p></div>
     </footer>
+      <script src="/theme.js" defer></script>
   </body>
 </html>

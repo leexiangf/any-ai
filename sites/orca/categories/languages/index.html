@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Languages Orca plugins | Orca Plugin Market</title>
     <link rel="canonical" href="https://orca.aiaaii.com/categories/languages/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
@@ -12,7 +28,12 @@
       <div class="wrap-wide">
         <div class="site-header">
           <a class="brand" href="/"><span class="brand-name">Orca Plugin Market</span><span class="brand-domain">orca.aiaaii.com</span></a>
-          <nav class="nav"><a href="/items/">Plugins</a></nav>
+                    <div class="header-end">
+            <nav class="nav"><a href="/items/">Plugins</a></nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
         </div>
       </div>
       <header class="page-hero"><div class="wrap"><h1>Languages</h1><p>UI locale packs for Orca.</p></div></header>
@@ -31,5 +52,6 @@
       </div>
     </main>
     <footer class="site-footer"><div class="wrap-wide"><p><a href="/">← Market</a></p></div></footer>
+      <script src="/theme.js" defer></script>
   </body>
 </html>

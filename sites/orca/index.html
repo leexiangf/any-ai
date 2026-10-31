@@ -9,6 +9,22 @@
       content="A Orca plugin extends Orca — browse community plugins and marketplace sources. Add Git marketplace URLs and install packs. Not affiliated with Orca or Stably. Experimental APIs."
     />
     <link rel="canonical" href="https://orca.aiaaii.com/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
@@ -20,12 +36,17 @@
             <span class="brand-name">Orca Plugin Market</span>
             <span class="brand-domain">orca.aiaaii.com · Any AI</span>
           </a>
-          <nav class="nav" aria-label="Primary">
+                    <div class="header-end">
+            <nav class="nav" aria-label="Primary">
             <a href="/items/">Plugins</a>
             <a href="/guides/">Guides</a>
             <a href="/submit/">Submit</a>
             <a href="/about/">About</a>
           </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
         </div>
 
         <div class="hero-main">
@@ -294,5 +315,6 @@
         </div>
       </div>
     </footer>
+      <script src="/theme.js" defer></script>
   </body>
 </html>
