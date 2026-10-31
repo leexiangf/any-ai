@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>amp-disable-git-attribution - Hide Amp git co-author | Amp Plugin Market</title>
+    <meta name="description" content="Amp plugin that disables Amp thread and co-author attribution in Git commits. Community listing on amp.aiaaii.com." />
+    <link rel="canonical" href="https://amp.aiaaii.com/items/lATAl/amp-disable-git-attribution/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <div class="header-end">
+            <nav class="nav"><a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a></nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme"><span class="theme-toggle-icon" aria-hidden="true"></span></button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>amp-disable-git-attribution</h1>
+          <p>Turn off Amp thread and co-author lines in Git commits.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <p>
+          Sets <span class="acronym">amp.git.commit.ampThread.enabled</span> and
+          <span class="acronym">amp.git.commit.coauthor.enabled</span> to
+          <span class="acronym">false</span> in Amp user settings when a thread
+          starts. Does not change author, committer, signing, or unrelated settings.
+        </p>
+        <div class="install-block">
+          <span class="label">Personal Plugin via Puck (Ctrl+/)</span>
+          <code>Install https://github.com/lATAl/amp-disable-git-attribution as a Personal Plugin named amp-disable-git-attribution. Ask before pushing the Personal Plugins repository, then reload the plugins.</code>
+        </div>
+        <div class="install-block">
+          <span class="label">Local-only (no plugin)</span>
+          <code>amp config edit  # set both attribution settings to false</code>
+        </div>
+        <dl class="meta-table">
+          <dt>Author</dt><dd>lATAl</dd>
+          <dt>Category</dt><dd><a href="/categories/security/">security</a></dd>
+          <dt>Status</dt><dd>listed</dd>
+          <dt>Source</dt><dd><a href="https://github.com/lATAl/amp-disable-git-attribution" rel="noopener noreferrer">github.com/lATAl/amp-disable-git-attribution</a></dd>
+        </dl>
+        <h2>Verify</h2>
+        <p>After a new thread: check settings JSON and <span class="acronym">amp plugins list</span>.</p>
+        <p class="source-line">Independent rewrite · Updated 2026-10-31 · Not affiliated with Amp</p>
+        <p><a href="/items/">← All plugins</a> · <a href="/categories/security/">Security</a></p>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp</p></div></footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

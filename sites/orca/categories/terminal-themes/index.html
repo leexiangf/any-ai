@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Terminal themes Orca plugins | Orca Plugin Market</title>
+    <meta name="description" content="Orca terminal color themes from the official marketplace." />
+    <link rel="canonical" href="https://orca.aiaaii.com/categories/terminal-themes/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Orca Plugin Market</span><span class="brand-domain">orca.aiaaii.com</span></a>
+          <div class="header-end">
+            <nav class="nav"><a href="/items/">Plugins</a></nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme"><span class="theme-toggle-icon" aria-hidden="true"></span></button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero"><div class="wrap"><h1>Terminal themes</h1><p>Terminal color packs for Orca.</p></div></header>
+    </div>
+    <main class="section">
+      <div class="wrap">
+        <div class="item-list">
+          <a class="item" href="/items/stablyai/orca-solarized-terminal/">
+            <div class="item-body">
+              <h2 class="item-name">orca-solarized-terminal</h2>
+              <p class="item-one">Solarized Dark terminal colors.</p>
+            </div>
+            <span class="item-badge">terminal-themes</span>
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="wrap-wide"><p><a href="/">← Market</a></p></div></footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>
