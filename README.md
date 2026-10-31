@@ -16,8 +16,8 @@ Official products ship the agent. We ship the **install index**: browse, verify,
 
 | Shop | Focus | Site |
 | --- | --- | --- |
-| **Amp Plugin Market** | Amp plugins & install flows | [amp.aiaaii.com](https://amp.aiaaii.com) |
-| **Orca Plugin Market** | Orca plugins & marketplace sources | [orca.aiaaii.com](https://orca.aiaaii.com) |
+| **Amp Plugin Market** | Amp plugins & install flows · **31** listings | [amp.aiaaii.com](https://amp.aiaaii.com) |
+| **Orca Plugin Market** | Orca plugins & marketplace sources · **52** listings | [orca.aiaaii.com](https://orca.aiaaii.com) |
 
 More host shops open when a niche has real install demand and a clear community gap.
 

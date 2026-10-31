@@ -2,39 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://amp.aiaaii.com/</loc><priority>1.0</priority></url>
   <url><loc>https://amp.aiaaii.com/items/</loc><priority>0.9</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/ampcode/oracle/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/ampcode/librarian/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/ampcode/finder/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/ampcode/grok-46-mode/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/rsclarke/aws-control-plane-readonly/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/lATAl/amp-disable-git-attribution/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/lox/amp-autoresearch/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/jim-ampcode/handoff-plugin/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/loredotlink/lore-plugin/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/etonwan/amp-runner-manager/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/daftAI2026/usage-monitor/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/zaengerlein/amp-supermemory/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/pc-style/read-x-post/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/pc-style/amp-directory/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/pc-style/gpt-56-sol-mode/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/pc-style/gpt-56-terra-mode/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/pc-style/gpt-56-luna-mode/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/pc-style/fable-mode/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/pc-style/compressr/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/pc-style/signal-filter/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/items/ampcode/official-plugins/</loc><priority>0.8</priority></url>
   <url><loc>https://amp.aiaaii.com/items/ampcode/amp-contrib/</loc><priority>0.8</priority></url>
   <url><loc>https://amp.aiaaii.com/items/ampcode/amp-contrib-2/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/udhaya10/amp-grok-mode/</loc><priority>0.8</priority></url>
   <url><loc>https://amp.aiaaii.com/items/pc-style/amp-plugins/</loc><priority>0.8</priority></url>
   <url><loc>https://amp.aiaaii.com/items/daftAI2026/daftai-amp-plugins/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/ampcode/fable-mode/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/ampcode/grok-46-mode/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/ampcode/smart-mode/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/pc-style/compressr/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/pc-style/fable-mode/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/pc-style/gpt-56-luna-mode/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/pc-style/gpt-56-sol-mode/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/pc-style/gpt-56-terra-mode/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/udhaya10/grok-mode/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/udhaya10/grok-rush/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/ampcode/official-plugins/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/pc-style/signal-filter/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/lATAl/amp-disable-git-attribution/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/rsclarke/aws-control-plane-readonly/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/ampcode/finder/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/ampcode/librarian/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/ampcode/oracle/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/pc-style/amp-directory/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/zaengerlein/amp-supermemory/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/udhaya10/firecrawl-hook/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/pc-style/read-x-post/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/daftAI2026/usage-monitor/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/lox/amp-autoresearch/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/etonwan/amp-runner-manager/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/jim-ampcode/handoff-plugin/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/items/loredotlink/lore-plugin/</loc><priority>0.8</priority></url>
   <url><loc>https://amp.aiaaii.com/categories/tools/</loc><priority>0.7</priority></url>
   <url><loc>https://amp.aiaaii.com/categories/security/</loc><priority>0.7</priority></url>
-  <url><loc>https://amp.aiaaii.com/categories/workflow/</loc><priority>0.7</priority></url>
-  <url><loc>https://amp.aiaaii.com/categories/modes/</loc><priority>0.7</priority></url>
   <url><loc>https://amp.aiaaii.com/categories/bundles/</loc><priority>0.7</priority></url>
+  <url><loc>https://amp.aiaaii.com/categories/modes/</loc><priority>0.7</priority></url>
+  <url><loc>https://amp.aiaaii.com/categories/workflow/</loc><priority>0.7</priority></url>
   <url><loc>https://amp.aiaaii.com/guides/</loc><priority>0.85</priority></url>
-  <url><loc>https://amp.aiaaii.com/guides/what-is-an-amp-plugin/</loc><priority>0.8</priority></url>
-  <url><loc>https://amp.aiaaii.com/guides/how-to-install-amp-plugin/</loc><priority>0.8</priority></url>
+  <url><loc>https://amp.aiaaii.com/guides/what-is-an-amp-plugin/</loc><priority>0.75</priority></url>
+  <url><loc>https://amp.aiaaii.com/guides/how-to-install-amp-plugin/</loc><priority>0.75</priority></url>
   <url><loc>https://amp.aiaaii.com/guides/how-to-reload-and-list-plugins/</loc><priority>0.75</priority></url>
   <url><loc>https://amp.aiaaii.com/guides/how-to-update-amp-plugins/</loc><priority>0.75</priority></url>
   <url><loc>https://amp.aiaaii.com/guides/how-to-troubleshoot-amp-plugins/</loc><priority>0.75</priority></url>
@@ -42,4 +48,3 @@
   <url><loc>https://amp.aiaaii.com/submit/</loc><priority>0.5</priority></url>
   <url><loc>https://amp.aiaaii.com/about/</loc><priority>0.5</priority></url>
 </urlset>
-

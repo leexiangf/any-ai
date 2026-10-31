@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@amp/fable-mode - Amp plugin | Amp Plugin Market</title>
+    <meta name="description" content="Official Claude Fable 5 agent modes (low / med / xhi / max). Community Amp plugin listing on amp.aiaaii.com." />
+    <link rel="canonical" href="https://amp.aiaaii.com/items/ampcode/fable-mode/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <div class="header-end">
+            <nav class="nav"><a href="/">Home</a><a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a></nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme"><span class="theme-toggle-icon" aria-hidden="true"></span></button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>@amp/fable-mode</h1>
+          <p>Official Claude Fable 5 agent modes (low / med / xhi / max).</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+                <p>
+          Official Amp agent-mode plugin that adds <strong>Claude Fable 5</strong>
+          variants to the mode picker. Prefer personal import when you want the
+          modes everywhere you use Amp.
+        </p>
+        <div class="install-block">
+          <span class="label">CLI</span>
+          <code>amp plugins add --auto-update @amp/fable-mode</code>
+        </div>
+        <div class="install-block"><span class="label"></span><code></code></div>
+        <dl class="meta-table">
+          <dt>Author</dt><dd>ampcode</dd>
+          <dt>Category</dt><dd><a href="/categories/modes/">modes</a></dd>
+          <dt>Status</dt><dd>listed</dd>
+          <dt>Source</dt><dd><a href="https://ampcode.com/@amp/plugins/fable-mode.ts" rel="noopener noreferrer">ampcode.com/@amp/plugins/fable-mode.ts</a></dd>
+        </dl>
+        <p class="source-line">Independent rewrite · Updated 2026-10-31 · Review source before install</p>
+        <p><a href="/items/">← All plugins</a> · <a href="/categories/modes/">modes</a></p>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp</p></div></footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>
