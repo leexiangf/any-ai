@@ -2,29 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://orca.aiaaii.com/</loc><priority>1.0</priority></url>
   <url><loc>https://orca.aiaaii.com/items/</loc><priority>0.9</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/senadaruc/orca-grazr/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-runner/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-workflow-skills/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/mbirepinte/Orca-asciidoc-viewer/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-docx/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-excalidraw/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/kolebayev/orca-md-layout/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/thailoc-dev/orca-pptx-viewer/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-spreadsheet/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-sqlite-browser/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-material-icons/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-minimal-icons/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-navigation-shortcuts/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-portuguese/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/smwbev/orca-russian/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-community-plugins/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/j-dandelion/orca-marketplace/</loc><priority>0.8</priority></url>
   <url><loc>https://orca.aiaaii.com/items/stablyai/orca-plugins/</loc><priority>0.8</priority></url>
   <url><loc>https://orca.aiaaii.com/items/smwbev/orca-plugins/</loc><priority>0.8</priority></url>
-  <url><loc>https://orca.aiaaii.com/items/smwbev/orca-russian/</loc><priority>0.8</priority></url>
-  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-navigation-shortcuts/</loc><priority>0.8</priority></url>
-  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-multipass-recipes/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-erlang/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-gleam/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-godot/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-haskell/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-http/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-jsp/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-julia/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-latex/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-matlab/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-nix/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-ocaml/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-prisma/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-qml/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-systemd/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-taxi/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-vcl/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-vhdl/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-solarized-terminal/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/vale-c/orca-catppuccin/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-catppuccin-theme/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/dawidwetzler/orca-cobalt2-theme/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-dracula-theme/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-dusk-ember/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-github-light-theme/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-gruvbox-theme/</loc><priority>0.8</priority></url>
   <url><loc>https://orca.aiaaii.com/items/stablyai/orca-midnight-theme/</loc><priority>0.8</priority></url>
   <url><loc>https://orca.aiaaii.com/items/stablyai/orca-nord-theme/</loc><priority>0.8</priority></url>
-  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-minimal-icons/</loc><priority>0.8</priority></url>
-  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-solarized-terminal/</loc><priority>0.8</priority></url>
-  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-workflow-skills/</loc><priority>0.8</priority></url>
-  <url><loc>https://orca.aiaaii.com/categories/marketplaces/</loc><priority>0.7</priority></url>
-  <url><loc>https://orca.aiaaii.com/categories/languages/</loc><priority>0.7</priority></url>
-  <url><loc>https://orca.aiaaii.com/categories/keybindings/</loc><priority>0.7</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-oled-theme/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/j-dandelion/orca-rose-pine-moon/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-solarized-light-theme/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/vale-c/orca-tokyonight/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/upstash/box-orca-plugin/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-multipass-recipes/</loc><priority>0.8</priority></url>
   <url><loc>https://orca.aiaaii.com/categories/vm-recipes/</loc><priority>0.7</priority></url>
-  <url><loc>https://orca.aiaaii.com/categories/themes/</loc><priority>0.7</priority></url>
-  <url><loc>https://orca.aiaaii.com/categories/icons/</loc><priority>0.7</priority></url>
+  <url><loc>https://orca.aiaaii.com/categories/editors/</loc><priority>0.7</priority></url>
+  <url><loc>https://orca.aiaaii.com/categories/languages/</loc><priority>0.7</priority></url>
+  <url><loc>https://orca.aiaaii.com/categories/syntax/</loc><priority>0.7</priority></url>
   <url><loc>https://orca.aiaaii.com/categories/terminal-themes/</loc><priority>0.7</priority></url>
+  <url><loc>https://orca.aiaaii.com/categories/keybindings/</loc><priority>0.7</priority></url>
   <url><loc>https://orca.aiaaii.com/categories/content-packs/</loc><priority>0.7</priority></url>
+  <url><loc>https://orca.aiaaii.com/categories/marketplaces/</loc><priority>0.7</priority></url>
+  <url><loc>https://orca.aiaaii.com/categories/icons/</loc><priority>0.7</priority></url>
+  <url><loc>https://orca.aiaaii.com/categories/themes/</loc><priority>0.7</priority></url>
   <url><loc>https://orca.aiaaii.com/guides/</loc><priority>0.85</priority></url>
-  <url><loc>https://orca.aiaaii.com/guides/what-is-an-orca-plugin/</loc><priority>0.8</priority></url>
-  <url><loc>https://orca.aiaaii.com/guides/how-to-enable-orca-plugins/</loc><priority>0.8</priority></url>
-  <url><loc>https://orca.aiaaii.com/guides/how-to-add-marketplace-source/</loc><priority>0.85</priority></url>
-  <url><loc>https://orca.aiaaii.com/guides/how-to-install-orca-plugin/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/guides/what-is-an-orca-plugin/</loc><priority>0.75</priority></url>
+  <url><loc>https://orca.aiaaii.com/guides/how-to-install-orca-plugin/</loc><priority>0.75</priority></url>
+  <url><loc>https://orca.aiaaii.com/guides/how-to-enable-orca-plugins/</loc><priority>0.75</priority></url>
+  <url><loc>https://orca.aiaaii.com/guides/how-to-add-marketplace-source/</loc><priority>0.75</priority></url>
   <url><loc>https://orca.aiaaii.com/guides/how-to-troubleshoot-orca-plugins/</loc><priority>0.75</priority></url>
   <url><loc>https://orca.aiaaii.com/guides/how-to-publish-orca-marketplace/</loc><priority>0.75</priority></url>
   <url><loc>https://orca.aiaaii.com/submit/</loc><priority>0.5</priority></url>
