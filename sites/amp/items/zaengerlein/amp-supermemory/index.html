@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>amp-supermemory - Persistent memory for Amp | Amp Plugin Market</title>
+    <meta
+      name="description"
+      content="Amp plugin that adds Supermemory auto-recall and auto-capture across sessions. Community listing on amp.aiaaii.com."
+    />
+    <link rel="canonical" href="https://amp.aiaaii.com/items/zaengerlein/amp-supermemory/" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">Amp Plugin Market</span>
+            <span class="brand-domain">amp.aiaaii.com</span>
+          </a>
+          <nav class="nav">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+          </nav>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>amp-supermemory</h1>
+          <p>Persistent memory for Amp via Supermemory — recall and capture across sessions.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <p>
+          Injects relevant memories and project knowledge at session start, and
+          can capture conversations when a session ends. Requires a Supermemory
+          API key or browser login. Wrap secrets in
+          <span class="acronym">&lt;private&gt;</span> tags to skip storage.
+        </p>
+        <div class="install-block">
+          <span class="label">Global plugin file</span>
+          <code
+            >mkdir -p ~/.config/amp/plugins &amp;&amp; curl -o
+            ~/.config/amp/plugins/supermemory.ts
+            https://raw.githubusercontent.com/zaengerlein/amp-supermemory/main/dist/supermemory.ts</code
+          >
+        </div>
+        <div class="install-block">
+          <span class="label">Run with plugins</span>
+          <code>PLUGINS=all amp</code>
+        </div>
+        <dl class="meta-table">
+          <dt>Author</dt>
+          <dd>zaengerlein</dd>
+          <dt>Category</dt>
+          <dd><a href="/categories/tools/">tools</a></dd>
+          <dt>Status</dt>
+          <dd>listed</dd>
+          <dt>Source</dt>
+          <dd>
+            <a href="https://github.com/zaengerlein/amp-supermemory" rel="noopener noreferrer"
+              >github.com/zaengerlein/amp-supermemory</a
+            >
+          </dd>
+        </dl>
+        <h2>What it does</h2>
+        <p>
+          Auto-recall on the first message; auto-capture at session end. Login
+          via palette <span class="acronym">Supermemory: Login</span> or
+          <span class="acronym">SUPERMEMORY_API_KEY</span>.
+        </p>
+        <h2>Compatibility</h2>
+        <p>Amp Plugin API experimental; manual install as documented upstream.</p>
+        <div class="faq">
+          <details>
+            <summary>Project-only install?</summary>
+            <p>
+              Copy to <span class="acronym">.amp/plugins/supermemory.ts</span>
+              instead of the user config directory.
+            </p>
+          </details>
+          <details>
+            <summary>Is this official Amp?</summary>
+            <p>No. Community plugin using a third-party memory service.</p>
+          </details>
+        </div>
+        <p class="source-line">
+          Independent rewrite —
+          <a href="https://github.com/zaengerlein/amp-supermemory" rel="noopener noreferrer"
+            >source repository</a
+          >
+          · Updated 2026-10-31
+        </p>
+        <p>
+          <a href="/items/">← All plugins</a> ·
+          <a href="/categories/tools/">Tools</a>
+        </p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp</p></div>
+    </footer>
+  </body>
+</html>

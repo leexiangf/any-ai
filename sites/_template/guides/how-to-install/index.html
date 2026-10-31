@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to install a {{PRIMARY_KEYWORD}} | {{SHOP_NAME}}</title>
+    <meta
+      name="description"
+      content="Install {{HOST_NAME}} {{NOUN_PLURAL}} with {{INSTALL_CMD}}."
+    />
+    <link rel="canonical" href="https://{{DOMAIN}}/guides/how-to-install/" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">{{SHOP_NAME}}</span>
+            <span class="brand-domain">{{DOMAIN}}</span>
+          </a>
+          <nav class="nav">
+            <a href="/guides/">Guides</a>
+            <a href="/items/">Plugins</a>
+          </nav>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>How to install a {{PRIMARY_KEYWORD}}</h1>
+          <p>Use the real install path {{HOST_NAME}} documents.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <p><strong>Prerequisites:</strong> {{HOST_NAME}} installed; a source you trust.</p>
+        <h2>Steps</h2>
+        <ol class="steps">
+          <li>Pick a listing from the <a href="/items/">directory</a>.</li>
+          <li>
+            Run the documented install:
+            <div class="install-block">
+              <span class="label">Install</span>
+              <code>{{INSTALL_CMD}}</code>
+            </div>
+          </li>
+          <li>Reload / restart if the host requires it.</li>
+          <li>Verify the {{NOUN}} appears in the host’s list UI or CLI.</li>
+        </ol>
+        <h2>If it fails</h2>
+        <p>Wrong host version · bad URL · missing reload. Cite official docs for exact flags.</p>
+        <p><a href="/guides/">All guides</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide"><p>Not affiliated with {{VENDOR}}</p></div>
+    </footer>
+  </body>
+</html>

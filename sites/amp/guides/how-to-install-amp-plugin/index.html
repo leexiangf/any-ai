@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to install an Amp plugin | Amp Plugin Market</title>
+    <meta name="description" content="Install Amp plugins with amp plugins add, Share URL import, or .amp/plugins/." />
+    <link rel="canonical" href="https://amp.aiaaii.com/guides/how-to-install-amp-plugin/" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <nav class="nav"><a href="/guides/">Guides</a><a href="/items/">Plugins</a></nav>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>How to install an Amp plugin</h1>
+          <p>Use the real CLI and Share URL flows Amp documents.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <p><strong>Prerequisites:</strong> Amp CLI or app signed in; plugin URL or file you trust.</p>
+        <h2>Steps</h2>
+        <ol class="steps">
+          <li>Pick a listing from the <a href="/items/">directory</a> and open its source.</li>
+          <li>
+            Machine-wide single-file install:
+            <div class="install-block"><span class="label">CLI</span><code>amp plugins add &lt;url&gt;</code></div>
+            Add <span class="acronym">--target workspace</span> for the current project’s <span class="acronym">.amp/plugins/</span>.
+          </li>
+          <li>Or paste a Share URL into an Amp thread and ask to import into personal plugins.</li>
+          <li>Or copy a <span class="acronym">.ts</span> file into <span class="acronym">~/.config/amp/plugins/</span> or <span class="acronym">.amp/plugins/</span>.</li>
+          <li>Reload and list — see <a href="/guides/how-to-reload-and-list-plugins/">reload guide</a>.</li>
+        </ol>
+        <h2>Success</h2>
+        <p><span class="acronym">amp plugins list</span> shows the plugin, or Amp confirms the import.</p>
+        <h2>If it fails</h2>
+        <p>Command not found → install Amp CLI. URL rejected → use raw/share URL Amp accepts. Silent no-op → reload plugins.</p>
+        <p class="source-line">Source: <a href="https://ampcode.com/docs/customize/plugins" rel="noopener noreferrer">Amp Docs — Plugins</a> · Updated 2026-10-22</p>
+        <p><a href="/guides/">All guides</a></p>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="wrap-wide"><p>Not affiliated with Amp</p></div></footer>
+  </body>
+</html>

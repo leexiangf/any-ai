@@ -1,0 +1,30 @@
+# Cloudflare Wrangler (may contain account cache)
+.wrangler/
+**/.wrangler/
+sites/*/.wrangler/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+.idea/
+.vscode/
+*.iml
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# Logs & temp
+*.log
+tmp/
+temp/
+.cache/
+
+# Node (if added later)
+node_modules/
+dist/

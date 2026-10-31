@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to update Amp plugins | Amp Plugin Market</title>
+    <meta name="description" content="Update Amp plugins with amp plugins update and Amp’s import update flow." />
+    <link rel="canonical" href="https://amp.aiaaii.com/guides/how-to-update-amp-plugins/" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <nav class="nav"><a href="/guides/">Guides</a></nav>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>How to update Amp plugins</h1>
+          <p>Keep imports and CLI installs current without silent overwrites.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <ol class="steps">
+          <li>For CLI installs, ask Amp to check imports or run:</li>
+        </ol>
+        <div class="install-block"><span class="label">CLI</span><code>amp plugins update &lt;name&gt;</code></div>
+        <ol class="steps" start="2">
+          <li>For personal/workspace imports, ask Amp: “Check if any of my imported plugins are out of date.”</li>
+          <li>Review the diff, then commit/push if you use hosted plugin repositories.</li>
+          <li><a href="/guides/how-to-reload-and-list-plugins/">Reload</a> after updating files.</li>
+        </ol>
+        <h2>Success</h2>
+        <p>Version or commit moves forward; plugin still lists cleanly.</p>
+        <h2>If it fails</h2>
+        <p>Conflicts on import → resolve manually in the plugin repo. Auto-update flags only apply where Amp documents them.</p>
+        <p class="source-line">Source: Amp Docs — Global Plugins &amp; Skills · Updated 2026-10-22</p>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="wrap-wide"><p>Not affiliated with Amp</p></div></footer>
+  </body>
+</html>

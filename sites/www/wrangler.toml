@@ -1,0 +1,17 @@
+name = "aiaaii"
+compatibility_date = "2025-10-31"
+workers_dev = true
+
+[assets]
+directory = "."
+html_handling = "auto-trailing-slash"
+not_found_handling = "404-page"
+
+# Apex + www — overwrites previous tutorial Worker on these hostnames
+[[routes]]
+pattern = "aiaaii.com"
+custom_domain = true
+
+[[routes]]
+pattern = "www.aiaaii.com"
+custom_domain = true

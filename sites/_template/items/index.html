@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{HOST_NAME}} {{NOUN_PLURAL}} — Directory | {{SHOP_NAME}}</title>
+    <meta
+      name="description"
+      content="Browse community {{HOST_NAME}} {{NOUN_PLURAL}}. Open detail pages and install with {{INSTALL_CMD}}."
+    />
+    <link rel="canonical" href="https://{{DOMAIN}}/items/" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">{{SHOP_NAME}}</span>
+            <span class="brand-domain">{{DOMAIN}}</span>
+          </a>
+          <nav class="nav">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+          </nav>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>{{HOST_NAME}} {{NOUN_PLURAL}}</h1>
+          <p>Community directory · install with <span class="acronym">{{INSTALL_CMD}}</span></p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap">
+        <p class="section-lead">
+          Categories:
+          <a href="/categories/{{CATEGORY_SLUG}}/">{{CATEGORY_SLUG}}</a>
+        </p>
+        <div class="item-list">
+          <a class="item" href="/items/{{OWNER}}/{{SLUG}}/">
+            <div class="item-body">
+              <h2 class="item-name">{{SLUG}}</h2>
+              <p class="item-one">One-line description.</p>
+              <p class="item-meta">{{OWNER}}</p>
+            </div>
+            <span class="item-badge">{{CATEGORY_SLUG}}</span>
+          </a>
+        </div>
+        <div class="faq" style="margin-top: 3rem">
+          <details>
+            <summary>How do I install from this directory?</summary>
+            <p>
+              Open a detail page and copy the install block, or follow
+              <a href="/guides/how-to-install/">How to install</a>.
+            </p>
+          </details>
+        </div>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide"><p><a href="/">← Market</a></p></div>
+    </footer>
+  </body>
+</html>

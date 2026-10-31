@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{PRIMARY_KEYWORD}} - {{SHOP_NAME}} Install | Any AI</title>
+    <meta
+      name="description"
+      content="A {{PRIMARY_KEYWORD}} extends {{HOST_NAME}} — browse, verify, and install community {{NOUN_PLURAL}}. Community directory on {{DOMAIN}}. Not affiliated with {{VENDOR}}."
+    />
+    <link rel="canonical" href="https://{{DOMAIN}}/" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">{{SHOP_NAME}}</span>
+            <span class="brand-domain">{{DOMAIN}} · Any AI</span>
+          </a>
+          <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+          </nav>
+        </div>
+
+        <div class="hero-main">
+          <p class="hero-kicker">Community directory</p>
+          <h1>{{PRIMARY_KEYWORD}}</h1>
+          <p class="hero-sub">
+            Find and install community extensions for {{HOST_NAME}}.
+          </p>
+          <p class="hero-lead">
+            Browse categorized listings and install with the real command your
+            machine already knows.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="/items/">Browse {{NOUN_PLURAL}}</a>
+            <a class="btn btn-ghost" href="/guides/how-to-install/">How to install</a>
+          </div>
+          <p class="disclaimer">
+            Community-maintained by Any AI (AI-AAII). Not affiliated with {{VENDOR}}.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section section-center" aria-labelledby="stats-heading">
+        <div class="wrap">
+          <p class="section-label">Index</p>
+          <h2 id="stats-heading">Built for install, not just bookmarks</h2>
+          <ul class="stats">
+            <li><strong>N</strong><span>seed listings</span></li>
+            <li><strong>N</strong><span>categories</span></li>
+            <li><strong>N</strong><span>guides</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="wrap">
+          <p class="section-label">Why this shop</p>
+          <h2>Browse. Trust signals. One-line install.</h2>
+          <ul class="feature-list">
+            <li>
+              <strong>Directory first</strong>
+              <span>Every listing has a detail page with category and source.</span>
+            </li>
+            <li>
+              <strong>Real install</strong>
+              <span>Copy a verified command — never invent a CLI for SEO.</span>
+            </li>
+            <li>
+              <strong>Independent rewrite</strong>
+              <span>Pages are not mirrors of upstream READMEs.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="wrap">
+          <p class="section-label">Featured</p>
+          <h2>Seed listings</h2>
+          <p class="section-lead">Replace with real curated items before indexing.</p>
+          <div class="item-list">
+            <a class="item" href="/items/{{OWNER}}/{{SLUG}}/">
+              <div class="item-body">
+                <h3 class="item-name">{{SLUG}}</h3>
+                <p class="item-one">One-line description of what this {{NOUN}} does.</p>
+                <p class="item-meta">{{OWNER}} · sample</p>
+              </div>
+              <span class="item-badge">{{CATEGORY_SLUG}}</span>
+            </a>
+          </div>
+          <p style="margin-top: 1.5rem">
+            <a class="btn btn-ghost" href="/items/">All {{NOUN_PLURAL}}</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <p class="section-label">FAQ</p>
+          <h2 class="section-center">{{HOST_NAME}} {{NOUN}} questions</h2>
+          <div class="faq">
+            <details>
+              <summary>What is a {{PRIMARY_KEYWORD}}?</summary>
+              <p>
+                See
+                <a href="/guides/what-is-a-plugin/">What is a {{PRIMARY_KEYWORD}}</a>.
+              </p>
+            </details>
+            <details>
+              <summary>How do I install?</summary>
+              <p>
+                Follow
+                <a href="/guides/how-to-install/">How to install</a>
+                and use <span class="acronym">{{INSTALL_CMD}}</span> (or the host’s documented path).
+              </p>
+            </details>
+            <details>
+              <summary>Is this official?</summary>
+              <p>No. Community directory by Any AI. Not affiliated with {{VENDOR}}.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <p>
+          {{DOMAIN}} · Part of
+          <a href="https://aiaaii.com/">Any AI</a> · Not affiliated with {{VENDOR}}
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

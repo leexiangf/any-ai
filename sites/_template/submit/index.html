@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Submit a {{PRIMARY_KEYWORD}} | {{SHOP_NAME}}</title>
+    <meta
+      name="description"
+      content="Submit a community {{HOST_NAME}} {{NOUN}} to {{DOMAIN}}. Public source, install path, no official impersonation."
+    />
+    <link rel="canonical" href="https://{{DOMAIN}}/submit/" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">{{SHOP_NAME}}</span>
+            <span class="brand-domain">{{DOMAIN}}</span>
+          </a>
+          <nav class="nav">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+          </nav>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>Submit a {{PRIMARY_KEYWORD}}</h1>
+          <p>Public source · real install · no vendor impersonation</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <h2>Checklist</h2>
+        <p>
+          1. Public repo · 2. Works with
+          <span class="acronym">{{INSTALL_CMD}}</span> (or documented path) ·
+          3. One-liner + category · 4. Not named like official {{HOST_NAME}}.
+        </p>
+        <h2>How to send</h2>
+        <p>
+          Until the GitHub Org form ships, use the mall
+          <a href="https://aiaaii.com/submit/">Submit</a> note.
+        </p>
+        <h2>Badge</h2>
+        <div class="install-block">
+          <span class="label">Markdown</span>
+          <code
+            >[![Listed on {{DOMAIN}}](https://{{DOMAIN}}/badges/listed.svg)](https://{{DOMAIN}}/items/{{OWNER}}/{{SLUG}})</code
+          >
+        </div>
+        <p><a href="/">← Market</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide"><p>Not affiliated with {{VENDOR}}</p></div>
+    </footer>
+  </body>
+</html>

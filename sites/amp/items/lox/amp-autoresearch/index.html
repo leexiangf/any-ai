@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>amp-autoresearch - Autonomous experiment loop | Amp Plugin Market</title>
+    <meta
+      name="description"
+      content="Amp plugin that runs an edit-benchmark-keep-or-revert loop with a live dashboard. Install from github.com/lox/amp-autoresearch. Community listing on amp.aiaaii.com."
+    />
+    <link rel="canonical" href="https://amp.aiaaii.com/items/lox/amp-autoresearch/" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">Amp Plugin Market</span>
+            <span class="brand-domain">amp.aiaaii.com</span>
+          </a>
+          <nav class="nav">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+          </nav>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>amp-autoresearch</h1>
+          <p>Autonomous optimization loop — edit, benchmark, keep or revert, repeat.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <p>
+          Turns Amp into a closed experiment loop: the agent edits code, runs a
+          benchmark, logs the result, keeps improvements, and reverts failures
+          until you stop it or hit a cap. Includes a browser dashboard and a
+          status-bar scoreboard. Port of pi-autoresearch to Amp’s plugin API.
+        </p>
+        <div class="install-block">
+          <span class="label">Install (repo installer)</span>
+          <code
+            >git clone https://github.com/lox/amp-autoresearch.git &amp;&amp; cd
+            amp-autoresearch &amp;&amp; mise run install</code
+          >
+        </div>
+        <div class="install-block">
+          <span class="label">Bundled skills</span>
+          <code>amp skill add https://github.com/lox/amp-autoresearch</code>
+        </div>
+        <dl class="meta-table">
+          <dt>Author</dt>
+          <dd>lox</dd>
+          <dt>Category</dt>
+          <dd><a href="/categories/workflow/">workflow</a></dd>
+          <dt>Status</dt>
+          <dd>listed</dd>
+          <dt>Source</dt>
+          <dd>
+            <a href="https://github.com/lox/amp-autoresearch" rel="noopener noreferrer"
+              >github.com/lox/amp-autoresearch</a
+            >
+          </dd>
+        </dl>
+        <h2>What it does</h2>
+        <p>
+          After <span class="acronym">Autoresearch: Start</span>, Amp asks for a
+          working directory and a one-sentence goal, then creates a branch,
+          playbook, and baseline before looping hypotheses. Thread scoreboards
+          and an SSE dashboard show metric deltas and ASI notes per run.
+        </p>
+        <h2>Compatibility</h2>
+        <p>
+          Requires Amp with plugins enabled. Installer targets
+          <span class="acronym">~/.config/amp/plugins/</span>. Reload or restart
+          Amp after install. Amp Plugin API is experimental.
+        </p>
+        <div class="faq">
+          <details>
+            <summary>How do I open the dashboard?</summary>
+            <p>
+              Use palette command <span class="acronym">Autoresearch: Dashboard</span>,
+              or click the status-bar scoreboard line during a session.
+            </p>
+          </details>
+          <details>
+            <summary>Is this an official Amp plugin?</summary>
+            <p>No. Community-authored. This page is not affiliated with Amp.</p>
+          </details>
+        </div>
+        <p class="source-line">
+          Independent rewrite — authoritative docs:
+          <a href="https://github.com/lox/amp-autoresearch" rel="noopener noreferrer"
+            >source repository</a
+          >
+          · Updated 2026-10-31
+        </p>
+        <p>
+          <a href="/items/">← All plugins</a> ·
+          <a href="/categories/workflow/">Workflow</a>
+        </p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp</p></div>
+    </footer>
+  </body>
+</html>

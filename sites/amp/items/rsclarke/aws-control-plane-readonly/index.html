@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>aws-control-plane-readonly - AWS CLI guard | Amp Plugin Market</title>
+    <meta
+      name="description"
+      content="Amp plugin that allows only AWS CLI control-plane read-only commands. Install with amp plugins add. Community listing on amp.aiaaii.com."
+    />
+    <link rel="canonical" href="https://amp.aiaaii.com/items/rsclarke/aws-control-plane-readonly/" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">Amp Plugin Market</span>
+            <span class="brand-domain">amp.aiaaii.com</span>
+          </a>
+          <nav class="nav">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+          </nav>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>aws-control-plane-readonly</h1>
+          <p>Guardrail plugin for AWS CLI — keep Amp on control-plane read-only calls.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <p>
+          This Amp plugin inspects AWS CLI commands before Amp runs them and
+          allows only operations classified as control-plane read-only. Use it
+          when you want Amp to explore AWS configuration without mutating
+          resources.
+        </p>
+        <div class="install-block">
+          <span class="label">Install (copy plugin into Amp plugins dir)</span>
+          <code
+            ># from https://github.com/rsclarke/amp-plugins — copy
+            aws-control-plane-readonly.ts into ~/.config/amp/plugins/ then run
+            plugins: reload</code
+          >
+        </div>
+        <div class="install-block">
+          <span class="label">CLI pattern (when URL install applies)</span>
+          <code>amp plugins add &lt;raw-or-share-url&gt;</code>
+        </div>
+        <dl class="meta-table">
+          <dt>Author</dt>
+          <dd>rsclarke</dd>
+          <dt>Category</dt>
+          <dd><a href="/categories/security/">security</a></dd>
+          <dt>Status</dt>
+          <dd>listed</dd>
+          <dt>Source</dt>
+          <dd>
+            <a href="https://github.com/rsclarke/amp-plugins" rel="noopener noreferrer"
+              >github.com/rsclarke/amp-plugins</a
+            >
+          </dd>
+        </dl>
+        <h2>What it does</h2>
+        <p>
+          Before Amp executes shell tooling against AWS, the plugin classifies
+          the intended CLI invocation. Non read-only control-plane actions are
+          blocked, reducing accidental writes during agent sessions.
+        </p>
+        <h2>Compatibility</h2>
+        <p>Requires Amp with plugin loading enabled and AWS CLI available when used.</p>
+        <div class="faq">
+          <details>
+            <summary>How do I reload after copying the file?</summary>
+            <p>
+              Open the command palette and run <span class="acronym">plugins: reload</span>,
+              or see <a href="/guides/how-to-reload-and-list-plugins/">Reload &amp; list</a>.
+            </p>
+          </details>
+          <details>
+            <summary>Is this an official Amp plugin?</summary>
+            <p>No. Community-authored. This page is not affiliated with Amp.</p>
+          </details>
+        </div>
+        <p class="source-line">
+          This page is an independent rewrite of the project README — for
+          authoritative docs, see the
+          <a href="https://github.com/rsclarke/amp-plugins" rel="noopener noreferrer"
+            >source repository</a
+          >.
+        </p>
+        <p><a href="/items/">← All plugins</a> · <a href="/categories/security/">Security</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <p>amp.aiaaii.com · Not affiliated with Amp</p>
+      </div>
+    </footer>
+  </body>
+</html>

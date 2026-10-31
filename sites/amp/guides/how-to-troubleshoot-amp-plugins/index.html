@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to troubleshoot Amp plugins | Amp Plugin Market</title>
+    <meta name="description" content="Troubleshoot Amp plugins that fail to load, conflict, or misbehave." />
+    <link rel="canonical" href="https://amp.aiaaii.com/guides/how-to-troubleshoot-amp-plugins/" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <nav class="nav"><a href="/guides/">Guides</a></nav>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>How to troubleshoot Amp plugins</h1>
+          <p>Isolate load path, precedence, and trust issues.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <ol class="steps">
+          <li>Confirm the file path: project <span class="acronym">.amp/plugins/</span>, system config dir, or personal/workspace repo.</li>
+          <li>Run <span class="acronym">amp plugins list</span> and note precedence (project → system → personal → workspace).</li>
+          <li>Reload; if needed restart Amp.</li>
+          <li>Temporarily move other plugins aside to rule out name collisions.</li>
+          <li>Re-read the source README for env vars or Amp version needs.</li>
+        </ol>
+        <h2>Success</h2>
+        <p>Plugin lists; behavior matches the author’s docs.</p>
+        <h2>If it fails</h2>
+        <p>Syntax errors → fix TS/JS. Wrong Amp surface (e.g. Puck) → plugins need orb/CLI/runner. Untrusted code → uninstall.</p>
+        <p class="source-line">Updated 2026-10-22 · <a href="/guides/">Guides</a></p>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="wrap-wide"><p>Not affiliated with Amp</p></div></footer>
+  </body>
+</html>
