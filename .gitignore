@@ -3,6 +3,13 @@
 **/.wrangler/
 sites/*/.wrangler/
 
+# Internal strategy / playbook (keep local only — do not publish)
+多宿主目录商场-立项文档.md
+建站获流轮子.md
+dsh-plugin-获流案例拆解.md
+.cursor/
+docs/internal/
+
 # OS / editor
 .DS_Store
 Thumbs.db
