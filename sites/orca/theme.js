@@ -64,9 +64,9 @@
 
     var home = document.createElement("a");
     home.className = "fixed-home";
-    home.href = "/";
+    home.href = "https://aiaaii.com/";
     home.textContent = "Home";
-    home.setAttribute("aria-label", "Home");
+    home.setAttribute("aria-label", "Any AI home");
     rail.appendChild(home);
 
     var btn = document.querySelector("[data-theme-toggle]");
