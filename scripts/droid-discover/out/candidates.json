@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-11-01T06:55:39.712Z",
+  "host": "droid",
+  "mode": "prs+seeds",
+  "counts": {
+    "candidates": 2,
+    "rejected": 13,
+    "scanned": 15
+  },
+  "candidates": [
+    {
+      "slug": "LambdaTest/mcp-server-guide",
+      "owner": "LambdaTest",
+      "repo": "mcp-server-guide",
+      "html_url": "https://github.com/LambdaTest/mcp-server-guide",
+      "stars": null,
+      "description": "TestMu AI (formerly LambdaTest) plugins for Claude Code: Kane CLI for browser and mobile testing, Rook for testing AI agents, and the TestMu AI MCP server",
+      "default_branch": "main",
+      "marketplaceKind": "claude-compat",
+      "marketplacePath": ".claude-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "testmu-ai",
+      "pluginCount": 3,
+      "plugins": [
+        {
+          "name": "kane-cli",
+          "description": "Verify any browser flow from your terminal in natural language. Real Chrome, evidence-backed.",
+          "category": "testing"
+        },
+        {
+          "name": "rook",
+          "description": "Agent Assurance by TestMu AI (rook): test how your AI agents behave across workflows, tools and actions, before they ship.",
+          "category": "testing"
+        },
+        {
+          "name": "testmu-ai",
+          "description": "Run, debug and triage tests on the TestMu AI cloud through the hosted MCP server (HyperExecute, failure triage, SmartUI, accessibility, Test Manager), plus the Kane CLI and Rook CLI skills",
+          "category": "testing"
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/LambdaTest/mcp-server-guide",
+        "install": "droid plugin install kane-cli@testmu-ai --scope user",
+        "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
+      },
+      "alreadyListed": false,
+      "suggestedListingPaths": [
+        "/items/LambdaTest/mcp-server-guide/",
+        "/items/LambdaTest/kane-cli/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": "TestMu / LambdaTest PR hint"
+        }
+      ]
+    },
+    {
+      "slug": "cursor/plugins",
+      "owner": "cursor",
+      "repo": "plugins",
+      "html_url": "https://github.com/cursor/plugins",
+      "stars": null,
+      "description": null,
+      "default_branch": "main",
+      "marketplaceKind": "claude-compat",
+      "marketplacePath": ".claude-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "cursor-plugins",
+      "pluginCount": 2,
+      "plugins": [
+        {
+          "name": "origin-apps",
+          "description": "Skills for building on the Cursor Origin API. Fetch the live spec first, then follow the Origin rules for credentials, scopes, webhooks, paging, and errors. Includes a skill that plans the port of an existing GitHub App.",
+          "category": null
+        },
+        {
+          "name": "pstack",
+          "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
+          "category": null
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/cursor/plugins",
+        "install": "droid plugin install origin-apps@cursor-plugins --scope user",
+        "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
+      },
+      "alreadyListed": false,
+      "suggestedListingPaths": [
+        "/items/cursor/plugins/",
+        "/items/cursor/origin-apps/"
+      ],
+      "sources": [
+        {
+          "type": "factory-plugins-pr",
+          "pr": 76,
+          "title": "feat(maintain-verification-skill): add maintain-verification-skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/76"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 75,
+          "title": "feat(create-verification-skill): add create-verification-skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/75"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 74,
+          "title": "feat(show-me-your-work): add show-me-your-work skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/74"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 73,
+          "title": "feat(interrogate): add interrogate adversarial-review skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/73"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 72,
+          "title": "feat(correct): add correct guardrail skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/72"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 71,
+          "title": "feat(subtract-before-you-add): add subtract-before-you-add skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/71"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 70,
+          "title": "feat(fix-root-causes): add fix-root-causes guardrail skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/70"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 69,
+          "title": "feat(blast-radius): add blast-radius guardrail skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/69"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 68,
+          "title": "feat(prove-it-works): add prove-it-works guardrail skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/68"
+        }
+      ]
+    }
+  ]
+}

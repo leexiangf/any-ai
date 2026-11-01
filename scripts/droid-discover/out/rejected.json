@@ -1,0 +1,430 @@
+{
+  "generatedAt": "2026-11-01T06:55:39.712Z",
+  "rejected": [
+    {
+      "slug": "SonarSource/sonarqube-agent-plugins",
+      "owner": "SonarSource",
+      "repo": "sonarqube-agent-plugins",
+      "html_url": "https://github.com/SonarSource/sonarqube-agent-plugins",
+      "stars": null,
+      "description": "AI Agent Plugins by Sonar",
+      "default_branch": "main",
+      "marketplaceKind": "factory",
+      "marketplacePath": ".factory-plugin/marketplace.json",
+      "marketplaceRef": "master",
+      "marketplaceName": "sonar",
+      "pluginCount": 1,
+      "plugins": [
+        {
+          "name": "sonarqube",
+          "description": "SonarQube is the AI code quality and security verification platform used by millions of developers to catch bugs, vulnerabilities, and leaked secrets. This plugin enforces those standards in the agent coding loop: 7,500+ distinct issue types, secrets scanning, agentic analysis, and quality gates across 40+ languages.",
+          "category": null
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/SonarSource/sonarqube-agent-plugins",
+        "install": "droid plugin install sonarqube@sonar --scope user",
+        "note": "Native .factory-plugin/marketplace.json"
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/SonarSource/sonarqube-agent-plugins/",
+        "/items/SonarSource/sonarqube/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": "known listed — regression seed"
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
+      "slug": "apify/apify-factory-plugin",
+      "owner": "apify",
+      "repo": "apify-factory-plugin",
+      "html_url": "https://github.com/apify/apify-factory-plugin",
+      "stars": null,
+      "description": "Run ready-made Actors from Apify, the largest marketplace of tools for AI, or build and publish your own.",
+      "default_branch": "main",
+      "marketplaceKind": "factory",
+      "marketplacePath": ".factory-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "apify",
+      "pluginCount": 1,
+      "plugins": [
+        {
+          "name": "apify",
+          "description": "Run ready-made Actors from Apify, the largest marketplace of tools for AI, or build and publish your own.",
+          "category": "automation"
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/apify/apify-factory-plugin",
+        "install": "droid plugin install apify@apify --scope user",
+        "note": "Native .factory-plugin/marketplace.json"
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/apify/apify-factory-plugin/",
+        "/items/apify/apify/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": "known listed — regression seed"
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
+      "slug": "salemalem/npmscan-mcp-plugin",
+      "owner": "salemalem",
+      "repo": "npmscan-mcp-plugin",
+      "html_url": "https://github.com/salemalem/npmscan-mcp-plugin",
+      "stars": null,
+      "description": "NPMScan: npm package and vulnerability lookups (search, maintainer/provenance/install-script inspection, license compliance, PR diffs, CI merge gates, SBOMs, OSV.dev + GitHub Security Advisories + NIST NVD/CVE) for Claude Code.",
+      "default_branch": "main",
+      "marketplaceKind": "claude-compat",
+      "marketplacePath": ".claude-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "npmscan",
+      "pluginCount": 1,
+      "plugins": [
+        {
+          "name": "npmscan",
+          "description": "Detect malicious, vulnerable, or typosquatted npm packages from a conversation via npmscan.com's free, read-only MCP server.",
+          "category": "security"
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/salemalem/npmscan-mcp-plugin",
+        "install": "droid plugin install npmscan@npmscan --scope user",
+        "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/salemalem/npmscan-mcp-plugin/",
+        "/items/salemalem/npmscan/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": null
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
+      "slug": "rohitg00/agentmemory",
+      "owner": "rohitg00",
+      "repo": "agentmemory",
+      "html_url": "https://github.com/rohitg00/agentmemory",
+      "stars": null,
+      "description": null,
+      "default_branch": "main",
+      "marketplaceKind": "claude-compat",
+      "marketplacePath": ".claude-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "agentmemory",
+      "pluginCount": 1,
+      "plugins": [
+        {
+          "name": "agentmemory",
+          "description": "Persistent memory for AI coding agents -- captures tool usage, compresses via LLM, injects context into future sessions",
+          "category": null
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/rohitg00/agentmemory",
+        "install": "droid plugin install agentmemory@agentmemory --scope user",
+        "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/rohitg00/agentmemory/",
+        "/items/rohitg00/agentmemory/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": null
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 67,
+          "title": "Add AgentMemory plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/67"
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
+      "slug": "dodopayments/dodo-agent-plugin",
+      "owner": "dodopayments",
+      "repo": "dodo-agent-plugin",
+      "html_url": "https://github.com/dodopayments/dodo-agent-plugin",
+      "stars": null,
+      "description": "Dodo Payments plugin marketplace for Claude Code.",
+      "default_branch": "main",
+      "marketplaceKind": "claude-compat",
+      "marketplacePath": ".claude-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "dodopayments",
+      "pluginCount": 1,
+      "plugins": [
+        {
+          "name": "dodopayments",
+          "description": "Dodo Payments tools for Claude Code, including integration agent skills and the Dodo Payments API and docs MCP servers.",
+          "category": null
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/dodopayments/dodo-agent-plugin",
+        "install": "droid plugin install dodopayments@dodopayments --scope user",
+        "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/dodopayments/dodo-agent-plugin/",
+        "/items/dodopayments/dodopayments/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": null
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
+      "slug": "loootai/looot-plugin",
+      "owner": "loootai",
+      "repo": "looot-plugin",
+      "html_url": "https://github.com/loootai/looot-plugin",
+      "stars": null,
+      "description": "Search, price and run data APIs (SEO, enrichment, email, social) from one account, billed per call.",
+      "default_branch": "main",
+      "marketplaceKind": "claude-compat",
+      "marketplacePath": ".claude-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "looot",
+      "pluginCount": 1,
+      "plugins": [
+        {
+          "name": "looot",
+          "description": "Search, price and run data APIs (SEO, enrichment, email, social) from one account, billed per call.",
+          "category": "data"
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/loootai/looot-plugin",
+        "install": "droid plugin install looot@looot --scope user",
+        "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/loootai/looot-plugin/",
+        "/items/loootai/looot/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": null
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
+      "slug": "Shaisolaris/solaris-dev-shop-plugins",
+      "owner": "Shaisolaris",
+      "repo": "solaris-dev-shop-plugins",
+      "html_url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+      "stars": null,
+      "description": "Solaris Technologies native specialist workflows.",
+      "default_branch": "main",
+      "marketplaceKind": "claude-compat",
+      "marketplacePath": ".claude-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "solaris-technologies",
+      "pluginCount": 1,
+      "plugins": [
+        {
+          "name": "solaris-dev-shop",
+          "description": null,
+          "category": null
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+        "install": "droid plugin install solaris-dev-shop@solaris-technologies --scope user",
+        "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/Shaisolaris/solaris-dev-shop-plugins/",
+        "/items/Shaisolaris/solaris-dev-shop/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": null
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 64,
+          "title": "docs: add pinned Solaris Dev Shop plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/64"
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
+      "slug": "hashgraph-online/hol-guard",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
+      "stars": null,
+      "description": null,
+      "sources": [
+        {
+          "type": "seed",
+          "note": "PR-linked; may lack marketplace.json"
+        }
+      ],
+      "error": "GitHub rate limited (403). Set GITHUB_TOKEN. {\"message\":\"API rate limit exceeded for 118.116.104.25. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\""
+    },
+    {
+      "slug": "AtomicBot-ai/Atomic-Chat",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
+      "stars": null,
+      "description": null,
+      "sources": [
+        {
+          "type": "seed",
+          "note": "PR-linked atomic-chat"
+        }
+      ],
+      "error": "GitHub rate limited (403). Set GITHUB_TOKEN. {\"message\":\"API rate limit exceeded for 118.116.104.25. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\""
+    },
+    {
+      "slug": "astandrik/local-ydb-toolkit",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
+      "stars": null,
+      "description": null,
+      "sources": [
+        {
+          "type": "seed",
+          "note": null
+        }
+      ],
+      "error": "GitHub rate limited (403). Set GITHUB_TOKEN. {\"message\":\"API rate limit exceeded for 118.116.104.25. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\""
+    },
+    {
+      "slug": "yifu001/factory-plugins",
+      "owner": "yifu001",
+      "repo": "factory-plugins",
+      "html_url": "https://github.com/yifu001/factory-plugins",
+      "stars": null,
+      "description": "Official Factory plugins marketplace",
+      "default_branch": "main",
+      "marketplaceKind": "factory",
+      "marketplacePath": ".factory-plugin/marketplace.json",
+      "marketplaceRef": "master",
+      "marketplaceName": "factory-plugins",
+      "pluginCount": 8,
+      "plugins": [
+        {
+          "name": "security-engineer",
+          "description": "Security review, threat modeling, and vulnerability validation skills",
+          "category": "security"
+        },
+        {
+          "name": "droid-evolved",
+          "description": "Skills for continuous learning and improvement: session navigation, human writing, skill creation, visual design, and browser automation",
+          "category": "productivity"
+        },
+        {
+          "name": "core",
+          "description": "Core Skills for essential functionalities and integrations",
+          "category": "core"
+        },
+        {
+          "name": "droid-control",
+          "description": "Terminal, browser, and computer automation for testing, demos, QA, and computer-use tasks",
+          "category": "automation"
+        },
+        {
+          "name": "autoresearch",
+          "description": "Autonomous experiment loop for optimization research. Try an idea, measure it, keep what works, discard what doesn't, repeat. Works standalone or as a mission worker.",
+          "category": "research"
+        },
+        {
+          "name": "typescript",
+          "description": "Opinionated TypeScript and React patterns: ban `as` assertions, replace useEffect with derived state, and fix knip unused exports",
+          "category": "quality"
+        },
+        {
+          "name": "debugging",
+          "description": "Inspect runtime behavior: HTTP interception, traffic capture, and wire-level debugging for CLIs and services",
+          "category": "productivity"
+        },
+        {
+          "name": "code-review",
+          "description": "Pull request lifecycle skills: create PRs with consistent conventions and follow up on them until merge-ready",
+          "category": "productivity"
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/yifu001/factory-plugins",
+        "install": "droid plugin install security-engineer@factory-plugins --scope user",
+        "note": "Native .factory-plugin/marketplace.json"
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/yifu001/factory-plugins/",
+        "/items/yifu001/security-engineer/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": "fork with many skill PRs — check for marketplace"
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
+      "slug": "cis2042/ux3-product-design-harness",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
+      "stars": null,
+      "description": null,
+      "sources": [
+        {
+          "type": "factory-plugins-pr",
+          "pr": 65,
+          "title": "feat: add complete UX3 product design harness plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/65"
+        }
+      ],
+      "error": "GitHub rate limited (403). Set GITHUB_TOKEN. {\"message\":\"API rate limit exceeded for 118.116.104.25. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\""
+    },
+    {
+      "slug": "EasyGerber/easygerber-agent-plugin",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
+      "stars": null,
+      "description": null,
+      "sources": [
+        {
+          "type": "factory-plugins-pr",
+          "pr": 63,
+          "title": "feat: add EasyGerber plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/63"
+        }
+      ],
+      "error": "GitHub rate limited (403). Set GITHUB_TOKEN. {\"message\":\"API rate limit exceeded for 118.116.104.25. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\""
+    }
+  ]
+}

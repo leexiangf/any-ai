@@ -1,0 +1,18 @@
+[
+  { "owner": "SonarSource", "repo": "sonarqube-agent-plugins", "note": "known listed — regression seed" },
+  { "owner": "apify", "repo": "apify-factory-plugin", "note": "known listed — regression seed" },
+  { "owner": "salemalem", "repo": "npmscan-mcp-plugin" },
+  { "owner": "rohitg00", "repo": "agentmemory" },
+  { "owner": "dodopayments", "repo": "dodo-agent-plugin" },
+  { "owner": "loootai", "repo": "looot-plugin" },
+  { "owner": "Shaisolaris", "repo": "solaris-dev-shop-plugins" },
+  { "owner": "hashgraph-online", "repo": "hol-guard", "note": "PR-linked; may lack marketplace.json" },
+  { "owner": "AtomicBot-ai", "repo": "Atomic-Chat", "note": "PR-linked atomic-chat" },
+  { "owner": "LambdaTest", "repo": "mcp-server-guide", "note": "TestMu / LambdaTest PR hint" },
+  { "owner": "astandrik", "repo": "local-ydb-toolkit" },
+  { "owner": "yifu001", "repo": "factory-plugins", "note": "fork with many skill PRs — check for marketplace" },
+  { "owner": "cursor", "repo": "plugins", "note": "claude-compat marketplace (origin-apps, pstack)" },
+  { "owner": "stefanautomateed", "repo": "shipvela-codex", "note": "linked from factory-plugins PR #52" },
+  { "owner": "cis2042", "repo": "ux3-product-design-harness", "note": "PR-linked; may lack marketplace.json" },
+  { "owner": "EasyGerber", "repo": "easygerber-agent-plugin", "note": "PR-linked; may lack marketplace.json" }
+]
