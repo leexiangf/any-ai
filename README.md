@@ -18,6 +18,7 @@ Official products ship the agent. We ship the **install index**: browse, verify,
 | --- | --- | --- |
 | **Amp Plugin Market** | Amp plugins & install flows · **31** listings | [amp.aiaaii.com](https://amp.aiaaii.com) |
 | **Orca Plugin Market** | Orca plugins & marketplace sources · **52** listings | [orca.aiaaii.com](https://orca.aiaaii.com) |
+| **Droid Plugin Market** | Factory Droid plugins & marketplaces · **10** listings | [droid.aiaaii.com](https://droid.aiaaii.com) |
 
 More host shops open when a niche has real install demand and a clear community gap.
 
@@ -26,7 +27,7 @@ More host shops open when a niche has real install demand and a clear community 
 List a public plugin with a real install path (CLI, copy path, or marketplace source). Open a **Listing request** issue — we review and publish a detail page. After acceptance, each shop offers a **Listed on …** badge for your README.
 
 - [Open a listing request](https://github.com/leexiangf/any-ai/issues/new?template=listing-request.yml)
-- [Submit via Any AI](https://aiaaii.com/submit/) · [Amp](https://amp.aiaaii.com/submit/) · [Orca](https://orca.aiaaii.com/submit/)
+- [Submit via Any AI](https://aiaaii.com/submit/) · [Amp](https://amp.aiaaii.com/submit/) · [Orca](https://orca.aiaaii.com/submit/) · [Droid](https://droid.aiaaii.com/submit/)
 
 ## Brand
 
@@ -38,4 +39,4 @@ List a public plugin with a real install path (CLI, copy path, or marketplace so
 
 ## Disclaimer
 
-Community-maintained. **Not affiliated** with Amp, Orca, Stably, Sourcegraph, or any listed host vendor. Prefer upstream docs for authoritative APIs; our detail pages are independent rewrites for discovery and install guidance.
+Community-maintained. **Not affiliated** with Amp, Orca, Factory, Stably, Sourcegraph, or any listed host vendor. Prefer upstream docs for authoritative APIs; our detail pages are independent rewrites for discovery and install guidance.

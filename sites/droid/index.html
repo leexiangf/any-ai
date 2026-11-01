@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Droid Plugins - Droid Plugin Market Install | Any AI</title>
+    <meta
+      name="description"
+      content="A Droid plugin extends Factory Droid — browse marketplace sources and install with droid plugin install. Community directory on droid.aiaaii.com. Not affiliated with Factory."
+    />
+    <link rel="canonical" href="https://droid.aiaaii.com/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">Droid Plugin Market</span>
+            <span class="brand-domain">droid.aiaaii.com · Any AI</span>
+          </a>
+                    <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+          </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-main">
+          <p class="hero-kicker">Community directory</p>
+          <h1>Droid plugin</h1>
+          <p class="hero-sub">
+            Find marketplace sources and plugins for Factory Droid.
+          </p>
+          <p class="hero-lead">
+            A Droid plugin extends Droid — browse listings, add a marketplace
+            Git URL, then install with <span class="acronym">droid plugin install</span>.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="/items/">Browse plugins</a>
+            <a class="btn btn-ghost" href="/guides/how-to-install-droid-plugin/">How to install</a>
+          </div>
+          <p class="disclaimer">
+            Community-maintained by Any AI (AI-AAII). Not affiliated with Factory
+            or Droid.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section section-center" aria-labelledby="stats-heading">
+        <div class="wrap">
+          <p class="section-label">Index</p>
+          <h2 id="stats-heading">Built for install, not just bookmarks</h2>
+          <ul class="stats">
+            <li>
+              <strong>10</strong>
+              <span>curated listings</span>
+            </li>
+            <li>
+              <strong>8</strong>
+              <span>categories</span>
+            </li>
+            <li>
+              <strong>6</strong>
+              <span>guides</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="wrap">
+          <p class="section-label">Why this shop</p>
+          <h2>Official catalog is thin. Discovery still matters.</h2>
+          <ul class="feature-list">
+            <li>
+              <strong>Directory</strong>
+              <span>Marketplaces and plugins with categories and source links.</span>
+            </li>
+            <li>
+              <strong>Real commands</strong>
+              <span>Copy <span class="acronym">droid plugin marketplace add</span> and <span class="acronym">install</span> blocks.</span>
+            </li>
+            <li>
+              <strong>Independent rewrites</strong>
+              <span>Detail pages explain role and install — not mirrored READMEs.</span>
+            </li>
+            <li>
+              <strong>Guides</strong>
+              <span>Add sources, install, update, troubleshoot, and publish.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap prose">
+          <p class="section-label">Host</p>
+          <h2>What is Droid?</h2>
+          <p>
+            <strong>Droid</strong> is Factory’s coding agent for CLI, desktop, IDE,
+            and CI. Plugins package skills, commands, droids, hooks, and MCP
+            configs, distributed through Git marketplaces.
+          </p>
+          <p class="source-line">
+            Source:
+            <a href="https://docs.factory.ai/harness/plugins" rel="noopener noreferrer"
+              >Factory Docs — Plugins</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="categories">
+        <div class="wrap">
+          <p class="section-label">Categories</p>
+          <h2>Browse by job</h2>
+          <div class="category-grid">
+            <a href="/categories/marketplaces/">Marketplaces <small>Sources to add</small></a>
+            <a href="/categories/automation/">Automation <small>Control &amp; demos</small></a>
+            <a href="/categories/security/">Security <small>Review &amp; threats</small></a>
+            <a href="/categories/productivity/">Productivity <small>Session &amp; PR</small></a>
+            <a href="/categories/research/">Research <small>Experiment loops</small></a>
+            <a href="/categories/quality/">Quality <small>TS &amp; patterns</small></a>
+            <a href="/categories/core/">Core <small>Essentials</small></a>
+            <a href="/categories/fun/">Fun <small>Cursed packs</small></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <p class="section-label">Install</p>
+          <h2>Three steps</h2>
+          <ol class="steps">
+            <li>Install and sign in to Droid (Factory CLI or app).</li>
+            <li>
+              Add a marketplace:
+              <div class="install-block">
+                <span class="label">Primary</span>
+                <code>droid plugin marketplace add https://github.com/Factory-AI/factory-plugins</code>
+              </div>
+            </li>
+            <li>
+              Install a plugin:
+              <div class="install-block">
+                <span class="label">Example</span>
+                <code>droid plugin install droid-control@factory-plugins --scope user</code>
+              </div>
+              Then <a href="/items/">browse the market</a>.
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="wrap">
+                    <p class="section-label">Featured</p>
+          <h2>Curated listings</h2>
+          <p class="section-lead">Official marketplaces and plugins — more via Submit.</p>
+          <div class="item-list">
+            <a class="item" href="/items/Factory-AI/factory-plugins/">
+              <div class="item-body">
+                <h3 class="item-name">factory-plugins</h3>
+                <p class="item-one">
+                  Official Factory Droid plugins marketplace — eight curated plugins.
+                </p>
+                <p class="item-meta">Factory-AI · marketplace add</p>
+              </div>
+              <span class="item-badge">marketplaces</span>
+            </a>
+            <a class="item" href="/items/Factory-AI/droid-control/">
+              <div class="item-body">
+                <h3 class="item-name">droid-control</h3>
+                <p class="item-one">
+                  Terminal, browser, and computer automation for demos and QA.
+                </p>
+                <p class="item-meta">Factory-AI · droid plugin install</p>
+              </div>
+              <span class="item-badge">automation</span>
+            </a>
+            <a class="item" href="/items/Factory-AI/security-engineer/">
+              <div class="item-body">
+                <h3 class="item-name">security-engineer</h3>
+                <p class="item-one">
+                  Security review, threat modeling, and vulnerability validation.
+                </p>
+                <p class="item-meta">Factory-AI · droid plugin install</p>
+              </div>
+              <span class="item-badge">security</span>
+            </a>
+            <a class="item" href="/items/Factory-AI/cursed-plugins/">
+              <div class="item-body">
+                <h3 class="item-name">cursed-plugins</h3>
+                <p class="item-one">
+                  Official fun marketplace — roast your codebase.
+                </p>
+                <p class="item-meta">Factory-AI · marketplace add</p>
+              </div>
+              <span class="item-badge">fun</span>
+            </a>
+          </div>
+          <p style="margin-top: 1.5rem">
+            <a class="btn btn-ghost" href="/items/">All plugins</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <p class="section-label">FAQ</p>
+          <h2 class="section-center">Droid plugin questions</h2>
+          <div class="faq">
+            <details>
+              <summary>What is a Droid plugin?</summary>
+              <p>
+                A packaged set of skills, commands, droids, hooks, and MCP configs
+                distributed via a Git marketplace. See
+                <a href="/guides/what-is-a-droid-plugin/">What is a Droid plugin</a>.
+              </p>
+            </details>
+            <details>
+              <summary>How do I install a Droid plugin?</summary>
+              <p>
+                Add a marketplace with
+                <span class="acronym">droid plugin marketplace add</span>, then
+                <span class="acronym">droid plugin install name@marketplace</span>.
+                Guide:
+                <a href="/guides/how-to-install-droid-plugin/">How to install</a>.
+              </p>
+            </details>
+            <details>
+              <summary>Is this the official Factory marketplace?</summary>
+              <p>
+                No. This is a community index on Any AI (AI-AAII). Factory provides
+                the plugin CLI and a thin official catalog — not this public SEO
+                directory.
+              </p>
+            </details>
+            <details>
+              <summary>Are listed plugins safe?</summary>
+              <p>
+                Plugins run code on your machine. Review the source repository
+                before installing. “Verified” on this site means listing quality
+                checks, not a security audit.
+              </p>
+            </details>
+            <details>
+              <summary>Where is the Factory documentation?</summary>
+              <p>
+                <a href="https://docs.factory.ai/harness/plugins" rel="noopener noreferrer"
+                  >docs.factory.ai/harness/plugins</a
+                >
+              </p>
+            </details>
+            <details>
+              <summary>How do I get listed?</summary>
+              <p><a href="/submit/">Submit</a> a public marketplace or plugin with a clear install path.</p>
+            </details>
+            <details>
+              <summary>Part of Any AI?</summary>
+              <p>
+                Yes — <a href="https://aiaaii.com/">aiaaii.com</a> is the mall;
+                this subdomain is the Droid shop.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="wrap prose">
+          <p class="section-label">Trust</p>
+          <h2>Updated with intent. Always sourced.</h2>
+          <p>
+            Updated regularly. Human-reviewed when marked verified. Every entry
+            links back to its source. Detail pages are independent rewrites.
+          </p>
+          <p class="section-label" style="margin-top: 2rem">Why we exist</p>
+          <h2>Factory builds Droid. We index the community layer.</h2>
+          <p>
+            Factory ships the plugin/marketplace mechanism and a thin official
+            catalog. It does not run a public community plugin directory for SEO
+            and discovery. We collect, categorize, and document installable Droid
+            plugins so people can find them with
+            <span class="acronym">droid plugin …</span> commands.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Droid Plugin Market</span>
+          <span class="brand-domain">droid.aiaaii.com · Any AI (AI-AAII)</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+          </div>
+          <p>Not affiliated with Factory / Droid</p>
+        </div>
+      </div>
+    </footer>
+      <script src="/theme.js" defer></script>
+  </body>
+</html>
