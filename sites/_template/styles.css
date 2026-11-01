@@ -894,10 +894,10 @@ h2.section-center {
   margin-top: auto;
   padding-top: 0.55rem;
   border-top: 1px solid var(--line);
-  font-size: 10.5px;
+  font-size: 11px;
   line-height: 1.3;
   letter-spacing: 0;
-  color: var(--ink-tertiary);
+  color: var(--ink-secondary);
   font-family: var(--font-mono);
   white-space: nowrap;
   overflow: hidden;
