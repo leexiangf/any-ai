@@ -78,7 +78,7 @@
           <h2 id="stats-heading">Built for install, not just bookmarks</h2>
           <ul class="stats">
             <li>
-              <strong>10</strong>
+              <strong>24</strong>
               <span>curated listings</span>
             </li>
             <li>
@@ -86,7 +86,7 @@
               <span>categories</span>
             </li>
             <li>
-              <strong>6</strong>
+              <strong>7</strong>
               <span>guides</span>
             </li>
           </ul>
@@ -112,7 +112,7 @@
             </li>
             <li>
               <strong>Guides</strong>
-              <span>Add sources, install, update, troubleshoot, and publish.</span>
+              <span>Add sources, Claude-compat packs, install, update, and publish.</span>
             </li>
           </ul>
         </div>
@@ -182,7 +182,7 @@
         <div class="wrap">
                     <p class="section-label">Featured</p>
           <h2>Curated listings</h2>
-          <p class="section-lead">Official marketplaces and plugins — more via Submit.</p>
+          <p class="section-lead">Official Factory packs plus community marketplaces — more via Submit.</p>
           <div class="item-list">
             <a class="item" href="/items/Factory-AI/factory-plugins/">
               <div class="item-body">
@@ -194,35 +194,35 @@
               </div>
               <span class="item-badge">marketplaces</span>
             </a>
-            <a class="item" href="/items/Factory-AI/droid-control/">
+            <a class="item" href="/items/SonarSource/sonarqube/">
               <div class="item-body">
-                <h3 class="item-name">droid-control</h3>
+                <h3 class="item-name">sonarqube</h3>
                 <p class="item-one">
-                  Terminal, browser, and computer automation for demos and QA.
+                  Enforce SonarQube quality gates and secrets scanning in the agent loop.
                 </p>
-                <p class="item-meta">Factory-AI · droid plugin install</p>
+                <p class="item-meta">SonarSource · droid plugin install</p>
+              </div>
+              <span class="item-badge">quality</span>
+            </a>
+            <a class="item" href="/items/apify/apify/">
+              <div class="item-body">
+                <h3 class="item-name">apify</h3>
+                <p class="item-one">
+                  Run Apify Actors for scraping, extraction, and browser automation.
+                </p>
+                <p class="item-meta">apify · native Factory marketplace</p>
               </div>
               <span class="item-badge">automation</span>
             </a>
-            <a class="item" href="/items/Factory-AI/security-engineer/">
+            <a class="item" href="/items/rohitg00/agentmemory-plugin/">
               <div class="item-body">
-                <h3 class="item-name">security-engineer</h3>
+                <h3 class="item-name">agentmemory</h3>
                 <p class="item-one">
-                  Security review, threat modeling, and vulnerability validation.
+                  Persistent memory — capture, compress, and reinject agent context.
                 </p>
-                <p class="item-meta">Factory-AI · droid plugin install</p>
+                <p class="item-meta">rohitg00 · Claude-compatible</p>
               </div>
-              <span class="item-badge">security</span>
-            </a>
-            <a class="item" href="/items/Factory-AI/cursed-plugins/">
-              <div class="item-body">
-                <h3 class="item-name">cursed-plugins</h3>
-                <p class="item-one">
-                  Official fun marketplace — roast your codebase.
-                </p>
-                <p class="item-meta">Factory-AI · marketplace add</p>
-              </div>
-              <span class="item-badge">fun</span>
+              <span class="item-badge">productivity</span>
             </a>
           </div>
           <p style="margin-top: 1.5rem">
@@ -252,6 +252,17 @@
                 <span class="acronym">droid plugin install name@marketplace</span>.
                 Guide:
                 <a href="/guides/how-to-install-droid-plugin/">How to install</a>.
+              </p>
+            </details>
+            <details>
+              <summary>Can I add Claude Code marketplaces?</summary>
+              <p>
+                Often yes. Droid reads <code>.factory-plugin/marketplace.json</code>
+                first, then falls back to
+                <code>.claude-plugin/marketplace.json</code>. Guide:
+                <a href="/guides/how-to-use-claude-compatible-marketplace/"
+                  >Claude-compatible marketplaces</a
+                >.
               </p>
             </details>
             <details>

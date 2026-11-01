@@ -12,6 +12,20 @@
   <url><loc>https://droid.aiaaii.com/items/Factory-AI/typescript/</loc><priority>0.8</priority></url>
   <url><loc>https://droid.aiaaii.com/items/Factory-AI/debugging/</loc><priority>0.8</priority></url>
   <url><loc>https://droid.aiaaii.com/items/Factory-AI/code-review/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/SonarSource/sonarqube-agent-plugins/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/SonarSource/sonarqube/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/apify/apify-factory-plugin/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/apify/apify/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/salemalem/npmscan-mcp-plugin/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/salemalem/npmscan/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/rohitg00/agentmemory/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/rohitg00/agentmemory-plugin/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/dodopayments/dodo-agent-plugin/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/dodopayments/dodopayments/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/loootai/looot-plugin/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/loootai/looot/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop-plugins/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop/</loc><priority>0.8</priority></url>
   <url><loc>https://droid.aiaaii.com/categories/marketplaces/</loc><priority>0.7</priority></url>
   <url><loc>https://droid.aiaaii.com/categories/automation/</loc><priority>0.7</priority></url>
   <url><loc>https://droid.aiaaii.com/categories/security/</loc><priority>0.7</priority></url>
@@ -20,13 +34,14 @@
   <url><loc>https://droid.aiaaii.com/categories/quality/</loc><priority>0.7</priority></url>
   <url><loc>https://droid.aiaaii.com/categories/core/</loc><priority>0.7</priority></url>
   <url><loc>https://droid.aiaaii.com/categories/fun/</loc><priority>0.7</priority></url>
-  <url><loc>https://droid.aiaaii.com/guides/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/guides/</loc><priority>0.9</priority></url>
   <url><loc>https://droid.aiaaii.com/guides/what-is-a-droid-plugin/</loc><priority>0.7</priority></url>
   <url><loc>https://droid.aiaaii.com/guides/how-to-add-marketplace-source/</loc><priority>0.7</priority></url>
   <url><loc>https://droid.aiaaii.com/guides/how-to-install-droid-plugin/</loc><priority>0.7</priority></url>
+  <url><loc>https://droid.aiaaii.com/guides/how-to-use-claude-compatible-marketplace/</loc><priority>0.7</priority></url>
   <url><loc>https://droid.aiaaii.com/guides/how-to-list-and-update-plugins/</loc><priority>0.7</priority></url>
   <url><loc>https://droid.aiaaii.com/guides/how-to-troubleshoot-droid-plugins/</loc><priority>0.7</priority></url>
   <url><loc>https://droid.aiaaii.com/guides/how-to-publish-droid-marketplace/</loc><priority>0.7</priority></url>
-  <url><loc>https://droid.aiaaii.com/submit/</loc><priority>0.6</priority></url>
+  <url><loc>https://droid.aiaaii.com/submit/</loc><priority>0.5</priority></url>
   <url><loc>https://droid.aiaaii.com/about/</loc><priority>0.5</priority></url>
 </urlset>

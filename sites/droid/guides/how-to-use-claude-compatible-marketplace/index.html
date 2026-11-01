@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>How to use Claude-compatible marketplaces | Droid Plugin Market</title>
+<meta name="description" content="Droid reads .claude-plugin/marketplace.json when .factory-plugin is missing." />
+<link rel="canonical" href="https://droid.aiaaii.com/guides/how-to-use-claude-compatible-marketplace/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+<link rel="stylesheet" href="/styles.css" /></head>
+<body>
+<div class="page-shell"><div class="wrap-wide">        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Droid Plugin Market</span><span class="brand-domain">droid.aiaaii.com · Any AI</span></a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a><a href="/about/">About</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme"><span class="theme-toggle-icon" aria-hidden="true"></span></button>
+          </div>
+        </div></div>
+<header class="page-hero"><div class="wrap"><h1>How to use Claude-compatible marketplaces</h1><p>Droid falls back to .claude-plugin/marketplace.json.</p></div></header></div>
+<main class="section"><div class="wrap prose">
+<p>Factory documents that a marketplace is read as <code>.factory-plugin/marketplace.json</code> first, then <code>.claude-plugin/marketplace.json</code> for Claude Code compatibility. Many community packs only ship the Claude path today.</p>
+<ol class="steps">
+<li>Confirm the Git repo has either manifest at the root (or under the documented path).</li>
+<li><div class="install-block"><span class="label">Add</span><code>droid plugin marketplace add https://github.com/owner/repo</code></div></li>
+<li>Install with the marketplace id from the manifest <code>name</code> field:
+<div class="install-block"><span class="label">Example</span><code>droid plugin install npmscan@npmscan --scope user</code></div></li>
+<li>If install fails, check <code>droid plugin marketplace list</code> for the registered id (sometimes derived from the repo slug) and retry.</li>
+</ol>
+<p>Listings on this site marked <em>Claude-compatible</em> were verified to have a Claude marketplace manifest. They are not official Factory plugins — review source and permissions before install.</p>
+<p class="source-line">Source: <a href="https://docs.factory.ai/harness/plugins" rel="noopener noreferrer">docs.factory.ai/harness/plugins</a> · Updated 2026-11-01</p>
+<p><a href="/guides/">← Guides</a></p>
+</div></main>
+    <footer class="site-footer"><div class="wrap-wide"><div class="brand"><span class="brand-name">Droid Plugin Market</span><span class="brand-domain">droid.aiaaii.com · Any AI (AI-AAII)</span></div><div class="footer-row"><div><a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a><a href="/about/">About</a><a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></div><p>Not affiliated with Factory / Droid</p></div></div></footer>
+    <script src="/theme.js" defer></script>
+</body></html>

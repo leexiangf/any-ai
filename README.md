@@ -18,7 +18,7 @@ Official products ship the agent. We ship the **install index**: browse, verify,
 | --- | --- | --- |
 | **Amp Plugin Market** | Amp plugins & install flows · **31** listings | [amp.aiaaii.com](https://amp.aiaaii.com) |
 | **Orca Plugin Market** | Orca plugins & marketplace sources · **52** listings | [orca.aiaaii.com](https://orca.aiaaii.com) |
-| **Droid Plugin Market** | Factory Droid plugins & marketplaces · **10** listings | [droid.aiaaii.com](https://droid.aiaaii.com) |
+| **Droid Plugin Market** | Factory Droid plugins & marketplaces · **24** listings | [droid.aiaaii.com](https://droid.aiaaii.com) |
 
 More host shops open when a niche has real install demand and a clear community gap.
 
