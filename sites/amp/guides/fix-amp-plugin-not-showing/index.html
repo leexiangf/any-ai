@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Amp plugin installed but not showing | Amp Plugin Market</title>
+    <meta name="description" content="Fix Amp plugins that list after amp plugins add but do not appear in tools or modes." />
+    <link rel="canonical" href="https://amp.aiaaii.com/guides/fix-amp-plugin-not-showing/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+              <a href="https://aiaaii.com/">Home</a>
+              <a href="/items/">Plugins</a>
+              <a href="/guides/">Guides</a>
+              <a href="/submit/">Submit</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>Amp plugin installed but not showing</h1>
+          <p>Install succeeded (or looked like it) — UI and tools still empty.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <ol class="steps">
+          <li>Run <span class="acronym">amp plugins list</span> — is the plugin present?</li>
+          <li>If absent, re-run <a href="/guides/amp-plugins-add/">amp plugins add</a>.</li>
+          <li>If present, run <a href="/guides/amp-plugins-reload/">plugins: reload</a>.</li>
+          <li>Restart Amp; check you are in the surface the plugin targets (CLI vs orb vs editor).</li>
+          <li>Disable other plugins temporarily to rule out name collisions.</li>
+        </ol>
+        <p>More patterns: <a href="/guides/how-to-troubleshoot-amp-plugins/">troubleshoot Amp plugins</a>.</p>
+        <p class="source-line">Independent rewrite · Updated 2026-11-01 · Not affiliated with Amp</p>
+        <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot hub</a></p>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp / Sourcegraph · <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></p></div></footer>
+      <script src="/theme.js" defer></script>
+  </body>
+</html>

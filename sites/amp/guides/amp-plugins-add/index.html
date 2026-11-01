@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>amp plugins add — install an Amp plugin | Amp Plugin Market</title>
+    <meta name="description" content="How to use amp plugins add with a Git URL or package. Real CLI install for Amp plugins." />
+    <link rel="canonical" href="https://amp.aiaaii.com/guides/amp-plugins-add/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+              <a href="https://aiaaii.com/">Home</a>
+              <a href="/items/">Plugins</a>
+              <a href="/guides/">Guides</a>
+              <a href="/submit/">Submit</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>amp plugins add</h1>
+          <p>Primary CLI command to install an Amp plugin on your machine.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <p>Use <span class="acronym">amp plugins add</span> when you have a public plugin URL (GitHub repo or documented package). Prefer this over vague “import somehow” advice.</p>
+        <div class="install-block"><span class="label">CLI</span><code>amp plugins add &lt;url-or-package&gt;</code></div>
+        <div class="install-block"><span class="label">Example</span><code>amp plugins add https://github.com/ampcode/oracle</code></div>
+        <ol class="steps">
+          <li>Install and sign in to Amp so the <span class="acronym">amp</span> CLI is available.</li>
+          <li>Copy the install URL from the plugin’s listing or README.</li>
+          <li>Run <span class="acronym">amp plugins add</span> with that URL.</li>
+          <li>Reload plugins (<span class="acronym">plugins: reload</span> in the command palette) if the new tools do not appear.</li>
+          <li>Confirm with <span class="acronym">amp plugins list</span>.</li>
+        </ol>
+        <h2>Related</h2>
+        <p><a href="/guides/how-to-install-amp-plugin/">Full install guide</a> · <a href="/guides/fix-amp-plugins-add-failed/">add failed?</a> · <a href="/guides/fix-amp-plugin-not-showing/">installed but not showing?</a></p>
+        <p class="source-line">Independent rewrite · Updated 2026-11-01 · Not affiliated with Amp</p>
+        <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot hub</a></p>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp / Sourcegraph · <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></p></div></footer>
+      <script src="/theme.js" defer></script>
+  </body>
+</html>

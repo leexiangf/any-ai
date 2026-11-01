@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Unknown marketplace — Droid plugin fix | Droid Plugin Market</title>
+<meta name="description" content="Fix Unknown marketplace when running droid plugin install before marketplace add." />
+<link rel="canonical" href="https://droid.aiaaii.com/guides/fix-unknown-marketplace/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+<link rel="stylesheet" href="/styles.css" /></head>
+<body>
+<div class="page-shell"><div class="wrap-wide">        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Droid Plugin Market</span><span class="brand-domain">droid.aiaaii.com · Any AI</span></a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a><a href="/about/">About</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme"><span class="theme-toggle-icon" aria-hidden="true"></span></button>
+          </div>
+        </div></div>
+<header class="page-hero"><div class="wrap"><h1>Unknown marketplace</h1><p>Install failed because the marketplace id is not registered.</p></div></header></div>
+<main class="section"><div class="wrap prose">
+<ol class="steps">
+<li>Read the error — it usually means <code>@marketplace</code> is unknown to Droid.</li>
+<li>Run <div class="install-block"><span class="label">Fix</span><code>droid plugin marketplace add https://github.com/OWNER/REPO</code></div></li>
+<li>Confirm id with <code>droid plugin marketplace list</code> (json <code>name</code> vs repo slug).</li>
+<li>Retry <code>droid plugin install plugin@marketplace</code>.</li>
+</ol>
+<p>Also see <a href="/guides/droid-plugin-marketplace-add/">marketplace add</a>.</p>
+<p class="source-line">Independent rewrite · Updated 2026-11-01 · Not affiliated with Factory</p>
+<p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-droid-plugins/">Troubleshoot hub</a></p>
+</div></main>
+    <footer class="site-footer"><div class="wrap-wide"><div class="brand"><span class="brand-name">Droid Plugin Market</span><span class="brand-domain">droid.aiaaii.com · Any AI (AI-AAII)</span></div><div class="footer-row"><div><a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a><a href="/about/">About</a><a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></div><p>Not affiliated with Factory / Droid</p></div></div></footer>
+    <script src="/theme.js" defer></script>
+</body></html>

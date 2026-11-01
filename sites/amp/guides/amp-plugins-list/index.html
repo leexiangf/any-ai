@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>amp plugins list — see installed Amp plugins | Amp Plugin Market</title>
+    <meta name="description" content="How to run amp plugins list and read project vs personal plugin precedence." />
+    <link rel="canonical" href="https://amp.aiaaii.com/guides/amp-plugins-list/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+              <a href="https://aiaaii.com/">Home</a>
+              <a href="/items/">Plugins</a>
+              <a href="/guides/">Guides</a>
+              <a href="/submit/">Submit</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>amp plugins list</h1>
+          <p>List installed Amp plugins and check which scope won.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <div class="install-block"><span class="label">CLI</span><code>amp plugins list</code></div>
+        <ol class="steps">
+          <li>Open a terminal where the Amp CLI works.</li>
+          <li>Run <span class="acronym">amp plugins list</span>.</li>
+          <li>Note whether each plugin is project, system, personal, or workspace scoped — project usually wins.</li>
+          <li>If a plugin is missing after install, go to <a href="/guides/fix-amp-plugin-not-showing/">not showing</a>.</li>
+        </ol>
+        <p>Also see <a href="/guides/how-to-reload-and-list-plugins/">reload and list</a> for the command-palette path.</p>
+        <p class="source-line">Independent rewrite · Updated 2026-11-01 · Not affiliated with Amp</p>
+        <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot hub</a></p>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp / Sourcegraph · <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></p></div></footer>
+      <script src="/theme.js" defer></script>
+  </body>
+</html>
