@@ -14,5 +14,6 @@
   { "owner": "cursor", "repo": "plugins", "note": "claude-compat marketplace (origin-apps, pstack)" },
   { "owner": "stefanautomateed", "repo": "shipvela-codex", "note": "linked from factory-plugins PR #52" },
   { "owner": "cis2042", "repo": "ux3-product-design-harness", "note": "PR-linked; may lack marketplace.json" },
-  { "owner": "EasyGerber", "repo": "easygerber-agent-plugin", "note": "PR-linked; may lack marketplace.json" }
+  { "owner": "EasyGerber", "repo": "easygerber-agent-plugin", "note": "PR-linked; may lack marketplace.json" },
+  { "owner": "ilyautov", "repo": "humanizer-ru", "note": "linked from factory-plugins PR #48" }
 ]
