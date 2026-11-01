@@ -1,6 +1,6 @@
-# Shop template
+# Host market template
 
-Copy this folder to `sites/{host}/` when opening a new host shop on Any AI (AI-AAII).
+Copy this folder to `sites/{host}/` when opening a new host market on Any AI (AI-AAII).
 
 ## Placeholders
 
@@ -29,14 +29,14 @@ sitemap.xml  robots.txt  _headers  styles.css
 
 Sample stubs live under `items/_sample/`, `categories/_sample/`, and two starter guides. Rename folders to real ids; delete unused samples before indexing.
 
-## Open-shop checklist
+## Open-market checklist
 
 1. Mini-canvas in `多宿主目录商场-立项文档.md` passes (§5 开店门槛).
 2. `Copy-Item sites\_template sites\{host} -Recurse` then global-replace tokens.
 3. Fill ≥3 real detail pages + ≥5 guides with **real** install commands (no invented CLI).
 4. New Cloudflare Pages project → bind `{host}.aiaaii.com` → GSC + sitemap.
-5. Empty shops stay **noindex** / offline until the threshold is met.
-6. Link the shop from `sites/www` mall home when live.
+5. Empty markets stay **noindex** / offline until the threshold is met.
+6. Link the market from `sites/www` mall home when live.
 
 ## Item card markup (do not regress)
 
