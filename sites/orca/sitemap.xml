@@ -54,6 +54,9 @@
   <url><loc>https://orca.aiaaii.com/items/vale-c/orca-tokyonight/</loc><priority>0.8</priority></url>
   <url><loc>https://orca.aiaaii.com/items/upstash/box-orca-plugin/</loc><priority>0.8</priority></url>
   <url><loc>https://orca.aiaaii.com/items/stablyai/orca-multipass-recipes/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/stablyai/orca-image-markup/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/thailoc-dev/orca-dev-toolbox/</loc><priority>0.8</priority></url>
+  <url><loc>https://orca.aiaaii.com/items/cemalkilic/lima-orca-vm-recipes/</loc><priority>0.8</priority></url>
   <url><loc>https://orca.aiaaii.com/categories/vm-recipes/</loc><priority>0.7</priority></url>
   <url><loc>https://orca.aiaaii.com/categories/editors/</loc><priority>0.7</priority></url>
   <url><loc>https://orca.aiaaii.com/categories/languages/</loc><priority>0.7</priority></url>

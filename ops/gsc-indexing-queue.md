@@ -52,6 +52,11 @@ Sitemap：四站 `sitemap.xml` 已提交（www / amp / orca / droid）
 | 25 | https://droid.aiaaii.com/guides/fix-still-not-found-after-marketplace-update/ | todo · 2026-11-02 新页 |
 | 26 | https://droid.aiaaii.com/guides/fix-private-or-auth-marketplace/ | todo · 2026-11-02 新页 |
 | 27 | https://droid.aiaaii.com/guides/fix-plugin-missing-wrong-scope/ | todo · 2026-11-02 新页 |
+| 28 | https://droid.aiaaii.com/items/pbakaus/impeccable/ | todo · 新收录 |
+| 29 | https://droid.aiaaii.com/items/stefanautomateed/shipvela-codex/ | todo · 新收录 |
+| 30 | https://orca.aiaaii.com/items/stablyai/orca-image-markup/ | todo · 新收录 |
+| 31 | https://orca.aiaaii.com/items/thailoc-dev/orca-dev-toolbox/ | todo · 新收录 |
+| 32 | https://orca.aiaaii.com/items/cemalkilic/lima-orca-vm-recipes/ | todo · 新收录 |
 
 ## 明日复制用（第 10 条起）
 

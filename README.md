@@ -19,8 +19,8 @@ Official products ship the agent. We ship the **install index**: browse marketpl
 | Market | Listings | Site |
 | --- | ---: | --- |
 | **Amp Plugin Market** | 31 | [amp.aiaaii.com](https://amp.aiaaii.com) |
-| **Orca Plugin Market** | 52 | [orca.aiaaii.com](https://orca.aiaaii.com) |
-| **Droid Plugin Market** | 31 | [droid.aiaaii.com](https://droid.aiaaii.com) |
+| **Orca Plugin Market** | 55 | [orca.aiaaii.com](https://orca.aiaaii.com) |
+| **Droid Plugin Market** | 34 | [droid.aiaaii.com](https://droid.aiaaii.com) |
 
 Each host has its own subdomain: directory · categories · detail pages · guides · submit. Detail pages are **independent rewrites** (not mirrored READMEs).
 
