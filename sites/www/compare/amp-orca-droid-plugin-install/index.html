@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Amp vs Orca vs Droid plugin install | Any AI</title>
+    <meta
+      name="description"
+      content="Compare how to install plugins on Amp, Orca, and Factory Droid — real CLI and marketplace commands, plus which Any AI market to use."
+    />
+    <link rel="canonical" href="https://aiaaii.com/compare/amp-orca-droid-plugin-install/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">Any AI</span>
+            <span class="brand-domain">aiaaii.com</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+              <a href="/#markets">Markets</a>
+              <a href="/about/">About</a>
+              <a href="/submit/">Submit</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>Amp vs Orca vs Droid plugin install</h1>
+          <p>
+            Same job — extend the agent — three different install paths. Pick the
+            host you already use, then follow that market’s command.
+          </p>
+        </div>
+      </header>
+    </div>
+
+    <main class="section">
+      <div class="wrap prose">
+        <p>
+          Any AI indexes each host separately. This page is only a
+          <strong>selection guide</strong>: it does not replace host docs, and we
+          are not affiliated with Amp, Orca, or Factory.
+        </p>
+
+        <h2>Quick compare</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Host</th>
+              <th>Typical add / install</th>
+              <th>Market</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Amp</td>
+              <td><code>amp plugins add …</code> then reload / list</td>
+              <td><a href="https://amp.aiaaii.com/">amp.aiaaii.com</a></td>
+            </tr>
+            <tr>
+              <td>Orca</td>
+              <td>Add a marketplace Git source, then install / pin a plugin</td>
+              <td><a href="https://orca.aiaaii.com/">orca.aiaaii.com</a></td>
+            </tr>
+            <tr>
+              <td>Droid (Factory)</td>
+              <td>
+                <code>droid plugin marketplace add &lt;git-url&gt;</code> then
+                <code>droid plugin install name@marketplace --scope user</code>
+              </td>
+              <td><a href="https://droid.aiaaii.com/">droid.aiaaii.com</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>When to use which market</h2>
+        <ul>
+          <li>
+            <strong>Amp</strong> — you already run Amp and search for
+            <span class="acronym">amp plugins add</span>, modes, or contrib packs.
+            Start at
+            <a href="https://amp.aiaaii.com/guides/how-to-install-amp-plugin/">how to install an Amp plugin</a>.
+          </li>
+          <li>
+            <strong>Orca</strong> — you need themes, languages, or a marketplace
+            JSON to add under Settings → Plugins. Start at
+            <a href="https://orca.aiaaii.com/guides/how-to-add-marketplace-source/">how to add a marketplace source</a>.
+          </li>
+          <li>
+            <strong>Droid</strong> — you use Factory Droid and
+            <span class="acronym">droid plugin</span> CLI (native
+            <code>.factory-plugin</code> or Claude-compatible marketplaces). Start at
+            <a href="https://droid.aiaaii.com/guides/how-to-install-droid-plugin/">how to install a Droid plugin</a>.
+          </li>
+        </ul>
+
+        <h2>What stays the same</h2>
+        <ul>
+          <li>Public source + clear install path before we list.</li>
+          <li>Detail pages are independent rewrites, not mirrored READMEs.</li>
+          <li>Optional <a href="/submit/">Listed on … badge</a> after acceptance.</li>
+        </ul>
+
+        <h2>What differs</h2>
+        <ul>
+          <li>Amp leans on plugin files / <code>amp plugins</code> flows.</li>
+          <li>Orca leans on marketplace sources and editor contributions (themes, languages, VM recipes).</li>
+          <li>Droid leans on marketplace Git URLs + <code>plugin@marketplace</code> install ids (including Claude-compat manifests).</li>
+        </ul>
+
+        <div class="faq">
+          <details>
+            <summary>Can one plugin work on all three?</summary>
+            <p>
+              Rarely. Manifests and runtimes differ. List (and install) per host.
+              Cross-port only when the author publishes a host-specific package.
+            </p>
+          </details>
+          <details>
+            <summary>Where do I submit?</summary>
+            <p>
+              <a href="/submit/">aiaaii.com/submit</a> or the host Submit page.
+              Pick the correct host in the listing request.
+            </p>
+          </details>
+        </div>
+
+        <p class="source-line">Updated 2026-11-02 · Community guide · not affiliated with host vendors</p>
+        <p>
+          <a href="/">← Any AI</a> ·
+          <a href="https://amp.aiaaii.com/items/">Amp plugins</a> ·
+          <a href="https://orca.aiaaii.com/items/">Orca plugins</a> ·
+          <a href="https://droid.aiaaii.com/items/">Droid plugins</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Any AI</span>
+          <span class="brand-domain">aiaaii.com · Any Agent Install Index</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/about/">About</a>
+            <a href="/submit/">Submit</a>
+            <a href="https://amp.aiaaii.com/">Amp</a>
+            <a href="https://orca.aiaaii.com/">Orca</a>
+            <a href="https://droid.aiaaii.com/">Droid</a>
+          </div>
+          <p>Community-maintained · not affiliated with host vendors</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

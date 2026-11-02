@@ -32,9 +32,9 @@ const gh =
 const candidates = drafts.filter((d) => {
   const src = d.primary.source;
   if (!isCleanRepoUrl(src)) return false;
-  // skip if tracking already marked sent for this source
+  // skip if tracking already marked sent/failed/skipped for this source
   const row = tracking.split(/\r?\n/).find((l) => l.includes(src));
-  if (row && /,"sent",/.test(row)) return false;
+  if (row && /,"(sent|failed|skipped)",/.test(row)) return false;
   return true;
 });
 
