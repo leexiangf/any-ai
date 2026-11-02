@@ -1,7 +1,7 @@
 # GSC 请求编入索引 · 队列
 
 Domain 属性：`aiaaii.com`（覆盖子域）  
-Sitemap：四站 `sitemap.xml` 已提交（www / amp / orca / droid）
+Sitemap：五站 `sitemap.xml`（www / amp / orca / droid / **kimi** — kimi 上线后需在 GSC 提交）
 
 额度：每天有限，分批「检查网址 → 请求编入索引」。
 
@@ -57,6 +57,11 @@ Sitemap：四站 `sitemap.xml` 已提交（www / amp / orca / droid）
 | 30 | https://orca.aiaaii.com/items/stablyai/orca-image-markup/ | todo · 新收录 |
 | 31 | https://orca.aiaaii.com/items/thailoc-dev/orca-dev-toolbox/ | todo · 新收录 |
 | 32 | https://orca.aiaaii.com/items/cemalkilic/lima-orca-vm-recipes/ | todo · 新收录 |
+| 33 | https://kimi.aiaaii.com/ | todo · 新店首页 |
+| 34 | https://kimi.aiaaii.com/guides/how-to-install-kimi-plugin/ | todo · 新店命令词 |
+| 35 | https://kimi.aiaaii.com/guides/how-to-add-kimi-marketplace/ | todo · 新店命令词 |
+| 36 | https://kimi.aiaaii.com/items/ | todo · 新店目录 |
+| 37 | https://kimi.aiaaii.com/items/obra/superpowers/ | todo · 新店精选 |
 
 ## 明日复制用（第 10 条起）
 

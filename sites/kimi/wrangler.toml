@@ -1,0 +1,12 @@
+name = "kimi-aiaaii"
+compatibility_date = "2025-10-31"
+workers_dev = true
+
+[assets]
+directory = "."
+html_handling = "auto-trailing-slash"
+not_found_handling = "404-page"
+
+[[routes]]
+pattern = "kimi.aiaaii.com"
+custom_domain = true

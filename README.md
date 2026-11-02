@@ -4,7 +4,7 @@
 
 Official products ship the agent. We ship the **install index**: browse marketplace sources, copy real install commands, and discover plugins mainstream catalogs overlook.
 
-🌐 **[aiaaii.com](https://aiaaii.com)** · Amp · Orca · Droid
+🌐 **[aiaaii.com](https://aiaaii.com)** · Amp · Orca · Droid · Kimi
 
 ## Install commands we index
 
@@ -13,6 +13,7 @@ Official products ship the agent. We ship the **install index**: browse marketpl
 | **Amp** | `amp plugins add <source>` | Amp plugin flows on [amp.aiaaii.com](https://amp.aiaaii.com) |
 | **Orca** | Add marketplace source / pin | [orca.aiaaii.com](https://orca.aiaaii.com) |
 | **Droid** | `droid plugin marketplace add <git-url>` | `droid plugin install <plugin>@<marketplace> --scope user` → [droid.aiaaii.com](https://droid.aiaaii.com) |
+| **Kimi** | `/plugins marketplace [json-url]` | `/plugins install <github-url>` → [kimi.aiaaii.com](https://kimi.aiaaii.com) |
 
 ## Markets
 
@@ -21,6 +22,7 @@ Official products ship the agent. We ship the **install index**: browse marketpl
 | **Amp Plugin Market** | 31 | [amp.aiaaii.com](https://amp.aiaaii.com) |
 | **Orca Plugin Market** | 55 | [orca.aiaaii.com](https://orca.aiaaii.com) |
 | **Droid Plugin Market** | 34 | [droid.aiaaii.com](https://droid.aiaaii.com) |
+| **Kimi Plugin Market** | 12 | [kimi.aiaaii.com](https://kimi.aiaaii.com) |
 
 Each host has its own subdomain: directory · categories · detail pages · guides · submit. Detail pages are **independent rewrites** (not mirrored READMEs).
 
@@ -34,7 +36,7 @@ Each host has its own subdomain: directory · categories · detail pages · guid
 [![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/{owner}/{slug}/)
 ```
 
-Amp / Orca badges: [amp submit](https://amp.aiaaii.com/submit/) · [orca submit](https://orca.aiaaii.com/submit/) · [droid submit](https://droid.aiaaii.com/submit/) · [mall submit](https://aiaaii.com/submit/)
+Host badges: [amp](https://amp.aiaaii.com/submit/) · [orca](https://orca.aiaaii.com/submit/) · [droid](https://droid.aiaaii.com/submit/) · [kimi](https://kimi.aiaaii.com/submit/) · [mall](https://aiaaii.com/submit/)
 
 ## Brand
 
@@ -46,4 +48,4 @@ Amp / Orca badges: [amp submit](https://amp.aiaaii.com/submit/) · [orca submit]
 
 ## Disclaimer
 
-Community-maintained. **Not affiliated** with Amp, Orca, Factory, Stably, Sourcegraph, Cursor, or any listed host vendor. Prefer upstream docs for authoritative APIs.
+Community-maintained. **Not affiliated** with Amp, Orca, Factory, Stably, Sourcegraph, Moonshot AI, Cursor, or any listed host vendor. Prefer upstream docs for authoritative APIs.

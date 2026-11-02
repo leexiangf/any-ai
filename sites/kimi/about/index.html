@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | Kimi Plugin Market</title>
+    <meta name="description" content="Community Kimi Code plugin directory on Any AI (AI-AAII)." />
+    <link rel="canonical" href="https://kimi.aiaaii.com/about/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">Kimi Plugin Market</span>
+            <span class="brand-domain">kimi.aiaaii.com · Any AI</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/" aria-current="page">About</a>
+          </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>About this market</h1>
+          <p>Community directory for Kimi Code plugins.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+<p><strong>Kimi Plugin Market</strong> is a community-maintained install index on Any AI (AI-AAII). We list Official, Curated, and community plugins with real <code>/plugins</code> commands.</p>
+<p>Data comes from the public Kimi marketplace JSON, GitHub manifests (<code>kimi.plugin.json</code> / <code>.kimi-plugin/</code>), and Submit requests. Detail pages are independent rewrites — not mirrored READMEs.</p>
+<p><strong>Not affiliated</strong> with Moonshot AI, Kimi, or any listed vendor. Prefer <a href="https://www.kimi.com/code/docs/" rel="noopener noreferrer">official docs</a> for authoritative APIs.</p>
+<p><a href="https://aiaaii.com/">Any AI mall</a> · <a href="/submit/">Submit a listing</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Kimi Plugin Market</span>
+          <span class="brand-domain">kimi.aiaaii.com · Any AI (AI-AAII)</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+          </div>
+          <p>Not affiliated with Moonshot AI / Kimi</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://kimi.aiaaii.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/guides/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/submit/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/about/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/categories/official/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/categories/workflows/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/categories/deployment/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/categories/data/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/categories/web/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/categories/productivity/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/MoonshotAI/kimi-code-plugins/</loc><priority>0.8</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/MoonshotAI/kimi-datasource/</loc><priority>0.8</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/MoonshotAI/kimi-webbridge/</loc><priority>0.8</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/obra/superpowers/</loc><priority>0.8</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/vercel/vercel-plugin/</loc><priority>0.8</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/GoogleChrome/modern-web-guidance/</loc><priority>0.8</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/TencentCloudBase/CloudBase-AI-Toolkit/</loc><priority>0.8</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/EveryInc/compound-engineering-plugin/</loc><priority>0.8</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/mem0ai/mem0/</loc><priority>0.8</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/bentocodeing/kimi-seo/</loc><priority>0.8</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/alibaba/open-code-review/</loc><priority>0.8</priority></url>
+  <url><loc>https://kimi.aiaaii.com/items/DietrichGebert/ponytail/</loc><priority>0.8</priority></url>
+  <url><loc>https://kimi.aiaaii.com/guides/what-is-a-kimi-plugin/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/guides/how-to-install-kimi-plugin/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/guides/how-to-add-kimi-marketplace/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/guides/how-to-reload-after-plugin-install/</loc><priority>0.7</priority></url>
+  <url><loc>https://kimi.aiaaii.com/guides/how-to-troubleshoot-kimi-plugins/</loc><priority>0.7</priority></url>
+</urlset>
