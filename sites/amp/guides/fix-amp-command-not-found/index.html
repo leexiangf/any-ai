@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>amp: command not found — fix | Amp Plugin Market</title>
+    <meta
+      name="description"
+      content="Fix “amp: command not found” or amp is not recognized: install or update the Amp CLI, fix PATH, then retry amp plugins add."
+    />
+    <link rel="canonical" href="https://amp.aiaaii.com/guides/fix-amp-command-not-found/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+              <a href="https://aiaaii.com/">Home</a>
+              <a href="/items/">Plugins</a>
+              <a href="/guides/">Guides</a>
+              <a href="/submit/">Submit</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>amp: command not found</h1>
+          <p>The shell cannot find the Amp CLI — install it or fix PATH before amp plugins add.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <p>
+          Variants include <code>amp: command not found</code>,
+          <code>amp is not recognized</code> (Windows), or a similar message when
+          you run <span class="acronym">amp plugins add</span>. This is a CLI /
+          PATH problem, not a bad plugin URL.
+        </p>
+        <ol class="steps">
+          <li>
+            Confirm Amp is installed from the official Amp / Sourcegraph docs for
+            your OS. App-only installs sometimes omit the shell binary.
+          </li>
+          <li>
+            Open a <strong>new</strong> terminal and run:
+            <div class="install-block"><span class="label">Check</span><code>amp --version</code></div>
+          </li>
+          <li>
+            If that fails, locate the binary (install directory or package manager
+            path) and ensure it is on <code>PATH</code>. On Windows, restart the
+            terminal after changing environment variables.
+          </li>
+          <li>
+            Retry a known listing:
+            <div class="install-block">
+              <span class="label">Example</span>
+              <code>amp plugins add https://github.com/lox/amp-autoresearch</code>
+            </div>
+          </li>
+          <li>
+            When the command runs but install fails, switch to
+            <a href="/guides/fix-amp-plugins-add-failed/">amp plugins add failed</a>.
+          </li>
+        </ol>
+        <h2>Success</h2>
+        <p>
+          <code>amp --version</code> prints a version, and
+          <a href="/guides/amp-plugins-list/">amp plugins list</a> works in the same shell.
+        </p>
+        <h2>Related</h2>
+        <p>
+          <a href="/guides/amp-plugins-add/">amp plugins add</a>
+          · <a href="/guides/how-to-install-amp-plugin/">How to install</a>
+          · <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot hub</a>
+        </p>
+        <p class="source-line">Independent rewrite · Updated 2026-11-02 · Not affiliated with Amp / Sourcegraph</p>
+        <p><a href="/guides/">← Guides</a> · <a href="/items/">Browse plugins</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <p>amp.aiaaii.com · Not affiliated with Amp / Sourcegraph · <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></p>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

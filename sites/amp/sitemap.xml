@@ -46,6 +46,7 @@
   <url><loc>https://amp.aiaaii.com/guides/amp-plugins-reload/</loc><priority>0.8</priority></url>
   <url><loc>https://amp.aiaaii.com/guides/how-to-reload-and-list-plugins/</loc><priority>0.75</priority></url>
   <url><loc>https://amp.aiaaii.com/guides/how-to-update-amp-plugins/</loc><priority>0.75</priority></url>
+  <url><loc>https://amp.aiaaii.com/guides/fix-amp-command-not-found/</loc><priority>0.85</priority></url>
   <url><loc>https://amp.aiaaii.com/guides/fix-amp-plugins-add-failed/</loc><priority>0.8</priority></url>
   <url><loc>https://amp.aiaaii.com/guides/fix-amp-plugin-not-showing/</loc><priority>0.8</priority></url>
   <url><loc>https://amp.aiaaii.com/guides/how-to-troubleshoot-amp-plugins/</loc><priority>0.75</priority></url>

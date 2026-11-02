@@ -70,6 +70,8 @@
   <url><loc>https://orca.aiaaii.com/guides/how-to-enable-orca-plugins/</loc><priority>0.75</priority></url>
   <url><loc>https://orca.aiaaii.com/guides/how-to-add-marketplace-source/</loc><priority>0.75</priority></url>
   <url><loc>https://orca.aiaaii.com/guides/how-to-troubleshoot-orca-plugins/</loc><priority>0.75</priority></url>
+  <url><loc>https://orca.aiaaii.com/guides/fix-add-an-explicit-ref/</loc><priority>0.85</priority></url>
+  <url><loc>https://orca.aiaaii.com/guides/fix-reserved-plugin-id/</loc><priority>0.85</priority></url>
   <url><loc>https://orca.aiaaii.com/guides/how-to-publish-orca-marketplace/</loc><priority>0.75</priority></url>
   <url><loc>https://orca.aiaaii.com/submit/</loc><priority>0.5</priority></url>
   <url><loc>https://orca.aiaaii.com/about/</loc><priority>0.5</priority></url>
