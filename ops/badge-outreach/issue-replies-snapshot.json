@@ -1,0 +1,256 @@
+{
+  "checkedAt": "2026-11-02T13:41:05.752Z",
+  "total": 31,
+  "withReply": 0,
+  "closed": 0,
+  "items": [
+    {
+      "issue": "lox/amp-autoresearch#4",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/lox/amp-autoresearch/issues/4"
+    },
+    {
+      "issue": "apify/apify-factory-plugin#18",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/apify/apify-factory-plugin/issues/18"
+    },
+    {
+      "issue": "cursor/plugins#1156",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/cursor/plugins/issues/1156"
+    },
+    {
+      "issue": "dodopayments/dodo-agent-plugin#27",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/dodopayments/dodo-agent-plugin/issues/27"
+    },
+    {
+      "issue": "LambdaTest/mcp-server-guide#5",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/LambdaTest/mcp-server-guide/issues/5"
+    },
+    {
+      "issue": "loootai/looot-plugin#2",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/loootai/looot-plugin/issues/2"
+    },
+    {
+      "issue": "rohitg00/agentmemory#1653",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/rohitg00/agentmemory/issues/1653"
+    },
+    {
+      "issue": "salemalem/npmscan-mcp-plugin#2",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/salemalem/npmscan-mcp-plugin/issues/2"
+    },
+    {
+      "issue": "Shaisolaris/solaris-dev-shop-plugins#20",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues/20"
+    },
+    {
+      "issue": "ampcode/amp-contrib#7",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/ampcode/amp-contrib/issues/7"
+    },
+    {
+      "issue": "ampcode/official-plugins#10",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/ampcode/official-plugins/issues/10"
+    },
+    {
+      "issue": "daftAI2026/daftai-amp-plugins#2",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/daftAI2026/daftai-amp-plugins/issues/2"
+    },
+    {
+      "issue": "etonwan/amp-runner-manager#4",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/etonwan/amp-runner-manager/issues/4"
+    },
+    {
+      "issue": "jim-ampcode/handoff-plugin#2",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/jim-ampcode/handoff-plugin/issues/2"
+    },
+    {
+      "issue": "lATAl/amp-disable-git-attribution#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/lATAl/amp-disable-git-attribution/issues/1"
+    },
+    {
+      "issue": "pc-style/amp-directory#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/pc-style/amp-directory/issues/1"
+    },
+    {
+      "issue": "pc-style/amp-plugins#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/pc-style/amp-plugins/issues/1"
+    },
+    {
+      "issue": "rsclarke/amp-plugins#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/rsclarke/amp-plugins/issues/1"
+    },
+    {
+      "issue": "udhaya10/amp-grok-mode#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/udhaya10/amp-grok-mode/issues/1"
+    },
+    {
+      "issue": "zaengerlein/amp-supermemory#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/zaengerlein/amp-supermemory/issues/1"
+    },
+    {
+      "issue": "DawidWetzler/orca-cobalt2-theme#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/DawidWetzler/orca-cobalt2-theme/issues/1"
+    },
+    {
+      "issue": "j-dandelion/orca-marketplace#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/j-dandelion/orca-marketplace/issues/1"
+    },
+    {
+      "issue": "j-dandelion/orca-rose-pine-moon#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/j-dandelion/orca-rose-pine-moon/issues/1"
+    },
+    {
+      "issue": "kolebayev/orca-md-layout#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/kolebayev/orca-md-layout/issues/1"
+    },
+    {
+      "issue": "Mbirepinte/Orca-asciidoc-viewer#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/Mbirepinte/Orca-asciidoc-viewer/issues/1"
+    },
+    {
+      "issue": "senadaruc/orca-grazr#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/senadaruc/orca-grazr/issues/1"
+    },
+    {
+      "issue": "smwbev/orca-russian#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/smwbev/orca-russian/issues/1"
+    },
+    {
+      "issue": "thailoc-dev/orca-pptx-viewer#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/thailoc-dev/orca-pptx-viewer/issues/1"
+    },
+    {
+      "issue": "upstash/box-orca-plugin#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/upstash/box-orca-plugin/issues/1"
+    },
+    {
+      "issue": "vale-c/orca-catppuccin#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/vale-c/orca-catppuccin/issues/1"
+    },
+    {
+      "issue": "vale-c/orca-tokyonight#1",
+      "state": "OPEN",
+      "commentCount": [],
+      "replies": [],
+      "updatedAt": "2026-11-02",
+      "url": "https://github.com/vale-c/orca-tokyonight/issues/1"
+    }
+  ]
+}

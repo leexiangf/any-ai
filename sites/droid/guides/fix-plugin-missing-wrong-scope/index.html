@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Plugin missing — wrong scope (user vs project) | Droid Plugin Market</title>
+<meta name="description" content="Fix Droid plugins that look missing after install: you listed --scope user but installed --scope project (or the reverse)." />
+<link rel="canonical" href="https://droid.aiaaii.com/guides/fix-plugin-missing-wrong-scope/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+<link rel="stylesheet" href="/styles.css" /></head>
+<body>
+<div class="page-shell"><div class="wrap-wide">        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Droid Plugin Market</span><span class="brand-domain">droid.aiaaii.com · Any AI</span></a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a><a href="/about/">About</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme"><span class="theme-toggle-icon" aria-hidden="true"></span></button>
+          </div>
+        </div></div>
+<header class="page-hero"><div class="wrap"><h1>Plugin missing (wrong scope)</h1><p>Install succeeded, but list / the session does not show the plugin — user vs project scope mismatch.</p></div></header></div>
+<main class="section"><div class="wrap prose">
+<p>This is not “not found @ marketplace.” The marketplace resolved and install returned OK; you are checking the <strong>other</strong> scope. Full background: <a href="/guides/droid-plugin-scope-user-vs-project/">--scope user vs project</a>.</p>
+<ol class="steps">
+<li>Recall which scope you used on install. Default mental model: <code>--scope user</code> = machine-wide for your account; <code>--scope project</code> = this repo only.</li>
+<li>List <em>both</em>:
+<div class="install-block"><span class="label">User</span><code>droid plugin list --scope user</code></div>
+<div class="install-block"><span class="label">Project</span><code>droid plugin list --scope project</code></div>
+(Run the project command from the repo root where you installed.)</li>
+<li>If it appears under project but you expected it everywhere, reinstall with user scope (or keep project-only on purpose):
+<div class="install-block"><span class="label">User install</span><code>droid plugin install PLUGIN@MARKETPLACE --scope user</code></div></li>
+<li>Restart / reopen the Droid session after changing scope so the harness reloads the plugin set.</li>
+<li>If both lists are empty, go back to install errors: <a href="/guides/fix-unknown-marketplace/">unknown marketplace</a>, <a href="/guides/fix-droid-plugin-not-found/">plugin not found</a>, or <a href="/guides/fix-still-not-found-after-marketplace-update/">still missing after update</a>.</li>
+</ol>
+<h2>Success</h2>
+<p>The plugin id shows in the list for the scope you care about, and new sessions in that scope can invoke it.</p>
+<p class="source-line">Independent rewrite · Updated 2026-11-02 · Not affiliated with Factory</p>
+<p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-droid-plugins/">Troubleshoot hub</a></p>
+</div></main>
+    <footer class="site-footer"><div class="wrap-wide"><div class="brand"><span class="brand-name">Droid Plugin Market</span><span class="brand-domain">droid.aiaaii.com · Any AI (AI-AAII)</span></div><div class="footer-row"><div><a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a><a href="/about/">About</a><a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></div><p>Not affiliated with Factory / Droid</p></div></div></footer>
+    <script src="/theme.js" defer></script>
+</body></html>

@@ -53,6 +53,9 @@
   <url><loc>https://droid.aiaaii.com/guides/fix-unknown-marketplace/</loc><priority>0.8</priority></url>
   <url><loc>https://droid.aiaaii.com/guides/fix-invalid-marketplace/</loc><priority>0.8</priority></url>
   <url><loc>https://droid.aiaaii.com/guides/fix-droid-plugin-not-found/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/guides/fix-still-not-found-after-marketplace-update/</loc><priority>0.85</priority></url>
+  <url><loc>https://droid.aiaaii.com/guides/fix-private-or-auth-marketplace/</loc><priority>0.85</priority></url>
+  <url><loc>https://droid.aiaaii.com/guides/fix-plugin-missing-wrong-scope/</loc><priority>0.85</priority></url>
   <url><loc>https://droid.aiaaii.com/guides/how-to-troubleshoot-droid-plugins/</loc><priority>0.7</priority></url>
   <url><loc>https://droid.aiaaii.com/guides/how-to-publish-droid-marketplace/</loc><priority>0.7</priority></url>
   <url><loc>https://droid.aiaaii.com/submit/</loc><priority>0.5</priority></url>

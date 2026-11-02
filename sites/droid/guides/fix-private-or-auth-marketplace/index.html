@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Permission denied / private marketplace — Droid fix | Droid Plugin Market</title>
+<meta name="description" content="Fix droid plugin marketplace add when Git returns permission denied, authentication failed, or repository not found on a private or gated repo." />
+<link rel="canonical" href="https://droid.aiaaii.com/guides/fix-private-or-auth-marketplace/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+<link rel="stylesheet" href="/styles.css" /></head>
+<body>
+<div class="page-shell"><div class="wrap-wide">        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Droid Plugin Market</span><span class="brand-domain">droid.aiaaii.com · Any AI</span></a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a><a href="/about/">About</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme"><span class="theme-toggle-icon" aria-hidden="true"></span></button>
+          </div>
+        </div></div>
+<header class="page-hero"><div class="wrap"><h1>Permission denied (private marketplace)</h1><p>marketplace add cannot clone the Git URL — auth, private repo, or a bad remote.</p></div></header></div>
+<main class="section"><div class="wrap prose">
+<p>Typical messages include <code>Permission denied</code>, <code>Authentication failed</code>, <code>could not read Username</code>, or <code>Repository not found</code> while running <span class="acronym">droid plugin marketplace add</span>. Droid never reaches the marketplace JSON if Git cannot fetch the repo.</p>
+<ol class="steps">
+<li>Open the URL in a browser while logged out (or a private window). If GitHub shows 404, the repo is private, renamed, or deleted — Droid will fail the same way without credentials.</li>
+<li>Prefer a <strong>public</strong> marketplace for personal installs. Community listings on this site assume a public Git source.</li>
+<li>If you must use a private org repo: configure Git credentials the same way your shell uses for <code>git clone</code> (SSH key loaded, or HTTPS credential helper / PAT with <code>repo</code> read). Then retry:
+<div class="install-block"><span class="label">Retry</span><code>droid plugin marketplace add https://github.com/OWNER/REPO</code></div></li>
+<li>Confirm the remote is the marketplace <em>root</em> (has <code>.factory-plugin/marketplace.json</code> or Claude fallback), not a random subfolder — wrong shape is a different error: <a href="/guides/fix-invalid-marketplace/">valid marketplace</a>.</li>
+<li>Corporate SSL / proxy intercepts can also look like auth failures; try the same URL with plain <code>git ls-remote</code> in the same terminal Droid uses.</li>
+</ol>
+<h2>Success</h2>
+<p><code>droid plugin marketplace list</code> shows the new marketplace id, and install no longer dies at clone.</p>
+<h2>Related</h2>
+<p>
+  <a href="/guides/droid-plugin-marketplace-add/">marketplace add</a>
+  · <a href="/guides/fix-invalid-marketplace/">not a valid marketplace</a>
+  · <a href="/guides/fix-still-not-found-after-marketplace-update/">still not found after update</a>
+</p>
+<p class="source-line">Independent rewrite · Updated 2026-11-02 · Not affiliated with Factory</p>
+<p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-droid-plugins/">Troubleshoot hub</a></p>
+</div></main>
+    <footer class="site-footer"><div class="wrap-wide"><div class="brand"><span class="brand-name">Droid Plugin Market</span><span class="brand-domain">droid.aiaaii.com · Any AI (AI-AAII)</span></div><div class="footer-row"><div><a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a><a href="/about/">About</a><a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></div><p>Not affiliated with Factory / Droid</p></div></div></footer>
+    <script src="/theme.js" defer></script>
+</body></html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Still not found after marketplace update — Droid fix | Droid Plugin Market</title>
+<meta name="description" content="Fix droid plugin install when marketplace update succeeded but plugin@marketplace is still not found. Stale id, wrong name field, or plugin removed upstream." />
+<link rel="canonical" href="https://droid.aiaaii.com/guides/fix-still-not-found-after-marketplace-update/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+<link rel="stylesheet" href="/styles.css" /></head>
+<body>
+<div class="page-shell"><div class="wrap-wide">        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Droid Plugin Market</span><span class="brand-domain">droid.aiaaii.com · Any AI</span></a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a><a href="/about/">About</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme"><span class="theme-toggle-icon" aria-hidden="true"></span></button>
+          </div>
+        </div></div>
+<header class="page-hero"><div class="wrap"><h1>Still not found after marketplace update</h1><p>You ran marketplace update, but install still cannot resolve plugin@marketplace.</p></div></header></div>
+<main class="section"><div class="wrap prose">
+<p>If <span class="acronym">droid plugin marketplace update</span> finishes without error and <code>droid plugin install name@marketplace</code> still says not found, the catalog refresh worked — the <strong>id pair</strong> or upstream listing is wrong. This is narrower than the general <a href="/guides/fix-droid-plugin-not-found/">plugin not found</a> page.</p>
+<ol class="steps">
+<li>List registered marketplaces and copy the exact marketplace id Droid knows (often the JSON <code>name</code>, sometimes derived from the repo slug):
+<div class="install-block"><span class="label">List</span><code>droid plugin marketplace list</code></div></li>
+<li>Open the live marketplace JSON on the default branch:
+  <ul>
+    <li>Native: <code>.factory-plugin/marketplace.json</code></li>
+    <li>Claude-compat: <code>.claude-plugin/marketplace.json</code> — see <a href="/guides/how-to-use-claude-compatible-marketplace/">compat guide</a></li>
+  </ul>
+  Confirm the plugin’s <code>name</code> field matches what you type <em>before</em> the <code>@</code>.
+</li>
+<li>Force another refresh with the id from step 1, then install with that same marketplace id:
+<div class="install-block"><span class="label">Update</span><code>droid plugin marketplace update MARKETPLACE_ID</code></div>
+<div class="install-block"><span class="label">Install</span><code>droid plugin install PLUGIN@MARKETPLACE_ID --scope user</code></div></li>
+<li>If the plugin was renamed or removed upstream, update will succeed but the old id never returns — switch to the new name or pick another listing from <a href="/items/">the directory</a>.</li>
+<li>Still failing with auth/clone errors during update → <a href="/guides/fix-private-or-auth-marketplace/">private / permission denied</a>. Looking in the wrong scope after a successful install → <a href="/guides/fix-plugin-missing-wrong-scope/">wrong scope</a>.</li>
+</ol>
+<h2>Quick checklist</h2>
+<ul>
+<li><code>plugin</code> spelling matches JSON <code>name</code> (case-sensitive).</li>
+<li><code>@marketplace</code> matches <code>marketplace list</code>, not a guess from the GitHub org.</li>
+<li>Default branch actually contains the marketplace file you think you updated.</li>
+</ul>
+<p class="source-line">Independent rewrite · Updated 2026-11-02 · Not affiliated with Factory</p>
+<p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-list-and-update-plugins/">List / update</a> · <a href="/guides/how-to-troubleshoot-droid-plugins/">Troubleshoot hub</a></p>
+</div></main>
+    <footer class="site-footer"><div class="wrap-wide"><div class="brand"><span class="brand-name">Droid Plugin Market</span><span class="brand-domain">droid.aiaaii.com · Any AI (AI-AAII)</span></div><div class="footer-row"><div><a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a><a href="/about/">About</a><a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></div><p>Not affiliated with Factory / Droid</p></div></div></footer>
+    <script src="/theme.js" defer></script>
+</body></html>
