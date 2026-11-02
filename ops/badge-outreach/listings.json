@@ -1,0 +1,1142 @@
+[
+  {
+    "host": "amp",
+    "owner": "ampcode",
+    "slug": "amp-contrib",
+    "title": "amp-contrib",
+    "one": "Curated skills, tools, MCPs, and commands around the Amp ecosystem.",
+    "listing": "https://amp.aiaaii.com/items/ampcode/amp-contrib/",
+    "source": "https://github.com/ampcode/amp-contrib",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/amp-contrib/)"
+  },
+  {
+    "host": "amp",
+    "owner": "ampcode",
+    "slug": "amp-contrib-2",
+    "title": "amp-contrib-2",
+    "one": "Unofficial slash commands and toolbox tools extending Amp.",
+    "listing": "https://amp.aiaaii.com/items/ampcode/amp-contrib-2/",
+    "source": "https://github.com/ampcode/amp-contrib-2",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/amp-contrib-2/)"
+  },
+  {
+    "host": "amp",
+    "owner": "ampcode",
+    "slug": "fable-mode",
+    "title": "@amp/fable-mode",
+    "one": "Official Claude Fable 5 agent modes (low / med / xhi / max).",
+    "listing": "https://amp.aiaaii.com/items/ampcode/fable-mode/",
+    "source": "",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/fable-mode/)"
+  },
+  {
+    "host": "amp",
+    "owner": "ampcode",
+    "slug": "finder",
+    "title": "@amp/finder",
+    "one": "Workspace search tool returning relevant files and line ranges.",
+    "listing": "https://amp.aiaaii.com/items/ampcode/finder/",
+    "source": "",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/finder/)"
+  },
+  {
+    "host": "amp",
+    "owner": "ampcode",
+    "slug": "grok-46-mode",
+    "title": "@amp/grok-46-mode",
+    "one": "Agent mode plugin for Grok 4.6 from Amp Modes &amp; Models.",
+    "listing": "https://amp.aiaaii.com/items/ampcode/grok-46-mode/",
+    "source": "",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/grok-46-mode/)"
+  },
+  {
+    "host": "amp",
+    "owner": "ampcode",
+    "slug": "librarian",
+    "title": "@amp/librarian",
+    "one": "Clones external repos into /tmp and explains their code and history.",
+    "listing": "https://amp.aiaaii.com/items/ampcode/librarian/",
+    "source": "",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/librarian/)"
+  },
+  {
+    "host": "amp",
+    "owner": "ampcode",
+    "slug": "official-plugins",
+    "title": "official-plugins",
+    "one": "Official Amp agent-mode plugins — reference and install source.",
+    "listing": "https://amp.aiaaii.com/items/ampcode/official-plugins/",
+    "source": "https://github.com/ampcode/official-plugins",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/official-plugins/)"
+  },
+  {
+    "host": "amp",
+    "owner": "ampcode",
+    "slug": "oracle",
+    "title": "@amp/oracle",
+    "one": "Read-only review subagent as an oracle tool on a model you choose.",
+    "listing": "https://amp.aiaaii.com/items/ampcode/oracle/",
+    "source": "",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/oracle/)"
+  },
+  {
+    "host": "amp",
+    "owner": "ampcode",
+    "slug": "smart-mode",
+    "title": "@amp/smart-mode",
+    "one": "Faithful copy of Amp&apos;s deprecated built-in Smart mode (Opus 4.8).",
+    "listing": "https://amp.aiaaii.com/items/ampcode/smart-mode/",
+    "source": "",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/smart-mode/)"
+  },
+  {
+    "host": "amp",
+    "owner": "daftAI2026",
+    "slug": "daftai-amp-plugins",
+    "title": "daftai-amp-plugins",
+    "one": "Shared Amp CLI plugins from daftAI — binary Amp only.",
+    "listing": "https://amp.aiaaii.com/items/daftAI2026/daftai-amp-plugins/",
+    "source": "https://github.com/daftAI2026/daftai-amp-plugins",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/daftAI2026/daftai-amp-plugins/)"
+  },
+  {
+    "host": "amp",
+    "owner": "daftAI2026",
+    "slug": "usage-monitor",
+    "title": "usage-monitor",
+    "one": "CLI usage / credits monitor from the daftAI Amp plugins collection.",
+    "listing": "https://amp.aiaaii.com/items/daftAI2026/usage-monitor/",
+    "source": "https://github.com/daftAI2026/daftai-amp-plugins",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/daftAI2026/usage-monitor/)"
+  },
+  {
+    "host": "amp",
+    "owner": "etonwan",
+    "slug": "amp-runner-manager",
+    "title": "amp-runner-manager",
+    "one": "Register Git projects and manage temporary project-scoped Amp runners.",
+    "listing": "https://amp.aiaaii.com/items/etonwan/amp-runner-manager/",
+    "source": "https://github.com/etonwan/amp-runner-manager",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/etonwan/amp-runner-manager/)"
+  },
+  {
+    "host": "amp",
+    "owner": "jim-ampcode",
+    "slug": "handoff-plugin",
+    "title": "handoff-plugin",
+    "one": "Command to hand off a long thread into a new Amp thread with a short goal.",
+    "listing": "https://amp.aiaaii.com/items/jim-ampcode/handoff-plugin/",
+    "source": "https://github.com/jim-ampcode/handoff-plugin",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/jim-ampcode/handoff-plugin/)"
+  },
+  {
+    "host": "amp",
+    "owner": "lATAl",
+    "slug": "amp-disable-git-attribution",
+    "title": "amp-disable-git-attribution",
+    "one": "Turn off Amp thread and co-author lines in Git commits.",
+    "listing": "https://amp.aiaaii.com/items/lATAl/amp-disable-git-attribution/",
+    "source": "https://github.com/lATAl/amp-disable-git-attribution",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/lATAl/amp-disable-git-attribution/)"
+  },
+  {
+    "host": "amp",
+    "owner": "loredotlink",
+    "slug": "lore-plugin",
+    "title": "lore-plugin",
+    "one": "Share Amp threads to Lore; login and thread tools for team handoff.",
+    "listing": "https://amp.aiaaii.com/items/loredotlink/lore-plugin/",
+    "source": "https://github.com/loredotlink/lore-plugin",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/loredotlink/lore-plugin/)"
+  },
+  {
+    "host": "amp",
+    "owner": "lox",
+    "slug": "amp-autoresearch",
+    "title": "amp-autoresearch",
+    "one": "Autonomous optimization loop — edit, benchmark, keep or revert, repeat.",
+    "listing": "https://amp.aiaaii.com/items/lox/amp-autoresearch/",
+    "source": "https://github.com/lox/amp-autoresearch",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/lox/amp-autoresearch/)"
+  },
+  {
+    "host": "amp",
+    "owner": "pc-style",
+    "slug": "amp-directory",
+    "title": "amp-directory",
+    "one": "Searchable community catalog for experimental Amp CLI plugins.",
+    "listing": "https://amp.aiaaii.com/items/pc-style/amp-directory/",
+    "source": "https://github.com/pc-style/amp-directory",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/amp-directory/)"
+  },
+  {
+    "host": "amp",
+    "owner": "pc-style",
+    "slug": "amp-plugins",
+    "title": "amp-plugins",
+    "one": "Experimental Amp modes, tools, and context-filter plugins (catalog + sources).",
+    "listing": "https://amp.aiaaii.com/items/pc-style/amp-plugins/",
+    "source": "https://github.com/pc-style/amp-plugins",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/amp-plugins/)"
+  },
+  {
+    "host": "amp",
+    "owner": "pc-style",
+    "slug": "compressr",
+    "title": "compressr",
+    "one": "Lossy tool-result compression modes via Compresr API.",
+    "listing": "https://amp.aiaaii.com/items/pc-style/compressr/",
+    "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/compressr.ts",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/compressr/)"
+  },
+  {
+    "host": "amp",
+    "owner": "pc-style",
+    "slug": "fable-mode",
+    "title": "fable-mode",
+    "one": "Claude Fable 5 modes via Amp experimental agent APIs.",
+    "listing": "https://amp.aiaaii.com/items/pc-style/fable-mode/",
+    "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/fable-mode.ts",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/fable-mode/)"
+  },
+  {
+    "host": "amp",
+    "owner": "pc-style",
+    "slug": "gpt-56-luna-mode",
+    "title": "gpt-56-luna-mode",
+    "one": "Fast, low-cost GPT-5.6 Luna mode at high reasoning.",
+    "listing": "https://amp.aiaaii.com/items/pc-style/gpt-56-luna-mode/",
+    "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/gpt-56-luna-mode.ts",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/gpt-56-luna-mode/)"
+  },
+  {
+    "host": "amp",
+    "owner": "pc-style",
+    "slug": "gpt-56-sol-mode",
+    "title": "gpt-56-sol-mode",
+    "one": "GPT-5.6 Sol at high reasoning with Amp's full tool set.",
+    "listing": "https://amp.aiaaii.com/items/pc-style/gpt-56-sol-mode/",
+    "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/gpt-56-sol-mode.ts",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/gpt-56-sol-mode/)"
+  },
+  {
+    "host": "amp",
+    "owner": "pc-style",
+    "slug": "gpt-56-terra-mode",
+    "title": "gpt-56-terra-mode",
+    "one": "Balanced GPT-5.6 Terra at high reasoning with full tools.",
+    "listing": "https://amp.aiaaii.com/items/pc-style/gpt-56-terra-mode/",
+    "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/gpt-56-terra-mode.ts",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/gpt-56-terra-mode/)"
+  },
+  {
+    "host": "amp",
+    "owner": "pc-style",
+    "slug": "read-x-post",
+    "title": "read-x-post",
+    "one": "read_x_post tool — X/Twitter status URLs to Markdown.",
+    "listing": "https://amp.aiaaii.com/items/pc-style/read-x-post/",
+    "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/read-x-post.ts",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/read-x-post/)"
+  },
+  {
+    "host": "amp",
+    "owner": "pc-style",
+    "slug": "signal-filter",
+    "title": "signal-filter",
+    "one": "Experimental lossy filtering of long tool results via Amp GLM.",
+    "listing": "https://amp.aiaaii.com/items/pc-style/signal-filter/",
+    "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/signal-filter.ts",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/signal-filter/)"
+  },
+  {
+    "host": "amp",
+    "owner": "rsclarke",
+    "slug": "aws-control-plane-readonly",
+    "title": "aws-control-plane-readonly",
+    "one": "Guardrail plugin for AWS CLI — keep Amp on control-plane read-only calls.",
+    "listing": "https://amp.aiaaii.com/items/rsclarke/aws-control-plane-readonly/",
+    "source": "https://github.com/rsclarke/amp-plugins",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/rsclarke/aws-control-plane-readonly/)"
+  },
+  {
+    "host": "amp",
+    "owner": "udhaya10",
+    "slug": "amp-grok-mode",
+    "title": "amp-grok-mode",
+    "one": "Grok dial (thorough + rush) and optional global Firecrawl hook for Amp.",
+    "listing": "https://amp.aiaaii.com/items/udhaya10/amp-grok-mode/",
+    "source": "https://github.com/udhaya10/amp-grok-mode",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/udhaya10/amp-grok-mode/)"
+  },
+  {
+    "host": "amp",
+    "owner": "udhaya10",
+    "slug": "firecrawl-hook",
+    "title": "firecrawl-hook",
+    "one": "Global Amp hook replacing web tools with Firecrawl search/scrape.",
+    "listing": "https://amp.aiaaii.com/items/udhaya10/firecrawl-hook/",
+    "source": "https://github.com/udhaya10/amp-grok-mode",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/udhaya10/firecrawl-hook/)"
+  },
+  {
+    "host": "amp",
+    "owner": "udhaya10",
+    "slug": "grok-mode",
+    "title": "grok-mode",
+    "one": "Thorough Grok 4.5 agent mode for Amp (enhanced planning prompts).",
+    "listing": "https://amp.aiaaii.com/items/udhaya10/grok-mode/",
+    "source": "https://github.com/udhaya10/amp-grok-mode",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/udhaya10/grok-mode/)"
+  },
+  {
+    "host": "amp",
+    "owner": "udhaya10",
+    "slug": "grok-rush",
+    "title": "grok-rush",
+    "one": "Crisp low-latency Grok Build rush mode for Amp.",
+    "listing": "https://amp.aiaaii.com/items/udhaya10/grok-rush/",
+    "source": "https://github.com/udhaya10/amp-grok-mode",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/udhaya10/grok-rush/)"
+  },
+  {
+    "host": "amp",
+    "owner": "zaengerlein",
+    "slug": "amp-supermemory",
+    "title": "amp-supermemory",
+    "one": "Persistent memory for Amp via Supermemory — recall and capture across sessions.",
+    "listing": "https://amp.aiaaii.com/items/zaengerlein/amp-supermemory/",
+    "source": "https://github.com/zaengerlein/amp-supermemory",
+    "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/zaengerlein/amp-supermemory/)"
+  },
+  {
+    "host": "orca",
+    "owner": "dawidwetzler",
+    "slug": "orca-cobalt2-theme",
+    "title": "orca-cobalt2-theme",
+    "one": "Wes Bos鈥檚 Cobalt2: a deep blue app theme with yellow, orange and green code colors, plus matching terminal colors.",
+    "listing": "https://orca.aiaaii.com/items/dawidwetzler/orca-cobalt2-theme/",
+    "source": "https://github.com/DawidWetzler/orca-cobalt2-theme",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/dawidwetzler/orca-cobalt2-theme/)"
+  },
+  {
+    "host": "orca",
+    "owner": "j-dandelion",
+    "slug": "orca-marketplace",
+    "title": "orca-marketplace",
+    "one": "Personal Orca marketplace index (Jared) — add as a Marketplace source.",
+    "listing": "https://orca.aiaaii.com/items/j-dandelion/orca-marketplace/",
+    "source": "https://github.com/j-dandelion/orca-marketplace",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/j-dandelion/orca-marketplace/)"
+  },
+  {
+    "host": "orca",
+    "owner": "j-dandelion",
+    "slug": "orca-rose-pine-moon",
+    "title": "orca-rose-pine-moon",
+    "one": "Rose Pine Moon application theme — soft, dreamy dark tones.",
+    "listing": "https://orca.aiaaii.com/items/j-dandelion/orca-rose-pine-moon/",
+    "source": "https://github.com/j-dandelion/orca-rose-pine-moon",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/j-dandelion/orca-rose-pine-moon/)"
+  },
+  {
+    "host": "orca",
+    "owner": "kolebayev",
+    "slug": "orca-md-layout",
+    "title": "orca-md-layout",
+    "one": "Read Markdown files in a narrow column instead of the full editor width. To open it, pick Narrow in the view toggle at the top right of a...",
+    "listing": "https://orca.aiaaii.com/items/kolebayev/orca-md-layout/",
+    "source": "https://github.com/kolebayev/orca-md-layout",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/kolebayev/orca-md-layout/)"
+  },
+  {
+    "host": "orca",
+    "owner": "mbirepinte",
+    "slug": "Orca-asciidoc-viewer",
+    "title": "Orca-asciidoc-viewer",
+    "one": "Edit AsciiDoc source beside a live preview in Orca.",
+    "listing": "https://orca.aiaaii.com/items/mbirepinte/Orca-asciidoc-viewer/",
+    "source": "https://github.com/Mbirepinte/Orca-asciidoc-viewer",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/mbirepinte/Orca-asciidoc-viewer/)"
+  },
+  {
+    "host": "orca",
+    "owner": "senadaruc",
+    "slug": "orca-grazr",
+    "title": "orca-grazr",
+    "one": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
+    "listing": "https://orca.aiaaii.com/items/senadaruc/orca-grazr/",
+    "source": "https://github.com/senadaruc/orca-grazr",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/senadaruc/orca-grazr/)"
+  },
+  {
+    "host": "orca",
+    "owner": "smwbev",
+    "slug": "orca-plugins",
+    "title": "orca-plugins (s3dev)",
+    "one": "Community marketplace index — add under Marketplace sources, not Install plugin.",
+    "listing": "https://orca.aiaaii.com/items/smwbev/orca-plugins/",
+    "source": "https://github.com/smwbev/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/smwbev/orca-plugins/)"
+  },
+  {
+    "host": "orca",
+    "owner": "smwbev",
+    "slug": "orca-russian",
+    "title": "orca-russian",
+    "one": "Russian interface translation pack for Orca.",
+    "listing": "https://orca.aiaaii.com/items/smwbev/orca-russian/",
+    "source": "https://github.com/smwbev/orca-russian",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/smwbev/orca-russian/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-catppuccin-theme",
+    "title": "orca-catppuccin-theme",
+    "one": "Soothing pastel app themes for Orca: Mocha for dark mode and Latte for light mode, covering the interface and code colors.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-catppuccin-theme/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-catppuccin-theme/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-community-plugins",
+    "title": "orca-community-plugins",
+    "one": "Generated catalog of community Orca plugins (ids, releases, mirrors).",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-community-plugins/",
+    "source": "https://github.com/stablyai/orca-community-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-community-plugins/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-docx",
+    "title": "orca-docx",
+    "one": "Preview Word (.docx) documents as read-only pages in Orca, with headers, footers, images and zoom controls.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-docx/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-docx/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-dracula-theme",
+    "title": "orca-dracula-theme",
+    "one": "A dark application theme with Dracula鈥檚 vivid pink, purple, and green palette, plus matching terminal colors.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-dracula-theme/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-dracula-theme/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-dusk-ember",
+    "title": "orca-dusk-ember",
+    "one": "A violet dark theme and a warm light theme, with matching terminal colors.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-dusk-ember/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-dusk-ember/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-erlang",
+    "title": "orca-erlang",
+    "one": "Syntax highlighting, comment toggling and bracket matching for Erlang source, headers and escripts.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-erlang/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-erlang/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-excalidraw",
+    "title": "orca-excalidraw",
+    "one": "Draw and edit .excalidraw diagrams right in Orca&apos;s editor.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-excalidraw/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-excalidraw/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-github-light-theme",
+    "title": "orca-github-light-theme",
+    "one": "A crisp white application theme inspired by GitHub&apos;s default light palette, with matching terminal colors.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-github-light-theme/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-github-light-theme/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-gleam",
+    "title": "orca-gleam",
+    "one": "Syntax highlighting, comment toggling and bracket matching for Gleam files.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-gleam/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-gleam/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-godot",
+    "title": "orca-godot",
+    "one": "Syntax highlighting for GDScript, Godot resources and shaders.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-godot/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-godot/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-gruvbox-theme",
+    "title": "orca-gruvbox-theme",
+    "one": "Retro warm dark and light application themes, with matching Gruvbox terminal colors.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-gruvbox-theme/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-gruvbox-theme/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-haskell",
+    "title": "orca-haskell",
+    "one": "Syntax highlighting for Haskell, Literate Haskell and Cabal files.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-haskell/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-haskell/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-http",
+    "title": "orca-http",
+    "one": "Syntax highlighting for .http and .rest request files, including JSON bodies.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-http/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-http/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-jsp",
+    "title": "orca-jsp",
+    "one": "JavaServer Pages highlighting: scriptlets, expressions, directives, JSTL tags and EL inside HTML.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-jsp/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-jsp/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-julia",
+    "title": "orca-julia",
+    "one": "Full Julia highlighting for .jl files: macros, string interpolation, types and docstrings.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-julia/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-julia/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-latex",
+    "title": "orca-latex",
+    "one": "Syntax highlighting for LaTeX documents and packages.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-latex/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-latex/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-material-icons",
+    "title": "orca-material-icons",
+    "one": "Colorful Material file icons for about 470 file types and names, with a variant for light themes.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-material-icons/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-material-icons/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-matlab",
+    "title": "orca-matlab",
+    "one": "Syntax highlighting, comment toggling and bracket matching for MATLAB .m files.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-matlab/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-matlab/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-midnight-theme",
+    "title": "orca-midnight-theme",
+    "one": "Quiet dark application theme tuned for long coding sessions.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-midnight-theme/",
+    "source": "https://github.com/stablyai/orca-midnight-theme",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-midnight-theme/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-minimal-icons",
+    "title": "orca-minimal-icons",
+    "one": "Compact monochrome icon theme for common source files.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-minimal-icons/",
+    "source": "https://github.com/stablyai/orca-minimal-icons",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-minimal-icons/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-multipass-recipes",
+    "title": "orca-multipass-recipes",
+    "one": "Reviewed starter lifecycle for disposable Multipass workspaces.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-multipass-recipes/",
+    "source": "https://github.com/stablyai/orca-multipass-recipes",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-multipass-recipes/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-navigation-shortcuts",
+    "title": "orca-navigation-shortcuts",
+    "one": "Official keybindings / navigation shortcuts content pack.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-navigation-shortcuts/",
+    "source": "",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-navigation-shortcuts/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-nix",
+    "title": "orca-nix",
+    "one": "Syntax highlighting and editor configuration for Nix files.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-nix/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-nix/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-nord-theme",
+    "title": "orca-nord-theme",
+    "one": "Cool, low-contrast application theme inspired by arctic colors.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-nord-theme/",
+    "source": "https://github.com/stablyai/orca-nord-theme",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-nord-theme/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-ocaml",
+    "title": "orca-ocaml",
+    "one": "Syntax highlighting for OCaml implementations, interfaces and MLX files.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-ocaml/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-ocaml/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-oled-theme",
+    "title": "orca-oled-theme",
+    "one": "A true-black dark theme and terminal theme for OLED displays.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-oled-theme/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-oled-theme/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-plugins",
+    "title": "orca-plugins (official)",
+    "one": "Canonical marketplace index — thin catalog, important format.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-plugins/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-plugins/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-portuguese",
+    "title": "orca-portuguese",
+    "one": "Official Brazilian Portuguese (pt-BR) UI language pack for Orca.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-portuguese/",
+    "source": "https://github.com/stablyai/orca-portuguese",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-portuguese/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-prisma",
+    "title": "orca-prisma",
+    "one": "Prisma-aware highlighting for .prisma schema files: block keywords, model names, scalar types, attributes and built-in functions.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-prisma/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-prisma/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-qml",
+    "title": "orca-qml",
+    "one": "Syntax highlighting for Qt QML files and qmldir module files.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-qml/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-qml/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-runner",
+    "title": "orca-runner",
+    "one": "An offline endless runner game in Orca&apos;s sidebar, starring a little black-and-white orca.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-runner/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-runner/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-solarized-light-theme",
+    "title": "orca-solarized-light-theme",
+    "one": "A warm cream application theme based on Ethan Schoonover&apos;s Solarized Light palette, with matching terminal colors.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-solarized-light-theme/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-solarized-light-theme/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-solarized-terminal",
+    "title": "orca-solarized-terminal",
+    "one": "Solarized Dark terminal colors packaged for Orca.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-solarized-terminal/",
+    "source": "https://github.com/stablyai/orca-solarized-terminal",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-solarized-terminal/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-spreadsheet",
+    "title": "orca-spreadsheet",
+    "one": "View Excel and OpenDocument spreadsheets in Orca&apos;s editor: every sheet, formulas and formatted values, even for very large files.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-spreadsheet/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-spreadsheet/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-sqlite-browser",
+    "title": "orca-sqlite-browser",
+    "one": "Open SQLite databases in an editor tab: browse every table, view, index and trigger, and scroll or filter millions of rows. Read-only.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-sqlite-browser/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-sqlite-browser/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-systemd",
+    "title": "orca-systemd",
+    "one": "Syntax highlighting for systemd unit files and Podman Quadlet files.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-systemd/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-systemd/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-taxi",
+    "title": "orca-taxi",
+    "one": "Syntax highlighting for Taxi timesheet (.tks) files.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-taxi/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-taxi/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-vcl",
+    "title": "orca-vcl",
+    "one": "Syntax highlighting for Varnish and Fastly VCL files.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-vcl/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-vcl/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-vhdl",
+    "title": "orca-vhdl",
+    "one": "Syntax highlighting for VHDL design and testbench files.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-vhdl/",
+    "source": "https://github.com/stablyai/orca-plugins",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-vhdl/)"
+  },
+  {
+    "host": "orca",
+    "owner": "stablyai",
+    "slug": "orca-workflow-skills",
+    "title": "orca-workflow-skills",
+    "one": "Practical skills for planning, reviewing, and handing off repository work.",
+    "listing": "https://orca.aiaaii.com/items/stablyai/orca-workflow-skills/",
+    "source": "https://github.com/stablyai/orca-workflow-skills",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-workflow-skills/)"
+  },
+  {
+    "host": "orca",
+    "owner": "thailoc-dev",
+    "slug": "orca-pptx-viewer",
+    "title": "orca-pptx-viewer",
+    "one": "Preview PowerPoint presentations (.pptx, .ppsx, .potx and macro-enabled forms) in Orca, with shapes, pictures, tables, charts, slide navi...",
+    "listing": "https://orca.aiaaii.com/items/thailoc-dev/orca-pptx-viewer/",
+    "source": "https://github.com/thailoc-dev/orca-pptx-viewer",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/thailoc-dev/orca-pptx-viewer/)"
+  },
+  {
+    "host": "orca",
+    "owner": "upstash",
+    "slug": "box-orca-plugin",
+    "title": "box-orca-plugin",
+    "one": "Experimental. Run each Orca workspace in its own Upstash Box, reached over SSH.",
+    "listing": "https://orca.aiaaii.com/items/upstash/box-orca-plugin/",
+    "source": "https://github.com/upstash/box-orca-plugin",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/upstash/box-orca-plugin/)"
+  },
+  {
+    "host": "orca",
+    "owner": "vale-c",
+    "slug": "orca-catppuccin",
+    "title": "orca-catppuccin",
+    "one": "Soothing pastel app and terminal themes in all four Catppuccin flavors, with matching syntax colors.",
+    "listing": "https://orca.aiaaii.com/items/vale-c/orca-catppuccin/",
+    "source": "https://github.com/vale-c/orca-catppuccin",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/vale-c/orca-catppuccin/)"
+  },
+  {
+    "host": "orca",
+    "owner": "vale-c",
+    "slug": "orca-tokyonight",
+    "title": "orca-tokyonight",
+    "one": "App and terminal themes in all four Tokyo Night styles, Night, Storm, Moon and Day, with matching syntax colors.",
+    "listing": "https://orca.aiaaii.com/items/vale-c/orca-tokyonight/",
+    "source": "https://github.com/vale-c/orca-tokyonight",
+    "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/vale-c/orca-tokyonight/)"
+  },
+  {
+    "host": "droid",
+    "owner": "apify",
+    "slug": "apify",
+    "title": "apify",
+    "one": "Run Apify Actors for web scraping, extraction, and browser automation.",
+    "listing": "https://droid.aiaaii.com/items/apify/apify/",
+    "source": "https://github.com/apify/apify-factory-plugin",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/apify/apify/)"
+  },
+  {
+    "host": "droid",
+    "owner": "apify",
+    "slug": "apify-factory-plugin",
+    "title": "apify-factory-plugin",
+    "one": "Apify Actors marketplace for Droid — scrape, extract, and automate.",
+    "listing": "https://droid.aiaaii.com/items/apify/apify-factory-plugin/",
+    "source": "https://github.com/apify/apify-factory-plugin",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/apify/apify-factory-plugin/)"
+  },
+  {
+    "host": "droid",
+    "owner": "cursor",
+    "slug": "origin-apps",
+    "title": "origin-apps",
+    "one": "Skills for the Cursor Origin API — fetch the live spec, then wire credentials and webhooks correctly.",
+    "listing": "https://droid.aiaaii.com/items/cursor/origin-apps/",
+    "source": "https://github.com/cursor/plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/cursor/origin-apps/)"
+  },
+  {
+    "host": "droid",
+    "owner": "cursor",
+    "slug": "plugins",
+    "title": "plugins",
+    "one": "Cursor marketplace — Origin API skills and pstack agent workflows.",
+    "listing": "https://droid.aiaaii.com/items/cursor/plugins/",
+    "source": "https://github.com/cursor/plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/cursor/plugins/)"
+  },
+  {
+    "host": "droid",
+    "owner": "cursor",
+    "slug": "pstack",
+    "title": "pstack",
+    "one": "Go deep first — write less, higher-quality code with parallelizable agent workflows.",
+    "listing": "https://droid.aiaaii.com/items/cursor/pstack/",
+    "source": "https://github.com/cursor/plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/cursor/pstack/)"
+  },
+  {
+    "host": "droid",
+    "owner": "dodopayments",
+    "slug": "dodo-agent-plugin",
+    "title": "dodo-agent-plugin",
+    "one": "Dodo Payments marketplace — billing, subscriptions, and docs MCP.",
+    "listing": "https://droid.aiaaii.com/items/dodopayments/dodo-agent-plugin/",
+    "source": "https://github.com/dodopayments/dodo-agent-plugin",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/dodopayments/dodo-agent-plugin/)"
+  },
+  {
+    "host": "droid",
+    "owner": "dodopayments",
+    "slug": "dodopayments",
+    "title": "dodopayments",
+    "one": "Dodo Payments skills plus API and docs MCP for billing workflows.",
+    "listing": "https://droid.aiaaii.com/items/dodopayments/dodopayments/",
+    "source": "https://github.com/dodopayments/dodo-agent-plugin",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/dodopayments/dodopayments/)"
+  },
+  {
+    "host": "droid",
+    "owner": "Factory-AI",
+    "slug": "autoresearch",
+    "title": "autoresearch",
+    "one": "Autonomous experiment loop — try, measure, keep what works, repeat.",
+    "listing": "https://droid.aiaaii.com/items/Factory-AI/autoresearch/",
+    "source": "https://github.com/Factory-AI/factory-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/autoresearch/)"
+  },
+  {
+    "host": "droid",
+    "owner": "Factory-AI",
+    "slug": "code-review",
+    "title": "code-review",
+    "one": "PR lifecycle skills — create, follow up, and get merge-ready.",
+    "listing": "https://droid.aiaaii.com/items/Factory-AI/code-review/",
+    "source": "https://github.com/Factory-AI/factory-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/code-review/)"
+  },
+  {
+    "host": "droid",
+    "owner": "Factory-AI",
+    "slug": "core",
+    "title": "core",
+    "one": "Core skills for essential functionalities and integrations.",
+    "listing": "https://droid.aiaaii.com/items/Factory-AI/core/",
+    "source": "https://github.com/Factory-AI/factory-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/core/)"
+  },
+  {
+    "host": "droid",
+    "owner": "Factory-AI",
+    "slug": "cursed-plugins",
+    "title": "cursed-plugins",
+    "one": "Official fun marketplace — roast your codebase.",
+    "listing": "https://droid.aiaaii.com/items/Factory-AI/cursed-plugins/",
+    "source": "https://github.com/Factory-AI/cursed-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/cursed-plugins/)"
+  },
+  {
+    "host": "droid",
+    "owner": "Factory-AI",
+    "slug": "debugging",
+    "title": "debugging",
+    "one": "HTTP interception, traffic capture, and wire-level debugging.",
+    "listing": "https://droid.aiaaii.com/items/Factory-AI/debugging/",
+    "source": "https://github.com/Factory-AI/factory-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/debugging/)"
+  },
+  {
+    "host": "droid",
+    "owner": "Factory-AI",
+    "slug": "droid-control",
+    "title": "droid-control",
+    "one": "Terminal, browser, and computer automation for demos, QA, and verification.",
+    "listing": "https://droid.aiaaii.com/items/Factory-AI/droid-control/",
+    "source": "https://github.com/Factory-AI/factory-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/droid-control/)"
+  },
+  {
+    "host": "droid",
+    "owner": "Factory-AI",
+    "slug": "droid-evolved",
+    "title": "droid-evolved",
+    "one": "Session navigation, writing, skill creation, design, and browser automation.",
+    "listing": "https://droid.aiaaii.com/items/Factory-AI/droid-evolved/",
+    "source": "https://github.com/Factory-AI/factory-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/droid-evolved/)"
+  },
+  {
+    "host": "droid",
+    "owner": "Factory-AI",
+    "slug": "factory-plugins",
+    "title": "factory-plugins",
+    "one": "Official Factory Droid plugins marketplace.",
+    "listing": "https://droid.aiaaii.com/items/Factory-AI/factory-plugins/",
+    "source": "https://github.com/Factory-AI/factory-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/factory-plugins/)"
+  },
+  {
+    "host": "droid",
+    "owner": "Factory-AI",
+    "slug": "security-engineer",
+    "title": "security-engineer",
+    "one": "Security review, threat modeling, and vulnerability validation skills.",
+    "listing": "https://droid.aiaaii.com/items/Factory-AI/security-engineer/",
+    "source": "https://github.com/Factory-AI/factory-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/security-engineer/)"
+  },
+  {
+    "host": "droid",
+    "owner": "Factory-AI",
+    "slug": "typescript",
+    "title": "typescript",
+    "one": "Opinionated TypeScript and React patterns and cleanup skills.",
+    "listing": "https://droid.aiaaii.com/items/Factory-AI/typescript/",
+    "source": "https://github.com/Factory-AI/factory-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/typescript/)"
+  },
+  {
+    "host": "droid",
+    "owner": "LambdaTest",
+    "slug": "kane-cli",
+    "title": "kane-cli",
+    "one": "Natural-language browser and mobile flow checks with real Chrome evidence.",
+    "listing": "https://droid.aiaaii.com/items/LambdaTest/kane-cli/",
+    "source": "https://github.com/LambdaTest/kane-cli",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/kane-cli/)"
+  },
+  {
+    "host": "droid",
+    "owner": "LambdaTest",
+    "slug": "mcp-server-guide",
+    "title": "mcp-server-guide",
+    "one": "TestMu AI marketplace — browser testing, agent assurance, and cloud MCP.",
+    "listing": "https://droid.aiaaii.com/items/LambdaTest/mcp-server-guide/",
+    "source": "https://github.com/LambdaTest/mcp-server-guide",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/mcp-server-guide/)"
+  },
+  {
+    "host": "droid",
+    "owner": "LambdaTest",
+    "slug": "rook",
+    "title": "rook",
+    "one": "Agent assurance — eval workflows, tools, and actions before you ship.",
+    "listing": "https://droid.aiaaii.com/items/LambdaTest/rook/",
+    "source": "https://github.com/LambdaTest/rook-claude-plugin",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/rook/)"
+  },
+  {
+    "host": "droid",
+    "owner": "LambdaTest",
+    "slug": "testmu-ai",
+    "title": "testmu-ai",
+    "one": "Run, debug, and triage tests on the TestMu AI cloud via hosted MCP.",
+    "listing": "https://droid.aiaaii.com/items/LambdaTest/testmu-ai/",
+    "source": "https://github.com/LambdaTest/mcp-server-guide",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/testmu-ai/)"
+  },
+  {
+    "host": "droid",
+    "owner": "loootai",
+    "slug": "looot",
+    "title": "looot",
+    "one": "Search and run pay-per-call data APIs for SEO, enrichment, and social.",
+    "listing": "https://droid.aiaaii.com/items/loootai/looot/",
+    "source": "https://github.com/loootai/looot-plugin",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/loootai/looot/)"
+  },
+  {
+    "host": "droid",
+    "owner": "loootai",
+    "slug": "looot-plugin",
+    "title": "looot-plugin",
+    "one": "looot marketplace — pay-per-call data APIs for SEO and enrichment.",
+    "listing": "https://droid.aiaaii.com/items/loootai/looot-plugin/",
+    "source": "https://github.com/loootai/looot-plugin",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/loootai/looot-plugin/)"
+  },
+  {
+    "host": "droid",
+    "owner": "rohitg00",
+    "slug": "agentmemory",
+    "title": "agentmemory",
+    "one": "AgentMemory marketplace — persistent memory for coding agents.",
+    "listing": "https://droid.aiaaii.com/items/rohitg00/agentmemory/",
+    "source": "https://github.com/rohitg00/agentmemory",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/rohitg00/agentmemory/)"
+  },
+  {
+    "host": "droid",
+    "owner": "rohitg00",
+    "slug": "agentmemory-plugin",
+    "title": "agentmemory",
+    "one": "Persistent memory — capture, compress, and reinject coding-agent context.",
+    "listing": "https://droid.aiaaii.com/items/rohitg00/agentmemory-plugin/",
+    "source": "https://github.com/rohitg00/agentmemory",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/rohitg00/agentmemory-plugin/)"
+  },
+  {
+    "host": "droid",
+    "owner": "salemalem",
+    "slug": "npmscan",
+    "title": "npmscan",
+    "one": "Detect malicious, vulnerable, or typosquatted npm packages via NPMScan MCP.",
+    "listing": "https://droid.aiaaii.com/items/salemalem/npmscan/",
+    "source": "https://github.com/salemalem/npmscan-mcp-plugin",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/salemalem/npmscan/)"
+  },
+  {
+    "host": "droid",
+    "owner": "salemalem",
+    "slug": "npmscan-mcp-plugin",
+    "title": "npmscan-mcp-plugin",
+    "one": "NPMScan marketplace — npm supply-chain and vulnerability lookups.",
+    "listing": "https://droid.aiaaii.com/items/salemalem/npmscan-mcp-plugin/",
+    "source": "https://github.com/salemalem/npmscan-mcp-plugin",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/salemalem/npmscan-mcp-plugin/)"
+  },
+  {
+    "host": "droid",
+    "owner": "Shaisolaris",
+    "slug": "solaris-dev-shop",
+    "title": "solaris-dev-shop",
+    "one": "Solaris Dev Shop specialist workflows for multi-host agent setups.",
+    "listing": "https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop/",
+    "source": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop/)"
+  },
+  {
+    "host": "droid",
+    "owner": "Shaisolaris",
+    "slug": "solaris-dev-shop-plugins",
+    "title": "solaris-dev-shop-plugins",
+    "one": "Solaris Dev Shop marketplace — pinned specialist workflow plugins.",
+    "listing": "https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop-plugins/",
+    "source": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop-plugins/)"
+  },
+  {
+    "host": "droid",
+    "owner": "SonarSource",
+    "slug": "sonarqube",
+    "title": "sonarqube",
+    "one": "Enforce SonarQube quality gates, secrets scanning, and issue checks in the agent loop.",
+    "listing": "https://droid.aiaaii.com/items/SonarSource/sonarqube/",
+    "source": "https://github.com/SonarSource/sonarqube-agent-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/SonarSource/sonarqube/)"
+  },
+  {
+    "host": "droid",
+    "owner": "SonarSource",
+    "slug": "sonarqube-agent-plugins",
+    "title": "sonarqube-agent-plugins",
+    "one": "Sonar AI agent plugins marketplace — code quality and security gates.",
+    "listing": "https://droid.aiaaii.com/items/SonarSource/sonarqube-agent-plugins/",
+    "source": "https://github.com/SonarSource/sonarqube-agent-plugins",
+    "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/SonarSource/sonarqube-agent-plugins/)"
+  }
+]

@@ -2,41 +2,48 @@
 
 **Any Agent Install Index** — community directories for niche AI agent hosts.
 
-Official products ship the agent. We ship the **install index**: browse, verify, and install community plugins for hosts that mainstream catalogs overlook.
+Official products ship the agent. We ship the **install index**: browse marketplace sources, copy real install commands, and discover plugins mainstream catalogs overlook.
 
-🌐 [aiaaii.com](https://aiaaii.com)
+🌐 **[aiaaii.com](https://aiaaii.com)** · Amp · Orca · Droid
 
-## What we do
+## Install commands we index
 
-- Index community plugins, marketplace sources, and install paths for **small / emerging AI hosts**
-- Keep each host in its own market (clear listings, guides, and install commands)
-- Stay explicitly **non-affiliated** — we are not the vendor, not support, not an official store
+| Host | Add / discover | Install |
+| --- | --- | --- |
+| **Amp** | `amp plugins add <source>` | Amp plugin flows on [amp.aiaaii.com](https://amp.aiaaii.com) |
+| **Orca** | Add marketplace source / pin | [orca.aiaaii.com](https://orca.aiaaii.com) |
+| **Droid** | `droid plugin marketplace add <git-url>` | `droid plugin install <plugin>@<marketplace> --scope user` → [droid.aiaaii.com](https://droid.aiaaii.com) |
 
 ## Markets
 
-| Market | Focus | Site |
-| --- | --- | --- |
-| **Amp Plugin Market** | Amp plugins & install flows · **31** listings | [amp.aiaaii.com](https://amp.aiaaii.com) |
-| **Orca Plugin Market** | Orca plugins & marketplace sources · **52** listings | [orca.aiaaii.com](https://orca.aiaaii.com) |
-| **Droid Plugin Market** | Factory Droid plugins & marketplaces · **24** listings | [droid.aiaaii.com](https://droid.aiaaii.com) |
+| Market | Listings | Site |
+| --- | ---: | --- |
+| **Amp Plugin Market** | 31 | [amp.aiaaii.com](https://amp.aiaaii.com) |
+| **Orca Plugin Market** | 52 | [orca.aiaaii.com](https://orca.aiaaii.com) |
+| **Droid Plugin Market** | 31 | [droid.aiaaii.com](https://droid.aiaaii.com) |
 
-More host markets open when a niche has real install demand and a clear community gap.
+Each host has its own subdomain: directory · categories · detail pages · guides · submit. Detail pages are **independent rewrites** (not mirrored READMEs).
 
 ## For plugin authors
 
-List a public plugin with a real install path (CLI, copy path, or marketplace source). Open a **Listing request** issue — we review and publish a detail page. After acceptance, each market offers a **Listed on …** badge for your README.
+1. Public Git source + a clear install path (CLI, marketplace manifest, or documented pin).
+2. Open a **[Listing request](https://github.com/leexiangf/any-ai/issues/new?template=listing-request.yml)**.
+3. After listing, add a README badge (optional backlink):
 
-- [Open a listing request](https://github.com/leexiangf/any-ai/issues/new?template=listing-request.yml)
-- [Submit via Any AI](https://aiaaii.com/submit/) · [Amp](https://amp.aiaaii.com/submit/) · [Orca](https://orca.aiaaii.com/submit/) · [Droid](https://droid.aiaaii.com/submit/)
+```md
+[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/{owner}/{slug}/)
+```
+
+Amp / Orca badges: [amp submit](https://amp.aiaaii.com/submit/) · [orca submit](https://orca.aiaaii.com/submit/) · [droid submit](https://droid.aiaaii.com/submit/) · [mall submit](https://aiaaii.com/submit/)
 
 ## Brand
 
 | | |
 | --- | --- |
 | Product | **Any AI** |
-| Domain | **aiaaii.com** |
+| Domain | **aiaaii.com** (AI-AAII) |
 | AAII | **Any Agent Install Index** |
 
 ## Disclaimer
 
-Community-maintained. **Not affiliated** with Amp, Orca, Factory, Stably, Sourcegraph, or any listed host vendor. Prefer upstream docs for authoritative APIs; our detail pages are independent rewrites for discovery and install guidance.
+Community-maintained. **Not affiliated** with Amp, Orca, Factory, Stably, Sourcegraph, Cursor, or any listed host vendor. Prefer upstream docs for authoritative APIs.

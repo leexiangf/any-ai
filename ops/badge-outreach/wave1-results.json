@@ -1,0 +1,62 @@
+[
+  {
+    "repo": "lox/amp-autoresearch",
+    "status": "sent",
+    "url": "https://github.com/lox/amp-autoresearch/issues/4"
+  },
+  {
+    "repo": "apify/apify-factory-plugin",
+    "status": "sent",
+    "url": "https://github.com/apify/apify-factory-plugin/issues/18"
+  },
+  {
+    "repo": "cursor/plugins",
+    "status": "sent",
+    "url": "https://github.com/cursor/plugins/issues/1156"
+  },
+  {
+    "repo": "dodopayments/dodo-agent-plugin",
+    "status": "sent",
+    "url": "https://github.com/dodopayments/dodo-agent-plugin/issues/27"
+  },
+  {
+    "repo": "LambdaTest/kane-cli",
+    "status": "skipped",
+    "note": "bundled under mcp-server-guide"
+  },
+  {
+    "repo": "LambdaTest/mcp-server-guide",
+    "status": "sent",
+    "url": "https://github.com/LambdaTest/mcp-server-guide/issues/5"
+  },
+  {
+    "repo": "LambdaTest/rook-claude-plugin",
+    "status": "skipped",
+    "note": "bundled under mcp-server-guide"
+  },
+  {
+    "repo": "loootai/looot-plugin",
+    "status": "sent",
+    "url": "https://github.com/loootai/looot-plugin/issues/2"
+  },
+  {
+    "repo": "rohitg00/agentmemory",
+    "status": "sent",
+    "url": "https://github.com/rohitg00/agentmemory/issues/1653"
+  },
+  {
+    "repo": "salemalem/npmscan-mcp-plugin",
+    "status": "sent",
+    "url": "https://github.com/salemalem/npmscan-mcp-plugin/issues/2"
+  },
+  {
+    "repo": "Shaisolaris/solaris-dev-shop-plugins",
+    "status": "sent",
+    "url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues/20"
+  },
+  {
+    "repo": "SonarSource/sonarqube-agent-plugins",
+    "status": "failed",
+    "note": "the 'SonarSource/sonarqube-agent-plugins' repository has disabled issues"
+  }
+]

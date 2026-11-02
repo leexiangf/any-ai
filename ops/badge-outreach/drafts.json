@@ -1,0 +1,1213 @@
+[
+  {
+    "wave": 1,
+    "issueUrl": "https://github.com/lox/amp-autoresearch/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "lox",
+      "slug": "amp-autoresearch",
+      "title": "amp-autoresearch",
+      "one": "Autonomous optimization loop — edit, benchmark, keep or revert, repeat.",
+      "listing": "https://amp.aiaaii.com/items/lox/amp-autoresearch/",
+      "source": "https://github.com/lox/amp-autoresearch",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/lox/amp-autoresearch/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **amp-autoresearch** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/lox/amp-autoresearch/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/lox/amp-autoresearch/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed amp-autoresearch on amp.aiaaii.com — optional README badge\n\nHi lox team,\n\nWe published an independent community listing for **amp-autoresearch** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/lox/amp-autoresearch/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/lox/amp-autoresearch/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 1,
+    "issueUrl": "https://github.com/apify/apify-factory-plugin/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "apify",
+      "slug": "apify-factory-plugin",
+      "title": "apify-factory-plugin",
+      "one": "Apify Actors marketplace for Droid — scrape, extract, and automate.",
+      "listing": "https://droid.aiaaii.com/items/apify/apify-factory-plugin/",
+      "source": "https://github.com/apify/apify-factory-plugin",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/apify/apify-factory-plugin/)"
+    },
+    "related": [
+      {
+        "slug": "apify",
+        "listing": "https://droid.aiaaii.com/items/apify/apify/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **apify-factory-plugin** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/apify/apify-factory-plugin/\n\nAlso indexed on this market:\n- apify: https://droid.aiaaii.com/items/apify/apify/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/apify/apify-factory-plugin/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed apify-factory-plugin on droid.aiaaii.com — optional README badge\n\nHi apify team,\n\nWe published an independent community listing for **apify-factory-plugin** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/apify/apify-factory-plugin/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/apify/apify-factory-plugin/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 1,
+    "issueUrl": "https://github.com/cursor/plugins/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "cursor",
+      "slug": "plugins",
+      "title": "plugins",
+      "one": "Cursor marketplace — Origin API skills and pstack agent workflows.",
+      "listing": "https://droid.aiaaii.com/items/cursor/plugins/",
+      "source": "https://github.com/cursor/plugins",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/cursor/plugins/)"
+    },
+    "related": [
+      {
+        "slug": "origin-apps",
+        "listing": "https://droid.aiaaii.com/items/cursor/origin-apps/"
+      },
+      {
+        "slug": "pstack",
+        "listing": "https://droid.aiaaii.com/items/cursor/pstack/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **plugins** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/cursor/plugins/\n\nAlso indexed on this market:\n- origin-apps: https://droid.aiaaii.com/items/cursor/origin-apps/\n- pstack: https://droid.aiaaii.com/items/cursor/pstack/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/cursor/plugins/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed plugins on droid.aiaaii.com — optional README badge\n\nHi cursor team,\n\nWe published an independent community listing for **plugins** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/cursor/plugins/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/cursor/plugins/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 1,
+    "issueUrl": "https://github.com/dodopayments/dodo-agent-plugin/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "dodopayments",
+      "slug": "dodo-agent-plugin",
+      "title": "dodo-agent-plugin",
+      "one": "Dodo Payments marketplace — billing, subscriptions, and docs MCP.",
+      "listing": "https://droid.aiaaii.com/items/dodopayments/dodo-agent-plugin/",
+      "source": "https://github.com/dodopayments/dodo-agent-plugin",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/dodopayments/dodo-agent-plugin/)"
+    },
+    "related": [
+      {
+        "slug": "dodopayments",
+        "listing": "https://droid.aiaaii.com/items/dodopayments/dodopayments/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **dodo-agent-plugin** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/dodopayments/dodo-agent-plugin/\n\nAlso indexed on this market:\n- dodopayments: https://droid.aiaaii.com/items/dodopayments/dodopayments/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/dodopayments/dodo-agent-plugin/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed dodo-agent-plugin on droid.aiaaii.com — optional README badge\n\nHi dodopayments team,\n\nWe published an independent community listing for **dodo-agent-plugin** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/dodopayments/dodo-agent-plugin/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/dodopayments/dodo-agent-plugin/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 1,
+    "issueUrl": "https://github.com/LambdaTest/kane-cli/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "LambdaTest",
+      "slug": "kane-cli",
+      "title": "kane-cli",
+      "one": "Natural-language browser and mobile flow checks with real Chrome evidence.",
+      "listing": "https://droid.aiaaii.com/items/LambdaTest/kane-cli/",
+      "source": "https://github.com/LambdaTest/kane-cli",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/kane-cli/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **kane-cli** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/LambdaTest/kane-cli/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/kane-cli/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed kane-cli on droid.aiaaii.com — optional README badge\n\nHi LambdaTest team,\n\nWe published an independent community listing for **kane-cli** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/LambdaTest/kane-cli/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/kane-cli/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 1,
+    "issueUrl": "https://github.com/LambdaTest/mcp-server-guide/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "LambdaTest",
+      "slug": "mcp-server-guide",
+      "title": "mcp-server-guide",
+      "one": "TestMu AI marketplace — browser testing, agent assurance, and cloud MCP.",
+      "listing": "https://droid.aiaaii.com/items/LambdaTest/mcp-server-guide/",
+      "source": "https://github.com/LambdaTest/mcp-server-guide",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/mcp-server-guide/)"
+    },
+    "related": [
+      {
+        "slug": "testmu-ai",
+        "listing": "https://droid.aiaaii.com/items/LambdaTest/testmu-ai/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **mcp-server-guide** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/LambdaTest/mcp-server-guide/\n\nAlso indexed on this market:\n- testmu-ai: https://droid.aiaaii.com/items/LambdaTest/testmu-ai/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/mcp-server-guide/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed mcp-server-guide on droid.aiaaii.com — optional README badge\n\nHi LambdaTest team,\n\nWe published an independent community listing for **mcp-server-guide** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/LambdaTest/mcp-server-guide/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/mcp-server-guide/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 1,
+    "issueUrl": "https://github.com/LambdaTest/rook-claude-plugin/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "LambdaTest",
+      "slug": "rook",
+      "title": "rook",
+      "one": "Agent assurance — eval workflows, tools, and actions before you ship.",
+      "listing": "https://droid.aiaaii.com/items/LambdaTest/rook/",
+      "source": "https://github.com/LambdaTest/rook-claude-plugin",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/rook/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **rook** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/LambdaTest/rook/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/rook/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed rook on droid.aiaaii.com — optional README badge\n\nHi LambdaTest team,\n\nWe published an independent community listing for **rook** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/LambdaTest/rook/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/LambdaTest/rook/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 1,
+    "issueUrl": "https://github.com/loootai/looot-plugin/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "loootai",
+      "slug": "looot-plugin",
+      "title": "looot-plugin",
+      "one": "looot marketplace — pay-per-call data APIs for SEO and enrichment.",
+      "listing": "https://droid.aiaaii.com/items/loootai/looot-plugin/",
+      "source": "https://github.com/loootai/looot-plugin",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/loootai/looot-plugin/)"
+    },
+    "related": [
+      {
+        "slug": "looot",
+        "listing": "https://droid.aiaaii.com/items/loootai/looot/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **looot-plugin** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/loootai/looot-plugin/\n\nAlso indexed on this market:\n- looot: https://droid.aiaaii.com/items/loootai/looot/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/loootai/looot-plugin/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed looot-plugin on droid.aiaaii.com — optional README badge\n\nHi loootai team,\n\nWe published an independent community listing for **looot-plugin** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/loootai/looot-plugin/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/loootai/looot-plugin/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 1,
+    "issueUrl": "https://github.com/rohitg00/agentmemory/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "rohitg00",
+      "slug": "agentmemory",
+      "title": "agentmemory",
+      "one": "AgentMemory marketplace — persistent memory for coding agents.",
+      "listing": "https://droid.aiaaii.com/items/rohitg00/agentmemory/",
+      "source": "https://github.com/rohitg00/agentmemory",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/rohitg00/agentmemory/)"
+    },
+    "related": [
+      {
+        "slug": "agentmemory-plugin",
+        "listing": "https://droid.aiaaii.com/items/rohitg00/agentmemory-plugin/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **agentmemory** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/rohitg00/agentmemory/\n\nAlso indexed on this market:\n- agentmemory: https://droid.aiaaii.com/items/rohitg00/agentmemory-plugin/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/rohitg00/agentmemory/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed agentmemory on droid.aiaaii.com — optional README badge\n\nHi rohitg00 team,\n\nWe published an independent community listing for **agentmemory** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/rohitg00/agentmemory/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/rohitg00/agentmemory/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 1,
+    "issueUrl": "https://github.com/salemalem/npmscan-mcp-plugin/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "salemalem",
+      "slug": "npmscan-mcp-plugin",
+      "title": "npmscan-mcp-plugin",
+      "one": "NPMScan marketplace — npm supply-chain and vulnerability lookups.",
+      "listing": "https://droid.aiaaii.com/items/salemalem/npmscan-mcp-plugin/",
+      "source": "https://github.com/salemalem/npmscan-mcp-plugin",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/salemalem/npmscan-mcp-plugin/)"
+    },
+    "related": [
+      {
+        "slug": "npmscan",
+        "listing": "https://droid.aiaaii.com/items/salemalem/npmscan/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **npmscan-mcp-plugin** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/salemalem/npmscan-mcp-plugin/\n\nAlso indexed on this market:\n- npmscan: https://droid.aiaaii.com/items/salemalem/npmscan/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/salemalem/npmscan-mcp-plugin/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed npmscan-mcp-plugin on droid.aiaaii.com — optional README badge\n\nHi salemalem team,\n\nWe published an independent community listing for **npmscan-mcp-plugin** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/salemalem/npmscan-mcp-plugin/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/salemalem/npmscan-mcp-plugin/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 1,
+    "issueUrl": "https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "Shaisolaris",
+      "slug": "solaris-dev-shop-plugins",
+      "title": "solaris-dev-shop-plugins",
+      "one": "Solaris Dev Shop marketplace — pinned specialist workflow plugins.",
+      "listing": "https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop-plugins/",
+      "source": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop-plugins/)"
+    },
+    "related": [
+      {
+        "slug": "solaris-dev-shop",
+        "listing": "https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **solaris-dev-shop-plugins** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop-plugins/\n\nAlso indexed on this market:\n- solaris-dev-shop: https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop-plugins/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed solaris-dev-shop-plugins on droid.aiaaii.com — optional README badge\n\nHi Shaisolaris team,\n\nWe published an independent community listing for **solaris-dev-shop-plugins** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop-plugins/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Shaisolaris/solaris-dev-shop-plugins/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 1,
+    "issueUrl": "https://github.com/SonarSource/sonarqube-agent-plugins/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "SonarSource",
+      "slug": "sonarqube-agent-plugins",
+      "title": "sonarqube-agent-plugins",
+      "one": "Sonar AI agent plugins marketplace — code quality and security gates.",
+      "listing": "https://droid.aiaaii.com/items/SonarSource/sonarqube-agent-plugins/",
+      "source": "https://github.com/SonarSource/sonarqube-agent-plugins",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/SonarSource/sonarqube-agent-plugins/)"
+    },
+    "related": [
+      {
+        "slug": "sonarqube",
+        "listing": "https://droid.aiaaii.com/items/SonarSource/sonarqube/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **sonarqube-agent-plugins** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/SonarSource/sonarqube-agent-plugins/\n\nAlso indexed on this market:\n- sonarqube: https://droid.aiaaii.com/items/SonarSource/sonarqube/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/SonarSource/sonarqube-agent-plugins/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed sonarqube-agent-plugins on droid.aiaaii.com — optional README badge\n\nHi SonarSource team,\n\nWe published an independent community listing for **sonarqube-agent-plugins** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/SonarSource/sonarqube-agent-plugins/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/SonarSource/sonarqube-agent-plugins/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/ampcode/amp-contrib/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "ampcode",
+      "slug": "amp-contrib",
+      "title": "amp-contrib",
+      "one": "Curated skills, tools, MCPs, and commands around the Amp ecosystem.",
+      "listing": "https://amp.aiaaii.com/items/ampcode/amp-contrib/",
+      "source": "https://github.com/ampcode/amp-contrib",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/amp-contrib/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **amp-contrib** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/ampcode/amp-contrib/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/amp-contrib/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed amp-contrib on amp.aiaaii.com — optional README badge\n\nHi ampcode team,\n\nWe published an independent community listing for **amp-contrib** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/ampcode/amp-contrib/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/amp-contrib/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/ampcode/amp-contrib-2/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "ampcode",
+      "slug": "amp-contrib-2",
+      "title": "amp-contrib-2",
+      "one": "Unofficial slash commands and toolbox tools extending Amp.",
+      "listing": "https://amp.aiaaii.com/items/ampcode/amp-contrib-2/",
+      "source": "https://github.com/ampcode/amp-contrib-2",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/amp-contrib-2/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **amp-contrib-2** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/ampcode/amp-contrib-2/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/amp-contrib-2/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed amp-contrib-2 on amp.aiaaii.com — optional README badge\n\nHi ampcode team,\n\nWe published an independent community listing for **amp-contrib-2** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/ampcode/amp-contrib-2/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/amp-contrib-2/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/ampcode/official-plugins/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "ampcode",
+      "slug": "official-plugins",
+      "title": "official-plugins",
+      "one": "Official Amp agent-mode plugins — reference and install source.",
+      "listing": "https://amp.aiaaii.com/items/ampcode/official-plugins/",
+      "source": "https://github.com/ampcode/official-plugins",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/official-plugins/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **official-plugins** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/ampcode/official-plugins/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/official-plugins/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed official-plugins on amp.aiaaii.com — optional README badge\n\nHi ampcode team,\n\nWe published an independent community listing for **official-plugins** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/ampcode/official-plugins/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/ampcode/official-plugins/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/daftAI2026/daftai-amp-plugins/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "daftAI2026",
+      "slug": "daftai-amp-plugins",
+      "title": "daftai-amp-plugins",
+      "one": "Shared Amp CLI plugins from daftAI — binary Amp only.",
+      "listing": "https://amp.aiaaii.com/items/daftAI2026/daftai-amp-plugins/",
+      "source": "https://github.com/daftAI2026/daftai-amp-plugins",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/daftAI2026/daftai-amp-plugins/)"
+    },
+    "related": [
+      {
+        "slug": "usage-monitor",
+        "listing": "https://amp.aiaaii.com/items/daftAI2026/usage-monitor/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **daftai-amp-plugins** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/daftAI2026/daftai-amp-plugins/\n\nAlso indexed on this market:\n- usage-monitor: https://amp.aiaaii.com/items/daftAI2026/usage-monitor/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/daftAI2026/daftai-amp-plugins/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed daftai-amp-plugins on amp.aiaaii.com — optional README badge\n\nHi daftAI2026 team,\n\nWe published an independent community listing for **daftai-amp-plugins** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/daftAI2026/daftai-amp-plugins/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/daftAI2026/daftai-amp-plugins/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/etonwan/amp-runner-manager/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "etonwan",
+      "slug": "amp-runner-manager",
+      "title": "amp-runner-manager",
+      "one": "Register Git projects and manage temporary project-scoped Amp runners.",
+      "listing": "https://amp.aiaaii.com/items/etonwan/amp-runner-manager/",
+      "source": "https://github.com/etonwan/amp-runner-manager",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/etonwan/amp-runner-manager/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **amp-runner-manager** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/etonwan/amp-runner-manager/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/etonwan/amp-runner-manager/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed amp-runner-manager on amp.aiaaii.com — optional README badge\n\nHi etonwan team,\n\nWe published an independent community listing for **amp-runner-manager** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/etonwan/amp-runner-manager/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/etonwan/amp-runner-manager/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/jim-ampcode/handoff-plugin/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "jim-ampcode",
+      "slug": "handoff-plugin",
+      "title": "handoff-plugin",
+      "one": "Command to hand off a long thread into a new Amp thread with a short goal.",
+      "listing": "https://amp.aiaaii.com/items/jim-ampcode/handoff-plugin/",
+      "source": "https://github.com/jim-ampcode/handoff-plugin",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/jim-ampcode/handoff-plugin/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **handoff-plugin** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/jim-ampcode/handoff-plugin/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/jim-ampcode/handoff-plugin/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed handoff-plugin on amp.aiaaii.com — optional README badge\n\nHi jim-ampcode team,\n\nWe published an independent community listing for **handoff-plugin** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/jim-ampcode/handoff-plugin/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/jim-ampcode/handoff-plugin/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/lATAl/amp-disable-git-attribution/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "lATAl",
+      "slug": "amp-disable-git-attribution",
+      "title": "amp-disable-git-attribution",
+      "one": "Turn off Amp thread and co-author lines in Git commits.",
+      "listing": "https://amp.aiaaii.com/items/lATAl/amp-disable-git-attribution/",
+      "source": "https://github.com/lATAl/amp-disable-git-attribution",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/lATAl/amp-disable-git-attribution/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **amp-disable-git-attribution** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/lATAl/amp-disable-git-attribution/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/lATAl/amp-disable-git-attribution/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed amp-disable-git-attribution on amp.aiaaii.com — optional README badge\n\nHi lATAl team,\n\nWe published an independent community listing for **amp-disable-git-attribution** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/lATAl/amp-disable-git-attribution/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/lATAl/amp-disable-git-attribution/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/loredotlink/lore-plugin/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "loredotlink",
+      "slug": "lore-plugin",
+      "title": "lore-plugin",
+      "one": "Share Amp threads to Lore; login and thread tools for team handoff.",
+      "listing": "https://amp.aiaaii.com/items/loredotlink/lore-plugin/",
+      "source": "https://github.com/loredotlink/lore-plugin",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/loredotlink/lore-plugin/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **lore-plugin** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/loredotlink/lore-plugin/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/loredotlink/lore-plugin/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed lore-plugin on amp.aiaaii.com — optional README badge\n\nHi loredotlink team,\n\nWe published an independent community listing for **lore-plugin** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/loredotlink/lore-plugin/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/loredotlink/lore-plugin/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/pc-style/amp-directory/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "pc-style",
+      "slug": "amp-directory",
+      "title": "amp-directory",
+      "one": "Searchable community catalog for experimental Amp CLI plugins.",
+      "listing": "https://amp.aiaaii.com/items/pc-style/amp-directory/",
+      "source": "https://github.com/pc-style/amp-directory",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/amp-directory/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **amp-directory** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/pc-style/amp-directory/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/amp-directory/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed amp-directory on amp.aiaaii.com — optional README badge\n\nHi pc-style team,\n\nWe published an independent community listing for **amp-directory** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/pc-style/amp-directory/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/amp-directory/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/pc-style/amp-plugins/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "pc-style",
+      "slug": "amp-plugins",
+      "title": "amp-plugins",
+      "one": "Experimental Amp modes, tools, and context-filter plugins (catalog + sources).",
+      "listing": "https://amp.aiaaii.com/items/pc-style/amp-plugins/",
+      "source": "https://github.com/pc-style/amp-plugins",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/amp-plugins/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **amp-plugins** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/pc-style/amp-plugins/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/amp-plugins/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed amp-plugins on amp.aiaaii.com — optional README badge\n\nHi pc-style team,\n\nWe published an independent community listing for **amp-plugins** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/pc-style/amp-plugins/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/amp-plugins/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/pc-style/amp-plugins/blob/main/plugins/compressr.ts/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "pc-style",
+      "slug": "compressr",
+      "title": "compressr",
+      "one": "Lossy tool-result compression modes via Compresr API.",
+      "listing": "https://amp.aiaaii.com/items/pc-style/compressr/",
+      "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/compressr.ts",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/compressr/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **compressr** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/pc-style/compressr/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/compressr/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed compressr on amp.aiaaii.com — optional README badge\n\nHi pc-style team,\n\nWe published an independent community listing for **compressr** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/pc-style/compressr/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/compressr/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/pc-style/amp-plugins/blob/main/plugins/fable-mode.ts/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "pc-style",
+      "slug": "fable-mode",
+      "title": "fable-mode",
+      "one": "Claude Fable 5 modes via Amp experimental agent APIs.",
+      "listing": "https://amp.aiaaii.com/items/pc-style/fable-mode/",
+      "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/fable-mode.ts",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/fable-mode/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **fable-mode** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/pc-style/fable-mode/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/fable-mode/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed fable-mode on amp.aiaaii.com — optional README badge\n\nHi pc-style team,\n\nWe published an independent community listing for **fable-mode** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/pc-style/fable-mode/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/fable-mode/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/pc-style/amp-plugins/blob/main/plugins/gpt-56-luna-mode.ts/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "pc-style",
+      "slug": "gpt-56-luna-mode",
+      "title": "gpt-56-luna-mode",
+      "one": "Fast, low-cost GPT-5.6 Luna mode at high reasoning.",
+      "listing": "https://amp.aiaaii.com/items/pc-style/gpt-56-luna-mode/",
+      "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/gpt-56-luna-mode.ts",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/gpt-56-luna-mode/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **gpt-56-luna-mode** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/pc-style/gpt-56-luna-mode/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/gpt-56-luna-mode/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed gpt-56-luna-mode on amp.aiaaii.com — optional README badge\n\nHi pc-style team,\n\nWe published an independent community listing for **gpt-56-luna-mode** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/pc-style/gpt-56-luna-mode/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/gpt-56-luna-mode/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/pc-style/amp-plugins/blob/main/plugins/gpt-56-sol-mode.ts/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "pc-style",
+      "slug": "gpt-56-sol-mode",
+      "title": "gpt-56-sol-mode",
+      "one": "GPT-5.6 Sol at high reasoning with Amp's full tool set.",
+      "listing": "https://amp.aiaaii.com/items/pc-style/gpt-56-sol-mode/",
+      "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/gpt-56-sol-mode.ts",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/gpt-56-sol-mode/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **gpt-56-sol-mode** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/pc-style/gpt-56-sol-mode/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/gpt-56-sol-mode/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed gpt-56-sol-mode on amp.aiaaii.com — optional README badge\n\nHi pc-style team,\n\nWe published an independent community listing for **gpt-56-sol-mode** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/pc-style/gpt-56-sol-mode/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/gpt-56-sol-mode/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/pc-style/amp-plugins/blob/main/plugins/gpt-56-terra-mode.ts/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "pc-style",
+      "slug": "gpt-56-terra-mode",
+      "title": "gpt-56-terra-mode",
+      "one": "Balanced GPT-5.6 Terra at high reasoning with full tools.",
+      "listing": "https://amp.aiaaii.com/items/pc-style/gpt-56-terra-mode/",
+      "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/gpt-56-terra-mode.ts",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/gpt-56-terra-mode/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **gpt-56-terra-mode** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/pc-style/gpt-56-terra-mode/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/gpt-56-terra-mode/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed gpt-56-terra-mode on amp.aiaaii.com — optional README badge\n\nHi pc-style team,\n\nWe published an independent community listing for **gpt-56-terra-mode** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/pc-style/gpt-56-terra-mode/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/gpt-56-terra-mode/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/pc-style/amp-plugins/blob/main/plugins/read-x-post.ts/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "pc-style",
+      "slug": "read-x-post",
+      "title": "read-x-post",
+      "one": "read_x_post tool — X/Twitter status URLs to Markdown.",
+      "listing": "https://amp.aiaaii.com/items/pc-style/read-x-post/",
+      "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/read-x-post.ts",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/read-x-post/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **read-x-post** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/pc-style/read-x-post/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/read-x-post/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed read-x-post on amp.aiaaii.com — optional README badge\n\nHi pc-style team,\n\nWe published an independent community listing for **read-x-post** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/pc-style/read-x-post/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/read-x-post/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/pc-style/amp-plugins/blob/main/plugins/signal-filter.ts/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "pc-style",
+      "slug": "signal-filter",
+      "title": "signal-filter",
+      "one": "Experimental lossy filtering of long tool results via Amp GLM.",
+      "listing": "https://amp.aiaaii.com/items/pc-style/signal-filter/",
+      "source": "https://github.com/pc-style/amp-plugins/blob/main/plugins/signal-filter.ts",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/signal-filter/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **signal-filter** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/pc-style/signal-filter/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/signal-filter/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed signal-filter on amp.aiaaii.com — optional README badge\n\nHi pc-style team,\n\nWe published an independent community listing for **signal-filter** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/pc-style/signal-filter/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/pc-style/signal-filter/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/rsclarke/amp-plugins/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "rsclarke",
+      "slug": "aws-control-plane-readonly",
+      "title": "aws-control-plane-readonly",
+      "one": "Guardrail plugin for AWS CLI — keep Amp on control-plane read-only calls.",
+      "listing": "https://amp.aiaaii.com/items/rsclarke/aws-control-plane-readonly/",
+      "source": "https://github.com/rsclarke/amp-plugins",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/rsclarke/aws-control-plane-readonly/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **aws-control-plane-readonly** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/rsclarke/aws-control-plane-readonly/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/rsclarke/aws-control-plane-readonly/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed aws-control-plane-readonly on amp.aiaaii.com — optional README badge\n\nHi rsclarke team,\n\nWe published an independent community listing for **aws-control-plane-readonly** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/rsclarke/aws-control-plane-readonly/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/rsclarke/aws-control-plane-readonly/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/udhaya10/amp-grok-mode/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "udhaya10",
+      "slug": "amp-grok-mode",
+      "title": "amp-grok-mode",
+      "one": "Grok dial (thorough + rush) and optional global Firecrawl hook for Amp.",
+      "listing": "https://amp.aiaaii.com/items/udhaya10/amp-grok-mode/",
+      "source": "https://github.com/udhaya10/amp-grok-mode",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/udhaya10/amp-grok-mode/)"
+    },
+    "related": [
+      {
+        "slug": "firecrawl-hook",
+        "listing": "https://amp.aiaaii.com/items/udhaya10/firecrawl-hook/"
+      },
+      {
+        "slug": "grok-mode",
+        "listing": "https://amp.aiaaii.com/items/udhaya10/grok-mode/"
+      },
+      {
+        "slug": "grok-rush",
+        "listing": "https://amp.aiaaii.com/items/udhaya10/grok-rush/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **amp-grok-mode** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/udhaya10/amp-grok-mode/\n\nAlso indexed on this market:\n- firecrawl-hook: https://amp.aiaaii.com/items/udhaya10/firecrawl-hook/\n- grok-mode: https://amp.aiaaii.com/items/udhaya10/grok-mode/\n- grok-rush: https://amp.aiaaii.com/items/udhaya10/grok-rush/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/udhaya10/amp-grok-mode/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed amp-grok-mode on amp.aiaaii.com — optional README badge\n\nHi udhaya10 team,\n\nWe published an independent community listing for **amp-grok-mode** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/udhaya10/amp-grok-mode/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/udhaya10/amp-grok-mode/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/zaengerlein/amp-supermemory/issues/new",
+    "primary": {
+      "host": "amp",
+      "owner": "zaengerlein",
+      "slug": "amp-supermemory",
+      "title": "amp-supermemory",
+      "one": "Persistent memory for Amp via Supermemory — recall and capture across sessions.",
+      "listing": "https://amp.aiaaii.com/items/zaengerlein/amp-supermemory/",
+      "source": "https://github.com/zaengerlein/amp-supermemory",
+      "badge": "[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/zaengerlein/amp-supermemory/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on amp.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **amp-supermemory** on the community **Amp Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://amp.aiaaii.com/items/zaengerlein/amp-supermemory/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/zaengerlein/amp-supermemory/)\n```\n\nPreview: https://amp.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed amp-supermemory on amp.aiaaii.com — optional README badge\n\nHi zaengerlein team,\n\nWe published an independent community listing for **amp-supermemory** on Amp Plugin Market (Any AI / AI-AAII; not affiliated with Amp's vendor):\n\nhttps://amp.aiaaii.com/items/zaengerlein/amp-supermemory/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on amp.aiaaii.com](https://amp.aiaaii.com/badges/listed.svg)](https://amp.aiaaii.com/items/zaengerlein/amp-supermemory/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/DawidWetzler/orca-cobalt2-theme/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "dawidwetzler",
+      "slug": "orca-cobalt2-theme",
+      "title": "orca-cobalt2-theme",
+      "one": "Wes Bos鈥檚 Cobalt2: a deep blue app theme with yellow, orange and green code colors, plus matching terminal colors.",
+      "listing": "https://orca.aiaaii.com/items/dawidwetzler/orca-cobalt2-theme/",
+      "source": "https://github.com/DawidWetzler/orca-cobalt2-theme",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/dawidwetzler/orca-cobalt2-theme/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-cobalt2-theme** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/dawidwetzler/orca-cobalt2-theme/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/dawidwetzler/orca-cobalt2-theme/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-cobalt2-theme on orca.aiaaii.com — optional README badge\n\nHi dawidwetzler team,\n\nWe published an independent community listing for **orca-cobalt2-theme** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/dawidwetzler/orca-cobalt2-theme/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/dawidwetzler/orca-cobalt2-theme/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/j-dandelion/orca-marketplace/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "j-dandelion",
+      "slug": "orca-marketplace",
+      "title": "orca-marketplace",
+      "one": "Personal Orca marketplace index (Jared) — add as a Marketplace source.",
+      "listing": "https://orca.aiaaii.com/items/j-dandelion/orca-marketplace/",
+      "source": "https://github.com/j-dandelion/orca-marketplace",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/j-dandelion/orca-marketplace/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-marketplace** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/j-dandelion/orca-marketplace/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/j-dandelion/orca-marketplace/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-marketplace on orca.aiaaii.com — optional README badge\n\nHi j-dandelion team,\n\nWe published an independent community listing for **orca-marketplace** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/j-dandelion/orca-marketplace/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/j-dandelion/orca-marketplace/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/j-dandelion/orca-rose-pine-moon/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "j-dandelion",
+      "slug": "orca-rose-pine-moon",
+      "title": "orca-rose-pine-moon",
+      "one": "Rose Pine Moon application theme — soft, dreamy dark tones.",
+      "listing": "https://orca.aiaaii.com/items/j-dandelion/orca-rose-pine-moon/",
+      "source": "https://github.com/j-dandelion/orca-rose-pine-moon",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/j-dandelion/orca-rose-pine-moon/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-rose-pine-moon** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/j-dandelion/orca-rose-pine-moon/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/j-dandelion/orca-rose-pine-moon/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-rose-pine-moon on orca.aiaaii.com — optional README badge\n\nHi j-dandelion team,\n\nWe published an independent community listing for **orca-rose-pine-moon** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/j-dandelion/orca-rose-pine-moon/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/j-dandelion/orca-rose-pine-moon/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/kolebayev/orca-md-layout/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "kolebayev",
+      "slug": "orca-md-layout",
+      "title": "orca-md-layout",
+      "one": "Read Markdown files in a narrow column instead of the full editor width. To open it, pick Narrow in the view toggle at the top right of a...",
+      "listing": "https://orca.aiaaii.com/items/kolebayev/orca-md-layout/",
+      "source": "https://github.com/kolebayev/orca-md-layout",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/kolebayev/orca-md-layout/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-md-layout** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/kolebayev/orca-md-layout/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/kolebayev/orca-md-layout/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-md-layout on orca.aiaaii.com — optional README badge\n\nHi kolebayev team,\n\nWe published an independent community listing for **orca-md-layout** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/kolebayev/orca-md-layout/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/kolebayev/orca-md-layout/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/Mbirepinte/Orca-asciidoc-viewer/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "mbirepinte",
+      "slug": "Orca-asciidoc-viewer",
+      "title": "Orca-asciidoc-viewer",
+      "one": "Edit AsciiDoc source beside a live preview in Orca.",
+      "listing": "https://orca.aiaaii.com/items/mbirepinte/Orca-asciidoc-viewer/",
+      "source": "https://github.com/Mbirepinte/Orca-asciidoc-viewer",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/mbirepinte/Orca-asciidoc-viewer/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **Orca-asciidoc-viewer** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/mbirepinte/Orca-asciidoc-viewer/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/mbirepinte/Orca-asciidoc-viewer/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed Orca-asciidoc-viewer on orca.aiaaii.com — optional README badge\n\nHi mbirepinte team,\n\nWe published an independent community listing for **Orca-asciidoc-viewer** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/mbirepinte/Orca-asciidoc-viewer/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/mbirepinte/Orca-asciidoc-viewer/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/senadaruc/orca-grazr/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "senadaruc",
+      "slug": "orca-grazr",
+      "title": "orca-grazr",
+      "one": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
+      "listing": "https://orca.aiaaii.com/items/senadaruc/orca-grazr/",
+      "source": "https://github.com/senadaruc/orca-grazr",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/senadaruc/orca-grazr/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-grazr** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/senadaruc/orca-grazr/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/senadaruc/orca-grazr/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-grazr on orca.aiaaii.com — optional README badge\n\nHi senadaruc team,\n\nWe published an independent community listing for **orca-grazr** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/senadaruc/orca-grazr/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/senadaruc/orca-grazr/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/smwbev/orca-plugins/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "smwbev",
+      "slug": "orca-plugins",
+      "title": "orca-plugins (s3dev)",
+      "one": "Community marketplace index — add under Marketplace sources, not Install plugin.",
+      "listing": "https://orca.aiaaii.com/items/smwbev/orca-plugins/",
+      "source": "https://github.com/smwbev/orca-plugins",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/smwbev/orca-plugins/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-plugins (s3dev)** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/smwbev/orca-plugins/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/smwbev/orca-plugins/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-plugins (s3dev) on orca.aiaaii.com — optional README badge\n\nHi smwbev team,\n\nWe published an independent community listing for **orca-plugins (s3dev)** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/smwbev/orca-plugins/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/smwbev/orca-plugins/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/smwbev/orca-russian/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "smwbev",
+      "slug": "orca-russian",
+      "title": "orca-russian",
+      "one": "Russian interface translation pack for Orca.",
+      "listing": "https://orca.aiaaii.com/items/smwbev/orca-russian/",
+      "source": "https://github.com/smwbev/orca-russian",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/smwbev/orca-russian/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-russian** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/smwbev/orca-russian/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/smwbev/orca-russian/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-russian on orca.aiaaii.com — optional README badge\n\nHi smwbev team,\n\nWe published an independent community listing for **orca-russian** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/smwbev/orca-russian/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/smwbev/orca-russian/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/thailoc-dev/orca-pptx-viewer/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "thailoc-dev",
+      "slug": "orca-pptx-viewer",
+      "title": "orca-pptx-viewer",
+      "one": "Preview PowerPoint presentations (.pptx, .ppsx, .potx and macro-enabled forms) in Orca, with shapes, pictures, tables, charts, slide navi...",
+      "listing": "https://orca.aiaaii.com/items/thailoc-dev/orca-pptx-viewer/",
+      "source": "https://github.com/thailoc-dev/orca-pptx-viewer",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/thailoc-dev/orca-pptx-viewer/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-pptx-viewer** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/thailoc-dev/orca-pptx-viewer/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/thailoc-dev/orca-pptx-viewer/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-pptx-viewer on orca.aiaaii.com — optional README badge\n\nHi thailoc-dev team,\n\nWe published an independent community listing for **orca-pptx-viewer** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/thailoc-dev/orca-pptx-viewer/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/thailoc-dev/orca-pptx-viewer/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/upstash/box-orca-plugin/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "upstash",
+      "slug": "box-orca-plugin",
+      "title": "box-orca-plugin",
+      "one": "Experimental. Run each Orca workspace in its own Upstash Box, reached over SSH.",
+      "listing": "https://orca.aiaaii.com/items/upstash/box-orca-plugin/",
+      "source": "https://github.com/upstash/box-orca-plugin",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/upstash/box-orca-plugin/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **box-orca-plugin** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/upstash/box-orca-plugin/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/upstash/box-orca-plugin/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed box-orca-plugin on orca.aiaaii.com — optional README badge\n\nHi upstash team,\n\nWe published an independent community listing for **box-orca-plugin** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/upstash/box-orca-plugin/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/upstash/box-orca-plugin/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/vale-c/orca-catppuccin/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "vale-c",
+      "slug": "orca-catppuccin",
+      "title": "orca-catppuccin",
+      "one": "Soothing pastel app and terminal themes in all four Catppuccin flavors, with matching syntax colors.",
+      "listing": "https://orca.aiaaii.com/items/vale-c/orca-catppuccin/",
+      "source": "https://github.com/vale-c/orca-catppuccin",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/vale-c/orca-catppuccin/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-catppuccin** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/vale-c/orca-catppuccin/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/vale-c/orca-catppuccin/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-catppuccin on orca.aiaaii.com — optional README badge\n\nHi vale-c team,\n\nWe published an independent community listing for **orca-catppuccin** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/vale-c/orca-catppuccin/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/vale-c/orca-catppuccin/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 2,
+    "issueUrl": "https://github.com/vale-c/orca-tokyonight/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "vale-c",
+      "slug": "orca-tokyonight",
+      "title": "orca-tokyonight",
+      "one": "App and terminal themes in all four Tokyo Night styles, Night, Storm, Moon and Day, with matching syntax colors.",
+      "listing": "https://orca.aiaaii.com/items/vale-c/orca-tokyonight/",
+      "source": "https://github.com/vale-c/orca-tokyonight",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/vale-c/orca-tokyonight/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-tokyonight** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/vale-c/orca-tokyonight/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/vale-c/orca-tokyonight/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-tokyonight on orca.aiaaii.com — optional README badge\n\nHi vale-c team,\n\nWe published an independent community listing for **orca-tokyonight** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/vale-c/orca-tokyonight/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/vale-c/orca-tokyonight/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 3,
+    "issueUrl": "https://github.com/Factory-AI/factory-plugins/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "Factory-AI",
+      "slug": "factory-plugins",
+      "title": "factory-plugins",
+      "one": "Official Factory Droid plugins marketplace.",
+      "listing": "https://droid.aiaaii.com/items/Factory-AI/factory-plugins/",
+      "source": "https://github.com/Factory-AI/factory-plugins",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/factory-plugins/)"
+    },
+    "related": [
+      {
+        "slug": "autoresearch",
+        "listing": "https://droid.aiaaii.com/items/Factory-AI/autoresearch/"
+      },
+      {
+        "slug": "code-review",
+        "listing": "https://droid.aiaaii.com/items/Factory-AI/code-review/"
+      },
+      {
+        "slug": "core",
+        "listing": "https://droid.aiaaii.com/items/Factory-AI/core/"
+      },
+      {
+        "slug": "debugging",
+        "listing": "https://droid.aiaaii.com/items/Factory-AI/debugging/"
+      },
+      {
+        "slug": "droid-control",
+        "listing": "https://droid.aiaaii.com/items/Factory-AI/droid-control/"
+      },
+      {
+        "slug": "droid-evolved",
+        "listing": "https://droid.aiaaii.com/items/Factory-AI/droid-evolved/"
+      },
+      {
+        "slug": "security-engineer",
+        "listing": "https://droid.aiaaii.com/items/Factory-AI/security-engineer/"
+      },
+      {
+        "slug": "typescript",
+        "listing": "https://droid.aiaaii.com/items/Factory-AI/typescript/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **factory-plugins** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/Factory-AI/factory-plugins/\n\nAlso indexed on this market:\n- autoresearch: https://droid.aiaaii.com/items/Factory-AI/autoresearch/\n- code-review: https://droid.aiaaii.com/items/Factory-AI/code-review/\n- core: https://droid.aiaaii.com/items/Factory-AI/core/\n- debugging: https://droid.aiaaii.com/items/Factory-AI/debugging/\n- droid-control: https://droid.aiaaii.com/items/Factory-AI/droid-control/\n- droid-evolved: https://droid.aiaaii.com/items/Factory-AI/droid-evolved/\n- security-engineer: https://droid.aiaaii.com/items/Factory-AI/security-engineer/\n- typescript: https://droid.aiaaii.com/items/Factory-AI/typescript/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/factory-plugins/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed factory-plugins on droid.aiaaii.com — optional README badge\n\nHi Factory-AI team,\n\nWe published an independent community listing for **factory-plugins** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/Factory-AI/factory-plugins/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/factory-plugins/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 3,
+    "issueUrl": "https://github.com/Factory-AI/cursed-plugins/issues/new",
+    "primary": {
+      "host": "droid",
+      "owner": "Factory-AI",
+      "slug": "cursed-plugins",
+      "title": "cursed-plugins",
+      "one": "Official fun marketplace — roast your codebase.",
+      "listing": "https://droid.aiaaii.com/items/Factory-AI/cursed-plugins/",
+      "source": "https://github.com/Factory-AI/cursed-plugins",
+      "badge": "[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/cursed-plugins/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on droid.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **cursed-plugins** on the community **Droid Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://droid.aiaaii.com/items/Factory-AI/cursed-plugins/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/cursed-plugins/)\n```\n\nPreview: https://droid.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed cursed-plugins on droid.aiaaii.com — optional README badge\n\nHi Factory-AI team,\n\nWe published an independent community listing for **cursed-plugins** on Droid Plugin Market (Any AI / AI-AAII; not affiliated with Droid's vendor):\n\nhttps://droid.aiaaii.com/items/Factory-AI/cursed-plugins/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on droid.aiaaii.com](https://droid.aiaaii.com/badges/listed.svg)](https://droid.aiaaii.com/items/Factory-AI/cursed-plugins/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 3,
+    "issueUrl": "https://github.com/stablyai/orca-plugins/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "stablyai",
+      "slug": "orca-plugins",
+      "title": "orca-plugins (official)",
+      "one": "Canonical marketplace index — thin catalog, important format.",
+      "listing": "https://orca.aiaaii.com/items/stablyai/orca-plugins/",
+      "source": "https://github.com/stablyai/orca-plugins",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-plugins/)"
+    },
+    "related": [
+      {
+        "slug": "orca-catppuccin-theme",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-catppuccin-theme/"
+      },
+      {
+        "slug": "orca-docx",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-docx/"
+      },
+      {
+        "slug": "orca-dracula-theme",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-dracula-theme/"
+      },
+      {
+        "slug": "orca-dusk-ember",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-dusk-ember/"
+      },
+      {
+        "slug": "orca-erlang",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-erlang/"
+      },
+      {
+        "slug": "orca-excalidraw",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-excalidraw/"
+      },
+      {
+        "slug": "orca-github-light-theme",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-github-light-theme/"
+      },
+      {
+        "slug": "orca-gleam",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-gleam/"
+      },
+      {
+        "slug": "orca-godot",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-godot/"
+      },
+      {
+        "slug": "orca-gruvbox-theme",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-gruvbox-theme/"
+      },
+      {
+        "slug": "orca-haskell",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-haskell/"
+      },
+      {
+        "slug": "orca-http",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-http/"
+      },
+      {
+        "slug": "orca-jsp",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-jsp/"
+      },
+      {
+        "slug": "orca-julia",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-julia/"
+      },
+      {
+        "slug": "orca-latex",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-latex/"
+      },
+      {
+        "slug": "orca-material-icons",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-material-icons/"
+      },
+      {
+        "slug": "orca-matlab",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-matlab/"
+      },
+      {
+        "slug": "orca-nix",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-nix/"
+      },
+      {
+        "slug": "orca-ocaml",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-ocaml/"
+      },
+      {
+        "slug": "orca-oled-theme",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-oled-theme/"
+      },
+      {
+        "slug": "orca-prisma",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-prisma/"
+      },
+      {
+        "slug": "orca-qml",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-qml/"
+      },
+      {
+        "slug": "orca-runner",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-runner/"
+      },
+      {
+        "slug": "orca-solarized-light-theme",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-solarized-light-theme/"
+      },
+      {
+        "slug": "orca-spreadsheet",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-spreadsheet/"
+      },
+      {
+        "slug": "orca-sqlite-browser",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-sqlite-browser/"
+      },
+      {
+        "slug": "orca-systemd",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-systemd/"
+      },
+      {
+        "slug": "orca-taxi",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-taxi/"
+      },
+      {
+        "slug": "orca-vcl",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-vcl/"
+      },
+      {
+        "slug": "orca-vhdl",
+        "listing": "https://orca.aiaaii.com/items/stablyai/orca-vhdl/"
+      }
+    ],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-plugins (official)** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/stablyai/orca-plugins/\n\nAlso indexed on this market:\n- orca-catppuccin-theme: https://orca.aiaaii.com/items/stablyai/orca-catppuccin-theme/\n- orca-docx: https://orca.aiaaii.com/items/stablyai/orca-docx/\n- orca-dracula-theme: https://orca.aiaaii.com/items/stablyai/orca-dracula-theme/\n- orca-dusk-ember: https://orca.aiaaii.com/items/stablyai/orca-dusk-ember/\n- orca-erlang: https://orca.aiaaii.com/items/stablyai/orca-erlang/\n- orca-excalidraw: https://orca.aiaaii.com/items/stablyai/orca-excalidraw/\n- orca-github-light-theme: https://orca.aiaaii.com/items/stablyai/orca-github-light-theme/\n- orca-gleam: https://orca.aiaaii.com/items/stablyai/orca-gleam/\n- orca-godot: https://orca.aiaaii.com/items/stablyai/orca-godot/\n- orca-gruvbox-theme: https://orca.aiaaii.com/items/stablyai/orca-gruvbox-theme/\n- orca-haskell: https://orca.aiaaii.com/items/stablyai/orca-haskell/\n- orca-http: https://orca.aiaaii.com/items/stablyai/orca-http/\n- orca-jsp: https://orca.aiaaii.com/items/stablyai/orca-jsp/\n- orca-julia: https://orca.aiaaii.com/items/stablyai/orca-julia/\n- orca-latex: https://orca.aiaaii.com/items/stablyai/orca-latex/\n- orca-material-icons: https://orca.aiaaii.com/items/stablyai/orca-material-icons/\n- orca-matlab: https://orca.aiaaii.com/items/stablyai/orca-matlab/\n- orca-nix: https://orca.aiaaii.com/items/stablyai/orca-nix/\n- orca-ocaml: https://orca.aiaaii.com/items/stablyai/orca-ocaml/\n- orca-oled-theme: https://orca.aiaaii.com/items/stablyai/orca-oled-theme/\n- orca-prisma: https://orca.aiaaii.com/items/stablyai/orca-prisma/\n- orca-qml: https://orca.aiaaii.com/items/stablyai/orca-qml/\n- orca-runner: https://orca.aiaaii.com/items/stablyai/orca-runner/\n- orca-solarized-light-theme: https://orca.aiaaii.com/items/stablyai/orca-solarized-light-theme/\n- orca-spreadsheet: https://orca.aiaaii.com/items/stablyai/orca-spreadsheet/\n- orca-sqlite-browser: https://orca.aiaaii.com/items/stablyai/orca-sqlite-browser/\n- orca-systemd: https://orca.aiaaii.com/items/stablyai/orca-systemd/\n- orca-taxi: https://orca.aiaaii.com/items/stablyai/orca-taxi/\n- orca-vcl: https://orca.aiaaii.com/items/stablyai/orca-vcl/\n- orca-vhdl: https://orca.aiaaii.com/items/stablyai/orca-vhdl/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-plugins/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-plugins (official) on orca.aiaaii.com — optional README badge\n\nHi stablyai team,\n\nWe published an independent community listing for **orca-plugins (official)** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/stablyai/orca-plugins/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-plugins/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 3,
+    "issueUrl": "https://github.com/stablyai/orca-community-plugins/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "stablyai",
+      "slug": "orca-community-plugins",
+      "title": "orca-community-plugins",
+      "one": "Generated catalog of community Orca plugins (ids, releases, mirrors).",
+      "listing": "https://orca.aiaaii.com/items/stablyai/orca-community-plugins/",
+      "source": "https://github.com/stablyai/orca-community-plugins",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-community-plugins/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-community-plugins** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/stablyai/orca-community-plugins/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-community-plugins/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-community-plugins on orca.aiaaii.com — optional README badge\n\nHi stablyai team,\n\nWe published an independent community listing for **orca-community-plugins** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/stablyai/orca-community-plugins/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-community-plugins/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 3,
+    "issueUrl": "https://github.com/stablyai/orca-midnight-theme/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "stablyai",
+      "slug": "orca-midnight-theme",
+      "title": "orca-midnight-theme",
+      "one": "Quiet dark application theme tuned for long coding sessions.",
+      "listing": "https://orca.aiaaii.com/items/stablyai/orca-midnight-theme/",
+      "source": "https://github.com/stablyai/orca-midnight-theme",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-midnight-theme/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-midnight-theme** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/stablyai/orca-midnight-theme/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-midnight-theme/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-midnight-theme on orca.aiaaii.com — optional README badge\n\nHi stablyai team,\n\nWe published an independent community listing for **orca-midnight-theme** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/stablyai/orca-midnight-theme/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-midnight-theme/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 3,
+    "issueUrl": "https://github.com/stablyai/orca-minimal-icons/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "stablyai",
+      "slug": "orca-minimal-icons",
+      "title": "orca-minimal-icons",
+      "one": "Compact monochrome icon theme for common source files.",
+      "listing": "https://orca.aiaaii.com/items/stablyai/orca-minimal-icons/",
+      "source": "https://github.com/stablyai/orca-minimal-icons",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-minimal-icons/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-minimal-icons** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/stablyai/orca-minimal-icons/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-minimal-icons/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-minimal-icons on orca.aiaaii.com — optional README badge\n\nHi stablyai team,\n\nWe published an independent community listing for **orca-minimal-icons** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/stablyai/orca-minimal-icons/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-minimal-icons/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 3,
+    "issueUrl": "https://github.com/stablyai/orca-multipass-recipes/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "stablyai",
+      "slug": "orca-multipass-recipes",
+      "title": "orca-multipass-recipes",
+      "one": "Reviewed starter lifecycle for disposable Multipass workspaces.",
+      "listing": "https://orca.aiaaii.com/items/stablyai/orca-multipass-recipes/",
+      "source": "https://github.com/stablyai/orca-multipass-recipes",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-multipass-recipes/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-multipass-recipes** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/stablyai/orca-multipass-recipes/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-multipass-recipes/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-multipass-recipes on orca.aiaaii.com — optional README badge\n\nHi stablyai team,\n\nWe published an independent community listing for **orca-multipass-recipes** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/stablyai/orca-multipass-recipes/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-multipass-recipes/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 3,
+    "issueUrl": "https://github.com/stablyai/orca-nord-theme/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "stablyai",
+      "slug": "orca-nord-theme",
+      "title": "orca-nord-theme",
+      "one": "Cool, low-contrast application theme inspired by arctic colors.",
+      "listing": "https://orca.aiaaii.com/items/stablyai/orca-nord-theme/",
+      "source": "https://github.com/stablyai/orca-nord-theme",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-nord-theme/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-nord-theme** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/stablyai/orca-nord-theme/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-nord-theme/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-nord-theme on orca.aiaaii.com — optional README badge\n\nHi stablyai team,\n\nWe published an independent community listing for **orca-nord-theme** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/stablyai/orca-nord-theme/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-nord-theme/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 3,
+    "issueUrl": "https://github.com/stablyai/orca-portuguese/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "stablyai",
+      "slug": "orca-portuguese",
+      "title": "orca-portuguese",
+      "one": "Official Brazilian Portuguese (pt-BR) UI language pack for Orca.",
+      "listing": "https://orca.aiaaii.com/items/stablyai/orca-portuguese/",
+      "source": "https://github.com/stablyai/orca-portuguese",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-portuguese/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-portuguese** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/stablyai/orca-portuguese/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-portuguese/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-portuguese on orca.aiaaii.com — optional README badge\n\nHi stablyai team,\n\nWe published an independent community listing for **orca-portuguese** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/stablyai/orca-portuguese/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-portuguese/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 3,
+    "issueUrl": "https://github.com/stablyai/orca-solarized-terminal/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "stablyai",
+      "slug": "orca-solarized-terminal",
+      "title": "orca-solarized-terminal",
+      "one": "Solarized Dark terminal colors packaged for Orca.",
+      "listing": "https://orca.aiaaii.com/items/stablyai/orca-solarized-terminal/",
+      "source": "https://github.com/stablyai/orca-solarized-terminal",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-solarized-terminal/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-solarized-terminal** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/stablyai/orca-solarized-terminal/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-solarized-terminal/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-solarized-terminal on orca.aiaaii.com — optional README badge\n\nHi stablyai team,\n\nWe published an independent community listing for **orca-solarized-terminal** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/stablyai/orca-solarized-terminal/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-solarized-terminal/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  },
+  {
+    "wave": 3,
+    "issueUrl": "https://github.com/stablyai/orca-workflow-skills/issues/new",
+    "primary": {
+      "host": "orca",
+      "owner": "stablyai",
+      "slug": "orca-workflow-skills",
+      "title": "orca-workflow-skills",
+      "one": "Practical skills for planning, reviewing, and handing off repository work.",
+      "listing": "https://orca.aiaaii.com/items/stablyai/orca-workflow-skills/",
+      "source": "https://github.com/stablyai/orca-workflow-skills",
+      "badge": "[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-workflow-skills/)"
+    },
+    "related": [],
+    "issueTitle": "Optional: Listed on orca.aiaaii.com badge for README",
+    "issueBody": "## Context\n\nHi! We independently listed **orca-workflow-skills** on the community **Orca Plugin Market** (Any AI / AI-AAII — not affiliated with the host vendor).\n\nListing: https://orca.aiaaii.com/items/stablyai/orca-workflow-skills/\n\n## Ask\n\nIf this looks correct, would you consider adding a README badge that links back to the listing? Optional — no obligation.\n\n```md\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-workflow-skills/)\n```\n\nPreview: https://orca.aiaaii.com/badges/listed.svg\n\n## Notes\n\n- Community directory only; install commands point at your public source.\n- Corrections welcome (wrong one-liner, install path, or prefer noindex) — comment here or open https://github.com/leexiangf/any-ai/issues\n- Mall: https://aiaaii.com/\n\nThanks for shipping public installable plugins.\n",
+    "emailBody": "Subject: Listed orca-workflow-skills on orca.aiaaii.com — optional README badge\n\nHi stablyai team,\n\nWe published an independent community listing for **orca-workflow-skills** on Orca Plugin Market (Any AI / AI-AAII; not affiliated with Orca's vendor):\n\nhttps://orca.aiaaii.com/items/stablyai/orca-workflow-skills/\n\nIf accurate, you're welcome to drop this badge in the README (optional):\n\n[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/stablyai/orca-workflow-skills/)\n\nHappy to fix anything that looks wrong. Reply here or file https://github.com/leexiangf/any-ai/issues\n\nThanks,\nAny AI (aiaaii.com)\n"
+  }
+]
