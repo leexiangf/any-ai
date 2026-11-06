@@ -10,7 +10,7 @@ Sitemap：五站 `sitemap.xml`（www / amp / orca / droid / **kimi** — kimi �
 | 日期 | 操作 |
 | --- | --- |
 | 2026-11-02 | 已申请 **第 1–9 条**（见下方 Batch A）。额度用尽。 |
-| 2026-11-03 | **待办**：从第 10 条继续（Batch A 剩余 + Batch B）。 |
+| 2026-11-03 | 仅申请 **#10–11**（Orca 两条命令词指南）。额度超额，其余顺延。 |
 
 状态：`done` = 已点请求编入索引 · `todo` = 未申请 · `skip` = 暂缓
 
@@ -29,15 +29,15 @@ Sitemap：五站 `sitemap.xml`（www / amp / orca / droid / **kimi** — kimi �
 | 7 | https://amp.aiaaii.com/guides/how-to-install-amp-plugin/ | done 2026-11-02 |
 | 8 | https://droid.aiaaii.com/guides/droid-plugin-install/ | done 2026-11-02 |
 | 9 | https://droid.aiaaii.com/guides/droid-plugin-marketplace-add/ | done 2026-11-02 |
-| 10 | https://orca.aiaaii.com/guides/how-to-add-marketplace-source/ | todo |
-| 11 | https://orca.aiaaii.com/guides/how-to-install-orca-plugin/ | todo |
-| 12 | https://amp.aiaaii.com/guides/fix-amp-command-not-found/ | todo |
-| 13 | https://amp.aiaaii.com/guides/fix-amp-plugins-add-failed/ | todo |
-| 14 | https://droid.aiaaii.com/guides/fix-unknown-marketplace/ | todo |
-| 15 | https://orca.aiaaii.com/guides/fix-add-an-explicit-ref/ | todo |
-| 16 | https://amp.aiaaii.com/items/ | todo |
-| 17 | https://orca.aiaaii.com/items/ | todo |
-| 18 | https://droid.aiaaii.com/items/ | todo |
+| 10 | https://orca.aiaaii.com/guides/how-to-add-marketplace-source/ | done 2026-11-03 |
+| 11 | https://orca.aiaaii.com/guides/how-to-install-orca-plugin/ | done 2026-11-03 |
+| 12 | https://amp.aiaaii.com/guides/fix-amp-command-not-found/ | todo · 顺延 |
+| 13 | https://amp.aiaaii.com/guides/fix-amp-plugins-add-failed/ | todo · 顺延 |
+| 14 | https://droid.aiaaii.com/guides/fix-unknown-marketplace/ | todo · 顺延 |
+| 15 | https://orca.aiaaii.com/guides/fix-add-an-explicit-ref/ | todo · 顺延 |
+| 16 | https://amp.aiaaii.com/items/ | todo · 顺延 |
+| 17 | https://orca.aiaaii.com/items/ | todo · 顺延 |
+| 18 | https://droid.aiaaii.com/items/ | todo · 顺延 |
 
 ## Batch B — 额度有余再点
 
@@ -63,15 +63,16 @@ Sitemap：五站 `sitemap.xml`（www / amp / orca / droid / **kimi** — kimi �
 | 36 | https://kimi.aiaaii.com/items/ | todo · 新店目录 |
 | 37 | https://kimi.aiaaii.com/items/obra/superpowers/ | todo · 新店精选 |
 
-## 明日复制用（第 10 条起）
+## 下次复制用（从 #12 起；额度恢复后优先插 Kimi）
 
 ```
-https://orca.aiaaii.com/guides/how-to-add-marketplace-source/
-https://orca.aiaaii.com/guides/how-to-install-orca-plugin/
 https://amp.aiaaii.com/guides/fix-amp-command-not-found/
 https://amp.aiaaii.com/guides/fix-amp-plugins-add-failed/
 https://droid.aiaaii.com/guides/fix-unknown-marketplace/
 https://orca.aiaaii.com/guides/fix-add-an-explicit-ref/
+https://kimi.aiaaii.com/
+https://kimi.aiaaii.com/guides/how-to-install-kimi-plugin/
+https://kimi.aiaaii.com/guides/how-to-add-kimi-marketplace/
 https://amp.aiaaii.com/items/
 https://orca.aiaaii.com/items/
 https://droid.aiaaii.com/items/

@@ -3,11 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>amp-supermemory - Persistent memory for Amp | Amp Plugin Market</title>
-    <meta
-      name="description"
-      content="Amp plugin that adds Supermemory auto-recall and auto-capture across sessions. Community listing on amp.aiaaii.com."
-    />
+    <title>amp-supermemory - Persistent memory for Amp via Supermemory — recall a</title>
+    <meta name="description" content="amp-supermemory: Persistent memory for Amp via Supermemory — recall and capture across sessions. Community listing on amp.aiaaii.com." />
     <link rel="canonical" href="https://amp.aiaaii.com/items/zaengerlein/amp-supermemory/" />
         <script>
       (function () {
@@ -33,14 +30,14 @@
         <div class="site-header">
           <a class="brand" href="/">
             <span class="brand-name">Amp Plugin Market</span>
-            <span class="brand-domain">amp.aiaaii.com</span>
+            <span class="brand-domain">amp.aiaaii.com · Any AI</span>
           </a>
-                    <div class="header-end">
-            <nav class="nav">
-            <a href="https://aiaaii.com/">Home</a>
-            <a href="/items/">Plugins</a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/" aria-current="page">Plugins</a>
             <a href="/guides/">Guides</a>
             <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
           </nav>
             <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
               <span class="theme-toggle-icon" aria-hidden="true"></span>
@@ -58,23 +55,24 @@
     <main class="section">
       <div class="wrap prose">
         <p>
-          Injects relevant memories and project knowledge at session start, and
-          can capture conversations when a session ends. Requires a Supermemory
-          API key or browser login. Wrap secrets in
-          <span class="acronym">&lt;private&gt;</span> tags to skip storage.
+          <strong>amp-supermemory</strong> — Persistent memory plugin for Amp using Supermemory
+          This page on <span class="acronym">Amp Plugin Market</span> (Any AI) is an
+          independent rewrite for install discovery. Not affiliated with Amp / Sourcegraph.
         </p>
+
         <div class="install-block">
-          <span class="label">Global plugin file</span>
-          <code
-            >mkdir -p ~/.config/amp/plugins &amp;&amp; curl -o
+          <span class="label">Global plugin file&lt;/span&gt;
+          &lt;code
+            &gt;mkdir -p ~/.config/amp/plugins &amp;amp;&amp;amp; curl -o
             ~/.config/amp/plugins/supermemory.ts
-            https://raw.githubusercontent.com/zaengerlein/amp-supermemory/main/dist/supermemory.ts</code
-          >
-        </div>
-        <div class="install-block">
-          <span class="label">Run with plugins</span>
+            https://raw.githubusercontent.com/zaengerlein/amp-supermemory/main/dist/supermemory.ts&lt;/code
+          &gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;install-block&quot;&gt;
+          &lt;span class=&quot;label&quot;&gt;Run with plugins</span>
           <code>PLUGINS=all amp</code>
         </div>
+
         <dl class="meta-table">
           <dt>Author</dt>
           <dd>zaengerlein</dd>
@@ -89,43 +87,130 @@
             >
           </dd>
         </dl>
-        <h2>What it does</h2>
+
+        <h2>What is amp-supermemory?</h2>
         <p>
-          Auto-recall on the first message; auto-capture at session end. Login
-          via palette <span class="acronym">Supermemory: Login</span> or
-          <span class="acronym">SUPERMEMORY_API_KEY</span>.
+          <strong>amp-supermemory is a Amp plugin that Persistent memory plugin for Amp using Supermemory.</strong>
+          Use this listing to copy a real install path and open the upstream source —
+          not as a substitute for the repository README.
+          (<a href="https://github.com/zaengerlein/amp-supermemory" rel="noopener noreferrer">Source</a>)
         </p>
-        <h2>Compatibility</h2>
-        <p>Amp Plugin API experimental; manual install as documented upstream.</p>
+
+        <h2>Core capabilities</h2>
+        <ul>
+          <li><strong>Purpose</strong> — Persistent memory plugin for Amp using Supermemory</li>
+          <li><strong>Installable on this host</strong> — documented for the Amp plugin flow on this market.</li>
+          <li><strong>Public source</strong> — review the GitHub repository before enabling third-party code.</li>
+          <li><strong>Amp add path</strong> — use <code>amp plugins add</code> with a URL or path the Amp CLI accepts.</li>
+        </ul>
+
+        <h2>How to install and enable amp-supermemory</h2>
+        <ol>
+          <li>
+            Global plugin file&lt;/span&gt;
+          &lt;code
+            &gt;mkdir -p ~/.config/amp/plugins &amp;amp;&amp;amp; curl -o
+            ~/.config/amp/plugins/supermemory.ts
+            https://raw.githubusercontent.com/zaengerlein/amp-supermemory/main/dist/supermemory.ts&lt;/code
+          &gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;install-block&quot;&gt;
+          &lt;span class=&quot;label&quot;&gt;Run with plugins.
+            <div class="install-block"><span class="label">Step 1</span><code>PLUGINS=all amp</code></div>
+            Expected: command succeeds without inventing alternate flags.
+          </li>
+          <li>
+            Open the upstream README if the host asks for a marketplace pin, plugin id,
+            or extra enable step beyond the commands above.
+          </li>
+        </ol>
+        <p>
+          More host help:
+          <a href="/guides/">Guides</a>
+          ·
+          <a href="/items/">All plugins</a>.
+        </p>
+
+        <h2>Typical usage</h2>
+        <ol>
+          <li>
+            Install with the command block above, then confirm the plugin appears in the
+            host’s installed / marketplace UI.
+          </li>
+          <li>
+            Exercise one documented skill, theme, or tool from the README — do not assume
+            undocumented slash commands.
+          </li>
+          <li>
+            If nothing loads, re-check scope, marketplace pin, trust prompts, or start a
+            fresh host session as the vendor docs require.
+          </li>
+        </ol>
+
+        <h2>When to use it — and caveats</h2>
+        <p>
+          <strong>Use amp-supermemory when its documented role matches your task.</strong>
+          Skip third-party plugins you have not reviewed, and prefer official catalogs when
+          they already cover the same job.
+        </p>
+        <ul>
+          <li>Commands and manifests change — re-read the GitHub source after upgrades.</li>
+          <li>This market does not vendor or sign the plugin; trust decisions are yours.</li>
+          <li>Corrections welcome via <a href="/submit/">Submit</a> on this host market.</li>
+        </ul>
+
         <div class="faq">
           <details>
-            <summary>Project-only install?</summary>
-            <p>
-              Copy to <span class="acronym">.amp/plugins/supermemory.ts</span>
-              instead of the user config directory.
-            </p>
+            <summary>Is this Amp plugin listing the official amp-supermemory documentation?</summary>
+            <p><strong>No — this is a community page on Amp Plugin Market (Any AI).</strong> Prefer the upstream repository for authoritative APIs and release notes.</p>
           </details>
           <details>
-            <summary>Is this official Amp?</summary>
-            <p>No. Community plugin using a third-party memory service.</p>
+            <summary>Where do install commands for amp-supermemory come from?</summary>
+            <p><strong>From the public source and host plugin docs — not invented here.</strong> If a command fails, check the repository README and host CLI help for the current syntax.</p>
+          </details>
+          <details>
+            <summary>Do I need to trust third-party code when installing amp-supermemory?</summary>
+            <p><strong>Yes — review the GitHub source before enabling.</strong> This directory does not security-audit plugins; treat marketplace installs like any other third-party code.</p>
+          </details>
+          <details>
+            <summary>Can I install amp-supermemory with a plain git clone instead of Amp’s plugin command?</summary>
+            <p><strong>Only if you then point <code>amp plugins add</code> at a path or URL Amp accepts.</strong> Cloning alone does not register the plugin inside Amp.</p>
+          </details>
+          <details>
+            <summary>How do I correct a wrong one-liner or install path for amp-supermemory on this market?</summary>
+            <p><strong>Open a listing request or issue on the Any AI repo, or comment via Submit.</strong> Source of truth remains github.com/zaengerlein/amp-supermemory.</p>
           </details>
         </div>
+
         <p class="source-line">
-          Independent rewrite —
-          <a href="https://github.com/zaengerlein/amp-supermemory" rel="noopener noreferrer"
-            >source repository</a
-          >
-          · Updated 2026-10-31
+          Independent rewrite · Updated 2026-11-06 · Not affiliated with Amp / Sourcegraph ·
+          <a href="https://github.com/zaengerlein/amp-supermemory" rel="noopener noreferrer">Source repository</a>
         </p>
         <p>
-          <a href="/items/">← All plugins</a> ·
-          <a href="/categories/tools/">Tools</a>
+          <a href="/items/">← All plugins</a>
+          ·
+          <a href="/categories/tools/">tools</a>
         </p>
       </div>
     </main>
     <footer class="site-footer">
-      <div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp</p></div>
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Amp Plugin Market</span>
+          <span class="brand-domain">amp.aiaaii.com · Any AI (AI-AAII)</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+          </div>
+          <p>Not affiliated with Amp / Sourcegraph</p>
+        </div>
+      </div>
     </footer>
-      <script src="/theme.js" defer></script>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

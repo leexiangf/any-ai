@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>superpowers - Kimi plugin | Kimi Plugin Market</title>
-    <meta name="description" content="Planning, TDD, debugging, and delivery workflows for coding agents. Community listing on kimi.aiaaii.com." />
+    <title>superpowers - Agent workflow skills for Kimi | Kimi Plugin Market</title>
+    <meta
+      name="description"
+      content="superpowers is a Kimi plugin of composable skills for brainstorming, TDD, plans, and subagent delivery. Install with /plugins, then start a new session."
+    />
     <link rel="canonical" href="https://kimi.aiaaii.com/items/obra/superpowers/" />
         <script>
       (function () {
@@ -48,23 +51,230 @@
       <header class="page-hero">
         <div class="wrap">
           <h1>superpowers</h1>
-          <p>Planning, TDD, debugging, and delivery workflows for coding agents.</p>
+          <p>
+            A composable skills pack that pushes coding agents toward brainstorming,
+            plans, TDD, and reviewed delivery — installable as a Kimi plugin.
+          </p>
         </div>
       </header>
     </div>
     <main class="section">
       <div class="wrap prose">
-<p>Curated in the default Kimi marketplace. Multi-harness skill pack focused on disciplined engineering loops.</p>
-        <div class="install-block"><span class="label">Install</span><code>/plugins install https://github.com/obra/superpowers</code></div>
-        <div class="install-block"><span class="label">Then</span><code>/reload</code></div>
+        <p>
+          <strong>superpowers</strong> turns ad-hoc agent coding into a repeatable
+          methodology: draw out intent, write a plan a junior could follow, then
+          execute with TDD and review gates. On Kimi Code it appears in the Curated
+          marketplace and also installs from GitHub. This page on
+          <span class="acronym">Kimi Plugin Market</span> (Any AI) is an independent
+          rewrite for install discovery — not affiliated with Moonshot AI or the
+          Superpowers authors.
+        </p>
+
+        <div class="install-block">
+          <span class="label">Curated tab</span>
+          <code>/plugins</code>
+        </div>
+        <div class="install-block">
+          <span class="label">Or install from GitHub</span>
+          <code>/plugins install https://github.com/obra/superpowers</code>
+        </div>
+        <div class="install-block">
+          <span class="label">Apply (new session)</span>
+          <code>/new</code>
+        </div>
+
         <dl class="meta-table">
-          <dt>Author</dt><dd>obra</dd>
-          <dt>Category</dt><dd><a href="/categories/workflows/">workflows</a></dd>
-          <dt>Status</dt><dd>listed · curated</dd>
-          <dt>Source</dt><dd><a href="https://github.com/obra/superpowers" rel="noopener noreferrer">github.com/obra/superpowers</a></dd>
+          <dt>Author</dt>
+          <dd>obra</dd>
+          <dt>Category</dt>
+          <dd><a href="/categories/workflows/">workflows</a></dd>
+          <dt>Status</dt>
+          <dd>listed · curated</dd>
+          <dt>License</dt>
+          <dd>MIT (see upstream)</dd>
+          <dt>Source</dt>
+          <dd>
+            <a href="https://github.com/obra/superpowers" rel="noopener noreferrer"
+              >github.com/obra/superpowers</a
+            >
+          </dd>
         </dl>
-        <p class="source-line">Independent rewrite · Updated 2026-11-02 · Not affiliated with Moonshot AI / Kimi</p>
-        <p><a href="/items/">← All plugins</a></p>
+
+        <h2>What is superpowers?</h2>
+        <p>
+          <strong>superpowers is a library of agent skills plus bootstrap instructions
+          that steer a coding agent into a disciplined build loop.</strong>
+          Instead of jumping straight into code, the agent is nudged to clarify the
+          goal, confirm a design you can actually read, produce an implementation
+          plan, then run tasks with TDD and review. Skills are meant to trigger as
+          mandatory workflows when relevant — not as optional tips.
+          (<a href="https://github.com/obra/superpowers" rel="noopener noreferrer">Source</a>)
+        </p>
+
+        <h2>Core capabilities</h2>
+        <ul>
+          <li>
+            <strong>brainstorming</strong> — draw out intent and play back a design
+            before code starts.
+          </li>
+          <li>
+            <strong>writing-plans / executing-plans</strong> — break work into small
+            tasks with paths, verification, then execute inline or via subagents.
+          </li>
+          <li>
+            <strong>test-driven-development</strong> — enforce red → green → refactor;
+            reject “code first, tests later.”
+          </li>
+          <li>
+            <strong>subagent-driven-development</strong> — dispatch per-task agents with
+            review gates between steps.
+          </li>
+          <li>
+            <strong>systematic-debugging</strong> — a structured root-cause loop instead
+            of random patches.
+          </li>
+          <li>
+            <strong>diagnosing-superpowers</strong> — inspect a session when skills
+            misfire or burn unexpected tokens.
+          </li>
+        </ul>
+
+        <h2>How to install and enable on Kimi Code</h2>
+        <ol>
+          <li>
+            Open the plugin manager and confirm you are in a Kimi Code session that
+            supports <code>/plugins</code>.
+            <div class="install-block"><span class="label">Open manager</span><code>/plugins</code></div>
+            Expected: Installed / Official / Curated / Custom tabs appear.
+          </li>
+          <li>
+            Prefer the Curated marketplace entry named Superpowers when shown; or
+            install the public GitHub source directly.
+            <div class="install-block">
+              <span class="label">GitHub install</span>
+              <code>/plugins install https://github.com/obra/superpowers</code>
+            </div>
+            Expected: the plugin appears under Installed (may prompt for third-party trust).
+          </li>
+          <li>
+            Enable the plugin if it installed disabled. Kimi applies plugin changes on
+            <strong>new sessions</strong> — start one after install or update.
+            <div class="install-block"><span class="label">Fresh session</span><code>/new</code></div>
+            Expected: skills from Superpowers are available in the new session.
+          </li>
+          <li>
+            Verify with <code>/plugins info superpowers</code> (diagnostics + enabled).
+            Acceptance check from upstream: ask for a small app (e.g. a React todo list)
+            and expect <strong>brainstorming</strong> before code. Details:
+            <a href="https://github.com/obra/superpowers/blob/main/docs/README.kimi.md" rel="noopener noreferrer"
+              >docs/README.kimi.md</a
+            >.
+          </li>
+        </ol>
+        <p>
+          See also:
+          <a href="/guides/how-to-install-kimi-plugin/">How to install a Kimi plugin</a>
+          ·
+          <a href="/guides/how-to-reload-after-plugin-install/">Reload / new session after install</a>.
+        </p>
+
+        <h2>Typical usage</h2>
+        <ol>
+          <li>
+            Start a feature the way you normally would (“build X”). With Superpowers
+            loaded, expect brainstorming / clarification before large code dumps.
+          </li>
+          <li>
+            Approve the design chunks, then let the agent produce a plan with small
+            tasks and verification steps — intervene if the plan skips tests.
+          </li>
+          <li>
+            Say go and let subagent- or plan-driven execution run; use
+            diagnosing-superpowers if skills stay silent or the agent ignores the plan
+            (ask the agent to figure out what went wrong with Superpowers in this
+            session).
+          </li>
+        </ol>
+        <p>
+          Exact skill names and triggers evolve with the repo; treat the upstream
+          “Basic Workflow” section as the source of truth.
+        </p>
+
+        <h2>When to use it — and caveats</h2>
+        <p>
+          <strong>Use Superpowers when you want process guardrails on non-trivial
+          work</strong> (multi-file features, refactors, anything that needs a plan and
+          tests). Skip it for one-line edits where brainstorming overhead is noise.
+        </p>
+        <ul>
+          <li>
+            Multi-harness project: install Superpowers separately per agent (Kimi vs
+            Claude vs Droid, etc.) — one install does not cover every CLI.
+          </li>
+          <li>
+            Third-party code: review the MIT-licensed repo before enabling MCP/hooks;
+            this listing does not audit security.
+          </li>
+          <li>
+            Optional telemetry: upstream documents visual-companion logo loading; set
+            <code>SUPERPOWERS_DISABLE_TELEMETRY</code> to opt out if you care.
+          </li>
+        </ul>
+
+        <div class="faq">
+          <details>
+            <summary>Does Kimi Code list Superpowers in its default marketplace?</summary>
+            <p>
+              <strong>Yes — it is a Curated entry in Kimi’s default plugin marketplace.</strong>
+              You can install from the Curated tab in <code>/plugins</code>, or pin the
+              GitHub URL with <code>/plugins install</code> if you prefer an explicit source.
+            </p>
+          </details>
+          <details>
+            <summary>Why do Superpowers skills not show up after a Kimi install?</summary>
+            <p>
+              <strong>Start a fresh session with <code>/new</code> after install or update.</strong>
+              Confirm <code>/plugins info superpowers</code> shows enabled; Kimi applies
+              plugin changes to new sessions, so the old chat may keep missing skills.
+            </p>
+          </details>
+          <details>
+            <summary>Can I reuse one Superpowers install across Kimi and Claude Code?</summary>
+            <p>
+              <strong>No — install per harness.</strong>
+              Upstream states installation differs by coding agent; if you use more than
+              one, install Superpowers separately for each.
+            </p>
+          </details>
+          <details>
+            <summary>What should I do when Superpowers misfires mid-session on Kimi?</summary>
+            <p>
+              <strong>Ask the agent to diagnose Superpowers with session evidence.</strong>
+              Upstream provides a diagnosing-superpowers skill that reads the transcript
+              and can package a scrubbed bug-report bundle — better than guessing which
+              skill failed.
+            </p>
+          </details>
+          <details>
+            <summary>Is this Kimi Plugin Market page the official Superpowers docs?</summary>
+            <p>
+              <strong>No — this is a community listing on Any AI.</strong>
+              Install commands point at the public GitHub source; prefer the upstream
+              README for authoritative skill lists and harness-specific notes.
+            </p>
+          </details>
+        </div>
+
+        <p class="source-line">
+          Independent rewrite · Updated 2026-11-06 · Not affiliated with Moonshot AI /
+          Kimi or Prime Radiant / obra ·
+          <a href="https://github.com/obra/superpowers" rel="noopener noreferrer">Source repository</a>
+        </p>
+        <p>
+          <a href="/items/">← All plugins</a>
+          ·
+          <a href="/categories/workflows/">workflows</a>
+        </p>
       </div>
     </main>
     <footer class="site-footer">

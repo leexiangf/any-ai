@@ -3,11 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>usage-monitor - Amp credits monitor | Amp Plugin Market</title>
-    <meta
-      name="description"
-      content="daftAI Amp plugin that monitors credits and balance in the Amp CLI. Copy usage-monitor.ts into Amp plugins. Community listing on amp.aiaaii.com."
-    />
+    <title>usage-monitor - CLI usage / credits monitor from the daftAI Amp plugin</title>
+    <meta name="description" content="usage-monitor: CLI usage / credits monitor from the daftAI Amp plugins collection. Community listing on amp.aiaaii.com." />
     <link rel="canonical" href="https://amp.aiaaii.com/items/daftAI2026/usage-monitor/" />
         <script>
       (function () {
@@ -33,14 +30,14 @@
         <div class="site-header">
           <a class="brand" href="/">
             <span class="brand-name">Amp Plugin Market</span>
-            <span class="brand-domain">amp.aiaaii.com</span>
+            <span class="brand-domain">amp.aiaaii.com · Any AI</span>
           </a>
-                    <div class="header-end">
-            <nav class="nav">
-            <a href="https://aiaaii.com/">Home</a>
-            <a href="/items/">Plugins</a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/" aria-current="page">Plugins</a>
             <a href="/guides/">Guides</a>
             <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
           </nav>
             <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
               <span class="theme-toggle-icon" aria-hidden="true"></span>
@@ -58,25 +55,16 @@
     <main class="section">
       <div class="wrap prose">
         <p>
-          Part of <strong>daftAI2026/daftai-amp-plugins</strong> — shared Amp CLI
-          plugins including a usage monitor for credits and balance. Works with
-          the Amp binary CLI (not the editor extension; not npm-installed Amp).
+          <strong>usage-monitor</strong> — daftAI Amp plugins, including a usage monitor for credits and balance.
+          This page on <span class="acronym">Amp Plugin Market</span> (Any AI) is an
+          independent rewrite for install discovery. Not affiliated with Amp / Sourcegraph.
         </p>
+
         <div class="install-block">
-          <span class="label">Ask Amp</span>
-          <code
-            >Please install plugins from github.com/daftAI2026/daftai-amp-plugins</code
-          >
+          <span class="label">Install</span>
+          <code>amp plugins add https://github.com/daftAI2026/daftai-amp-plugins</code>
         </div>
-        <div class="install-block">
-          <span class="label">Manual (macOS/Linux system plugins)</span>
-          <code
-            >git clone https://github.com/daftAI2026/daftai-amp-plugins.git
-            &amp;&amp; mkdir -p ~/.config/amp/plugins &amp;&amp; cp
-            daftai-amp-plugins/plugins/daftai-usage-monitor/usage-monitor.ts
-            ~/.config/amp/plugins/</code
-          >
-        </div>
+
         <dl class="meta-table">
           <dt>Author</dt>
           <dd>daftAI2026</dd>
@@ -91,48 +79,122 @@
             >
           </dd>
         </dl>
-        <h2>What it does</h2>
+
+        <h2>What is usage-monitor?</h2>
         <p>
-          Loads with the Amp CLI so you can track usage-oriented signals while
-          chatting. After copy, start <span class="acronym">amp</span>, then use
-          <span class="acronym">plugins: list</span> /
-          <span class="acronym">plugins: reload</span> from the Ctrl-o menu.
+          <strong>usage-monitor is a Amp plugin that daftAI Amp plugins, including a usage monitor for credits and balance.</strong>
+          Use this listing to copy a real install path and open the upstream source —
+          not as a substitute for the repository README.
+          (<a href="https://github.com/daftAI2026/daftai-amp-plugins" rel="noopener noreferrer">Source</a>)
         </p>
-        <h2>Compatibility</h2>
+
+        <h2>Core capabilities</h2>
+        <ul>
+          <li><strong>Purpose</strong> — daftAI Amp plugins, including a usage monitor for credits and balance.</li>
+          <li><strong>Installable on this host</strong> — documented for the Amp plugin flow on this market.</li>
+          <li><strong>Public source</strong> — review the GitHub repository before enabling third-party code.</li>
+          <li><strong>Amp add path</strong> — use <code>amp plugins add</code> with a URL or path the Amp CLI accepts.</li>
+        </ul>
+
+        <h2>How to install and enable usage-monitor</h2>
+        <ol>
+          <li>
+            Install.
+            <div class="install-block"><span class="label">Step 1</span><code>amp plugins add https://github.com/daftAI2026/daftai-amp-plugins</code></div>
+            Expected: command succeeds without inventing alternate flags.
+          </li>
+          <li>
+            Open the upstream README if the host asks for a marketplace pin, plugin id,
+            or extra enable step beyond the commands above.
+          </li>
+        </ol>
         <p>
-          Amp CLI via binary install; Plugin API experimental and may break.
-          Does not target the Amp editor extension.
+          More host help:
+          <a href="/guides/">Guides</a>
+          ·
+          <a href="/items/">All plugins</a>.
         </p>
+
+        <h2>Typical usage</h2>
+        <ol>
+          <li>
+            Install with the command block above, then confirm the plugin appears in the
+            host’s installed / marketplace UI.
+          </li>
+          <li>
+            Exercise one documented skill, theme, or tool from the README — do not assume
+            undocumented slash commands.
+          </li>
+          <li>
+            If nothing loads, re-check scope, marketplace pin, trust prompts, or start a
+            fresh host session as the vendor docs require.
+          </li>
+        </ol>
+
+        <h2>When to use it — and caveats</h2>
+        <p>
+          <strong>Use usage-monitor when its documented role matches your task.</strong>
+          Skip third-party plugins you have not reviewed, and prefer official catalogs when
+          they already cover the same job.
+        </p>
+        <ul>
+          <li>Commands and manifests change — re-read the GitHub source after upgrades.</li>
+          <li>This market does not vendor or sign the plugin; trust decisions are yours.</li>
+          <li>Corrections welcome via <a href="/submit/">Submit</a> on this host market.</li>
+        </ul>
+
         <div class="faq">
           <details>
-            <summary>Windows path?</summary>
-            <p>
-              Copy into
-              <span class="acronym">%USERPROFILE%\.config\amp\plugins\usage-monitor.ts</span>
-              as documented upstream.
-            </p>
+            <summary>Is this Amp plugin listing the official usage-monitor documentation?</summary>
+            <p><strong>No — this is a community page on Amp Plugin Market (Any AI).</strong> Prefer the upstream repository for authoritative APIs and release notes.</p>
           </details>
           <details>
-            <summary>Is this official Amp?</summary>
-            <p>No. Community collection. Not affiliated with Amp / Sourcegraph.</p>
+            <summary>Where do install commands for usage-monitor come from?</summary>
+            <p><strong>From the public source and host plugin docs — not invented here.</strong> If a command fails, check the repository README and host CLI help for the current syntax.</p>
+          </details>
+          <details>
+            <summary>Do I need to trust third-party code when installing usage-monitor?</summary>
+            <p><strong>Yes — review the GitHub source before enabling.</strong> This directory does not security-audit plugins; treat marketplace installs like any other third-party code.</p>
+          </details>
+          <details>
+            <summary>Can I install usage-monitor with a plain git clone instead of Amp’s plugin command?</summary>
+            <p><strong>Only if you then point <code>amp plugins add</code> at a path or URL Amp accepts.</strong> Cloning alone does not register the plugin inside Amp.</p>
+          </details>
+          <details>
+            <summary>How do I correct a wrong one-liner or install path for usage-monitor on this market?</summary>
+            <p><strong>Open a listing request or issue on the Any AI repo, or comment via Submit.</strong> Source of truth remains github.com/daftAI2026/daftai-amp-plugins.</p>
           </details>
         </div>
+
         <p class="source-line">
-          Independent rewrite —
-          <a href="https://github.com/daftAI2026/daftai-amp-plugins" rel="noopener noreferrer"
-            >source repository</a
-          >
-          · Updated 2026-10-31
+          Independent rewrite · Updated 2026-11-06 · Not affiliated with Amp / Sourcegraph ·
+          <a href="https://github.com/daftAI2026/daftai-amp-plugins" rel="noopener noreferrer">Source repository</a>
         </p>
         <p>
-          <a href="/items/">← All plugins</a> ·
-          <a href="/categories/tools/">Tools</a>
+          <a href="/items/">← All plugins</a>
+          ·
+          <a href="/categories/tools/">tools</a>
         </p>
       </div>
     </main>
     <footer class="site-footer">
-      <div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp</p></div>
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Amp Plugin Market</span>
+          <span class="brand-domain">amp.aiaaii.com · Any AI (AI-AAII)</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+          </div>
+          <p>Not affiliated with Amp / Sourcegraph</p>
+        </div>
+      </div>
     </footer>
-      <script src="/theme.js" defer></script>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

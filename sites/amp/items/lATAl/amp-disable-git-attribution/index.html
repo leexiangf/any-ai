@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>amp-disable-git-attribution - Hide Amp git co-author | Amp Plugin Market</title>
-    <meta name="description" content="Amp plugin that disables Amp thread and co-author attribution in Git commits. Community listing on amp.aiaaii.com." />
+    <title>amp-disable-git-attribution - Turn off Amp thread and co-author lines </title>
+    <meta name="description" content="amp-disable-git-attribution: Turn off Amp thread and co-author lines in Git commits. Community listing on amp.aiaaii.com." />
     <link rel="canonical" href="https://amp.aiaaii.com/items/lATAl/amp-disable-git-attribution/" />
         <script>
       (function () {
@@ -28,10 +28,20 @@
     <div class="page-shell">
       <div class="wrap-wide">
         <div class="site-header">
-          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <a class="brand" href="/">
+            <span class="brand-name">Amp Plugin Market</span>
+            <span class="brand-domain">amp.aiaaii.com · Any AI</span>
+          </a>
           <div class="header-end">
-            <nav class="nav"><a href="https://aiaaii.com/">Home</a><a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a></nav>
-            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme"><span class="theme-toggle-icon" aria-hidden="true"></span></button>
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/" aria-current="page">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+          </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
           </div>
         </div>
       </div>
@@ -45,11 +55,11 @@
     <main class="section">
       <div class="wrap prose">
         <p>
-          Sets <span class="acronym">amp.git.commit.ampThread.enabled</span> and
-          <span class="acronym">amp.git.commit.coauthor.enabled</span> to
-          <span class="acronym">false</span> in Amp user settings when a thread
-          starts. Does not change author, committer, signing, or unrelated settings.
+          <strong>amp-disable-git-attribution</strong> — Amp plugin that disables Amp thread and co-author attribution in Git commits
+          This page on <span class="acronym">Amp Plugin Market</span> (Any AI) is an
+          independent rewrite for install discovery. Not affiliated with Amp / Sourcegraph.
         </p>
+
         <div class="install-block">
           <span class="label">Personal Plugin via Puck (Ctrl+/)</span>
           <code>Install https://github.com/lATAl/amp-disable-git-attribution as a Personal Plugin named amp-disable-git-attribution. Ask before pushing the Personal Plugins repository, then reload the plugins.</code>
@@ -58,19 +68,142 @@
           <span class="label">Local-only (no plugin)</span>
           <code>amp config edit  # set both attribution settings to false</code>
         </div>
+
         <dl class="meta-table">
-          <dt>Author</dt><dd>lATAl</dd>
-          <dt>Category</dt><dd><a href="/categories/security/">security</a></dd>
-          <dt>Status</dt><dd>listed</dd>
-          <dt>Source</dt><dd><a href="https://github.com/lATAl/amp-disable-git-attribution" rel="noopener noreferrer">github.com/lATAl/amp-disable-git-attribution</a></dd>
+          <dt>Author</dt>
+          <dd>lATAl</dd>
+          <dt>Category</dt>
+          <dd><a href="/categories/security/">security</a></dd>
+          <dt>Status</dt>
+          <dd>listed</dd>
+          <dt>Source</dt>
+          <dd>
+            <a href="https://github.com/lATAl/amp-disable-git-attribution" rel="noopener noreferrer"
+              >github.com/lATAl/amp-disable-git-attribution</a
+            >
+          </dd>
         </dl>
-        <h2>Verify</h2>
-        <p>After a new thread: check settings JSON and <span class="acronym">amp plugins list</span>.</p>
-        <p class="source-line">Independent rewrite · Updated 2026-10-31 · Not affiliated with Amp</p>
-        <p><a href="/items/">← All plugins</a> · <a href="/categories/security/">Security</a></p>
+
+        <h2>What is amp-disable-git-attribution?</h2>
+        <p>
+          <strong>amp-disable-git-attribution is a Amp plugin that Amp plugin that disables Amp thread and co-author attribution in Git commits.</strong>
+          Use this listing to copy a real install path and open the upstream source —
+          not as a substitute for the repository README.
+          (<a href="https://github.com/lATAl/amp-disable-git-attribution" rel="noopener noreferrer">Source</a>)
+        </p>
+
+        <h2>Core capabilities</h2>
+        <ul>
+          <li><strong>Purpose</strong> — Amp plugin that disables Amp thread and co-author attribution in Git commits</li>
+          <li><strong>Installable on this host</strong> — documented for the Amp plugin flow on this market.</li>
+          <li><strong>Public source</strong> — review the GitHub repository before enabling third-party code.</li>
+          <li><strong>Amp add path</strong> — use <code>amp plugins add</code> with a URL or path the Amp CLI accepts.</li>
+        </ul>
+
+        <h2>How to install and enable amp-disable-git-attribution</h2>
+        <ol>
+          <li>
+            Personal Plugin via Puck (Ctrl+/).
+            <div class="install-block"><span class="label">Step 1</span><code>Install https://github.com/lATAl/amp-disable-git-attribution as a Personal Plugin named amp-disable-git-attribution. Ask before pushing the Personal Plugins repository, then reload the plugins.</code></div>
+            Expected: command succeeds without inventing alternate flags.
+          </li>
+          <li>
+            Local-only (no plugin).
+            <div class="install-block"><span class="label">Step 2</span><code>amp config edit  # set both attribution settings to false</code></div>
+            Expected: command succeeds without inventing alternate flags.
+          </li>
+          <li>
+            Open the upstream README if the host asks for a marketplace pin, plugin id,
+            or extra enable step beyond the commands above.
+          </li>
+        </ol>
+        <p>
+          More host help:
+          <a href="/guides/">Guides</a>
+          ·
+          <a href="/items/">All plugins</a>.
+        </p>
+
+        <h2>Typical usage</h2>
+        <ol>
+          <li>
+            Install with the command block above, then confirm the plugin appears in the
+            host’s installed / marketplace UI.
+          </li>
+          <li>
+            Exercise one documented skill, theme, or tool from the README — do not assume
+            undocumented slash commands.
+          </li>
+          <li>
+            If nothing loads, re-check scope, marketplace pin, trust prompts, or start a
+            fresh host session as the vendor docs require.
+          </li>
+        </ol>
+
+        <h2>When to use it — and caveats</h2>
+        <p>
+          <strong>Use amp-disable-git-attribution when its documented role matches your task.</strong>
+          Skip third-party plugins you have not reviewed, and prefer official catalogs when
+          they already cover the same job.
+        </p>
+        <ul>
+          <li>Commands and manifests change — re-read the GitHub source after upgrades.</li>
+          <li>This market does not vendor or sign the plugin; trust decisions are yours.</li>
+          <li>Corrections welcome via <a href="/submit/">Submit</a> on this host market.</li>
+        </ul>
+
+        <div class="faq">
+          <details>
+            <summary>Is this Amp plugin listing the official amp-disable-git-attribution documentation?</summary>
+            <p><strong>No — this is a community page on Amp Plugin Market (Any AI).</strong> Prefer the upstream repository for authoritative APIs and release notes.</p>
+          </details>
+          <details>
+            <summary>Where do install commands for amp-disable-git-attribution come from?</summary>
+            <p><strong>From the public source and host plugin docs — not invented here.</strong> If a command fails, check the repository README and host CLI help for the current syntax.</p>
+          </details>
+          <details>
+            <summary>Do I need to trust third-party code when installing amp-disable-git-attribution?</summary>
+            <p><strong>Yes — review the GitHub source before enabling.</strong> This directory does not security-audit plugins; treat marketplace installs like any other third-party code.</p>
+          </details>
+          <details>
+            <summary>Can I install amp-disable-git-attribution with a plain git clone instead of Amp’s plugin command?</summary>
+            <p><strong>Only if you then point <code>amp plugins add</code> at a path or URL Amp accepts.</strong> Cloning alone does not register the plugin inside Amp.</p>
+          </details>
+          <details>
+            <summary>How do I correct a wrong one-liner or install path for amp-disable-git-attribution on this market?</summary>
+            <p><strong>Open a listing request or issue on the Any AI repo, or comment via Submit.</strong> Source of truth remains github.com/lATAl/amp-disable-git-attribution.</p>
+          </details>
+        </div>
+
+        <p class="source-line">
+          Independent rewrite · Updated 2026-11-06 · Not affiliated with Amp / Sourcegraph ·
+          <a href="https://github.com/lATAl/amp-disable-git-attribution" rel="noopener noreferrer">Source repository</a>
+        </p>
+        <p>
+          <a href="/items/">← All plugins</a>
+          ·
+          <a href="/categories/security/">security</a>
+        </p>
       </div>
     </main>
-    <footer class="site-footer"><div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp</p></div></footer>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Amp Plugin Market</span>
+          <span class="brand-domain">amp.aiaaii.com · Any AI (AI-AAII)</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+          </div>
+          <p>Not affiliated with Amp / Sourcegraph</p>
+        </div>
+      </div>
+    </footer>
     <script src="/theme.js" defer></script>
   </body>
 </html>
