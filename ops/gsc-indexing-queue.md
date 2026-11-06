@@ -62,18 +62,42 @@ Sitemap：五站 `sitemap.xml`（www / amp / orca / droid / **kimi** — kimi �
 | 35 | https://kimi.aiaaii.com/guides/how-to-add-kimi-marketplace/ | todo · 新店命令词 |
 | 36 | https://kimi.aiaaii.com/items/ | todo · 新店目录 |
 | 37 | https://kimi.aiaaii.com/items/obra/superpowers/ | todo · 新店精选 |
+| 38 | https://droid.aiaaii.com/items/superfly/fly-droid-plugin/ | todo · 第一批 |
+| 39 | https://droid.aiaaii.com/items/ilyautov/humanizer-ru/ | todo · 第一批 |
+| 40 | https://kimi.aiaaii.com/items/ayghri/i-have-adhd/ | todo · 第一批 |
+| 41 | https://kimi.aiaaii.com/items/kenryu42/cc-safety-net/ | todo · 第一批 |
+| 42 | https://kimi.aiaaii.com/items/Asymptote-Labs/agent-beacon/ | todo · 第一批 |
+| 43 | https://kimi.aiaaii.com/items/ChatCut-Inc/agent-plugin/ | todo · 第一批 |
+| 44 | https://orca.aiaaii.com/items/taranttoola-create/orca-russian/ | todo · 第一批 |
+| 45 | https://orca.aiaaii.com/items/imgusev/orca-plugins/ | todo · 第一批 |
+| 46 | https://orca.aiaaii.com/items/xinnyu/orca-notify/ | todo · 第一批 |
+| 47 | https://orca.aiaaii.com/items/LuticaCANARD/orca-discord-presence/ | todo · 第一批 |
+| 48 | https://amp.aiaaii.com/items/Project-White-Rabbit/bitfab-amp-plugin/ | todo · 第一批 |
+| 49 | https://droid.aiaaii.com/items/anthropics/skills/ | todo · 第二批 |
+| 50 | https://kimi.aiaaii.com/items/GanyuanRan/Aegis/ | todo · 第二批 |
+| 51 | https://kimi.aiaaii.com/items/vshulcz/deja-vu/ | todo · 第二批 |
+| 52 | https://kimi.aiaaii.com/items/volcengine/OpenViking/ | todo · 第二批 |
+| 53 | https://kimi.aiaaii.com/items/oceanbase/powercontext/ | todo · 第二批 |
+| 54 | https://kimi.aiaaii.com/items/neondatabase/agent-skills/ | todo · 第二批 |
+| 55 | https://kimi.aiaaii.com/items/yikart/AiToEarn/ | todo · 第二批 |
+| 56 | https://kimi.aiaaii.com/items/salemalem/npmscan-mcp-plugin/ | todo · 第二批 |
+| 57 | https://orca.aiaaii.com/items/a-lang/orca-traditional-chinese/ | todo · 第二批 |
+| 58 | https://orca.aiaaii.com/items/mark22013333/orca-zh-tw/ | todo · 第二批 |
+| 59 | https://orca.aiaaii.com/items/luckury/orca-backlog-md/ | todo · 第二批 |
+| 60 | https://orca.aiaaii.com/items/coseto6125/ecp-orca-plugin/ | todo · 第二批 |
+| 61 | https://orca.aiaaii.com/items/first-fluke/oh-my-agent/ | todo · 第二批 |
 
-## 下次复制用（从 #12 起；额度恢复后优先插 Kimi）
+## 下次复制用（额度恢复后优先 Kimi + 两批新页）
 
 ```
-https://amp.aiaaii.com/guides/fix-amp-command-not-found/
-https://amp.aiaaii.com/guides/fix-amp-plugins-add-failed/
-https://droid.aiaaii.com/guides/fix-unknown-marketplace/
-https://orca.aiaaii.com/guides/fix-add-an-explicit-ref/
-https://kimi.aiaaii.com/
-https://kimi.aiaaii.com/guides/how-to-install-kimi-plugin/
-https://kimi.aiaaii.com/guides/how-to-add-kimi-marketplace/
-https://amp.aiaaii.com/items/
-https://orca.aiaaii.com/items/
-https://droid.aiaaii.com/items/
+https://kimi.aiaaii.com/items/ayghri/i-have-adhd/
+https://kimi.aiaaii.com/items/kenryu42/cc-safety-net/
+https://kimi.aiaaii.com/items/GanyuanRan/Aegis/
+https://kimi.aiaaii.com/items/vshulcz/deja-vu/
+https://kimi.aiaaii.com/items/volcengine/OpenViking/
+https://droid.aiaaii.com/items/superfly/fly-droid-plugin/
+https://droid.aiaaii.com/items/anthropics/skills/
+https://orca.aiaaii.com/items/first-fluke/oh-my-agent/
+https://orca.aiaaii.com/items/a-lang/orca-traditional-chinese/
+https://amp.aiaaii.com/items/Project-White-Rabbit/bitfab-amp-plugin/
 ```

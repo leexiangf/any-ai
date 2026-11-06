@@ -1,149 +1,151 @@
 {
-  "generatedAt": "2026-11-01T06:55:39.712Z",
+  "generatedAt": "2026-11-06T05:58:51.239Z",
   "host": "droid",
   "mode": "prs+seeds",
   "counts": {
-    "candidates": 2,
-    "rejected": 13,
-    "scanned": 15
+    "candidates": 3,
+    "rejected": 22,
+    "scanned": 25
   },
   "candidates": [
     {
-      "slug": "LambdaTest/mcp-server-guide",
-      "owner": "LambdaTest",
-      "repo": "mcp-server-guide",
-      "html_url": "https://github.com/LambdaTest/mcp-server-guide",
-      "stars": null,
-      "description": "TestMu AI (formerly LambdaTest) plugins for Claude Code: Kane CLI for browser and mobile testing, Rook for testing AI agents, and the TestMu AI MCP server",
+      "slug": "anthropics/skills",
+      "owner": "anthropics",
+      "repo": "skills",
+      "html_url": "https://github.com/anthropics/skills",
+      "stars": 187841,
+      "description": "Anthropic example skills",
       "default_branch": "main",
       "marketplaceKind": "claude-compat",
       "marketplacePath": ".claude-plugin/marketplace.json",
       "marketplaceRef": "main",
-      "marketplaceName": "testmu-ai",
-      "pluginCount": 3,
+      "marketplaceName": "anthropic-agent-skills",
+      "pluginCount": 5,
       "plugins": [
         {
-          "name": "kane-cli",
-          "description": "Verify any browser flow from your terminal in natural language. Real Chrome, evidence-backed.",
-          "category": "testing"
+          "name": "document-skills",
+          "description": "Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities",
+          "category": null
         },
         {
-          "name": "rook",
-          "description": "Agent Assurance by TestMu AI (rook): test how your AI agents behave across workflows, tools and actions, before they ship.",
-          "category": "testing"
+          "name": "example-skills",
+          "description": "Collection of example skills demonstrating various capabilities including skill creation, MCP building, visual design, algorithmic art, internal communications, web testing, artifact building, Slack GIFs, and theme styling",
+          "category": null
         },
         {
-          "name": "testmu-ai",
-          "description": "Run, debug and triage tests on the TestMu AI cloud through the hosted MCP server (HyperExecute, failure triage, SmartUI, accessibility, Test Manager), plus the Kane CLI and Rook CLI skills",
-          "category": "testing"
+          "name": "claude-api",
+          "description": "Claude API and SDK documentation skill for building LLM-powered applications",
+          "category": null
+        },
+        {
+          "name": "academy-guide",
+          "description": "Recommends relevant Claude Academy courses, tutorials, and use cases when users ask how to use Claude",
+          "category": null
+        },
+        {
+          "name": "discernment-nudge",
+          "description": "Appends two or three short follow-up questions after a substantive answer to help users check key facts, probe the reasoning, and notice missing context",
+          "category": null
         }
       ],
       "install": {
-        "add": "droid plugin marketplace add https://github.com/LambdaTest/mcp-server-guide",
-        "install": "droid plugin install kane-cli@testmu-ai --scope user",
+        "add": "droid plugin marketplace add https://github.com/anthropics/skills",
+        "install": "droid plugin install document-skills@anthropic-agent-skills --scope user",
         "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
       },
       "alreadyListed": false,
       "suggestedListingPaths": [
-        "/items/LambdaTest/mcp-server-guide/",
-        "/items/LambdaTest/kane-cli/"
+        "/items/anthropics/skills/",
+        "/items/anthropics/document-skills/"
       ],
       "sources": [
         {
-          "type": "seed",
-          "note": "TestMu / LambdaTest PR hint"
+          "type": "factory-plugins-pr",
+          "pr": 17,
+          "title": "Add pixel-perfect plugin: browser-native visual QA for frontend design",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/17"
         }
       ]
     },
     {
-      "slug": "cursor/plugins",
-      "owner": "cursor",
-      "repo": "plugins",
-      "html_url": "https://github.com/cursor/plugins",
-      "stars": null,
-      "description": null,
+      "slug": "ilyautov/humanizer-ru",
+      "owner": "ilyautov",
+      "repo": "humanizer-ru",
+      "html_url": "https://github.com/ilyautov/humanizer-ru",
+      "stars": 521,
+      "description": "Plugins by Ilya Utov: humanizer-ru, a Russian text quality editor | Плагины Ильи Утова: humanizer-ru, редактура русского текста",
       "default_branch": "main",
       "marketplaceKind": "claude-compat",
       "marketplacePath": ".claude-plugin/marketplace.json",
       "marketplaceRef": "main",
-      "marketplaceName": "cursor-plugins",
-      "pluginCount": 2,
+      "marketplaceName": "ilyautov-plugins",
+      "pluginCount": 1,
       "plugins": [
         {
-          "name": "origin-apps",
-          "description": "Skills for building on the Cursor Origin API. Fetch the live spec first, then follow the Origin rules for credentials, scopes, webhooks, paging, and errors. Includes a skill that plans the port of an existing GitHub App.",
-          "category": null
-        },
-        {
-          "name": "pstack",
-          "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
-          "category": null
+          "name": "humanizer-ru",
+          "description": "Russian text quality editor: removes bureaucratese, calques and AI-style clichés without changing facts or the author's voice. 67 patterns, 21 hard bans, 3 modes (edit / audit / targeted fix), deterministic scanner with a 0-100 cleanliness score and a fact-lock. | Редактура русского текста: убирает канцелярит, кальки и нейросетевые штампы, не меняя факты и голос автора. 67 паттернов, 21 жёсткий запрет, 3 режима, сканер с баллом чистоты 0-100 и факт-замок.",
+          "category": "writing"
         }
       ],
       "install": {
-        "add": "droid plugin marketplace add https://github.com/cursor/plugins",
-        "install": "droid plugin install origin-apps@cursor-plugins --scope user",
+        "add": "droid plugin marketplace add https://github.com/ilyautov/humanizer-ru",
+        "install": "droid plugin install humanizer-ru@ilyautov-plugins --scope user",
         "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
       },
       "alreadyListed": false,
       "suggestedListingPaths": [
-        "/items/cursor/plugins/",
-        "/items/cursor/origin-apps/"
+        "/items/ilyautov/humanizer-ru/",
+        "/items/ilyautov/humanizer-ru/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": "linked from factory-plugins PR #48"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 48,
+          "title": "feat: add humanizer-ru plugin (remove AI-generation markers from Russian text)",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/48"
+        }
+      ]
+    },
+    {
+      "slug": "superfly/fly-droid-plugin",
+      "owner": "superfly",
+      "repo": "fly-droid-plugin",
+      "html_url": "https://github.com/superfly/fly-droid-plugin",
+      "stars": 0,
+      "description": "Fly.io tools and shared skills for Factory Droid",
+      "default_branch": "main",
+      "marketplaceKind": "factory",
+      "marketplacePath": ".factory-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "fly-droid-plugin",
+      "pluginCount": 1,
+      "plugins": [
+        {
+          "name": "fly",
+          "description": "Deploy and operate Fly.io apps, Machines, volumes, and Managed Postgres; run development workloads in persistent Sprites.",
+          "category": "deployment"
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/superfly/fly-droid-plugin",
+        "install": "droid plugin install fly@fly-droid-plugin --scope user",
+        "note": "Native .factory-plugin/marketplace.json"
+      },
+      "alreadyListed": false,
+      "suggestedListingPaths": [
+        "/items/superfly/fly-droid-plugin/",
+        "/items/superfly/fly/"
       ],
       "sources": [
         {
           "type": "factory-plugins-pr",
-          "pr": 76,
-          "title": "feat(maintain-verification-skill): add maintain-verification-skill plugin",
-          "url": "https://github.com/Factory-AI/factory-plugins/pull/76"
-        },
-        {
-          "type": "factory-plugins-pr",
-          "pr": 75,
-          "title": "feat(create-verification-skill): add create-verification-skill plugin",
-          "url": "https://github.com/Factory-AI/factory-plugins/pull/75"
-        },
-        {
-          "type": "factory-plugins-pr",
-          "pr": 74,
-          "title": "feat(show-me-your-work): add show-me-your-work skill plugin",
-          "url": "https://github.com/Factory-AI/factory-plugins/pull/74"
-        },
-        {
-          "type": "factory-plugins-pr",
-          "pr": 73,
-          "title": "feat(interrogate): add interrogate adversarial-review skill plugin",
-          "url": "https://github.com/Factory-AI/factory-plugins/pull/73"
-        },
-        {
-          "type": "factory-plugins-pr",
-          "pr": 72,
-          "title": "feat(correct): add correct guardrail skill plugin",
-          "url": "https://github.com/Factory-AI/factory-plugins/pull/72"
-        },
-        {
-          "type": "factory-plugins-pr",
-          "pr": 71,
-          "title": "feat(subtract-before-you-add): add subtract-before-you-add skill plugin",
-          "url": "https://github.com/Factory-AI/factory-plugins/pull/71"
-        },
-        {
-          "type": "factory-plugins-pr",
-          "pr": 70,
-          "title": "feat(fix-root-causes): add fix-root-causes guardrail skill plugin",
-          "url": "https://github.com/Factory-AI/factory-plugins/pull/70"
-        },
-        {
-          "type": "factory-plugins-pr",
-          "pr": 69,
-          "title": "feat(blast-radius): add blast-radius guardrail skill plugin",
-          "url": "https://github.com/Factory-AI/factory-plugins/pull/69"
-        },
-        {
-          "type": "factory-plugins-pr",
-          "pr": 68,
-          "title": "feat(prove-it-works): add prove-it-works guardrail skill plugin",
-          "url": "https://github.com/Factory-AI/factory-plugins/pull/68"
+          "pr": 79,
+          "title": "feat: add Fly.io plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/79"
         }
       ]
     }

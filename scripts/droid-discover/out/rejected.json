@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-01T06:55:39.712Z",
+  "generatedAt": "2026-11-06T05:58:51.239Z",
   "rejected": [
     {
       "slug": "SonarSource/sonarqube-agent-plugins",
       "owner": "SonarSource",
       "repo": "sonarqube-agent-plugins",
       "html_url": "https://github.com/SonarSource/sonarqube-agent-plugins",
-      "stars": null,
+      "stars": 114,
       "description": "AI Agent Plugins by Sonar",
-      "default_branch": "main",
+      "default_branch": "master",
       "marketplaceKind": "factory",
       "marketplacePath": ".factory-plugin/marketplace.json",
       "marketplaceRef": "master",
@@ -35,6 +35,12 @@
         {
           "type": "seed",
           "note": "known listed — regression seed"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 58,
+          "title": "Add SonarQube plugin (external url source)",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/58"
         }
       ],
       "reason": "already_listed"
@@ -44,7 +50,7 @@
       "owner": "apify",
       "repo": "apify-factory-plugin",
       "html_url": "https://github.com/apify/apify-factory-plugin",
-      "stars": null,
+      "stars": 1,
       "description": "Run ready-made Actors from Apify, the largest marketplace of tools for AI, or build and publish your own.",
       "default_branch": "main",
       "marketplaceKind": "factory",
@@ -73,6 +79,12 @@
         {
           "type": "seed",
           "note": "known listed — regression seed"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 62,
+          "title": "feat: add Apify plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/62"
         }
       ],
       "reason": "already_listed"
@@ -82,7 +94,7 @@
       "owner": "salemalem",
       "repo": "npmscan-mcp-plugin",
       "html_url": "https://github.com/salemalem/npmscan-mcp-plugin",
-      "stars": null,
+      "stars": 526,
       "description": "NPMScan: npm package and vulnerability lookups (search, maintainer/provenance/install-script inspection, license compliance, PR diffs, CI merge gates, SBOMs, OSV.dev + GitHub Security Advisories + NIST NVD/CVE) for Claude Code.",
       "default_branch": "main",
       "marketplaceKind": "claude-compat",
@@ -111,6 +123,12 @@
         {
           "type": "seed",
           "note": null
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 60,
+          "title": "Add npmscan plugin (external url source)",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/60"
         }
       ],
       "reason": "already_listed"
@@ -120,7 +138,7 @@
       "owner": "rohitg00",
       "repo": "agentmemory",
       "html_url": "https://github.com/rohitg00/agentmemory",
-      "stars": null,
+      "stars": 30165,
       "description": null,
       "default_branch": "main",
       "marketplaceKind": "claude-compat",
@@ -164,7 +182,7 @@
       "owner": "dodopayments",
       "repo": "dodo-agent-plugin",
       "html_url": "https://github.com/dodopayments/dodo-agent-plugin",
-      "stars": null,
+      "stars": 7,
       "description": "Dodo Payments plugin marketplace for Claude Code.",
       "default_branch": "main",
       "marketplaceKind": "claude-compat",
@@ -193,6 +211,12 @@
         {
           "type": "seed",
           "note": null
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 54,
+          "title": "Add Dodo Payments plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/54"
         }
       ],
       "reason": "already_listed"
@@ -202,7 +226,7 @@
       "owner": "loootai",
       "repo": "looot-plugin",
       "html_url": "https://github.com/loootai/looot-plugin",
-      "stars": null,
+      "stars": 0,
       "description": "Search, price and run data APIs (SEO, enrichment, email, social) from one account, billed per call.",
       "default_branch": "main",
       "marketplaceKind": "claude-compat",
@@ -231,40 +255,124 @@
         {
           "type": "seed",
           "note": null
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 57,
+          "title": "Add looot plugin (external git-subdir source)",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/57"
         }
       ],
       "reason": "already_listed"
     },
     {
       "slug": "Shaisolaris/solaris-dev-shop-plugins",
-      "owner": "Shaisolaris",
-      "repo": "solaris-dev-shop-plugins",
-      "html_url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
       "stars": null,
-      "description": "Solaris Technologies native specialist workflows.",
+      "description": null,
+      "sources": [
+        {
+          "type": "seed",
+          "note": null
+        }
+      ],
+      "error": "GitHub 404 https://api.github.com/repos/Shaisolaris/solaris-dev-shop-plugins: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest\",\"status\":\"404\"}"
+    },
+    {
+      "slug": "hashgraph-online/hol-guard",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
+      "stars": 1071,
+      "description": "Open-source antivirus and firewall for AI agents: block risky tools, secret access, prompt injection, malicious packages, MCP servers, plugins, and skills at runtime.",
+      "sources": [
+        {
+          "type": "seed",
+          "note": "PR-linked; may lack marketplace.json"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 41,
+          "title": "feat: add HOL Guard security plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/41"
+        }
+      ],
+      "error": null
+    },
+    {
+      "slug": "AtomicBot-ai/Atomic-Chat",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
+      "stars": 1944,
+      "description": "Local AI app and inference engine for agents. Run open-weight LLMs locally — private, 100% offline on your computer. Join our Discord: https://discord.com/invite/8wGSsvmg4V",
+      "sources": [
+        {
+          "type": "seed",
+          "note": "PR-linked atomic-chat"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 29,
+          "title": "feat(atomic-chat): add Factory plugin for local Atomic Chat LLM",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/29"
+        }
+      ],
+      "error": null
+    },
+    {
+      "slug": "LambdaTest/mcp-server-guide",
+      "owner": "LambdaTest",
+      "repo": "mcp-server-guide",
+      "html_url": "https://github.com/LambdaTest/mcp-server-guide",
+      "stars": 0,
+      "description": "TestMu AI (formerly LambdaTest) plugins for Claude Code: Kane CLI for browser and mobile testing, Rook for testing AI agents, and the TestMu AI MCP server",
       "default_branch": "main",
       "marketplaceKind": "claude-compat",
       "marketplacePath": ".claude-plugin/marketplace.json",
       "marketplaceRef": "main",
-      "marketplaceName": "solaris-technologies",
-      "pluginCount": 1,
+      "marketplaceName": "testmu-ai",
+      "pluginCount": 3,
       "plugins": [
         {
-          "name": "solaris-dev-shop",
-          "description": null,
-          "category": null
+          "name": "kane-cli",
+          "description": "Verify any browser flow from your terminal in natural language. Real Chrome, evidence-backed.",
+          "category": "testing"
+        },
+        {
+          "name": "rook",
+          "description": "Agent Assurance by TestMu AI (rook): test how your AI agents behave across workflows, tools and actions, before they ship.",
+          "category": "testing"
+        },
+        {
+          "name": "testmu-ai",
+          "description": "Run, debug and triage tests on the TestMu AI cloud through the hosted MCP server (HyperExecute, failure triage, SmartUI, accessibility, Test Manager), plus the Kane CLI and Rook CLI skills",
+          "category": "testing"
         }
       ],
       "install": {
-        "add": "droid plugin marketplace add https://github.com/Shaisolaris/solaris-dev-shop-plugins",
-        "install": "droid plugin install solaris-dev-shop@solaris-technologies --scope user",
+        "add": "droid plugin marketplace add https://github.com/LambdaTest/mcp-server-guide",
+        "install": "droid plugin install kane-cli@testmu-ai --scope user",
         "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
       },
       "alreadyListed": true,
       "suggestedListingPaths": [
-        "/items/Shaisolaris/solaris-dev-shop-plugins/",
-        "/items/Shaisolaris/solaris-dev-shop/"
+        "/items/LambdaTest/mcp-server-guide/",
+        "/items/LambdaTest/kane-cli/"
       ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": "TestMu / LambdaTest PR hint"
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
+      "slug": "astandrik/local-ydb-toolkit",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
+      "stars": 5,
+      "description": "Codex skill and MCP server for operating Docker-based local YDB deployments, locally or over SSH.",
       "sources": [
         {
           "type": "seed",
@@ -272,63 +380,21 @@
         },
         {
           "type": "factory-plugins-pr",
-          "pr": 64,
-          "title": "docs: add pinned Solaris Dev Shop plugin",
-          "url": "https://github.com/Factory-AI/factory-plugins/pull/64"
+          "pr": 38,
+          "title": "feat: add Local YDB Toolkit plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/38"
         }
       ],
-      "reason": "already_listed"
-    },
-    {
-      "slug": "hashgraph-online/hol-guard",
-      "reason": "no_marketplace_json",
-      "default_branch": "main",
-      "stars": null,
-      "description": null,
-      "sources": [
-        {
-          "type": "seed",
-          "note": "PR-linked; may lack marketplace.json"
-        }
-      ],
-      "error": "GitHub rate limited (403). Set GITHUB_TOKEN. {\"message\":\"API rate limit exceeded for 118.116.104.25. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\""
-    },
-    {
-      "slug": "AtomicBot-ai/Atomic-Chat",
-      "reason": "no_marketplace_json",
-      "default_branch": "main",
-      "stars": null,
-      "description": null,
-      "sources": [
-        {
-          "type": "seed",
-          "note": "PR-linked atomic-chat"
-        }
-      ],
-      "error": "GitHub rate limited (403). Set GITHUB_TOKEN. {\"message\":\"API rate limit exceeded for 118.116.104.25. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\""
-    },
-    {
-      "slug": "astandrik/local-ydb-toolkit",
-      "reason": "no_marketplace_json",
-      "default_branch": "main",
-      "stars": null,
-      "description": null,
-      "sources": [
-        {
-          "type": "seed",
-          "note": null
-        }
-      ],
-      "error": "GitHub rate limited (403). Set GITHUB_TOKEN. {\"message\":\"API rate limit exceeded for 118.116.104.25. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\""
+      "error": null
     },
     {
       "slug": "yifu001/factory-plugins",
       "owner": "yifu001",
       "repo": "factory-plugins",
       "html_url": "https://github.com/yifu001/factory-plugins",
-      "stars": null,
+      "stars": 0,
       "description": "Official Factory plugins marketplace",
-      "default_branch": "main",
+      "default_branch": "master",
       "marketplaceKind": "factory",
       "marketplacePath": ".factory-plugin/marketplace.json",
       "marketplaceRef": "master",
@@ -395,12 +461,157 @@
       "reason": "already_listed"
     },
     {
+      "slug": "cursor/plugins",
+      "owner": "cursor",
+      "repo": "plugins",
+      "html_url": "https://github.com/cursor/plugins",
+      "stars": 15523,
+      "description": null,
+      "default_branch": "main",
+      "marketplaceKind": "claude-compat",
+      "marketplacePath": ".claude-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "cursor-plugins",
+      "pluginCount": 2,
+      "plugins": [
+        {
+          "name": "origin-apps",
+          "description": "Skills for building on the Cursor Origin API. Fetch the live spec first, then follow the Origin rules for credentials, scopes, webhooks, paging, and errors. Includes a skill that plans the port of an existing GitHub App.",
+          "category": null
+        },
+        {
+          "name": "pstack",
+          "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
+          "category": null
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/cursor/plugins",
+        "install": "droid plugin install origin-apps@cursor-plugins --scope user",
+        "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/cursor/plugins/",
+        "/items/cursor/origin-apps/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": "claude-compat marketplace (origin-apps, pstack)"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 76,
+          "title": "feat(maintain-verification-skill): add maintain-verification-skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/76"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 75,
+          "title": "feat(create-verification-skill): add create-verification-skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/75"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 74,
+          "title": "feat(show-me-your-work): add show-me-your-work skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/74"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 73,
+          "title": "feat(interrogate): add interrogate adversarial-review skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/73"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 72,
+          "title": "feat(correct): add correct guardrail skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/72"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 71,
+          "title": "feat(subtract-before-you-add): add subtract-before-you-add skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/71"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 70,
+          "title": "feat(fix-root-causes): add fix-root-causes guardrail skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/70"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 69,
+          "title": "feat(blast-radius): add blast-radius guardrail skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/69"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 68,
+          "title": "feat(prove-it-works): add prove-it-works guardrail skill plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/68"
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
+      "slug": "stefanautomateed/shipvela-codex",
+      "owner": "stefanautomateed",
+      "repo": "shipvela-codex",
+      "html_url": "https://github.com/stefanautomateed/shipvela-codex",
+      "stars": 0,
+      "description": "Publish websites through your connected Shipvela account.",
+      "default_branch": "main",
+      "marketplaceKind": "factory",
+      "marketplacePath": ".factory-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "shipvela-factory",
+      "pluginCount": 1,
+      "plugins": [
+        {
+          "name": "shipvela",
+          "description": "Publish a website, review the exact deployment, and return a live HTTPS URL.",
+          "category": "development"
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/stefanautomateed/shipvela-codex",
+        "install": "droid plugin install shipvela@shipvela-factory --scope user",
+        "note": "Native .factory-plugin/marketplace.json"
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/stefanautomateed/shipvela-codex/",
+        "/items/stefanautomateed/shipvela/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": "linked from factory-plugins PR #52"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 52,
+          "title": "Add Shipvela website publishing plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/52"
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
       "slug": "cis2042/ux3-product-design-harness",
       "reason": "no_marketplace_json",
       "default_branch": "main",
-      "stars": null,
-      "description": null,
+      "stars": 19,
+      "description": "Agentic Design Process with Designer-in-the-Loop product judgment across User, Evidence, and Business flows.",
       "sources": [
+        {
+          "type": "seed",
+          "note": "PR-linked; may lack marketplace.json"
+        },
         {
           "type": "factory-plugins-pr",
           "pr": 65,
@@ -408,15 +619,19 @@
           "url": "https://github.com/Factory-AI/factory-plugins/pull/65"
         }
       ],
-      "error": "GitHub rate limited (403). Set GITHUB_TOKEN. {\"message\":\"API rate limit exceeded for 118.116.104.25. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\""
+      "error": null
     },
     {
       "slug": "EasyGerber/easygerber-agent-plugin",
       "reason": "no_marketplace_json",
       "default_branch": "main",
-      "stars": null,
-      "description": null,
+      "stars": 1,
+      "description": "EasyGerber agent skill, hosted MCP connection, and Codex setup installer.",
       "sources": [
+        {
+          "type": "seed",
+          "note": "PR-linked; may lack marketplace.json"
+        },
         {
           "type": "factory-plugins-pr",
           "pr": 63,
@@ -424,7 +639,127 @@
           "url": "https://github.com/Factory-AI/factory-plugins/pull/63"
         }
       ],
-      "error": "GitHub rate limited (403). Set GITHUB_TOKEN. {\"message\":\"API rate limit exceeded for 118.116.104.25. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\""
+      "error": null
+    },
+    {
+      "slug": "hboon/linkbunny-agent-skill",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
+      "stars": 0,
+      "description": "Contextual nofollow link exchanges for sites you control, handled with your coding agent and your approval.",
+      "sources": [
+        {
+          "type": "factory-plugins-pr",
+          "pr": 80,
+          "title": "Add LinkBunny exchange Skill",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/80"
+        }
+      ],
+      "error": null
+    },
+    {
+      "slug": "webmachinelearning/webmcp",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
+      "stars": 4899,
+      "description": "🤖 WebMCP",
+      "sources": [
+        {
+          "type": "factory-plugins-pr",
+          "pr": 79,
+          "title": "feat: add Fly.io plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/79"
+        }
+      ],
+      "error": null
+    },
+    {
+      "slug": "SonarSource/sonarqube-cli",
+      "reason": "no_marketplace_json",
+      "default_branch": "master",
+      "stars": 302,
+      "description": "Command-line interface for SonarQube with AI agent integration. Scan for secrets and get fast feedback on code quality and security from your terminal.",
+      "sources": [
+        {
+          "type": "factory-plugins-pr",
+          "pr": 58,
+          "title": "Add SonarQube plugin (external url source)",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/58"
+        }
+      ],
+      "error": null
+    },
+    {
+      "slug": "cashton-coleman/orchards-agent-skill",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
+      "stars": 1,
+      "description": "Public Orchards agent skill: free social participation, member distributions, and optional certificate commerce.",
+      "sources": [
+        {
+          "type": "factory-plugins-pr",
+          "pr": 51,
+          "title": "Add Orchards REST API skill",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/51"
+        }
+      ],
+      "error": null
+    },
+    {
+      "slug": "pbakaus/impeccable",
+      "owner": "pbakaus",
+      "repo": "impeccable",
+      "html_url": "https://github.com/pbakaus/impeccable",
+      "stars": 104135,
+      "description": "Design fluency for AI harnesses. 1 skill, 24 commands, and curated anti-patterns for impeccable frontend design.",
+      "default_branch": "main",
+      "marketplaceKind": "claude-compat",
+      "marketplacePath": ".claude-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "impeccable",
+      "pluginCount": 1,
+      "plugins": [
+        {
+          "name": "impeccable",
+          "description": "Design fluency for frontend development. 1 skill with 24 commands (/impeccable polish, /impeccable audit, /impeccable critique, etc.) and curated anti-pattern detection.",
+          "category": "design"
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/pbakaus/impeccable",
+        "install": "droid plugin install impeccable@impeccable --scope user",
+        "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/pbakaus/impeccable/",
+        "/items/pbakaus/impeccable/"
+      ],
+      "sources": [
+        {
+          "type": "factory-plugins-pr",
+          "pr": 17,
+          "title": "Add pixel-perfect plugin: browser-native visual QA for frontend design",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/17"
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
+      "slug": "unjs/fontaine",
+      "reason": "no_marketplace_json",
+      "default_branch": "main",
+      "stars": 2004,
+      "description": "Automatic font fallback based on font metrics",
+      "sources": [
+        {
+          "type": "factory-plugins-pr",
+          "pr": 17,
+          "title": "Add pixel-perfect plugin: browser-native visual QA for frontend design",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/17"
+        }
+      ],
+      "error": null
     }
   ]
 }

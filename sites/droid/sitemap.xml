@@ -63,4 +63,7 @@
   <url><loc>https://droid.aiaaii.com/guides/how-to-publish-droid-marketplace/</loc><priority>0.7</priority></url>
   <url><loc>https://droid.aiaaii.com/submit/</loc><priority>0.5</priority></url>
   <url><loc>https://droid.aiaaii.com/about/</loc><priority>0.5</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/superfly/fly-droid-plugin/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/ilyautov/humanizer-ru/</loc><priority>0.8</priority></url>
+  <url><loc>https://droid.aiaaii.com/items/anthropics/skills/</loc><priority>0.8</priority></url>
 </urlset>
