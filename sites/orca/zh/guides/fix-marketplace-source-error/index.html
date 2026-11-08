@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>市场源报错怎么办 | Orca Plugin Market</title>
+    <meta name="description" content="检查地址、版本，以及仓库里是否有索引文件。" />
+    <link rel="canonical" href="https://orca.aiaaii.com/zh/guides/fix-marketplace-source-error/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/guides/fix-marketplace-source-error/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/guides/fix-marketplace-source-error/" />
+    <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/zh/">
+            <span class="brand-name">Orca Plugin Market</span>
+            <span class="brand-domain">orca.aiaaii.com · 中文</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="主导航">
+              <a href="/zh/items/">插件目录</a>
+              <a href="/zh/guides/" aria-current="page">指南</a>
+              <a href="/zh/changelog/">更新</a>
+              <a href="/zh/submit/">提交</a>
+              <a href="/zh/about/">关于</a>
+              <a href="/">English</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="切换主题" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>市场源报错怎么办</h1>
+          <p>检查地址、版本，以及仓库里是否有索引文件。</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <ol class="steps">
+          <li>确认粘贴的是<strong>索引仓库</strong>，不是某个插件的说明页。</li>
+          <li>仓库要公开，并且有 <code>orca-marketplace.json</code>（或官方要求的索引格式）。</li>
+          <li>指定的分支 / tag 无效时，改成默认分支或一个真实存在的版本再试。</li>
+          <li>还不行就对照 <a href="/zh/guides/how-to-troubleshoot-orca-plugins/">排错总览</a>。</li>
+        </ol>
+        <p><a href="/zh/guides/">← 指南目录</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="footer-row">
+          <div>
+            <a href="/zh/items/">插件目录</a>
+            <a href="/zh/guides/">指南</a>
+            <a href="/zh/about/">关于</a>
+            <a href="/guides/fix-marketplace-source-error/">English</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI 总站</a>
+          </div>
+          <p>与 Orca / Stably 无关 · 实验性</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

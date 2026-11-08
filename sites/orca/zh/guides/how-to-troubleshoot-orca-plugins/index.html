@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>排错总览 | Orca Plugin Market</title>
+    <meta name="description" content="先看报错属于哪一类，再打开对应说明。" />
+    <link rel="canonical" href="https://orca.aiaaii.com/zh/guides/how-to-troubleshoot-orca-plugins/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/guides/how-to-troubleshoot-orca-plugins/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/guides/how-to-troubleshoot-orca-plugins/" />
+    <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/zh/">
+            <span class="brand-name">Orca Plugin Market</span>
+            <span class="brand-domain">orca.aiaaii.com · 中文</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="主导航">
+              <a href="/zh/items/">插件目录</a>
+              <a href="/zh/guides/" aria-current="page">指南</a>
+              <a href="/zh/changelog/">更新</a>
+              <a href="/zh/submit/">提交</a>
+              <a href="/zh/about/">关于</a>
+              <a href="/">English</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="切换主题" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>排错总览</h1>
+          <p>先看报错属于哪一类，再打开对应说明。</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <ol class="steps">
+          <li>提示要写版本 / #ref？→ <a href="/zh/guides/fix-add-an-explicit-ref/">提示要写版本号</a></li>
+          <li>市场源那一行报错？→ <a href="/zh/guides/fix-marketplace-source-error/">市场源报错</a></li>
+          <li>因为 stablyai / orca- 被拒？→ <a href="/zh/guides/fix-reserved-plugin-id/">保留身份被拒</a></li>
+          <li>主题装了却不在列表？→ <a href="/zh/guides/fix-orca-categories-hidden/">主题装了列表里没有</a></li>
+          <li>装完完全找不到？→ <a href="/zh/guides/fix-orca-plugin-not-showing/">装了却看不到</a></li>
+        </ol>
+        <p><a href="/zh/guides/">← 指南目录</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="footer-row">
+          <div>
+            <a href="/zh/items/">插件目录</a>
+            <a href="/zh/guides/">指南</a>
+            <a href="/zh/about/">关于</a>
+            <a href="/guides/how-to-troubleshoot-orca-plugins/">English</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI 总站</a>
+          </div>
+          <p>与 Orca / Stably 无关 · 实验性</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fix: Orca themes or skills missing from All | Orca Plugin Market</title>
+    <meta name="description" content="Fix Orca builds that hide theme or skill categories from All: refresh sources, check pack types, and confirm experimental Plugins is on." />
+    <link rel="canonical" href="https://orca.aiaaii.com/guides/fix-orca-categories-hidden/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">Orca Plugin Market</span>
+            <span class="brand-domain">orca.aiaaii.com · Any AI</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/" aria-current="page">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+          </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>Themes / skills missing from All</h1>
+          <p>Marketplace lists packs, but theme or skill categories look empty.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+<p>Some Orca builds filter theme, icon, or skill categories in Discover/All even when the marketplace JSON lists them.</p>
+<ol class="steps">
+<li>Confirm <a href="/guides/how-to-enable-orca-plugins/">Plugins is enabled</a>.</li>
+<li>Refresh the marketplace source; open a pack and verify its declared type matches themes/skills/languages.</li>
+<li>Install from the pack detail when category chips are hidden — search by pack name if the UI allows.</li>
+<li>Upgrade Orca if your build notes mention experimental category filters.</li>
+<li>Community indexes must not use reserved ids — <a href="/guides/fix-reserved-plugin-id/">reserved plugin id</a>.</li>
+</ol>
+        <p class="source-line">Independent rewrite · Updated 2026-11-07 · Not affiliated with Orca / Stably</p>
+        <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-orca-plugins/">Troubleshoot hub</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Orca Plugin Market</span>
+          <span class="brand-domain">orca.aiaaii.com · Any AI (AI-AAII)</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+          </div>
+          <p>Not affiliated with Orca / Stably</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

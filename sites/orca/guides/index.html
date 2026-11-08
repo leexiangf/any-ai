@@ -3,9 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Orca plugin guides | Orca Plugin Market</title>
-    <meta name="description" content="Enable Orca plugins, add marketplace sources, install packs, troubleshoot, and publish indexes." />
+    <title>How to install &amp; fix Orca plugins | Orca Plugin Market</title>
+    <meta
+      name="description"
+      content="Install help for Orca plugins: add a marketplace source, pin a version, and fix missing themes. Guides on orca.aiaaii.com."
+    />
     <link rel="canonical" href="https://orca.aiaaii.com/guides/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/guides/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/guides/" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Orca plugin install guides",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Add a marketplace source",
+            "url": "https://orca.aiaaii.com/guides/how-to-add-marketplace-source/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Add an explicit #ref",
+            "url": "https://orca.aiaaii.com/guides/fix-add-an-explicit-ref/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Themes / skills missing",
+            "url": "https://orca.aiaaii.com/guides/fix-orca-categories-hidden/"
+          }
+        ]
+      }
+    </script>
         <script>
       (function () {
         try {
@@ -29,8 +61,13 @@
       <div class="wrap-wide">
         <div class="site-header">
           <a class="brand" href="/"><span class="brand-name">Orca Plugin Market</span><span class="brand-domain">orca.aiaaii.com</span></a>
-                    <div class="header-end">
-            <nav class="nav"><a href="https://aiaaii.com/">Home</a><a href="/items/">Plugins</a><a href="/guides/">Guides</a></nav>
+          <div class="header-end">
+            <nav class="nav">
+              <a href="https://aiaaii.com/">Home</a>
+              <a href="/items/">Plugins</a>
+              <a href="/guides/" aria-current="page">Guides</a>
+              <a href="/zh/guides/">中文</a>
+            </nav>
             <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
               <span class="theme-toggle-icon" aria-hidden="true"></span>
             </button>
@@ -38,22 +75,58 @@
         </div>
       </div>
       <header class="page-hero">
-        <div class="wrap"><h1>Orca plugin guides</h1><p>Enable → source → install → troubleshoot → publish</p></div>
+        <div class="wrap">
+          <h1>Orca plugin guides</h1>
+          <p>Install path first — then the fix tree when All stays empty.</p>
+        </div>
       </header>
     </div>
     <main class="section">
-      <div class="wrap guide-list">
-        <a href="/guides/what-is-an-orca-plugin/">What is an Orca plugin<span>Packs, manifests, experimental APIs</span></a>
-        <a href="/guides/how-to-enable-orca-plugins/">How to enable Orca plugins<span>Turn on the experimental Plugins feature</span></a>
-        <a href="/guides/how-to-add-marketplace-source/">How to add a marketplace source<span>Git URL in Marketplace sources</span></a>
-        <a href="/guides/how-to-install-orca-plugin/">How to install an Orca plugin<span>Discover/All vs direct #ref install</span></a>
-        <a href="/guides/how-to-troubleshoot-orca-plugins/">How to troubleshoot Orca plugins<span>Hidden categories, reserved ids, pins</span></a>
-        <a href="/guides/fix-add-an-explicit-ref/">Add an explicit #ref<span>Index URL pasted into Install plugin</span></a>
-        <a href="/guides/fix-reserved-plugin-id/">Reserved plugin id<span>stablyai / orca- identity blocked</span></a>
-        <a href="/guides/how-to-publish-orca-marketplace/">How to publish an Orca marketplace<span>orca-marketplace.json without reserved ids</span></a>
+      <div class="wrap">
+        <div class="guide-tree">
+          <section aria-labelledby="g-install">
+            <h2 id="g-install">Install path</h2>
+            <div class="guide-list">
+              <a href="/guides/what-is-an-orca-plugin/">What is an Orca plugin<span>Packs, manifests, experimental APIs</span></a>
+              <a href="/guides/how-to-enable-orca-plugins/">How to enable Orca plugins<span>Turn on the experimental Plugins feature</span></a>
+              <a href="/guides/how-to-add-marketplace-source/">How to add a marketplace source<span>Git URL in Marketplace sources</span></a>
+              <a href="/guides/how-to-install-orca-plugin/">How to install an Orca plugin<span>Discover/All vs direct #ref install</span></a>
+              <a href="/guides/how-to-update-orca-plugins/">How to update Orca plugins<span>Refresh sources and packs</span></a>
+            </div>
+          </section>
+          <section aria-labelledby="g-fix">
+            <h2 id="g-fix">Fix tree</h2>
+            <div class="guide-list">
+              <a href="/guides/fix-add-an-explicit-ref/">Add an explicit #ref<span>Index URL pasted into Install plugin</span></a>
+              <a href="/guides/fix-marketplace-source-error/">Marketplace source error<span>Bad Git index or pin</span></a>
+              <a href="/guides/fix-orca-plugin-not-showing/">Plugin not showing<span>Empty All after install</span></a>
+              <a href="/guides/fix-orca-categories-hidden/">Themes / skills missing<span>Category filters in All</span></a>
+              <a href="/guides/fix-reserved-plugin-id/">Reserved plugin id<span>stablyai / orca- identity blocked</span></a>
+              <a href="/guides/how-to-troubleshoot-orca-plugins/">Troubleshoot hub<span>Map every error to a guide</span></a>
+            </div>
+          </section>
+          <section aria-labelledby="g-publish">
+            <h2 id="g-publish">Publish</h2>
+            <div class="guide-list">
+              <a href="/guides/how-to-publish-orca-marketplace/">How to publish an Orca marketplace<span>orca-marketplace.json without reserved ids</span></a>
+            </div>
+          </section>
+        </div>
+        <p class="section-lead">
+          Suggested order when stuck:
+          <a href="/guides/fix-add-an-explicit-ref/">#ref</a>
+          →
+          <a href="/guides/fix-marketplace-source-error/">source error</a>
+          →
+          <a href="/guides/fix-reserved-plugin-id/">reserved id</a>
+          →
+          <a href="/guides/fix-orca-categories-hidden/">hidden category</a>.
+          中文：
+          <a href="/zh/guides/">指南目录</a>.
+        </p>
       </div>
     </main>
     <footer class="site-footer"><div class="wrap-wide"><p><a href="/">← Market</a></p></div></footer>
-      <script src="/theme.js" defer></script>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

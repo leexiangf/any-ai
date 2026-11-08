@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>如何发布市场索引 | Orca Plugin Market</title>
+    <meta name="description" content="准备索引文件，并用自己的命名空间。" />
+    <link rel="canonical" href="https://orca.aiaaii.com/zh/guides/how-to-publish-orca-marketplace/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/guides/how-to-publish-orca-marketplace/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/guides/how-to-publish-orca-marketplace/" />
+    <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/zh/">
+            <span class="brand-name">Orca Plugin Market</span>
+            <span class="brand-domain">orca.aiaaii.com · 中文</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="主导航">
+              <a href="/zh/items/">插件目录</a>
+              <a href="/zh/guides/" aria-current="page">指南</a>
+              <a href="/zh/changelog/">更新</a>
+              <a href="/zh/submit/">提交</a>
+              <a href="/zh/about/">关于</a>
+              <a href="/">English</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="切换主题" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>如何发布市场索引</h1>
+          <p>准备索引文件，并用自己的命名空间。</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <ol class="steps">
+          <li>新建公开仓库，放入 <code>orca-marketplace.json</code>（或官方要求的索引格式）。</li>
+          <li>列出的每个插件都要能按版本安装；publisher 用你自己的名字。</li>
+          <li>可以在本站 <a href="/zh/submit/">提交收录</a>，也可以让用户直接把你的仓库加为市场源。</li>
+          <li>自己测一遍：添加源 → 能看到列表 → 能装下一个插件。</li>
+        </ol>
+        <p><a href="/zh/guides/">← 指南目录</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="footer-row">
+          <div>
+            <a href="/zh/items/">插件目录</a>
+            <a href="/zh/guides/">指南</a>
+            <a href="/zh/about/">关于</a>
+            <a href="/guides/how-to-publish-orca-marketplace/">English</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI 总站</a>
+          </div>
+          <p>与 Orca / Stably 无关 · 实验性</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

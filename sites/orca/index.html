@@ -3,12 +3,46 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Orca Plugins - Orca Plugin Market Install | Any AI</title>
+    <title>Orca plugins — community directory for themes, editors &amp; more | Orca Plugin Market</title>
     <meta
       name="description"
-      content="A Orca plugin extends Orca — browse community plugins and marketplace sources. Add Git marketplace URLs and install packs. Not affiliated with Orca or Stably. Experimental APIs."
+      content="Browse Orca plugins: themes, editors, languages, panels, and marketplace sources. Community directory with install paths. Unofficial — not onorca.dev."
     />
     <link rel="canonical" href="https://orca.aiaaii.com/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is this the official Orca plugin catalog?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The official in-app catalog is onorca.dev / stablyai/orca-plugins. orca.aiaaii.com is a community web install index on Any AI (AI-AAII)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if a plugin does not appear under All in Orca?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Add a marketplace Git source, pin an explicit #ref when installing a plugin URL, or check whether the category (for example themes) is filtered in the host UI."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Marketplace source vs plugin URL?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Marketplace sources take an index repo. Install plugin expects a plugin repo with an explicit #ref. Do not paste a catalog URL into Install plugin."
+            }
+          }
+        ]
+      }
+    </script>
         <script>
       (function () {
         try {
@@ -36,13 +70,15 @@
             <span class="brand-name">Orca Plugin Market</span>
             <span class="brand-domain">orca.aiaaii.com · Any AI</span>
           </a>
-                    <div class="header-end">
+          <div class="header-end">
             <nav class="nav" aria-label="Primary">
-            <a href="/items/">Plugins</a>
-            <a href="/guides/">Guides</a>
-            <a href="/submit/">Submit</a>
-            <a href="/about/">About</a>
-          </nav>
+              <a href="/items/">Plugins</a>
+              <a href="/guides/">Guides</a>
+              <a href="/zh/">中文</a>
+              <a href="/changelog/">Changelog</a>
+              <a href="/submit/">Submit</a>
+              <a href="/about/">About</a>
+            </nav>
             <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
               <span class="theme-toggle-icon" aria-hidden="true"></span>
             </button>
@@ -50,281 +86,172 @@
         </div>
 
         <div class="hero-main">
-          <p class="hero-kicker">Community directory · experimental APIs</p>
-          <h1>Orca plugin</h1>
+          <p class="hero-kicker">Orca Plugin Market · community directory</p>
+          <h1>Orca plugins</h1>
           <p class="hero-sub">
-            Find community packs and marketplace sources for the Orca agent fleet ADE.
-          </p>
-          <p class="hero-lead">
-            A Orca plugin extends Orca — browse listings, add marketplace Git
-            sources, and install with the in-app Plugins flow.
+            Browse community and official packs — themes, editors, languages, panels,
+            and marketplace sources — with clear install paths.
           </p>
           <div class="cta-row">
-            <a class="btn btn-primary" href="/items/">Browse plugins</a>
-            <a class="btn btn-ghost" href="/guides/how-to-add-marketplace-source/">Add a marketplace</a>
+            <a class="btn btn-primary btn-spotlight" href="/items/">Browse plugins</a>
+            <a class="btn btn-secondary" href="/categories/themes/">Theme plugins</a>
+            <a class="btn btn-ghost" href="/guides/">Install help</a>
           </div>
-          <p class="disclaimer">
-            Community-maintained by Any AI (AI-AAII). Not affiliated with Orca or
-            Stably. Orca’s plugin system is experimental — expect breaking changes.
-          </p>
+          <p class="disclaimer">Maintained by Any AI (AI-AAII). Unrelated to Orca / Stably. Plugins change fast.</p>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="section section-center" aria-labelledby="stats-heading">
+      <section class="marketplace-strip" aria-label="Add marketplace source">
         <div class="wrap">
-          <p class="section-label">Index</p>
-          <h2 id="stats-heading">Sources and packs, indexed for search</h2>
-          <ul class="stats">
-            <li><strong>64</strong><span>curated listings</span></li>
-            <li><strong>10</strong><span>categories</span></li>
-            <li><strong>8</strong><span>guides</span></li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section section-alt">
-        <div class="wrap">
-          <p class="section-label">Why this market</p>
-          <h2>Official index is thin. Discovery still matters.</h2>
-          <ul class="feature-list">
-            <li>
-              <strong>Directory</strong>
-              <span>Plugins and marketplace indexes with categories and sources.</span>
-            </li>
-            <li>
-              <strong>Real install path</strong>
-              <span>Settings → Plugins → Marketplace sources → Add Git URL.</span>
-            </li>
-            <li>
-              <strong>Pin-aware</strong>
-              <span>Listings explain refs/tags — Orca installs are pin-oriented.</span>
-            </li>
-            <li>
-              <strong>Guides</strong>
-              <span>Enable plugins, add sources, install, troubleshoot, publish.</span>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="wrap prose">
-          <p class="section-label">Host</p>
-          <h2>What is Orca?</h2>
-          <p>
-            <strong>Orca</strong> (Stably AI) is an ADE for running fleets of coding
-            agents in parallel — Claude Code, Codex, Amp, and more — often each in
-            its own git worktree. Plugins add languages, recipes, shortcuts, and
-            (as the API grows) panels and workers.
+          <p class="marketplace-strip-lead">
+            Paste this Git URL in Orca → Settings → Plugins → Marketplace sources.
+            <a href="/guides/how-to-add-marketplace-source/">How to add</a>
           </p>
-          <p class="source-line">
-            Source:
-            <a href="https://github.com/stablyai/orca" rel="noopener noreferrer">stablyai/orca</a>
-            · marketplace index:
-            <a href="https://github.com/stablyai/orca-plugins" rel="noopener noreferrer">stablyai/orca-plugins</a>
-          </p>
+          <div class="install-block">
+            <span class="label">Marketplace source</span>
+            <div class="marketplace-strip-row">
+              <code data-copy-target>https://github.com/leexiangf/aiaaii-orca-marketplace.git</code>
+              <button type="button" class="copy-btn" data-copy aria-label="Copy marketplace URL">Copy</button>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="section section-alt" id="categories">
+      <section class="section" id="categories">
         <div class="wrap">
-          <p class="section-label">Categories</p>
-          <h2>Browse by kind</h2>
-                    <div class="category-grid">
-            <a href="/categories/marketplaces/">Marketplaces <small>catalog &amp; marketplace indexes</small></a>
-            <a href="/categories/themes/">Themes <small>App chrome themes</small></a>
-            <a href="/categories/terminal-themes/">Terminal themes <small>Terminal color packs</small></a>
-            <a href="/categories/icons/">Icons <small>File icon themes</small></a>
-            <a href="/categories/syntax/">Syntax <small>Highlighting grammars</small></a>
-            <a href="/categories/editors/">Editors <small>Custom editors &amp; viewers</small></a>
-            <a href="/categories/languages/">Languages <small>UI locale packs</small></a>
-            <a href="/categories/keybindings/">Keybindings <small>Shortcuts packs</small></a>
-            <a href="/categories/vm-recipes/">VM recipes <small>Multipass / remote</small></a>
-            <a href="/categories/content-packs/">Content packs <small>Skills, games, panels</small></a>
+          <p class="section-label">Browse</p>
+          <h2>Orca plugin categories</h2>
+          <div class="category-grid">
+            <a href="/categories/themes/">Themes <small>App chrome and terminal color themes.</small></a>
+            <a href="/categories/languages/">Languages <small>Syntax grammars and UI locale packs.</small></a>
+            <a href="/categories/icons/">Icons <small>File and folder icon themes.</small></a>
+            <a href="/categories/editors/">Editors <small>Custom editors, viewers, and diagram tools.</small></a>
+            <a href="/categories/commands-panels/">Commands &amp; panels <small>Sidebar panels, commands, skills, games.</small></a>
+            <a href="/categories/remote-vms/">Remote/VMs <small>VM recipes, sandboxes, remote workspaces.</small></a>
+            <a href="/categories/marketplaces/">Marketplaces <small>Catalog and marketplace index sources.</small></a>
           </div>
           <p class="section-lead" style="margin-top: 1.5rem; margin-bottom: 0">
-            Note: some categories (e.g. themes) may be filtered in Orca’s UI even if
-            listed in a marketplace JSON — we still document them carefully.
+            <a href="/items/">Open the full plugin directory</a>
           </p>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section section-alt" aria-labelledby="diff-heading">
         <div class="wrap">
-          <p class="section-label">Install</p>
-          <h2>Three steps</h2>
-          <ol class="steps">
-            <li>Install Orca and enable the experimental Plugins feature in Settings.</li>
+          <p class="section-label">Why this directory</p>
+          <h2 id="diff-heading">Listings first. Install detail when you need it.</h2>
+          <ul class="feature-list">
             <li>
-              Add a marketplace source (Git URL + ref), or install a plugin repo pinned with <span class="acronym">#ref</span>.
-              <div class="install-block">
-                <span class="label">Marketplace source example</span>
-                <code>https://github.com/smwbev/orca-plugins.git</code>
-              </div>
+              <strong>Plugin pages</strong>
+              <span>Names, categories, sources, and pins in one place.</span>
             </li>
-            <li>Open <strong>All</strong>, pick a pack, confirm Install · then <a href="/items/">browse this market</a>.</li>
-          </ol>
+            <li>
+              <strong>Themes &amp; terminal packs</strong>
+              <span>Find Orca theme plugins even when the in-app list is filtered.</span>
+            </li>
+            <li>
+              <strong>Marketplace sources</strong>
+              <span>Index repos labeled separately from single-plugin installs.</span>
+            </li>
+            <li>
+              <strong>Unreviewed by default</strong>
+              <span>Community code is not security-audited here. Prefer pins; read the repo.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="tasks-heading" id="tasks">
+        <div class="wrap">
+          <p class="section-label">Install help</p>
+          <h2 id="tasks-heading">Stuck installing a plugin?</h2>
+          <div class="task-grid">
+            <a class="task-card" href="/guides/how-to-add-marketplace-source/">
+              <span class="task-step">1</span>
+              <h3>Add a marketplace source</h3>
+              <p>Paste a Git marketplace URL in Orca settings so community plugins can appear.</p>
+            </a>
+            <a class="task-card" href="/guides/fix-add-an-explicit-ref/">
+              <span class="task-step">2</span>
+              <h3>Version pin required</h3>
+              <p>A single plugin needs a tag or commit — don’t paste a whole catalog repo.</p>
+            </a>
+            <a class="task-card" href="/guides/fix-orca-categories-hidden/">
+              <span class="task-step">3</span>
+              <h3>Installed, but not listed</h3>
+              <p>Themes can be filtered out of “All” — check appearance settings or the guide.</p>
+            </a>
+          </div>
+          <p class="section-lead" style="margin-top: 1.25rem">
+            <a href="/guides/">All guides</a>
+            ·
+            <a href="/guides/how-to-troubleshoot-orca-plugins/">Troubleshoot hub</a>
+          </p>
         </div>
       </section>
 
       <section class="section section-alt">
         <div class="wrap">
-                    <p class="section-label">Featured</p>
-          <h2>Curated listings</h2>
-          <div class="item-list">
-            <a class="item" href="/items/stablyai/orca-plugins/">
-              <div class="item-body">
-                <h3 class="item-name">orca-plugins (official)</h3>
-                <p class="item-one">Official catalog — 35+ plugins in orca-catalog.json.</p>
-                <p class="item-meta">stablyai · catalog</p>
-              </div>
-              <span class="item-badge">marketplaces</span>
-            </a>
-            <a class="item" href="/items/stablyai/orca-excalidraw/">
-              <div class="item-body">
-                <h3 class="item-name">orca-excalidraw</h3>
-                <p class="item-one">Draw and edit .excalidraw diagrams in Orca's editor.</p>
-                <p class="item-meta">stablyai · editors</p>
-              </div>
-              <span class="item-badge">editors</span>
-            </a>
-            <a class="item" href="/items/vale-c/orca-tokyonight/">
-              <div class="item-body">
-                <h3 class="item-name">orca-tokyonight</h3>
-                <p class="item-one">Tokyo Night app + terminal themes (community).</p>
-                <p class="item-meta">vale-c · themes</p>
-              </div>
-              <span class="item-badge">themes</span>
-            </a>
-            <a class="item" href="/items/stablyai/orca-portuguese/">
-              <div class="item-body">
-                <h3 class="item-name">orca-portuguese</h3>
-                <p class="item-one">Official Brazilian Portuguese UI language pack.</p>
-                <p class="item-meta">stablyai · languages</p>
-              </div>
-              <span class="item-badge">languages</span>
-            </a>
-          </div>
-              <span class="item-badge">marketplaces</span>
-            </a>
-            <a class="item" href="/items/smwbev/orca-plugins/">
-              <div class="item-body">
-                <h3 class="item-name">orca-plugins (s3dev)</h3>
-                <p class="item-one">Community marketplace index — add as a Marketplace source in Orca.</p>
-                <p class="item-meta">smwbev · community</p>
-              </div>
-              <span class="item-badge">marketplaces</span>
-            </a>
-            <a class="item" href="/items/smwbev/orca-russian/">
-              <div class="item-body">
-                <h3 class="item-name">orca-russian</h3>
-                <p class="item-one">Russian UI translation pack for Orca.</p>
-                <p class="item-meta">smwbev · pin tag on install</p>
-              </div>
-              <span class="item-badge">languages</span>
-            </a>
-            <a class="item" href="/items/stablyai/orca-navigation-shortcuts/">
-              <div class="item-body">
-                <h3 class="item-name">orca-navigation-shortcuts</h3>
-                <p class="item-one">Official navigation shortcuts content pack from the launch index.</p>
-                <p class="item-meta">stablyai · keybindings</p>
-              </div>
-              <span class="item-badge">keybindings</span>
-            </a>
-            <a class="item" href="/items/stablyai/orca-multipass-recipes/">
-              <div class="item-body">
-                <h3 class="item-name">orca-multipass-recipes</h3>
-                <p class="item-one">Disposable Multipass workspace starter recipes from the official index.</p>
-                <p class="item-meta">stablyai · vm-recipes</p>
-              </div>
-              <span class="item-badge">vm-recipes</span>
-            </a>
-          </div>
-          <p style="margin-top: 1.5rem"><a class="btn btn-ghost" href="/items/">All plugins</a></p>
+          <p class="section-label">Host</p>
+          <h2>What is Orca?</h2>
+          <p class="section-lead">
+            <strong>Orca</strong> (Stably AI) is an ADE for running fleets of coding
+            agents in parallel — often each in its own git worktree. Plugins add themes,
+            editors, languages, panels, and recipes.
+          </p>
+          <p class="section-lead host-links">
+            Official links<br />
+            <a href="https://www.onorca.dev/plugins" rel="noopener noreferrer">onorca.dev/plugins</a>
+            ·
+            <a href="https://github.com/stablyai/orca-plugins" rel="noopener noreferrer">stablyai/orca-plugins</a>
+          </p>
         </div>
       </section>
 
       <section class="section">
         <div class="wrap">
           <p class="section-label">FAQ</p>
-          <h2 class="section-center">Orca plugin questions</h2>
+          <h2>Orca plugin questions</h2>
           <div class="faq">
-            <details>
-              <summary>What is an Orca plugin?</summary>
-              <p>
-                A packaged extension (content pack, and over time panels/workers)
-                described by <span class="acronym">orca-plugin.json</span>, often
-                distributed via a marketplace index. See
-                <a href="/guides/what-is-an-orca-plugin/">the concept guide</a>.
-              </p>
-            </details>
-            <details>
-              <summary>How do I add a community marketplace?</summary>
-              <p>
-                Settings → Plugins → Marketplace sources → paste the Git URL.
-                Guide: <a href="/guides/how-to-add-marketplace-source/">Add marketplace source</a>.
-              </p>
-            </details>
             <details>
               <summary>Is this the official Orca marketplace?</summary>
               <p>
-                No. Official auto-seeded index is
-                <span class="acronym">stablyai/orca-plugins</span>. This site is a
-                community web directory on Any AI (AI-AAII).
+                No. Official browsing/install UX lives in Orca and on
+                <a href="https://www.onorca.dev/plugins" rel="noopener noreferrer">onorca.dev</a>.
+                This site is a community web directory on Any AI (AI-AAII).
               </p>
             </details>
             <details>
-              <summary>Why “experimental”?</summary>
+              <summary>Plugin missing from All after install?</summary>
               <p>
-                Orca’s plugin system is marked experimental. APIs, visible
-                categories, and install UX can change. Verify against current Orca
-                docs before production use.
+                Check filters and hidden categories first:
+                <a href="/guides/fix-orca-categories-hidden/">Themes / skills missing</a>,
+                then
+                <a href="/guides/fix-orca-plugin-not-showing/">Plugin not showing</a>.
               </p>
-            </details>
-            <details>
-              <summary>Can I use stablyai or orca- in my publisher id?</summary>
-              <p>
-                Those identities are reserved for the official marketplace. Using
-                them incorrectly can invalidate an entire community index.
-              </p>
-            </details>
-            <details>
-              <summary>How do I get listed?</summary>
-              <p><a href="/submit/">Submit</a> a public plugin or marketplace repo with a pinable ref.</p>
-            </details>
-            <details>
-              <summary>Part of Any AI?</summary>
-              <p>Yes — mall at <a href="https://aiaaii.com/">aiaaii.com</a>; this subdomain is the Orca plugin market.</p>
             </details>
             <details>
               <summary>Marketplace URL vs plugin URL?</summary>
               <p>
                 Marketplace sources take an index repo. “Install plugin” expects a
-                plugin repo with an explicit <span class="acronym">#ref</span> — don’t mix them up.
+                plugin repo with an explicit <span class="acronym">#ref</span>.
+                Guide: <a href="/guides/fix-add-an-explicit-ref/">Add an explicit #ref</a>.
               </p>
             </details>
+            <details>
+              <summary>Are community plugins reviewed?</summary>
+              <p>
+                Default status is <strong>unreviewed</strong>. We do not security-audit
+                third-party code. Prefer pinned refs and read the GitHub source before enabling.
+              </p>
+            </details>
+            <details>
+              <summary>How do I get listed?</summary>
+              <p><a href="/submit/">Submit</a> a public plugin or marketplace repo with a pinable ref. We skip vague repos that cannot install.</p>
+            </details>
           </div>
-        </div>
-      </section>
-
-      <section class="section section-alt">
-        <div class="wrap prose">
-          <p class="section-label">Trust</p>
-          <h2>Pinned refs. Sourced pages. No affiliation.</h2>
-          <p>
-            Updated regularly. Prefer pinned tags/commits. Every entry links to
-            source. Detail pages are independent rewrites — not mirrored READMEs.
-          </p>
-          <p class="section-label" style="margin-top: 2rem">Why we exist</p>
-          <h2>Orca ships a thin official index. We open the web layer.</h2>
-          <p>
-            Orca provides an experimental marketplace mechanism and a small
-            official catalog. It does not run a full public SEO directory for
-            community plugins. We collect, categorize, and document community
-            packs and sources so people can find and install them.
-          </p>
         </div>
       </section>
     </main>
@@ -339,6 +266,8 @@
           <div>
             <a href="/items/">Plugins</a>
             <a href="/guides/">Guides</a>
+            <a href="/zh/">中文</a>
+            <a href="/changelog/">Changelog</a>
             <a href="/submit/">Submit</a>
             <a href="/about/">About</a>
             <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
@@ -347,6 +276,6 @@
         </div>
       </div>
     </footer>
-      <script src="/theme.js" defer></script>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

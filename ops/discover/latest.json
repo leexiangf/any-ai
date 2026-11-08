@@ -1,0 +1,3367 @@
+{
+  "generatedAt": "2026-11-08T01:29:34.164Z",
+  "listedCounts": {
+    "kimi": 54,
+    "orca": 76,
+    "amp": 38,
+    "droid": 65
+  },
+  "hosts": {
+    "droid": {
+      "searched": 100,
+      "errors": [],
+      "candidates": [
+        {
+          "host": "droid",
+          "repo": "EvanBacon/serve-sim",
+          "owner": "EvanBacon",
+          "slug": "serve-sim",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 2933,
+          "desc": "The `npx serve` of Apple Simulators.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T17:35:01Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".claude-plugin/marketplace.json",
+          "pluginName": "serve-sim",
+          "marketplaceName": "serve-sim",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/EvanBacon/serve-sim"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add EvanBacon/serve-sim"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install serve-sim@serve-sim --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "Claude-compatible"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 98,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "karanb192/itr-wala",
+          "owner": "karanb192",
+          "slug": "itr-wala",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 885,
+          "desc": "File your Indian income tax return (ITR) from your terminal. Deterministic tax engine, both regimes, AY 2026-27. Claude Code / Codex / Gemini skill.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-24T07:43:00Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".claude-plugin/marketplace.json",
+          "pluginName": "itr-wala",
+          "marketplaceName": "itr-wala",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/karanb192/itr-wala"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add karanb192/itr-wala"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install itr-wala@itr-wala --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "Claude-compatible"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 93.4,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "anthropics/k12-teacher-skills",
+          "owner": "anthropics",
+          "slug": "k12-teacher-skills",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 615,
+          "desc": "Skills and eval rubrics for K-12 teachers, co-developed with Learning Commons",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-14T00:54:44Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".claude-plugin/marketplace.json",
+          "pluginName": "k12-education",
+          "marketplaceName": "k12-teacher-skills",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/anthropics/k12-teacher-skills"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add anthropics/k12-teacher-skills"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install k12-education@k12-teacher-skills --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "Claude-compatible"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 91.5,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "tanweai/wooyun-legacy",
+          "owner": "tanweai",
+          "slug": "wooyun-legacy",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 1783,
+          "desc": "wooyun-legacy skill for claude code",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-07-14T13:55:59Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".claude-plugin/marketplace.json",
+          "pluginName": "wooyun-legacy",
+          "marketplaceName": "tanweai-security",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/tanweai/wooyun-legacy"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add tanweai/wooyun-legacy"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install wooyun-legacy@tanweai-security --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "Claude-compatible"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 89,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "jangtrinh/design-os-svg-animation",
+          "owner": "jangtrinh",
+          "slug": "design-os-svg-animation",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 7,
+          "desc": "Deterministic vector animation and 1080p 60fps video pipeline for AI agents with virtual clock quantizing.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-01T00:40:49Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "design-os-svg-animation",
+          "marketplaceName": "design-os-svg-animation",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/jangtrinh/design-os-svg-animation"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add jangtrinh/design-os-svg-animation"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install design-os-svg-animation@design-os-svg-animation --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 83.8,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "3dgiordano/agent-plugins",
+          "owner": "3dgiordano",
+          "slug": "agent-plugins",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 7,
+          "desc": "Cognitive scaffolding for coding agents",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-02T04:39:41Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "executive-self-monitoring",
+          "marketplaceName": "3dgiordano-agent-plugins",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/3dgiordano/agent-plugins"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add 3dgiordano/agent-plugins"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install executive-self-monitoring@3dgiordano-agent-plugins --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 83.8,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "tommy-ca/pstack",
+          "owner": "tommy-ca",
+          "slug": "pstack",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 6,
+          "desc": "pstack atomic blocks recomposed for Grok Build, Codex, and Claude Code",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T22:31:40Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "pstack",
+          "marketplaceName": "pstack",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/tommy-ca/pstack"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add tommy-ca/pstack"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install pstack@pstack --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 83.1,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "laird/agents",
+          "owner": "laird",
+          "slug": "agents",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 5,
+          "desc": "Agent protocols and configurations for SPARC development",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-04T23:08:07Z",
+          "defaultBranch": "master",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "modernize",
+          "marketplaceName": "plugin-marketplace",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/laird/agents"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add laird/agents"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install modernize@plugin-marketplace --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 82.3,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "jangtrinh/design-os-pedagogy",
+          "owner": "jangtrinh",
+          "slug": "design-os-pedagogy",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 4,
+          "desc": "Agent Teacher: an evidence-graded pedagogy knowledge library, a local teacher rehearsal on authored fraction cases, and a draft publication pipeline. Python, no model calls.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-01T05:21:17Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "design-os-pedagogy",
+          "marketplaceName": "design-os-pedagogy",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/jangtrinh/design-os-pedagogy"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add jangtrinh/design-os-pedagogy"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install design-os-pedagogy@design-os-pedagogy --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 81.4,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "jangtrinh/design-os-knowledge-builder",
+          "owner": "jangtrinh",
+          "slug": "design-os-knowledge-builder",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 3,
+          "desc": "Universal Multimodal Knowledge Pipeline, Auto-Research Loop & Epistemic Stopping Gate for AI Coding Agents.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-06T16:24:01Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "design-os-knowledge-builder",
+          "marketplaceName": "design-os-knowledge-builder",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/jangtrinh/design-os-knowledge-builder"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add jangtrinh/design-os-knowledge-builder"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install design-os-knowledge-builder@design-os-knowledge-builder --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 80.2,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "comarch/git-byline",
+          "owner": "comarch",
+          "slug": "git-byline",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 3,
+          "desc": "Ultrafast line-level human and AI authorship for Git",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-05T01:28:47Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "git-byline",
+          "marketplaceName": "git-byline",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/comarch/git-byline"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add comarch/git-byline"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install git-byline@git-byline --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 80.2,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "kyr0/defuss-shadcn",
+          "owner": "kyr0",
+          "slug": "defuss-shadcn",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 3,
+          "desc": "A UI component system that scales with AI: the shadcn/ui look as plain HTML, CSS and vanilla JavaScript, with a skill for every component. Hundreds of beautiful UI components for websites and apps, including presentation decks, interactive diagrams, charts and 3D visualizations.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-02T05:07:08Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "defuss-shadcn",
+          "marketplaceName": "defuss-shadcn",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/kyr0/defuss-shadcn"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add kyr0/defuss-shadcn"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install defuss-shadcn@defuss-shadcn --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 80.2,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "jangtrinh/design-os-generative-ui",
+          "owner": "jangtrinh",
+          "slug": "design-os-generative-ui",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 3,
+          "desc": "Sub-50ms Real-Time Generative UI engine powered by Laya-MLX and TypeSafe JEV Cascade Router",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-26T15:15:42Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "design-os-generative-ui",
+          "marketplaceName": "design-os-generative-ui",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/jangtrinh/design-os-generative-ui"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add jangtrinh/design-os-generative-ui"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install design-os-generative-ui@design-os-generative-ui --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 80.2,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "mezmo/ai-governance-plugins",
+          "owner": "mezmo",
+          "slug": "ai-governance-plugins",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 2,
+          "desc": "Plugins for Codex, Claude Code, Cursor, Pi, OpenCode, Mastra, and LangChain that check your Mezmo Governance Policy before each tool call.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-04T16:24:43Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "mezmo-governance",
+          "marketplaceName": "mezmo",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/mezmo/ai-governance-plugins"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add mezmo/ai-governance-plugins"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install mezmo-governance@mezmo --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 78.7,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "jangtrinh/design-os-voice-ux",
+          "owner": "jangtrinh",
+          "slug": "design-os-voice-ux",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 2,
+          "desc": "DESIGN:OS Voice UX — Production-ready Voice & Conversational AI Knowledge Base, State Machines, Latency Budgets, and Audited Usability Protocols",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-26T15:15:54Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "design-os-voice-ux",
+          "marketplaceName": "design-os-voice-ux",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/jangtrinh/design-os-voice-ux"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add jangtrinh/design-os-voice-ux"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install design-os-voice-ux@design-os-voice-ux --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 78.7,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "jangtrinh/design-os-github-page",
+          "owner": "jangtrinh",
+          "slug": "design-os-github-page",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 1,
+          "desc": "Universal author-grade GitHub Pages marketing & docs engine for builders and AI coding agents",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-26T15:16:53Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "design-os-github-page",
+          "marketplaceName": "design-os-github-page",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/jangtrinh/design-os-github-page"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add jangtrinh/design-os-github-page"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install design-os-github-page@design-os-github-page --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 76.6,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "Seabass-up/echo-veil",
+          "owner": "Seabass-up",
+          "slug": "echo-veil",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 1,
+          "desc": "Private, tiered memory for AI agents with lifecycle controls, encrypted retrieval, enclave attestation, and a ZKP access gate.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-02T16:07:42Z",
+          "defaultBranch": "master",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "echo-veil",
+          "marketplaceName": "echo-veil",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/Seabass-up/echo-veil"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add Seabass-up/echo-veil"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install echo-veil@echo-veil --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 76.6,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "jangtrinh/design-os-apple",
+          "owner": "jangtrinh",
+          "slug": "design-os-apple",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 1,
+          "desc": "SwiftUI design-system library for iOS, iPadOS, and macOS: semantic roles, typed profiles, native recipes, and an instructional Gallery",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-26T15:17:04Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "design-os-apple",
+          "marketplaceName": "design-os-apple",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/jangtrinh/design-os-apple"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add jangtrinh/design-os-apple"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install design-os-apple@design-os-apple --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 76.6,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "LennardZuendorf/vibe",
+          "owner": "LennardZuendorf",
+          "slug": "vibe",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "a meta framework for effective agentic software development",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T08:05:50Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "vibe",
+          "marketplaceName": "vibe",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/LennardZuendorf/vibe"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add LennardZuendorf/vibe"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install vibe@vibe --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 73,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "SaravanaKrishnan16/RouteProject",
+          "owner": "SaravanaKrishnan16",
+          "slug": "RouteProject",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-02T15:24:28Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "llm-router",
+          "marketplaceName": "ypollak2",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/SaravanaKrishnan16/RouteProject"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add SaravanaKrishnan16/RouteProject"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install llm-router@ypollak2 --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 73,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "oodle-ai/agent-skills",
+          "owner": "oodle-ai",
+          "slug": "agent-skills",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Public repository for Oodle skills",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T15:16:20Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "oodle-agent-skills",
+          "marketplaceName": "oodle-ai",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/oodle-ai/agent-skills"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add oodle-ai/agent-skills"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install oodle-agent-skills@oodle-ai --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 73,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "linbrandon4/totem-harness-plugins",
+          "owner": "linbrandon4",
+          "slug": "totem-harness-plugins",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Totem agent coordination plugins, MCP configurations, and Gemini CLI extension",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-05T07:00:24Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "totem",
+          "marketplaceName": "totem-plugins",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/linbrandon4/totem-harness-plugins"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add linbrandon4/totem-harness-plugins"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install totem@totem-plugins --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 73,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "akmolsinc/agent-forge",
+          "owner": "akmolsinc",
+          "slug": "agent-forge",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 2,
+          "desc": "Public repository for Agents and Agent Skills for Claude Code and Github Copliot",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-05-29T05:51:23Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "msft-arch",
+          "marketplaceName": "agent-forge",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/akmolsinc/agent-forge"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add akmolsinc/agent-forge"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install msft-arch@agent-forge --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 70.7,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "joychetry/ultrapilot",
+          "owner": "joychetry",
+          "slug": "ultrapilot",
+          "paths": [
+            ".factory-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 2,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-07-01T13:11:32Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".factory-plugin/marketplace.json",
+          "pluginName": "ultrapilot",
+          "marketplaceName": "ultrapilot",
+          "installs": [
+            {
+              "label": "Add marketplace",
+              "code": "droid plugin marketplace add https://github.com/joychetry/ultrapilot"
+            },
+            {
+              "label": "Or shorthand",
+              "code": "droid plugin marketplace add joychetry/ultrapilot"
+            },
+            {
+              "label": "Then install",
+              "code": "droid plugin install ultrapilot@ultrapilot --scope user"
+            },
+            {
+              "label": "Kind",
+              "code": "native Factory"
+            }
+          ],
+          "nativeFactory": true,
+          "score": 70.7,
+          "tier": "P0"
+        },
+        {
+          "host": "droid",
+          "repo": "dogwood-policy/dogwood",
+          "owner": "dogwood-policy",
+          "slug": "dogwood",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "droid",
+          "repo": "dxos/dxos",
+          "owner": "dxos",
+          "slug": "dxos",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "droid",
+          "repo": "andylizf/nonstop",
+          "owner": "andylizf",
+          "slug": "nonstop",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "droid",
+          "repo": "CosmoBlk/email-marketing-bible",
+          "owner": "CosmoBlk",
+          "slug": "email-marketing-bible",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "droid",
+          "repo": "raygon-renderer/thermite",
+          "owner": "raygon-renderer",
+          "slug": "thermite",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "droid",
+          "repo": "mattgierhart/PRD-driven-context-engineering",
+          "owner": "mattgierhart",
+          "slug": "PRD-driven-context-engineering",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "droid",
+          "repo": "pixiv/charcoal",
+          "owner": "pixiv",
+          "slug": "charcoal",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "droid",
+          "repo": "DNYoussef/context-cascade",
+          "owner": "DNYoussef",
+          "slug": "context-cascade",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".claude-plugin/marketplace.json.archived"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "droid",
+          "repo": "rand/cc-polymath",
+          "owner": "rand",
+          "slug": "cc-polymath",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "droid",
+          "repo": "AlexGladkov/claude-in-mobile",
+          "owner": "AlexGladkov",
+          "slug": "claude-in-mobile",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".claude-plugin/marketplace.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        }
+      ],
+      "p0": 24,
+      "p1": 0
+    },
+    "kimi": {
+      "searched": 135,
+      "errors": [],
+      "candidates": [
+        {
+          "host": "kimi",
+          "repo": "Green-PT/honey-for-devs",
+          "owner": "Green-PT",
+          "slug": "honey-for-devs",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 349,
+          "desc": "Honey (I Shrunk the AI) by GreenPT: a cross-tool coding skill that cuts AI coding-agent token usage and LLM API costs — write less code, less prose, and denser agent-to-agent handoffs (−53%, lossless in benchmarks) with no loss of quality. Works with Claude Code, Cursor, GitHub Copilot, Codex, Gemini CLI, Windsurf, Cline & Kiro.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-18T10:35:52Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "honey",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/Green-PT/honey-for-devs"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 93.5,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "GoogleChrome/modern-web-guidance-src",
+          "owner": "GoogleChrome",
+          "slug": "modern-web-guidance-src",
+          "paths": [
+            "src/cli/template/kimi.plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 1233,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-08T01:04:35Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "src/cli/template/kimi.plugin.json",
+          "pluginName": "modern-web-guidance",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/GoogleChrome/modern-web-guidance-src"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 92.1,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "socai-io/socai",
+          "owner": "socai-io",
+          "slug": "socai",
+          "paths": [
+            "plugins/socai-social-research/kimi.plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 256,
+          "desc": "Agent that actually understands social platforms. Fast. Precise. Deep.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-06T20:31:52Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "plugins/socai-social-research/kimi.plugin.json",
+          "pluginName": "socai-social-research",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/socai-io/socai"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 91.9,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "chainbase-labs/Agentkey",
+          "owner": "chainbase-labs",
+          "slug": "Agentkey",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 656,
+          "desc": "Connect your AI agent to the world — Web search, Social media, Crypto & On-chain data. One plugin, zero extra config.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-08-24T16:55:44Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "agentkey",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/chainbase-labs/Agentkey"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 91.8,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "iha2/superlite",
+          "owner": "iha2",
+          "slug": "superlite",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 249,
+          "desc": "A fast software factory workflow for Claude Code: one approval gate, parallel waves, routed models",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-08T00:30:05Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "superlite",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/iha2/superlite"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 91.8,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "obra/the-elements-of-style",
+          "owner": "obra",
+          "slug": "the-elements-of-style",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 616,
+          "desc": "William Strunk Jr.'s Elements of Style (1918) in markdown format for AI agents",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-08-12T21:49:28Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "elements-of-style",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/obra/the-elements-of-style"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 91.5,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "techygarg/lattice",
+          "owner": "techygarg",
+          "slug": "lattice",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 211,
+          "desc": "Install engineering discipline into any AI coding assistant. Composable skills for design, implementation, review, and team standards. Better process, not just better prompts.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-24T16:45:40Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "lattice",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/techygarg/lattice"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 90.9,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "alexgreensh/repo-forensics",
+          "owner": "alexgreensh",
+          "slug": "repo-forensics",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 205,
+          "desc": "Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-05T21:00:30Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "repo-forensics",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/alexgreensh/repo-forensics"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 90.8,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "wellwelwel/lagune",
+          "owner": "wellwelwel",
+          "slug": "lagune",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 175,
+          "desc": "🪼 Lagune AI is your security copilot as you build, your Blue Team when you audit, whether you're a developer or not (no API key needed).",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T22:44:04Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "lagune",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/wellwelwel/lagune"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 89.9,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "DanMcInerney/orchflows",
+          "owner": "DanMcInerney",
+          "slug": "orchflows",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 126,
+          "desc": "2 skills, composable into workflows, which can then be built into more complex workflows",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-04T18:56:12Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "orchflows",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/DanMcInerney/orchflows"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 88.2,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "aAAaqwq/AGI-Super-Team",
+          "owner": "aAAaqwq",
+          "slug": "AGI-Super-Team",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 115,
+          "desc": "An installable, cross-framework AI organization: C-suite agents, expert subagents, curated skills, independent review, and one-command setup across 18 AI client/runtime adapters.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-05T12:41:56Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "agi-super-team",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/aAAaqwq/AGI-Super-Team"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 87.8,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "youdotcom-oss/agent-skills",
+          "owner": "youdotcom-oss",
+          "slug": "agent-skills",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 100,
+          "desc": "You.com skills and plugins for web search, content extraction, research, finance, and integration discovery, helping AI agents build with up-to-date web context.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T00:02:20Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "you",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/youdotcom-oss/agent-skills"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 87.1,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "EverMind-AI/EverMe",
+          "owner": "EverMind-AI",
+          "slug": "EverMe",
+          "paths": [
+            "plugins/kimicode/kimi.plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 75,
+          "desc": "Open-source CLI and Agent plugin suite for EverMe — cross-device, cross-Agent personal memory for AI Agents.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-06T06:10:06Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "plugins/kimicode/kimi.plugin.json",
+          "pluginName": "everme",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/EverMind-AI/EverMe"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 85.6,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "btspoony/mstar-harness",
+          "owner": "btspoony",
+          "slug": "mstar-harness",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 68,
+          "desc": "An omni-plugin for harness engineering workflows with multi-agents, programmatic gates and skills.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T23:28:38Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "morning-star-harness",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/btspoony/mstar-harness"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 85.1,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "AzureCosmosDB/cosmosdb-agent-kit",
+          "owner": "AzureCosmosDB",
+          "slug": "cosmosdb-agent-kit",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 62,
+          "desc": "A collection of skills for AI coding agents working with Azure Cosmos DB. Skills are packaged instructions and scripts that extend agent capabilities.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-03T06:25:04Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "azure-cosmosdb",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/AzureCosmosDB/cosmosdb-agent-kit"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 84.6,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "supabase-community/supabase-plugin",
+          "owner": "supabase-community",
+          "slug": "supabase-plugin",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 46,
+          "desc": "Supabase plugin for AI coding assistants",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-16T09:17:28Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "supabase",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/supabase-community/supabase-plugin"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 83.1,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "linxule/lotus-wisdom-mcp",
+          "owner": "linxule",
+          "slug": "lotus-wisdom-mcp",
+          "paths": [
+            "kimi.plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 37,
+          "desc": "Contemplative reasoning MCP server — Lotus Sutra wisdom framework with interactive ext-apps journey visualization.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T19:10:26Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "kimi.plugin.json",
+          "pluginName": "lotus-wisdom",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/linxule/lotus-wisdom-mcp"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 82,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "DollarDill/beads-superpowers",
+          "owner": "DollarDill",
+          "slug": "beads-superpowers",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 32,
+          "desc": "Superpowers & Beads task memory for AI coding agents - supports Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, Kimi Code, Antigravity, Factory Droid, and Pi.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-31T02:52:18Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": ".kimi-plugin/plugin.json",
+          "pluginName": "beads-superpowers",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/DollarDill/beads-superpowers"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 81.2,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "geml-spec/geml",
+          "owner": "geml-spec",
+          "slug": "geml",
+          "paths": [
+            "kimi.plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 29,
+          "desc": "GEML is a lightweight markup language with uniform, addressable blocks and standard verbs. Easy for humans to read, safe for agents to mutate.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-05T17:57:20Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "kimi.plugin.json",
+          "pluginName": "geml",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/geml-spec/geml"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 80.7,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "ucoz-skills/agent-skills",
+          "owner": "ucoz-skills",
+          "slug": "agent-skills",
+          "paths": [
+            "kimi.plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 24,
+          "desc": "Official uCoz agent skills library and MCP plugin for AI coding assistants.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-29T12:37:06Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "kimi.plugin.json",
+          "pluginName": "ucoz",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/ucoz-skills/agent-skills"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 79.8,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "heubme2020/datasinking",
+          "owner": "heubme2020",
+          "slug": "datasinking",
+          "paths": [
+            "kimi.plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 22,
+          "desc": "Full-text financial reports (US, China, Japan, Korea, Taiwan) as clean Markdown — REST API + MCP server for LLMs, RAG and quant",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-05T06:25:30Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "kimi.plugin.json",
+          "pluginName": "datasinking",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/heubme2020/datasinking"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 79.3,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "linxule/interpretive-orchestration",
+          "owner": "linxule",
+          "slug": "interpretive-orchestration",
+          "paths": [
+            "kimi.plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 21,
+          "desc": "Human-AI partnership for interpretive qualitative research. A plugin for Claude Code, Codex, Copilot CLI and Kimi Code that implements Lin and Corley (2026), Strategic Organization.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-06T22:37:45Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "kimi.plugin.json",
+          "pluginName": "interpretive-orchestration",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/linxule/interpretive-orchestration"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 79.1,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "Goldziher/poly",
+          "owner": "Goldziher",
+          "slug": "poly",
+          "paths": [
+            "plugin/kimi.plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 20,
+          "desc": "Universal zero-dependency linter and formatter. One pure-Rust binary (poly) that lints and formats ~30 languages in-process — ruff, oxc, biome, mago and more compiled in — with a tree-sitter tier for the long tail. One config, git hooks, and an MCP server for agents.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T22:41:14Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "plugin/kimi.plugin.json",
+          "pluginName": "poly",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/Goldziher/poly"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 78.9,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "hjqcan/GoodMemory",
+          "owner": "hjqcan",
+          "slug": "GoodMemory",
+          "paths": [
+            "kimi.plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 20,
+          "desc": "Local-first, auditable memory layer for AI apps and coding agents — Codex, Claude Code, MCP, HTTP, TypeScript, and Python.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-20T03:50:24Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "kimi.plugin.json",
+          "pluginName": "goodmemory",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "/plugins install https://github.com/hjqcan/GoodMemory"
+            },
+            {
+              "label": "Fresh session",
+              "code": "/new"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 78.9,
+          "tier": "P0"
+        },
+        {
+          "host": "kimi",
+          "repo": "xhyqaq/superpowers-plus",
+          "owner": "xhyqaq",
+          "slug": "superpowers-plus",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "kimi",
+          "repo": "mobbin/skills",
+          "owner": "mobbin",
+          "slug": "skills",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "kimi",
+          "repo": "prime-radiant-inc/proving-it-works",
+          "owner": "prime-radiant-inc",
+          "slug": "proving-it-works",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "kimi",
+          "repo": "aaddrick/contrarian",
+          "owner": "aaddrick",
+          "slug": "contrarian",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "kimi",
+          "repo": "MnemosyneOS/mnemosyne",
+          "owner": "MnemosyneOS",
+          "slug": "mnemosyne",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "kimi",
+          "repo": "Shoplazza/shoplazza-cli",
+          "owner": "Shoplazza",
+          "slug": "shoplazza-cli",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "kimi",
+          "repo": "postmanlabs/postman-plugin",
+          "owner": "postmanlabs",
+          "slug": "postman-plugin",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "kimi",
+          "repo": "AmethystLuna/embedded-workbench",
+          "owner": "AmethystLuna",
+          "slug": "embedded-workbench",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "kimi",
+          "repo": "ormeilu/avoid-ai-writing-russian",
+          "owner": "ormeilu",
+          "slug": "avoid-ai-writing-russian",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "kimi",
+          "repo": "Dancan254/shenghua",
+          "owner": "Dancan254",
+          "slug": "shenghua",
+          "stars": 0,
+          "desc": "",
+          "paths": [
+            ".kimi-plugin/plugin.json"
+          ],
+          "via": "code",
+          "valid": false,
+          "score": 0,
+          "tier": "P2",
+          "installs": []
+        }
+      ],
+      "p0": 24,
+      "p1": 0
+    },
+    "orca": {
+      "searched": 123,
+      "errors": [],
+      "candidates": [
+        {
+          "host": "orca",
+          "repo": "Miragon/bpmn-modeler",
+          "owner": "Miragon",
+          "slug": "bpmn-modeler",
+          "paths": [
+            "apps/orca-plugin/orca-plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 38,
+          "desc": "A BPMN Modeler that supports Camunda 7, Camunda 8, Operaton and CIB seven",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-08T00:22:04Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "apps/orca-plugin/orca-plugin.json",
+          "pluginName": "bpmn-modeler",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/Miragon/bpmn-modeler"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 77.1,
+          "tier": "P0"
+        },
+        {
+          "host": "orca",
+          "repo": "JargeZ/orca-recipes",
+          "owner": "JargeZ",
+          "slug": "orca-recipes",
+          "paths": [
+            "orca-plugin.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 5,
+          "desc": "Copier template: isolated local Docker dev container per Orca ADE workspace, with Claude Code, git, gh/glab pre-authenticated via repo-scoped tokens. GitHub and GitLab (incl. self-managed).",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T09:18:00Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "orca-plugin.json",
+          "pluginName": "docker-vm",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/JargeZ/orca-recipes"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 67.3,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "wangzoyou/orca-deepseek-harness",
+          "owner": "wangzoyou",
+          "slug": "orca-deepseek-harness",
+          "paths": [
+            "apps/orca/resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 14,
+          "desc": "Complete Orca + DeepSeek Harness + dsh terminal integration with AI Vault history, resume, and orchestration.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-08-21T12:07:15Z",
+          "defaultBranch": "master",
+          "valid": true,
+          "manifestPath": "apps/orca/resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-portuguese",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/wangzoyou/orca-deepseek-harness (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-portuguese"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 67.1,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "forcegravity1989/builder-workbench",
+          "owner": "forcegravity1989",
+          "slug": "builder-workbench",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 3,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-06T12:29:40Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-portuguese",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/forcegravity1989/builder-workbench (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-portuguese"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 65.2,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "narimanisakhanov-creator/orca-xlsx-editor",
+          "owner": "narimanisakhanov-creator",
+          "slug": "orca-xlsx-editor",
+          "paths": [
+            "orca-plugin.json"
+          ],
+          "via": "code+repo",
+          "fromDiscover": false,
+          "stars": 3,
+          "desc": "Excel workbook editor for Orca: formatting-faithful view, structural row and column edits, workbook search, formatted copy; untouched ZIP parts preserved.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T19:18:53Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "orca-plugin.json",
+          "pluginName": "xlsx-editor",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/narimanisakhanov-creator/orca-xlsx-editor"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 65.2,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "T7NCKE/Cubito",
+          "owner": "T7NCKE",
+          "slug": "Cubito",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 1,
+          "desc": "Spatial 3D frontend for ORCA's agent orchestration engine: parallel coding agents, their worktrees and the system they build, rendered as one navigable scene.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-13T04:08:36Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-portuguese",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/T7NCKE/Cubito (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-portuguese"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 61.6,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "alepspizzetti/orca-plugins",
+          "owner": "alepspizzetti",
+          "slug": "orca-plugins",
+          "paths": [
+            "orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "orca-plugins",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-14T17:40:55Z",
+          "defaultBranch": "master",
+          "valid": true,
+          "manifestPath": "orca-marketplace.json",
+          "pluginName": "Plugins do Alessandro",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/alepspizzetti/orca-plugins"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 58,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "codeious/orca-plugins",
+          "owner": "codeious",
+          "slug": "orca-plugins",
+          "paths": [
+            "orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Orca plugin marketplace by Codeious",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-25T20:23:12Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "orca-marketplace.json",
+          "pluginName": "codeious.boat-sandbox",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/codeious/orca-plugins (pin ref v1.0.3)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "codeious.boat-sandbox"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 58,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "andoshin11/orca-plugins",
+          "owner": "andoshin11",
+          "slug": "orca-plugins",
+          "paths": [
+            "orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Orca plugin marketplace (agent-status-relay for orca-dots-bridge)",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-03T12:17:04Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "orca-marketplace.json",
+          "pluginName": "andoshin11.agent-status-relay",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/andoshin11/orca-plugins (pin ref v0.1.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "andoshin11.agent-status-relay"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 58,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "Suraj-H675/Ash-IDE",
+          "owner": "Suraj-H675",
+          "slug": "Ash-IDE",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T15:37:47Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-multipass-recipes",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/Suraj-H675/Ash-IDE (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-multipass-recipes"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 58,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "Tom-from-6520/eddy",
+          "owner": "Tom-from-6520",
+          "slug": "eddy",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-02T17:39:21Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-multipass-recipes",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/Tom-from-6520/eddy (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-multipass-recipes"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 58,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "unempyd/odin",
+          "owner": "unempyd",
+          "slug": "odin",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Surgical derivative of Orca. Same product surface. Residual orchestration and safety contracts closed.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-04T05:20:30Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-portuguese",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/unempyd/odin (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-portuguese"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 58,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "SiyuQian/keel",
+          "owner": "SiyuQian",
+          "slug": "keel",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Agent orchestration workbench, built on Orca (MIT)",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-17T20:21:34Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-portuguese",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/SiyuQian/keel (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-portuguese"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 58,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "geraldsberongoy/orca-ram-guard",
+          "owner": "geraldsberongoy",
+          "slug": "orca-ram-guard",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Orca status-bar plugin and macOS launchd guard to monitor RAM, close idle AI agent terminals, and kill stray dev-server ports",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-08T00:51:44Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "orca-plugin.json",
+          "pluginName": "orca-ram-guard",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/geraldsberongoy/orca-ram-guard"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 58,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "hyb654197815/coding-container",
+          "owner": "hyb654197815",
+          "slug": "coding-container",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 1,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-08-12T07:25:09Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-portuguese",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/hyb654197815/coding-container (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-portuguese"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 56.6,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "M4NT/ripperos-ade",
+          "owner": "M4NT",
+          "slug": "ripperos-ade",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 1,
+          "desc": "RipperOS ADE - agent development environment (fork of Orca)",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-09-28T18:22:54Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-portuguese",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/M4NT/ripperos-ade (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-portuguese"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 56.6,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "Sn-Kinos/just-orca",
+          "owner": "Sn-Kinos",
+          "slug": "just-orca",
+          "paths": [
+            "orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-09-11T12:27:19Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "orca-marketplace.json",
+          "pluginName": "kinos.git-log-graph",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/Sn-Kinos/just-orca (pin ref main)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "kinos.git-log-graph"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 53,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "wangzhengzhuo05/TeamRun",
+          "owner": "wangzhengzhuo05",
+          "slug": "TeamRun",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-09-01T14:25:28Z",
+          "defaultBranch": "feat-init-demo",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-portuguese",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/wangzhengzhuo05/TeamRun (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-portuguese"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 53,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "xlinh2301/orca_customize",
+          "owner": "xlinh2301",
+          "slug": "orca_customize",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-08-27T04:45:26Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-portuguese",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/xlinh2301/orca_customize (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-portuguese"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 53,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "chenjingquan-hntb/Agent-Desktop",
+          "owner": "chenjingquan-hntb",
+          "slug": "Agent-Desktop",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-09-20T15:58:02Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-portuguese",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/chenjingquan-hntb/Agent-Desktop (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-portuguese"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 53,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "cis2042/orca_agent",
+          "owner": "cis2042",
+          "slug": "orca_agent",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Oagent: Native Multi-Agent Orchestration & Desktop Workspace with Cursor CLI Resume & A2A Bridge",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-01T14:04:07Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-portuguese",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/cis2042/orca_agent (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-portuguese"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 53,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "FMsongX2/FubuKing-Desktop",
+          "owner": "FMsongX2",
+          "slug": "FubuKing-Desktop",
+          "paths": [
+            "resources/plugins/launch/orca-marketplace.json"
+          ],
+          "via": "code",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "FubuKing's desktop app: a fork of Orca with Claude-app-style sessions",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-01T15:02:11Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "resources/plugins/launch/orca-marketplace.json",
+          "pluginName": "stablyai.orca-portuguese",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Add marketplace source",
+              "code": "Settings → Plugins → Marketplace sources → add https://github.com/FMsongX2/FubuKing-Desktop (pin ref v1.0.0)"
+            },
+            {
+              "label": "Plugin id",
+              "code": "stablyai.orca-portuguese"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 53,
+          "tier": "P1"
+        },
+        {
+          "host": "orca",
+          "repo": "superfly/orca-sprites",
+          "owner": "superfly",
+          "slug": "orca-sprites",
+          "stars": 2,
+          "desc": "Run each Orca workspace on its own Sprite, a persistent Linux VM from Fly.io",
+          "paths": [],
+          "via": "repo",
+          "valid": false,
+          "score": 13.7,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "orca",
+          "repo": "Miragon/orca-modelers",
+          "owner": "Miragon",
+          "slug": "orca-modelers",
+          "stars": 1,
+          "desc": "The Miragon modelers as Orca custom editors, and the catalog that lists them",
+          "paths": [],
+          "via": "repo",
+          "valid": false,
+          "score": 11.6,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "orca",
+          "repo": "tienne/orca-plugins",
+          "owner": "tienne",
+          "slug": "orca-plugins",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Orca plugins by Tienne: Git Logs commit graph and side-by-side diff viewer.",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-08T00:45:26Z",
+          "defaultBranch": "main",
+          "valid": false,
+          "manifestPath": null,
+          "pluginName": null,
+          "marketplaceName": null,
+          "installs": [],
+          "nativeFactory": false,
+          "score": 8,
+          "tier": "noise"
+        },
+        {
+          "host": "orca",
+          "repo": "JuanEliasJabib02/herdr-plugins",
+          "owner": "JuanEliasJabib02",
+          "slug": "herdr-plugins",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Plugins (mods) for the Herdr app: projects, an Orca-style create-worktree dialog, and more",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-08T00:38:04Z",
+          "defaultBranch": "main",
+          "valid": false,
+          "manifestPath": null,
+          "pluginName": null,
+          "marketplaceName": null,
+          "installs": [],
+          "nativeFactory": false,
+          "score": 8,
+          "tier": "noise"
+        },
+        {
+          "host": "orca",
+          "repo": "CarlosBaixoSI/orca-pr-dashboard",
+          "owner": "CarlosBaixoSI",
+          "slug": "orca-pr-dashboard",
+          "stars": 0,
+          "desc": "Orca plugin: open pull requests with status, next move owner, linked sessions, stacks and cost",
+          "paths": [],
+          "via": "repo",
+          "valid": false,
+          "score": 8,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "orca",
+          "repo": "rr235/orca-task-launcher",
+          "owner": "rr235",
+          "slug": "orca-task-launcher",
+          "stars": 0,
+          "desc": "Orca plugin: run the GitHub issues from your projects using custom prompts, each in its own worktree with your default agent.",
+          "paths": [],
+          "via": "repo",
+          "valid": false,
+          "score": 8,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "orca",
+          "repo": "esykai/orca-catppuccin-exact",
+          "owner": "esykai",
+          "slug": "orca-catppuccin-exact",
+          "stars": 0,
+          "desc": "Catppuccin Exact for Orca: #1e1e2e canvas, #181825 panels and composer, without Orca's extra surface tint.",
+          "paths": [],
+          "via": "repo",
+          "valid": false,
+          "score": 8,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "orca",
+          "repo": "llima/craftar-orca",
+          "owner": "llima",
+          "slug": "craftar-orca",
+          "stars": 0,
+          "desc": "An Orca plugin for craftar: a panel showing the Forge, the linked workspaces and the file flow",
+          "paths": [],
+          "via": "repo",
+          "valid": false,
+          "score": 8,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "orca",
+          "repo": "anthony-fp/orca-agent-inbox",
+          "owner": "anthony-fp",
+          "slug": "orca-agent-inbox",
+          "stars": 0,
+          "desc": "Agent Inbox for Orca: the inbox's Now tab for Claude Code agents, in Orca's right sidebar",
+          "paths": [],
+          "via": "repo",
+          "valid": false,
+          "score": 8,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "orca",
+          "repo": "Bigsy/milko",
+          "owner": "Bigsy",
+          "slug": "milko",
+          "stars": 0,
+          "desc": "Rich Markdown editing for Orca, with Mermaid diagrams, local proofing and careful source preservation.",
+          "paths": [],
+          "via": "repo",
+          "valid": false,
+          "score": 8,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "orca",
+          "repo": "AmineChr54/orca-agent-split",
+          "owner": "AmineChr54",
+          "slug": "orca-agent-split",
+          "stars": 0,
+          "desc": "Orca plugin: one shortcut splits the focused terminal and starts your coding agent (claude, codex, ...) side by side",
+          "paths": [],
+          "via": "repo",
+          "valid": false,
+          "score": 8,
+          "tier": "P2",
+          "installs": []
+        },
+        {
+          "host": "orca",
+          "repo": "borisiori/moleditpy-orca-calculator",
+          "owner": "borisiori",
+          "slug": "moleditpy-orca-calculator",
+          "stars": 0,
+          "desc": "MoleditPy plugin: job queue manager for ORCA calculations (queue, live output, monitor, sort, delete) - Linux",
+          "paths": [],
+          "via": "repo",
+          "valid": false,
+          "score": 8,
+          "tier": "P2",
+          "installs": []
+        }
+      ],
+      "p0": 1,
+      "p1": 21
+    },
+    "amp": {
+      "searched": 35,
+      "errors": [],
+      "candidates": [
+        {
+          "host": "amp",
+          "repo": "pasky/pi-amplike",
+          "owner": "pasky",
+          "slug": "pi-amplike",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 235,
+          "desc": "Pi skills to replicate AmpCode experience - handoffs, modes, permissions, web access",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-04T19:00:52Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "package.json",
+          "pluginName": "pi-amplike",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "amp plugins add https://github.com/pasky/pi-amplike"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 86.5,
+          "tier": "P0"
+        },
+        {
+          "host": "amp",
+          "repo": "hamr0/liteagents",
+          "owner": "hamr0",
+          "slug": "liteagents",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 27,
+          "desc": "Comprehensive AI liteagents kit (subagents, skills/commands) for Claude Code, Opencode, Ampcode, and Droid",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-31T08:08:44Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "package.json",
+          "pluginName": "liteagents",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "amp plugins add https://github.com/hamr0/liteagents"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 75.4,
+          "tier": "P0"
+        },
+        {
+          "host": "amp",
+          "repo": "fbraza/amp-zenodo",
+          "owner": "fbraza",
+          "slug": "amp-zenodo",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Ampcode plugin for Zenodo API",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-08-18T15:03:59Z",
+          "defaultBranch": "main",
+          "valid": true,
+          "manifestPath": "package.json",
+          "pluginName": "@fbraza/amp-zenodo",
+          "marketplaceName": null,
+          "installs": [
+            {
+              "label": "Install",
+              "code": "amp plugins add https://github.com/fbraza/amp-zenodo"
+            }
+          ],
+          "nativeFactory": false,
+          "score": 53,
+          "tier": "P1"
+        },
+        {
+          "host": "amp",
+          "repo": "NiksenB/ASE-AI-Agent",
+          "owner": "NiksenB",
+          "slug": "ASE-AI-Agent",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "For the ITU course Advanced Software Engineering, this repository contains the code for an AI Agent, following the guide by Thorsten Ball (https://ampcode.com/notes/how-to-build-an-agent).",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-07T10:29:52Z",
+          "defaultBranch": "main",
+          "valid": false,
+          "manifestPath": null,
+          "pluginName": null,
+          "marketplaceName": null,
+          "installs": [],
+          "nativeFactory": false,
+          "score": 8,
+          "tier": "noise"
+        },
+        {
+          "host": "amp",
+          "repo": "rahulnakmol/ampcode",
+          "owner": "rahulnakmol",
+          "slug": "ampcode",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-11-01T15:21:29Z",
+          "defaultBranch": "main",
+          "valid": false,
+          "manifestPath": null,
+          "pluginName": null,
+          "marketplaceName": null,
+          "installs": [],
+          "nativeFactory": false,
+          "score": 8,
+          "tier": "noise"
+        },
+        {
+          "host": "amp",
+          "repo": "UnitR/amp-windows-experiment",
+          "owner": "UnitR",
+          "slug": "amp-windows-experiment",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Asked Amp to make its own Windows native app because I got bored of the lack of support for Windows.https://ampcode.com",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-30T13:27:17Z",
+          "defaultBranch": "main",
+          "valid": false,
+          "manifestPath": null,
+          "pluginName": null,
+          "marketplaceName": null,
+          "installs": [],
+          "nativeFactory": false,
+          "score": 8,
+          "tier": "noise"
+        },
+        {
+          "host": "amp",
+          "repo": "hashtafak/hindsight-ampcode",
+          "owner": "hashtafak",
+          "slug": "hindsight-ampcode",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-29T16:05:22Z",
+          "defaultBranch": "main",
+          "valid": false,
+          "manifestPath": null,
+          "pluginName": null,
+          "marketplaceName": null,
+          "installs": [],
+          "nativeFactory": false,
+          "score": 8,
+          "tier": "noise"
+        },
+        {
+          "host": "amp",
+          "repo": "Agentifiers/amp-android",
+          "owner": "Agentifiers",
+          "slug": "amp-android",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Unofficial native Android client for Amp (ampcode.com), built for the Galaxy Z TriFold and other large screens",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-27T21:49:13Z",
+          "defaultBranch": "main",
+          "valid": false,
+          "manifestPath": null,
+          "pluginName": null,
+          "marketplaceName": null,
+          "installs": [],
+          "nativeFactory": false,
+          "score": 8,
+          "tier": "noise"
+        },
+        {
+          "host": "amp",
+          "repo": "Tyru5/claude-timeline",
+          "owner": "Tyru5",
+          "slug": "claude-timeline",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Claude Code mod: ampcode-style timeline of your session's prompts",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-10-19T17:10:01Z",
+          "defaultBranch": "main",
+          "valid": false,
+          "manifestPath": null,
+          "pluginName": null,
+          "marketplaceName": null,
+          "installs": [],
+          "nativeFactory": false,
+          "score": 8,
+          "tier": "noise"
+        },
+        {
+          "host": "amp",
+          "repo": "SanD94/amp-local-orbs",
+          "owner": "SanD94",
+          "slug": "amp-local-orbs",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 0,
+          "desc": "Provide similar features that are offered by ampcode in a powerful server or HPC",
+          "archived": false,
+          "fork": false,
+          "pushed": "2026-08-13T13:00:12Z",
+          "defaultBranch": "main",
+          "valid": false,
+          "manifestPath": null,
+          "pluginName": null,
+          "marketplaceName": null,
+          "installs": [],
+          "nativeFactory": false,
+          "score": 3,
+          "tier": "noise"
+        },
+        {
+          "host": "amp",
+          "repo": "riyex/amp-runner",
+          "owner": "riyex",
+          "slug": "amp-runner",
+          "paths": [],
+          "via": "repo",
+          "fromDiscover": false,
+          "stars": 1,
+          "desc": "Native macOS menu-bar app that supervises local 'amp --no-tui' runner processes for ampcode.com remote thread creation",
+          "archived": true,
+          "fork": false,
+          "pushed": "2026-09-25T01:47:02Z",
+          "defaultBranch": "main",
+          "valid": false,
+          "manifestPath": null,
+          "pluginName": null,
+          "marketplaceName": null,
+          "installs": [],
+          "nativeFactory": false,
+          "score": -33.4,
+          "tier": "noise"
+        }
+      ],
+      "p0": 2,
+      "p1": 1
+    }
+  }
+}

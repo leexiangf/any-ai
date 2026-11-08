@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fix: Orca marketplace source error | Orca Plugin Market</title>
+    <meta name="description" content="Fix Orca marketplace source errors: use a Git index URL, pin when required, and verify orca-marketplace.json shape." />
+    <link rel="canonical" href="https://orca.aiaaii.com/guides/fix-marketplace-source-error/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">Orca Plugin Market</span>
+            <span class="brand-domain">orca.aiaaii.com · Any AI</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/" aria-current="page">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+          </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>Marketplace source error</h1>
+          <p>Source row shows an error after you paste a Git URL.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+<ol class="steps">
+<li>Use a Git repository URL that contains a marketplace index (not a random single-file gist).</li>
+<li>Re-add under Settings → Plugins → Marketplace sources:<div class="install-block"><span class="label">Example</span><code>https://github.com/smwbev/orca-plugins.git</code></div></li>
+<li>If the host asks for a pin, use a tag or commit — see <a href="/guides/how-to-add-marketplace-source/">add marketplace source</a>.</li>
+<li>Open the index JSON and confirm entries point at valid plugin packs.</li>
+<li>Reserved publisher/id failures → <a href="/guides/fix-reserved-plugin-id/">reserved plugin id</a>.</li>
+</ol>
+        <p class="source-line">Independent rewrite · Updated 2026-11-07 · Not affiliated with Orca / Stably</p>
+        <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-orca-plugins/">Troubleshoot hub</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Orca Plugin Market</span>
+          <span class="brand-domain">orca.aiaaii.com · Any AI (AI-AAII)</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+          </div>
+          <p>Not affiliated with Orca / Stably</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

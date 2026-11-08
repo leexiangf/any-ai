@@ -9,6 +9,32 @@
       content="Fix Orca error “Add an explicit #ref”: you pasted a marketplace index into Install plugin. Use Marketplace sources instead."
     />
     <link rel="canonical" href="https://orca.aiaaii.com/guides/fix-add-an-explicit-ref/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/guides/fix-add-an-explicit-ref/" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Fix Orca error Add an explicit #ref",
+        "description": "Move marketplace index URLs to Marketplace sources, or pin a plugin git URL with #tag or #commit.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Identify index vs plugin",
+            "text": "orca-marketplace.json means Marketplace sources; orca-plugin.json means Install plugin with #ref."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Add marketplace source",
+            "text": "Paste the index Git URL under Settings → Plugins → Marketplace sources."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Or pin a plugin URL",
+            "text": "Use Install plugin only with a single-plugin repo ending in #tag or #commit."
+          }
+        ]
+      }
+    </script>
         <script>
       (function () {
         try {

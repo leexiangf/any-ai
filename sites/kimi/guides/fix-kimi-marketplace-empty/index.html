@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fix: empty Official or Curated Kimi marketplace | Kimi Plugin Market</title>
+    <meta name="description" content="Fix empty Kimi Official/Curated marketplace tabs: check network, reset marketplace view, and verify custom catalog JSON." />
+    <link rel="canonical" href="https://kimi.aiaaii.com/guides/fix-kimi-marketplace-empty/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">Kimi Plugin Market</span>
+            <span class="brand-domain">kimi.aiaaii.com · Any AI</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/" aria-current="page">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+          </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>Empty Official / Curated marketplace</h1>
+          <p>Official or Curated tabs show no plugins.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+<p>Empty catalogs are usually network, catalog URL, or custom marketplace JSON — not a missing install command.</p>
+<ol class="steps">
+<li>Open the manager:<div class="install-block"><span class="label">TUI</span><code>/plugins</code></div></li>
+<li>Inspect marketplace config:<div class="install-block"><span class="label">Marketplace</span><code>/plugins marketplace</code></div></li>
+<li>If you added a custom catalog, verify the JSON URL returns a valid marketplace index (HTTPS, reachable).</li>
+<li>Remove a bad custom source, then re-add with <a href="/guides/how-to-add-kimi-marketplace/">how to add a marketplace</a>.</li>
+<li>Still blank → see <a href="/guides/how-to-troubleshoot-kimi-plugins/">troubleshoot</a>.</li>
+</ol>
+        <p class="source-line">Independent rewrite · Updated 2026-11-07 · Not affiliated with Moonshot AI / Kimi</p>
+        <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-kimi-plugins/">Troubleshoot hub</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Kimi Plugin Market</span>
+          <span class="brand-domain">kimi.aiaaii.com · Any AI (AI-AAII)</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+          </div>
+          <p>Not affiliated with Moonshot AI / Kimi</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

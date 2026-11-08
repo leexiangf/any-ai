@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T05:58:51.239Z",
+  "generatedAt": "2026-11-08T01:29:34.153Z",
   "rejected": [
     {
       "slug": "SonarSource/sonarqube-agent-plugins",
@@ -94,7 +94,7 @@
       "owner": "salemalem",
       "repo": "npmscan-mcp-plugin",
       "html_url": "https://github.com/salemalem/npmscan-mcp-plugin",
-      "stars": 526,
+      "stars": 503,
       "description": "NPMScan: npm package and vulnerability lookups (search, maintainer/provenance/install-script inspection, license compliance, PR diffs, CI merge gates, SBOMs, OSV.dev + GitHub Security Advisories + NIST NVD/CVE) for Claude Code.",
       "default_branch": "main",
       "marketplaceKind": "claude-compat",
@@ -138,7 +138,7 @@
       "owner": "rohitg00",
       "repo": "agentmemory",
       "html_url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30165,
+      "stars": 30191,
       "description": null,
       "default_branch": "main",
       "marketplaceKind": "claude-compat",
@@ -283,7 +283,7 @@
       "slug": "hashgraph-online/hol-guard",
       "reason": "no_marketplace_json",
       "default_branch": "main",
-      "stars": 1071,
+      "stars": 1077,
       "description": "Open-source antivirus and firewall for AI agents: block risky tools, secret access, prompt injection, malicious packages, MCP servers, plugins, and skills at runtime.",
       "sources": [
         {
@@ -303,7 +303,7 @@
       "slug": "AtomicBot-ai/Atomic-Chat",
       "reason": "no_marketplace_json",
       "default_branch": "main",
-      "stars": 1944,
+      "stars": 1956,
       "description": "Local AI app and inference engine for agents. Run open-weight LLMs locally — private, 100% offline on your computer. Join our Discord: https://discord.com/invite/8wGSsvmg4V",
       "sources": [
         {
@@ -465,7 +465,7 @@
       "owner": "cursor",
       "repo": "plugins",
       "html_url": "https://github.com/cursor/plugins",
-      "stars": 15523,
+      "stars": 15666,
       "description": null,
       "default_branch": "main",
       "marketplaceKind": "claude-compat",
@@ -642,6 +642,50 @@
       "error": null
     },
     {
+      "slug": "ilyautov/humanizer-ru",
+      "owner": "ilyautov",
+      "repo": "humanizer-ru",
+      "html_url": "https://github.com/ilyautov/humanizer-ru",
+      "stars": 535,
+      "description": "Plugins by Ilya Utov: humanizer-ru, a Russian text quality editor | Плагины Ильи Утова: humanizer-ru, редактура русского текста",
+      "default_branch": "main",
+      "marketplaceKind": "claude-compat",
+      "marketplacePath": ".claude-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "ilyautov-plugins",
+      "pluginCount": 1,
+      "plugins": [
+        {
+          "name": "humanizer-ru",
+          "description": "Russian text quality editor: removes bureaucratese, calques and AI-style clichés without changing facts or the author's voice. 67 patterns, 21 hard bans, 3 modes (edit / audit / targeted fix), deterministic scanner with a 0-100 cleanliness score and a fact-lock. | Редактура русского текста: убирает канцелярит, кальки и нейросетевые штампы, не меняя факты и голос автора. 67 паттернов, 21 жёсткий запрет, 3 режима, сканер с баллом чистоты 0-100 и факт-замок.",
+          "category": "writing"
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/ilyautov/humanizer-ru",
+        "install": "droid plugin install humanizer-ru@ilyautov-plugins --scope user",
+        "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/ilyautov/humanizer-ru/",
+        "/items/ilyautov/humanizer-ru/"
+      ],
+      "sources": [
+        {
+          "type": "seed",
+          "note": "linked from factory-plugins PR #48"
+        },
+        {
+          "type": "factory-plugins-pr",
+          "pr": 48,
+          "title": "feat: add humanizer-ru plugin (remove AI-generation markers from Russian text)",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/48"
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
       "slug": "hboon/linkbunny-agent-skill",
       "reason": "no_marketplace_json",
       "default_branch": "main",
@@ -658,10 +702,50 @@
       "error": null
     },
     {
+      "slug": "superfly/fly-droid-plugin",
+      "owner": "superfly",
+      "repo": "fly-droid-plugin",
+      "html_url": "https://github.com/superfly/fly-droid-plugin",
+      "stars": 0,
+      "description": "Fly.io tools and shared skills for Factory Droid",
+      "default_branch": "main",
+      "marketplaceKind": "factory",
+      "marketplacePath": ".factory-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "fly-droid-plugin",
+      "pluginCount": 1,
+      "plugins": [
+        {
+          "name": "fly",
+          "description": "Deploy and operate Fly.io apps, Machines, volumes, and Managed Postgres; run development workloads in persistent Sprites.",
+          "category": "deployment"
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/superfly/fly-droid-plugin",
+        "install": "droid plugin install fly@fly-droid-plugin --scope user",
+        "note": "Native .factory-plugin/marketplace.json"
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/superfly/fly-droid-plugin/",
+        "/items/superfly/fly/"
+      ],
+      "sources": [
+        {
+          "type": "factory-plugins-pr",
+          "pr": 79,
+          "title": "feat: add Fly.io plugin",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/79"
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
       "slug": "webmachinelearning/webmcp",
       "reason": "no_marketplace_json",
       "default_branch": "main",
-      "stars": 4899,
+      "stars": 4910,
       "description": "🤖 WebMCP",
       "sources": [
         {
@@ -710,7 +794,7 @@
       "owner": "pbakaus",
       "repo": "impeccable",
       "html_url": "https://github.com/pbakaus/impeccable",
-      "stars": 104135,
+      "stars": 105562,
       "description": "Design fluency for AI harnesses. 1 skill, 24 commands, and curated anti-patterns for impeccable frontend design.",
       "default_branch": "main",
       "marketplaceKind": "claude-compat",
@@ -734,6 +818,66 @@
       "suggestedListingPaths": [
         "/items/pbakaus/impeccable/",
         "/items/pbakaus/impeccable/"
+      ],
+      "sources": [
+        {
+          "type": "factory-plugins-pr",
+          "pr": 17,
+          "title": "Add pixel-perfect plugin: browser-native visual QA for frontend design",
+          "url": "https://github.com/Factory-AI/factory-plugins/pull/17"
+        }
+      ],
+      "reason": "already_listed"
+    },
+    {
+      "slug": "anthropics/skills",
+      "owner": "anthropics",
+      "repo": "skills",
+      "html_url": "https://github.com/anthropics/skills",
+      "stars": 188810,
+      "description": "Anthropic example skills",
+      "default_branch": "main",
+      "marketplaceKind": "claude-compat",
+      "marketplacePath": ".claude-plugin/marketplace.json",
+      "marketplaceRef": "main",
+      "marketplaceName": "anthropic-agent-skills",
+      "pluginCount": 5,
+      "plugins": [
+        {
+          "name": "document-skills",
+          "description": "Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities",
+          "category": null
+        },
+        {
+          "name": "example-skills",
+          "description": "Collection of example skills demonstrating various capabilities including skill creation, MCP building, visual design, algorithmic art, internal communications, web testing, artifact building, Slack GIFs, and theme styling",
+          "category": null
+        },
+        {
+          "name": "claude-api",
+          "description": "Claude API and SDK documentation skill for building LLM-powered applications",
+          "category": null
+        },
+        {
+          "name": "academy-guide",
+          "description": "Recommends relevant Claude Academy courses, tutorials, and use cases when users ask how to use Claude",
+          "category": null
+        },
+        {
+          "name": "discernment-nudge",
+          "description": "Appends two or three short follow-up questions after a substantive answer to help users check key facts, probe the reasoning, and notice missing context",
+          "category": null
+        }
+      ],
+      "install": {
+        "add": "droid plugin marketplace add https://github.com/anthropics/skills",
+        "install": "droid plugin install document-skills@anthropic-agent-skills --scope user",
+        "note": "Uses .claude-plugin/marketplace.json — Droid falls back when .factory-plugin is absent."
+      },
+      "alreadyListed": true,
+      "suggestedListingPaths": [
+        "/items/anthropics/skills/",
+        "/items/anthropics/document-skills/"
       ],
       "sources": [
         {

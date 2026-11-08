@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Orca 插件 — 主题、编辑器与社区扩展目录 | Orca Plugin Market</title>
+    <meta
+      name="description"
+      content="浏览 Orca 插件：主题、编辑器、语言、面板与市场源。社区目录，含安装入口。非官方，不是 Orca Note。"
+    />
+    <link rel="canonical" href="https://orca.aiaaii.com/zh/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "这是官方 Orca 插件商店吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不是。官方在 Orca 应用与 onorca.dev。本站是 Any AI 上的社区安装索引。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "装了插件但列表里看不到怎么办？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "先添加市场源；装单个插件时钉版本；主题等类型可能被界面过滤，需到外观设置或按排错指南检查。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "市场源地址和插件地址有什么区别？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "市场源是索引仓；安装单个插件需要插件仓并钉版本，不要把目录仓贴进 Install plugin。"
+            }
+          }
+        ]
+      }
+    </script>
+    <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/zh/">
+            <span class="brand-name">Orca Plugin Market</span>
+            <span class="brand-domain">orca.aiaaii.com · 中文</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="主导航">
+              <a href="/zh/items/">插件目录</a>
+              <a href="/zh/guides/">指南</a>
+              <a href="/zh/changelog/">更新</a>
+              <a href="/zh/submit/">提交</a>
+              <a href="/zh/about/">关于</a>
+              <a href="/">English</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="切换主题" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+        <div class="hero-main">
+          <p class="hero-kicker">Orca Plugin Market · 社区插件目录</p>
+          <h1>Orca 插件</h1>
+          <p class="hero-sub">
+            浏览社区与官方扩展：主题、编辑器、语言、面板与市场源，并给出可复制的安装入口。
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary btn-spotlight" href="/zh/items/">浏览插件</a>
+            <a class="btn btn-secondary" href="/zh/categories/themes/">主题插件</a>
+            <a class="btn btn-ghost" href="/zh/guides/">安装帮助</a>
+          </div>
+          <p class="disclaimer">由 Any AI（AI-AAII）社区维护，与 Orca / Stably 无关。插件功能仍在快速变化中。</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="marketplace-strip" aria-label="添加市场源">
+        <div class="wrap">
+          <p class="marketplace-strip-lead">
+            在 Orca → 设置 → Plugins → Marketplace sources 粘贴下方地址。
+            <a href="/zh/guides/how-to-add-marketplace-source/">如何添加</a>
+          </p>
+          <div class="install-block">
+            <span class="label">市场源</span>
+            <div class="marketplace-strip-row">
+              <code data-copy-target>https://github.com/leexiangf/aiaaii-orca-marketplace.git</code>
+              <button type="button" class="copy-btn" data-copy data-copied-label="已复制" aria-label="复制市场源地址">复制</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="categories">
+        <div class="wrap">
+          <p class="section-label">浏览</p>
+          <h2>Orca 插件分类</h2>
+          <div class="category-grid">
+            <a href="/zh/categories/themes/">主题 <small>应用界面与终端配色</small></a>
+            <a href="/zh/categories/languages/">语言 <small>语法与界面语言包</small></a>
+            <a href="/zh/categories/icons/">图标 <small>文件与文件夹图标</small></a>
+            <a href="/zh/categories/editors/">编辑器 <small>自定义编辑器与预览</small></a>
+            <a href="/zh/categories/commands-panels/">命令与面板 <small>侧栏、命令、skills</small></a>
+            <a href="/zh/categories/remote-vms/">远程 / 虚拟机 <small>配方、沙箱、远程工作区</small></a>
+            <a href="/zh/categories/marketplaces/">市场源 <small>目录与索引仓</small></a>
+          </div>
+          <p class="section-lead" style="margin-top: 1.5rem; margin-bottom: 0">
+            <a href="/zh/items/">打开完整插件目录</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="wrap">
+          <p class="section-label">本站做什么</p>
+          <h2>先找插件，安装细节按需查看</h2>
+          <ul class="feature-list">
+            <li>
+              <strong>插件详情</strong>
+              <span>名称、分类、源地址与版本，集中在一页。</span>
+            </li>
+            <li>
+              <strong>主题与终端包</strong>
+              <span>端内列表被过滤时，仍可从这里找到主题插件。</span>
+            </li>
+            <li>
+              <strong>市场源</strong>
+              <span>索引仓与单个插件安装分开标注。</span>
+            </li>
+            <li>
+              <strong>默认未审核</strong>
+              <span>社区代码不做安全审计。建议钉版本，并自己看源码。</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="tasks">
+        <div class="wrap">
+          <p class="section-label">安装帮助</p>
+          <h2>装插件卡住了？</h2>
+          <div class="task-grid">
+            <a class="task-card" href="/zh/guides/how-to-add-marketplace-source/">
+              <span class="task-step">1</span>
+              <h3>添加市场源</h3>
+              <p>在 Orca 设置里加入 Git 市场地址，才能看到社区插件。</p>
+            </a>
+            <a class="task-card" href="/zh/guides/fix-add-an-explicit-ref/">
+              <span class="task-step">2</span>
+              <h3>提示要写版本号</h3>
+              <p>装单个插件需要带标签或 commit，不能贴整个市场目录。</p>
+            </a>
+            <a class="task-card" href="/zh/guides/fix-orca-categories-hidden/">
+              <span class="task-step">3</span>
+              <h3>装了但列表里没有</h3>
+              <p>主题有时不在「全部」里，到外观设置里选用，或看排错说明。</p>
+            </a>
+          </div>
+          <p class="section-lead" style="margin-top: 1.25rem">
+            <a href="/zh/guides/">全部指南</a>
+            ·
+            <a href="/zh/guides/how-to-troubleshoot-orca-plugins/">排错总览</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="wrap">
+          <p class="section-label">宿主</p>
+          <h2>Orca 是什么？</h2>
+          <p class="section-lead">
+            <strong>Orca</strong>（Stably AI）是并行跑多组编程助手的 ADE，常用各自的 git worktree。
+            插件可加主题、编辑器、语言、面板与配方。
+          </p>
+          <p class="section-lead host-links">
+            官方入口<br />
+            <a href="https://www.onorca.dev/plugins" rel="noopener noreferrer">onorca.dev/plugins</a>
+            ·
+            <a href="https://github.com/stablyai/orca-plugins" rel="noopener noreferrer">stablyai/orca-plugins</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <p class="section-label">常见问题</p>
+          <h2>Orca 插件常见问题</h2>
+          <div class="faq">
+            <details>
+              <summary>这是官方 Orca 商店吗？</summary>
+              <p>
+                不是。官方浏览与安装在 Orca 应用和
+                <a href="https://www.onorca.dev/plugins" rel="noopener noreferrer">onorca.dev</a>。
+                本站是 Any AI（AI-AAII）上的社区网页目录。
+              </p>
+            </details>
+            <details>
+              <summary>装完在列表里找不到？</summary>
+              <p>
+                先看过滤与隐藏类目：
+                <a href="/zh/guides/fix-orca-categories-hidden/">主题装了列表里没有</a>，
+                再看
+                <a href="/zh/guides/fix-orca-plugin-not-showing/">插件装了却不显示</a>。
+              </p>
+            </details>
+            <details>
+              <summary>市场源地址和插件地址有何不同？</summary>
+              <p>
+                市场源用索引仓。「Install plugin」要的是单个插件仓并钉版本。
+                指南：<a href="/zh/guides/fix-add-an-explicit-ref/">提示要写版本号</a>。
+              </p>
+            </details>
+            <details>
+              <summary>社区插件审核过吗？</summary>
+              <p>
+                默认<strong>未审核</strong>。我们不做第三方安全审计。优先钉版本，启用前请阅读 GitHub 源码。
+              </p>
+            </details>
+            <details>
+              <summary>如何上架？</summary>
+              <p><a href="/zh/submit/">提交</a>公开、可钉版本的插件或市场索引。装不上的仓库我们不会收。</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Orca Plugin Market</span>
+          <span class="brand-domain">orca.aiaaii.com · Any AI（AI-AAII）</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/zh/items/">插件目录</a>
+            <a href="/zh/guides/">指南</a>
+            <a href="/">English</a>
+            <a href="/zh/changelog/">更新</a>
+            <a href="/zh/submit/">提交</a>
+            <a href="/zh/about/">关于</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI 总站</a>
+          </div>
+          <p>与 Orca / Stably 无关 · 实验性</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Marketplaces | Orca Plugin Market</title>
-    <meta name="description" content="orca-marketplace.json / catalog indexes you can add as sources. Browse Orca plugins on orca.aiaaii.com." />
+    <meta name="description" content="Catalog and marketplace index sources. Browse Orca plugins on orca.aiaaii.com." />
     <link rel="canonical" href="https://orca.aiaaii.com/categories/marketplaces/" />
         <script>
       (function () {
@@ -38,51 +38,60 @@
       <header class="page-hero">
         <div class="wrap">
           <h1>Marketplaces</h1>
-          <p>orca-marketplace.json / catalog indexes you can add as sources.</p>
+          <p>Catalog and marketplace index sources.</p>
         </div>
       </header>
     </div>
     <main class="section">
       <div class="wrap">
-        <div class="item-list">
-          <a class="item" href="/items/stablyai/orca-community-plugins/">
-            <div class="item-body">
-              <h2 class="item-name">orca-community-plugins</h2>
-              <p class="item-one">Generated catalog of community Orca plugins (ids, releases, mirrors).</p>
-              <p class="item-meta">stablyai</p>
-            </div>
-            <span class="item-badge">marketplaces</span>
-          </a>
-          <a class="item" href="/items/j-dandelion/orca-marketplace/">
-            <div class="item-body">
-              <h2 class="item-name">orca-marketplace</h2>
-              <p class="item-one">Personal Orca marketplace index (Jared) — add as a Marketplace source.</p>
-              <p class="item-meta">j-dandelion</p>
-            </div>
-            <span class="item-badge">marketplaces</span>
-          </a>
-          <a class="item" href="/items/stablyai/orca-plugins/">
-            <div class="item-body">
-              <h2 class="item-name">orca-plugins (official)</h2>
-              <p class="item-one">Canonical marketplace index — thin catalog, important format.</p>
-              <p class="item-meta">stablyai</p>
-            </div>
-            <span class="item-badge">marketplaces</span>
-          </a>
-          <a class="item" href="/items/smwbev/orca-plugins/">
-            <div class="item-body">
-              <h2 class="item-name">orca-plugins (s3dev)</h2>
-              <p class="item-one">Community marketplace index — add under Marketplace sources, not Install plugin.</p>
-              <p class="item-meta">smwbev</p>
-            </div>
-            <span class="item-badge">marketplaces</span>
-          </a>
-                  <a class="item" href="/items/imgusev/orca-plugins/"><div class="item-body"><h2 class="item-name">orca-plugins (imgusev)</h2><p class="item-one">imgusev Orca marketplace — Russian language pack and related community plugins.</p><p class="item-meta">imgusev</p></div><span class="item-badge">marketplaces</span></a>
-</div>
-        <p style="margin-top:2rem"><a href="/items/">All plugins</a></p>
+        <div class="catalog-toolbar">
+          <label class="catalog-search">
+            <span class="visually-hidden">Search plugins by name</span>
+            <input type="search" id="catalog-q" name="q" placeholder="Search by name…" autocomplete="off" enterkeyhint="search" />
+          </label>
+          <label class="catalog-sort">
+            <span class="visually-hidden">Sort plugins</span>
+            <select id="catalog-sort" name="sort">
+              <option value="stars-desc" selected>Stars · high to low</option>
+              <option value="stars-asc">Stars · low to high</option>
+              <option value="name-asc">Name · A–Z</option>
+              <option value="name-desc">Name · Z–A</option>
+            </select>
+          </label>
+        </div>
+        <div class="item-list" data-catalog>
+          <a class="item" href="/items/stablyai/orca-plugins/" data-name="orca-plugins (official)" data-owner="stablyai" data-stars="27" data-install-verified="true"><div class="item-top"><span class="item-badge">marketplaces</span><span class="item-stars" title="27 GitHub stars" aria-label="27 GitHub stars"><svg class="item-star-icon" viewBox="0 0 16 16" aria-hidden="true" width="12" height="12"><path fill="currentColor" d="M8 1.5l1.76 3.57 3.94.57-2.85 2.78.67 3.92L8 10.77l-3.52 1.85.67-3.92L2.3 5.64l3.94-.57L8 1.5z"/></svg><span class="item-stars-n">27</span></span></div><div class="item-body"><h2 class="item-name">orca-plugins (official) <span class="item-verified" title="Checks: GitHub repo exists (not archived) and a parseable orca-plugin.json is reachable. Does not guarantee in-app listing, runtime behavior, or security review.">Installable</span></h2><p class="item-one">Official marketplace index for Orca plugins</p><p class="item-meta">stablyai</p></div></a>
+          <a class="item" href="/items/imgusev/orca-plugins/" data-name="orca-plugins (imgusev)" data-owner="imgusev" data-stars="8" data-install-verified="true"><div class="item-top"><span class="item-badge">marketplaces</span><span class="item-stars" title="8 GitHub stars" aria-label="8 GitHub stars"><svg class="item-star-icon" viewBox="0 0 16 16" aria-hidden="true" width="12" height="12"><path fill="currentColor" d="M8 1.5l1.76 3.57 3.94.57-2.85 2.78.67 3.92L8 10.77l-3.52 1.85.67-3.92L2.3 5.64l3.94-.57L8 1.5z"/></svg><span class="item-stars-n">8</span></span></div><div class="item-body"><h2 class="item-name">orca-plugins (imgusev) <span class="item-verified" title="Checks: GitHub repo exists (not archived) and a parseable orca-plugin.json is reachable. Does not guarantee in-app listing, runtime behavior, or security review.">Installable</span></h2><p class="item-one">Русификатор Orca (Stably ADE) и другие плагины imgusev: русский языковой пакет ставится из маркетплейса в один клик. Russian language pack source for Orca</p><p class="item-meta">imgusev</p></div></a>
+          <a class="item" href="/items/smwbev/orca-plugins/" data-name="orca-plugins (s3dev)" data-owner="smwbev" data-stars="5" data-install-verified="true"><div class="item-top"><span class="item-badge">marketplaces</span><span class="item-stars" title="5 GitHub stars" aria-label="5 GitHub stars"><svg class="item-star-icon" viewBox="0 0 16 16" aria-hidden="true" width="12" height="12"><path fill="currentColor" d="M8 1.5l1.76 3.57 3.94.57-2.85 2.78.67 3.92L8 10.77l-3.52 1.85.67-3.92L2.3 5.64l3.94-.57L8 1.5z"/></svg><span class="item-stars-n">5</span></span></div><div class="item-body"><h2 class="item-name">orca-plugins (s3dev) <span class="item-verified" title="Checks: GitHub repo exists (not archived) and a parseable orca-plugin.json is reachable. Does not guarantee in-app listing, runtime behavior, or security review.">Installable</span></h2><p class="item-one">s3dev marketplace index for Orca plugins</p><p class="item-meta">smwbev</p></div></a>
+          <a class="item" href="/items/stablyai/orca-community-plugins/" data-name="orca-community-plugins" data-owner="stablyai" data-stars="2" data-install-verified="false"><div class="item-top"><span class="item-badge">marketplaces</span><span class="item-stars" title="2 GitHub stars" aria-label="2 GitHub stars"><svg class="item-star-icon" viewBox="0 0 16 16" aria-hidden="true" width="12" height="12"><path fill="currentColor" d="M8 1.5l1.76 3.57 3.94.57-2.85 2.78.67 3.92L8 10.77l-3.52 1.85.67-3.92L2.3 5.64l3.94-.57L8 1.5z"/></svg><span class="item-stars-n">2</span></span></div><div class="item-body"><h2 class="item-name">orca-community-plugins</h2><p class="item-one">Generated catalog of community Orca plugins</p><p class="item-meta">stablyai</p></div></a>
+          <a class="item" href="/items/herman925/925-cc-plugins/" data-name="Team Orchestrator" data-owner="herman925" data-stars="2" data-install-verified="true"><div class="item-top"><span class="item-badge">marketplaces</span><span class="item-stars" title="2 GitHub stars" aria-label="2 GitHub stars"><svg class="item-star-icon" viewBox="0 0 16 16" aria-hidden="true" width="12" height="12"><path fill="currentColor" d="M8 1.5l1.76 3.57 3.94.57-2.85 2.78.67 3.92L8 10.77l-3.52 1.85.67-3.92L2.3 5.64l3.94-.57L8 1.5z"/></svg><span class="item-stars-n">2</span></span></div><div class="item-body"><h2 class="item-name">Team Orchestrator <span class="item-verified" title="Checks: GitHub repo exists (not archived) and a parseable orca-plugin.json is reachable. Does not guarantee in-app listing, runtime behavior, or security review.">Installable</span></h2><p class="item-one">Create team hierarchies and launch, name and brief agents through a bundled local worker and automatic runtime adapter.</p><p class="item-meta">herman925</p></div></a>
+          <a class="item" href="/items/stanleygomes/orca-plugins/" data-name="Noemi Theme" data-owner="stanleygomes" data-stars="0" data-install-verified="true"><div class="item-top"><span class="item-badge">marketplaces</span><span class="item-stars" title="0 GitHub stars" aria-label="0 GitHub stars"><svg class="item-star-icon" viewBox="0 0 16 16" aria-hidden="true" width="12" height="12"><path fill="currentColor" d="M8 1.5l1.76 3.57 3.94.57-2.85 2.78.67 3.92L8 10.77l-3.52 1.85.67-3.92L2.3 5.64l3.94-.57L8 1.5z"/></svg><span class="item-stars-n">0</span></span></div><div class="item-body"><h2 class="item-name">Noemi Theme <span class="item-verified" title="Checks: GitHub repo exists (not archived) and a parseable orca-plugin.json is reachable. Does not guarantee in-app listing, runtime behavior, or security review.">Installable</span></h2><p class="item-one">Noemi colors for Orca, adapted from Noemi for VS Code.</p><p class="item-meta">stanleygomes</p></div></a>
+          <a class="item" href="/items/j-dandelion/orca-marketplace/" data-name="orca-marketplace" data-owner="j-dandelion" data-stars="0" data-install-verified="true"><div class="item-top"><span class="item-badge">marketplaces</span><span class="item-stars" title="0 GitHub stars" aria-label="0 GitHub stars"><svg class="item-star-icon" viewBox="0 0 16 16" aria-hidden="true" width="12" height="12"><path fill="currentColor" d="M8 1.5l1.76 3.57 3.94.57-2.85 2.78.67 3.92L8 10.77l-3.52 1.85.67-3.92L2.3 5.64l3.94-.57L8 1.5z"/></svg><span class="item-stars-n">0</span></span></div><div class="item-body"><h2 class="item-name">orca-marketplace <span class="item-verified" title="Checks: GitHub repo exists (not archived) and a parseable orca-plugin.json is reachable. Does not guarantee in-app listing, runtime behavior, or security review.">Installable</span></h2><p class="item-one">Jared's personal Orca plugin marketplace</p><p class="item-meta">j-dandelion</p></div></a>
+          <a class="item" href="/items/FullFran/orca-plugins/" data-name="Quota Pace" data-owner="FullFran" data-stars="0" data-install-verified="true"><div class="item-top"><span class="item-badge">marketplaces</span><span class="item-stars" title="0 GitHub stars" aria-label="0 GitHub stars"><svg class="item-star-icon" viewBox="0 0 16 16" aria-hidden="true" width="12" height="12"><path fill="currentColor" d="M8 1.5l1.76 3.57 3.94.57-2.85 2.78.67 3.92L8 10.77l-3.52 1.85.67-3.92L2.3 5.64l3.94-.57L8 1.5z"/></svg><span class="item-stars-n">0</span></span></div><div class="item-body"><h2 class="item-name">Quota Pace <span class="item-verified" title="Checks: GitHub repo exists (not archived) and a parseable orca-plugin.json is reachable. Does not guarantee in-app listing, runtime behavior, or security review.">Installable</span></h2><p class="item-one">Spreads what is left of each weekly AI-agent quota over the days until it resets: today's allowance and how much of it is left.</p><p class="item-meta">FullFran</p></div></a>
+        </div>
+        <p style="margin-top:2rem"><a href="/items/">→ All plugins</a></p>
       </div>
     </main>
-    <footer class="site-footer"><div class="wrap-wide"><p><a href="/">← Market</a></p></div></footer>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Orca Plugin Market</span>
+          <span class="brand-domain">orca.aiaaii.com · Any AI (AI-AAII)</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+          </div>
+          <p>Not affiliated with Orca / Stably</p>
+        </div>
+      </div>
+    </footer>
     <script src="/theme.js" defer></script>
+    <script src="/catalog.js" defer></script>
   </body>
+<!-- data-verify-batch 2026-11-08 -->
 </html>

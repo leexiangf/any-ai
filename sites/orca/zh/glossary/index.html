@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>安装词表 — 市场源 vs 插件地址 | Orca Plugin Market</title>
+    <meta name="description" content="Any AI 各宿主共用的安装词：市场源、插件地址、版本钉。" />
+    <link rel="canonical" href="https://orca.aiaaii.com/zh/glossary/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/glossary/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/glossary/" />
+    <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/zh/">
+            <span class="brand-name">Orca Plugin Market</span>
+            <span class="brand-domain">orca.aiaaii.com · 中文</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="主导航">
+              <a href="/zh/items/">插件目录</a>
+              <a href="/zh/guides/">指南</a>
+              <a href="/zh/changelog/">更新</a>
+              <a href="/zh/submit/">提交</a>
+              <a href="/zh/about/">关于</a>
+              <a href="/">English</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="切换主题" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>安装词表</h1>
+          <p>名字因产品而异，意思差不多。</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <h2>市场源和插件地址有什么不同</h2>
+        <ul>
+          <li><strong>市场源 / 索引</strong>：一个列出很多插件的仓库。在设置里添加一次即可。</li>
+          <li><strong>插件地址</strong>：某一个插件的仓库。直接安装时，通常要写上版本（<code>#tag</code> 或 <code>#commit</code>）。</li>
+        </ul>
+        <h2>各产品里怎么说</h2>
+        <ul>
+          <li><a href="/zh/guides/how-to-add-marketplace-source/">Orca</a>：设置 → Plugins → Marketplace sources；装单个插件时要写版本。</li>
+          <li><a href="https://amp.aiaaii.com/guides/amp-plugins-add/">Amp</a>：<code>amp plugins add …</code></li>
+          <li><a href="https://droid.aiaaii.com/guides/droid-plugin-marketplace-add/">Droid</a>：先 <code>droid plugin marketplace add</code>，再 <code>droid plugin install</code></li>
+          <li><a href="https://kimi.aiaaii.com/guides/how-to-install-kimi-plugin/">Kimi</a>：<code>/plugins install</code>，装完后常需要再执行 <code>/new</code></li>
+        </ul>
+        <p>总站：<a href="https://aiaaii.com/">aiaaii.com</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="footer-row">
+          <div>
+            <a href="/zh/items/">插件目录</a>
+            <a href="/zh/guides/">指南</a>
+            <a href="/zh/about/">关于</a>
+            <a href="/glossary/">English</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI 总站</a>
+          </div>
+          <p>与 Orca / Stably 无关 · 实验性</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

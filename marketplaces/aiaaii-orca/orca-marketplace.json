@@ -1,0 +1,1242 @@
+{
+  "name": "Any AI Orca Marketplace",
+  "owner": "leexiangf",
+  "plugins": [
+    {
+      "id": "a-lang.traditional-chinese",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/a-lang/orca-traditional-chinese.git",
+        "ref": "main"
+      },
+      "description": "Traditional Chinese (zh-TW) translations for Orca.",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "agent-notify.agent-notify",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tan-yong-sheng/agent-notify.git",
+        "ref": "main"
+      },
+      "description": "Send notifications when agents reach done or blocked status",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "albuquerquesz.github-dark-theme",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/albuquerquesz/orca-github-dark-theme.git",
+        "ref": "main"
+      },
+      "description": "A GitHub Dark theme for Orca with a lighter neutral gray interface and matching terminal colors.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "andoshin11.agent-status-relay",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/andoshin11/orca-agent-status-relay.git",
+        "ref": "main"
+      },
+      "description": "Forwards agent status changes (turn done, waiting, blocked) to a URL you configure, signed with Standard Webhooks.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "andoshin11.milestone",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/andoshin11/orca-milestone.git",
+        "ref": "main"
+      },
+      "description": "Shows the tasks Claude Code and Codex are working through in the focused workspace as milestones in the right sidebar.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "aspiers.attention-cycling",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/aspiers/ai-config.git",
+        "ref": "main"
+      },
+      "description": "Shortcuts that jump to the previous or next agent needing attention, via orca-cycle-attention-agent.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "austinChappell.clickup",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/austinChappell/orca-clickup-plugin.git",
+        "ref": "main"
+      },
+      "description": "Find your ClickUp tasks in a sidebar panel and start an Orca worktree, and optionally an agent, from a task.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "awallsr.beads",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/awallsr/orca-beads.git",
+        "ref": "main"
+      },
+      "description": "Beads task tracking in Orca's sidebar: browse, create, claim, close and start tasks in their own worktrees.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "bautistapessagno.now-playing",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/BautistaPessagno/orca-spotify.git",
+        "ref": "main"
+      },
+      "description": "Control Spotify from Orca: the desktop app on macOS, or any device through the Spotify Web API. Not affiliated with Spotify.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "berkaysirtas.turkish",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/berkaysirtas/orca-turkish.git",
+        "ref": "main"
+      },
+      "description": "Orca arayüzü için Türkçe dil paketi (Turkish language pack for the Orca interface).",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "Bigsy.milko",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Bigsy/milko.git",
+        "ref": "main"
+      },
+      "description": "Rich Markdown editing for Orca with source preservation and recoverable conflict drafts.",
+      "categories": [
+        "editors"
+      ]
+    },
+    {
+      "id": "cemalkilic.lima-recipes",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cemalkilic/lima-orca-vm-recipes.git",
+        "ref": "main"
+      },
+      "description": "Disposable Lima VM workspaces: create, suspend, resume and destroy with limactl.",
+      "categories": [
+        "remote-vms"
+      ]
+    },
+    {
+      "id": "chrisluo5311.snippets",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/chrisluo5311/orca-snippet.git",
+        "ref": "main"
+      },
+      "description": "Save reusable commands and prompts, search them, and send them to a terminal or copy them in one click.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "codeious.boat-sandbox",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/codeious/orca-boat-sandbox.git",
+        "ref": "main"
+      },
+      "description": "Runs an Orca workspace in a fresh boat.dev sandbox. Works with any Boat.dev account and any GitHub repo.",
+      "categories": [
+        "remote-vms"
+      ]
+    },
+    {
+      "id": "controlvector.cv-hub",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/lamtuanvu/cv-hub-orca-plugin.git",
+        "ref": "main"
+      },
+      "description": "Review CV Hub pull requests in Orca's native diff viewer, check CI and reviews, and search code through MCP. Signs in with CV Hub OAuth in your browser. Requires the CV Hub icon and browser-link host in lamtuanvu/orca (PR #4).",
+      "categories": [
+        "icons"
+      ]
+    },
+    {
+      "id": "coseto6125.ecp",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/coseto6125/ecp-orca-plugin.git",
+        "ref": "main"
+      },
+      "description": "Keeps the ecp symbol graph warm for every worktree, and puts index / impact / summary one click away.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "dawidwetzler.cobalt2-theme",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/DawidWetzler/orca-cobalt2-theme.git",
+        "ref": "main"
+      },
+      "description": "Wes Bos’s Cobalt2: a deep blue app theme with yellow, orange and green code colors, plus matching terminal colors.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "dera0520.handback",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dera0520/orca-handback.git",
+        "ref": "main"
+      },
+      "description": "エージェントが人を待っている項目と自分の PR を並べ、ボタンで返答をターミナルへ送ります。",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "diman0111.russian",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/diman0111/orca-russian.git",
+        "ref": "main"
+      },
+      "description": "Russian translation of Orca Settings: navigation, section headings, and setting descriptions.",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "dohaidang.living-ascii-themes",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dohaidang/orca-theme-plugin.git",
+        "ref": "main"
+      },
+      "description": "Fourteen ASCII wallpaper themes (thirteen dark, one light), each with theme, dark or light sidebars, plus matching terminal palettes and file icons.",
+      "categories": [
+        "icons"
+      ]
+    },
+    {
+      "id": "dohaidang.vietnamese",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dohaidang/orca-vietnamese-plugin.git",
+        "ref": "main"
+      },
+      "description": "Bản dịch tiếng Việt cho giao diện Orca 1.4.246.",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "ehart004.monokai-theme",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ehart004/orca-monokai-theme.git",
+        "ref": "main"
+      },
+      "description": "Monokai for Orca's app, editor and terminal: the classic palette, plus a variant matching VS Code's built-in Monokai.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "eliasjnior.script-runner",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eliasjnior/orca-script-runner.git",
+        "ref": "main"
+      },
+      "description": "Run your worktree's orca.yaml scripts from the right sidebar.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "eliasjnior.worktree-notes",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eliasjnior/orca-worktree-notes.git",
+        "ref": "main"
+      },
+      "description": "Notion-style Markdown notes for each worktree, in the right sidebar.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "emirrtopaloglu.turkish-language-pack",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/emirrtopaloglu/orca-turkish.git",
+        "ref": "main"
+      },
+      "description": "Turkish language pack for Orca UI, navigation, and developer tools.",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "esykai.catppuccin-exact",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/esykai/orca-catppuccin-exact.git",
+        "ref": "main"
+      },
+      "description": "Catppuccin for Orca: #1e1e2e canvas, #181825 panels and composer, without Orca's extra surface tint.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "eternalnight996.memory-eternal",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/EternalNight996/memory-eternal.git",
+        "ref": "main"
+      },
+      "description": "Memory Atlas for Orca: open the local memory vault, pending review and knowledge graph from a sandboxed Orca panel.",
+      "categories": [
+        "remote-vms"
+      ]
+    },
+    {
+      "id": "faisalmuhammad.graphiql",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/faisalmuhammad/orca-graphiql.git",
+        "ref": "main"
+      },
+      "description": "A GraphiQL integration for Orca with saved sessions, named environments, schema exploration, and secure authentication.",
+      "categories": [
+        "editors"
+      ]
+    },
+    {
+      "id": "faisalmuhammad.monospace-icons",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/faisalmuhammad/orca-monospace-icons.git",
+        "ref": "main"
+      },
+      "description": "Monospace file icons for Orca, covering programming languages, documents, images, data files, and configuration files.",
+      "categories": [
+        "icons"
+      ]
+    },
+    {
+      "id": "faisalmuhammad.monospace-themes",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/faisalmuhammad/orca-monospace-themes.git",
+        "ref": "main"
+      },
+      "description": "Monospace Light and Dark themes for Orca, with app colors, editor syntax highlighting, and matching terminal palettes. Ported from Keksi’s VS Code themes.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "faisalmuhammad.sidequest",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/faisalmuhammad/orca-sidequest.git",
+        "ref": "main"
+      },
+      "description": "Refresh your mind with quick games while your agents work. One compact sidebar, with saved progress and room for more games.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "farrrr.i18n-zh-tw",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/farrrr/orca-i18n-zh-tw.git",
+        "ref": "main"
+      },
+      "description": "Traditional Chinese (Taiwan) translations for the full Orca interface.",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "gek0v.signature-themes",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gek0v/orca-signature-themes.git",
+        "ref": "main"
+      },
+      "description": "Curated dual-mode themes (Material 3, Dala, Discord, Dope Security, Raycast, zkPass, Miranda) with matching ANSI terminal palettes for Orca.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "gentilfp.moss",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gentilfp/moss_theme.git",
+        "ref": "main"
+      },
+      "description": "A very dark, muted colorscheme for Orca: app chrome, editor colors and terminal palette.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "gentilfp.snakai",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/gentilfp/orca-snakAI.git",
+        "ref": "main"
+      },
+      "description": "A pixel art Snake for the Orca panel. Swim through the ocean, catch coding agents and dodge the bugs.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "geraldsberongoy.orca-ram-guard",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/geraldsberongoy/orca-ram-guard.git",
+        "ref": "main"
+      },
+      "description": "Monitors Orca memory, idle terminals, and active dev-server ports in the status bar with 1-click multi-select cleanup.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "gilberto.orca-tmux-keys",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/niusnet/orca-tmux-keys.git",
+        "ref": "main"
+      },
+      "description": "Tmux-style pane and tab controls on a held Alt modifier. Alt acts as the tmux prefix: split, zoom, and navigate panes and terminal tabs without leaving the keyboard.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "Hadisd.moonlit-pastel",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Hadisd/moonlit-pastel.git",
+        "ref": "main"
+      },
+      "description": "A dark, pale blue-violet theme with soft pastel pink, orange, yellow, green, cyan and lavender accents, plus a matching terminal theme.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "Hadisd.quiet-pastel",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Hadisd/quiet-pastel.git",
+        "ref": "main"
+      },
+      "description": "Two dark, pale blue-violet themes with pastel accents and matching terminal themes: Quiet Pastel Moonlit (brighter) and Quiet Pastel Hush (dimmer).",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "hanyscz.czech",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/hanyscz/orca-czech.git",
+        "ref": "main"
+      },
+      "description": "Česká lokalizace Orca IDE",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "j-dandelion.orca-rose-pine-moon",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/j-dandelion/orca-rose-pine-moon.git",
+        "ref": "main"
+      },
+      "description": "A soft, dreamy dark application theme from the Rosé Pine family.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "jarede.jstack-orchestrate",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jarede/jstack.git",
+        "ref": "main"
+      },
+      "description": "Shows pending decision gates and the frontier MR pipeline of jstack orchestrate programs.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "JargeZ.docker-vm",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/JargeZ/orca-recipes.git",
+        "ref": "main"
+      },
+      "description": "Isolated development environments: each Orca workspace runs in its own Docker container on your machine, so toolchains, dependencies and the agents' work leave no trace on the host. Fine-grained git tokens for one repository, no privileged containers, rootless Podman inside. Note",
+      "categories": [
+        "remote-vms"
+      ]
+    },
+    {
+      "id": "jerrazuw.gallery-panel-demo",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jerrazuw/orca-gallery-panel.git",
+        "ref": "main"
+      },
+      "description": "Background images for Orca: a side panel that rotates through your pictures. This install shows sample images; the panel explains how to show a folder of your own photos that updates as you add more.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "joao-salvalagio.orca-ptbr",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Joao-Salvalagio/orca-ptbr.git",
+        "ref": "main"
+      },
+      "description": "Tradução completa da interface do Orca para o português do Brasil.",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "JoDaC.git-controls",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/JoDaC/orca-git-controls.git",
+        "ref": "main"
+      },
+      "description": "IDE-style Git controls for Orca: a branches panel and Git menu to switch, create, merge, rebase, compare and delete branches in the focused workspace, with Smart Checkout and worktree-aware checkout.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "jondmarien.discord-presence",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jondmarien/orca-discord-presence.git",
+        "ref": "main"
+      },
+      "description": "Shows your Orca workspace, branch and agent state on your Discord profile. Every field is opt-in. Not affiliated with Discord.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "jorauch.spotlight",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jorauch/orca-spotlight.git",
+        "ref": "main"
+      },
+      "description": "Mirror one worktree's changes onto the repo root checkout, so a single running dev environment serves any worktree.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "joseph118789-max.personaos-bridge",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/cylyl/PersonaOS.git",
+        "ref": "main"
+      },
+      "description": "Visual ADE bridge for persistent AI workforce management, task delegation, and review.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "kevin.multi-repo-git",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/kevmansilla/orca-multi-repo-git.git",
+        "ref": "main"
+      },
+      "description": "Source Control de todos los repos de Orca: cambios, commits, ramas e historial. Abrilo con el comando Git: Source Control de todos los repos.",
+      "categories": [
+        "remote-vms"
+      ]
+    },
+    {
+      "id": "kolebayev.narrow-markdown",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/kolebayev/orca-md-layout.git",
+        "ref": "main"
+      },
+      "description": "Read Markdown files in a narrow column instead of the full editor width. To open it, pick Narrow in the view toggle at the top right of a Markdown tab.",
+      "categories": [
+        "editors"
+      ]
+    },
+    {
+      "id": "lindoo67.drawio",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/lindoo67/drawio-plugin.git",
+        "ref": "main"
+      },
+      "description": "在 Orca 中离线创建和编辑 draw.io 流程图、架构图及多页图表。",
+      "categories": [
+        "editors"
+      ]
+    },
+    {
+      "id": "llima.craftar",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/llima/craftar-orca.git",
+        "ref": "main"
+      },
+      "description": "See which Forge a workspace follows, its linked projects and the files coming and going — with the craftar you installed.",
+      "categories": [
+        "remote-vms"
+      ]
+    },
+    {
+      "id": "local.orca-pt-br",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/eduardo02138/orca-pt-br.git",
+        "ref": "main"
+      },
+      "description": "Full Brazilian Portuguese language pack for the Orca interface, translated from the English source strings.",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "LociStar.env-switcher",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/LociStar/orca-env-switcher.git",
+        "ref": "main"
+      },
+      "description": "Keep named .env / .env.local profiles (local, dev, prod) and switch a workspace between them from a sidebar panel, the status bar or a shortcut. Secrets stay in Orca's encrypted store.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "luckury.backlog-md",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/luckury/orca-backlog-md.git",
+        "ref": "main"
+      },
+      "description": "Backlog.md as a task source: lists the tasks of your Backlog.md projects on the Tasks page and starts a workspace for any of them.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "Luis-Sejer.agent-orrery",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Luis-Sejer/agent-orrery.git",
+        "ref": "main"
+      },
+      "description": "Opens Agent Orrery (http://127.0.0.1:4777) in a browser split on the right of each workspace you visit.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "lutica-canard.discord-presence",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/LuticaCANARD/orca-discord-presence.git",
+        "ref": "main"
+      },
+      "description": "Publishes what your Orca agent fleet is doing to your Discord status via local Rich Presence IPC.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "mark22013333.zh-tw",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mark22013333/orca-zh-tw.git",
+        "ref": "main"
+      },
+      "description": "Traditional Chinese (Taiwan) UI translation for Orca. Keeps developer terms such as agent, worktree, commit, and branch in English.",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "mathiscapart.context-bar",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mathiscapart/claude-config.git",
+        "ref": "main"
+      },
+      "description": "Ce qui remplit la fenêtre de contexte de la session Claude Code suivie (workspace actif ou session choisie), par catégorie et en détail comme /context, avec l'historique de chaque session et la liste des conversations.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "mattjohnson.sbx-recipes",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/mattjohnson/orca-sbx-recipes.git",
+        "ref": "main"
+      },
+      "description": "Project-shared Docker Sandboxes (sbx) microVM recipes for Orca per-workspace environments.",
+      "categories": [
+        "remote-vms"
+      ]
+    },
+    {
+      "id": "mbirepinte.asciidoc-viewer",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Mbirepinte/Orca-asciidoc-viewer.git",
+        "ref": "main"
+      },
+      "description": "Edit AsciiDoc source beside a live preview in Orca.",
+      "categories": [
+        "editors"
+      ]
+    },
+    {
+      "id": "meapri.adaptive-team",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Meapri/orca-adaptive-team.git",
+        "ref": "main"
+      },
+      "description": "Start an Astra or Fable coordinator, or a writing session, using Orca's public CLI and bundled team workflows.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "meapri.cocoindex",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Meapri/orca-cocoindex-plugin.git",
+        "ref": "main"
+      },
+      "description": "Index, inspect, and semantically search the focused codebase with CocoIndex Code from an Orca sidebar panel.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "meryzennn.discord-presence",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/meryzennn/orca-discord-rpc.git",
+        "ref": "main"
+      },
+      "description": "Keep Orca visible on Discord, with workspace and agent details when an agent is open.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "minhuw.pi-activity",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/minhuw/pi-extensions.git",
+        "ref": "main"
+      },
+      "description": "Live Pi sessions, background agents and workflow progress in Orca.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "Miragon.wardley-maps-modeler",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Miragon/modeler-suite.git",
+        "ref": "main"
+      },
+      "description": "Open .wmap and .owm files as Wardley maps: place components on the evolution axis, draw their dependencies, and keep an agent's changes to the file merged with yours.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "Miragon.wardley-maps-modeler",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Miragon/orca-modelers.git",
+        "ref": "main"
+      },
+      "description": "Open .wmap and .owm files as Wardley maps: place components on the evolution axis, draw their dependencies, and see an agent's changes to the file as they happen.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "moseoh.git-history",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/moseoh/orca-git-history.git",
+        "ref": "main"
+      },
+      "description": "Git history in an editor tab: commits, changed files and side-by-side diffs for your workspace or one file.",
+      "categories": [
+        "editors"
+      ]
+    },
+    {
+      "id": "nacho.orca-discord-presence",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/nachodeluca/orca-discord-presence.git",
+        "ref": "main"
+      },
+      "description": "Publishes Orca agent status to Discord Rich Presence.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "narimanisakhanov-creator.xlsx-editor",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/narimanisakhanov-creator/orca-xlsx-editor.git",
+        "ref": "main"
+      },
+      "description": "Open and edit Excel workbooks in Orca with their formatting: fills, fonts, borders, number formats, merged cells, frozen panes and every sheet. Insert or delete rows and columns with formulas and references updated safely, search the whole workbook, and copy with formatting. Save",
+      "categories": [
+        "editors"
+      ]
+    },
+    {
+      "id": "nixlim.matrix-theme",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/nixlim/orca-matrix-theme.git",
+        "ref": "main"
+      },
+      "description": "A phosphor-green-on-black theme with layered green syntax colors and a matching terminal palette.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "onlyne.onlyne-sessions",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/dbydd/onlyne.git",
+        "ref": "main"
+      },
+      "description": "只读 supervisor 看板：把平铺的 Orca tab 列表与每个 server root 的 onlyne sessions/roles 合成一块看板，在 dev 安装下实时渲染进面板，并提供跳转/复制/调试命令。Read-only supervisor board for Onlyne, rendered live into the panel of a dev install.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "orca-discord.discord-rich-presence",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/jadabyanza24/orca-discord-rich-presence.git",
+        "ref": "main"
+      },
+      "description": "Shows the active Orca worktree and agent status on Discord.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "petercr.entire",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/petercr/orca-entire-extension.git",
+        "ref": "main"
+      },
+      "description": "Entire trails, findings and checkpoints for your Orca workspaces.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "prabowosd.grok-themes",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/prabowosd/orca-grok-themes.git",
+        "ref": "main"
+      },
+      "description": "Grok Night and Grok Day app and terminal themes, using the GrokNight palette from xai-org/grok-build.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "raajik.github-tasks",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Raajik/orca-github-tasks.git",
+        "ref": "main"
+      },
+      "description": "Open GitHub issues of the selected project in the right sidebar.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "randyellis-wealthberry.paperclip",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/randyellis-wealthberry/paperclip-adapter-orca.git",
+        "ref": "main"
+      },
+      "description": "Connect Orca to Paperclip: installs the orca_local adapter and sync plugin so Paperclip agents run in Orca worktrees.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "RobertoGoAm.agent-keys",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/RobertoGoAm/nix-config.git",
+        "ref": "main"
+      },
+      "description": "One key to reach the agent that needs you next, one to hide both sidebars, and a status bar count of agents waiting on you.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "RonanCodes.reminders",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/RonanCodes/orca-reminders.git",
+        "ref": "main"
+      },
+      "description": "Remind me later: set reminders tied to a workspace or tab, get a desktop notification when they are due, and snooze, move or tick them off from a sidebar panel.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "royklo.rego-syntax",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/royklo/orca-rego.git",
+        "ref": "main"
+      },
+      "description": "Syntax highlighting for Open Policy Agent Rego (.rego) files.",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "senadaruc.grazr",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/senadaruc/orca-grazr.git",
+        "ref": "main"
+      },
+      "description": "Auto-rotates the System default Claude Code account across your hosts when a usage window is nearly spent (grazr engine), with OS toasts.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "shakedm100.latex-preview",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shakedm100/orca-latex-preview.git",
+        "ref": "main"
+      },
+      "description": "Adds PDF and Editor | PDF views to .tex files: the compiled document, or the source and the PDF side by side, rebuilt as you type, with source and PDF jumps, autocomplete and an outline.",
+      "categories": [
+        "editors"
+      ]
+    },
+    {
+      "id": "shakedm100.parquet-viewer",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/shakedm100/orca-parquet-viewer.git",
+        "ref": "main"
+      },
+      "description": "Opens Apache Parquet files in the editor: a fast data grid with sort, filter and export, the schema, and file details with per-column statistics.",
+      "categories": [
+        "editors"
+      ]
+    },
+    {
+      "id": "stepinus.russian",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/stepinus/orca-russian.git",
+        "ref": "main"
+      },
+      "description": "Russian translations for common Orca navigation.",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "superfly.sprites",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/superfly/orca-sprites.git",
+        "ref": "main"
+      },
+      "description": "Run each Orca workspace in its own Sprite, a persistent Linux VM from Fly.io. Adds Sprites under Run on &gt; Per-Workspace Environment.",
+      "categories": [
+        "remote-vms"
+      ]
+    },
+    {
+      "id": "tamakiiii.breakout-panel",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/yamazaki-yuki-23/orca-breakout-panel.git",
+        "ref": "main"
+      },
+      "description": "サイドバーでブロック崩しができます。",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "taranttoola-create.russian",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/taranttoola-create/orca-russian.git",
+        "ref": "main"
+      },
+      "description": "Локализация интерфейса Orca на русский язык.",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "tautcius.omp-agent-panel",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/Tautcius/orca-omp-agent-panel.git",
+        "ref": "main"
+      },
+      "description": "Live todo list and subagent status of the omp session running in the focused worktree.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "tenki.tenki-sandboxes",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/opencolin/orca-tenki-plugin.git",
+        "ref": "main"
+      },
+      "description": "Run each orca workspace in an isolated tenki.cloud sandbox — per-second-billed cloud Linux VMs with pause/resume and automatic teardown.",
+      "categories": [
+        "remote-vms"
+      ]
+    },
+    {
+      "id": "thailoc-dev.dev-toolbox",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thailoc-dev/orca-dev-toolbox.git",
+        "ref": "main"
+      },
+      "description": "49 offline developer tools in Orca's sidebar: JWT, certificates, Docker run to Compose, JSON diff, TOML, secret redaction, LLM token counter, ANSI log cleaner, cron, regex and more.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "thailoc-dev.pptx-viewer",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thailoc-dev/orca-pptx-viewer.git",
+        "ref": "main"
+      },
+      "description": "Preview PowerPoint presentations (.pptx, .ppsx, .potx and macro-enabled forms) in Orca, with shapes, pictures, tables, charts, slide navigation and zoom.",
+      "categories": [
+        "editors"
+      ]
+    },
+    {
+      "id": "thiagocorreanet.orca-drawio",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/thiagobotelhonet/orca-drawio.git",
+        "ref": "main"
+      },
+      "description": "Draw.io / diagrams.net integration for Orca ADE.",
+      "categories": [
+        "editors"
+      ]
+    },
+    {
+      "id": "tieubao.spacedown-light-theme",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/tieubao/orca-spacedown-theme.git",
+        "ref": "main"
+      },
+      "description": "Spacedown's iA-style reading palette for Orca: #fcfcfc paper, #1a1a1a ink, one blue for links. Pair with iA Writer Quattro V as the chat font.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "tw199501.zh-hant",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/TW199501/orca-zh-hant.git",
+        "ref": "main"
+      },
+      "description": "Orca 介面的繁體中文（台灣用語）翻譯。Traditional Chinese (Taiwan) UI language pack for Orca.",
+      "categories": [
+        "languages"
+      ]
+    },
+    {
+      "id": "upstash.upstash-box",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/upstash/box-orca-plugin.git",
+        "ref": "main"
+      },
+      "description": "Experimental. Run each Orca workspace in its own Upstash Box, reached over SSH.",
+      "categories": [
+        "remote-vms"
+      ]
+    },
+    {
+      "id": "vale-c.catppuccin",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/vale-c/orca-catppuccin.git",
+        "ref": "main"
+      },
+      "description": "Soothing pastel app and terminal themes in all four Catppuccin flavors, with matching syntax colors.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "vale-c.tokyonight",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/vale-c/orca-tokyonight.git",
+        "ref": "main"
+      },
+      "description": "App and terminal themes in all four Tokyo Night styles, Night, Storm, Moon and Day, with matching syntax colors.",
+      "categories": [
+        "themes"
+      ]
+    },
+    {
+      "id": "VukanCekic.council",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/VukanCekic/orca-council.git",
+        "ref": "main"
+      },
+      "description": "Ask a question in the Council panel: Claude, GPT (Codex) and Gemini (agy) answer blind, a blind Claude chair judges, and you watch it live in an Orca tab.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "wiseiodev.entire-trails",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/wiseiodev/orca-entire-trails.git",
+        "ref": "main"
+      },
+      "description": "Entire Trail agent and runner scores, gates, CI checks, and open findings for the focused worktree, with approve and comment actions.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "xinnyu.agent-notify",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/xinnyu/orca-notify.git",
+        "ref": "main"
+      },
+      "description": "Webhook (generic, Slack or Discord) when an Orca agent finishes, gets blocked, or waits for input. One notification per finished task; routing by repo, worktree or pane.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "yanick.yeelight-sync",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ItzYanick/yeelight-orca.git",
+        "ref": "main"
+      },
+      "description": "Mirrors Orca agent status onto Yeelight smart lights over the LAN Control protocol: red when an agent is blocked, amber when it wants input, blue while it works, green when it finishes.",
+      "categories": [
+        "commands-panels"
+      ]
+    },
+    {
+      "id": "ysamjo.harness-route",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/ysamjo/orca-plugin-harness-route.git",
+        "ref": "main"
+      },
+      "description": "Startet automatisch oder per Cmd+Alt+R die Prio-1-Route im ersten Terminal des aktiven Worktrees. Cmd+Alt+S startet im Splitscreen, Cmd+Alt+M startet direkt auf main. Cmd+Alt+N schaltet mit /compact auf das nächste Modell um.",
+      "categories": [
+        "commands-panels"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to update Orca plugins and marketplace sources | Orca Plugin Market</title>
+    <meta name="description" content="Update Orca marketplace sources and installed plugins: refresh the source pin, then reinstall or update packs from All." />
+    <link rel="canonical" href="https://orca.aiaaii.com/guides/how-to-update-orca-plugins/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">Orca Plugin Market</span>
+            <span class="brand-domain">orca.aiaaii.com · Any AI</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/" aria-current="page">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+          </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>Update Orca plugins</h1>
+          <p>Refresh marketplace pins and installed packs after upstream releases.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+<ol class="steps">
+<li>Open Settings → Plugins → Marketplace sources.</li>
+<li>Refresh / update the source so Orca re-fetches the index pin.</li>
+<li>Browse <strong>All</strong> / Discover and reinstall or update the pack you need.</li>
+<li>For a single plugin Git URL, pin a newer <code>#tag</code> or commit when Install plugin requires an explicit ref.</li>
+<li>If the catalog looks stale after refresh → <a href="/guides/how-to-troubleshoot-orca-plugins/">troubleshoot</a>.</li>
+</ol>
+        <p class="source-line">Independent rewrite · Updated 2026-11-07 · Not affiliated with Orca / Stably</p>
+        <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-orca-plugins/">Troubleshoot hub</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Orca Plugin Market</span>
+          <span class="brand-domain">orca.aiaaii.com · Any AI (AI-AAII)</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+          </div>
+          <p>Not affiliated with Orca / Stably</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

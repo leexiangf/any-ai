@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Changelog — new, broken, retired Orca listings | Orca Plugin Market</title>
+    <meta
+      name="description"
+      content="Weekly Orca plugin market changelog: newly listed, install-path changes, and retired packs. Built for return visits — not vanity listing counts."
+    />
+    <link rel="canonical" href="https://orca.aiaaii.com/changelog/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/changelog/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/changelog/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Orca Plugin Market</span><span class="brand-domain">orca.aiaaii.com</span></a>
+          <div class="header-end">
+            <nav class="nav">
+              <a href="/items/">Plugins</a>
+              <a href="/guides/">Guides</a>
+              <a href="/changelog/" aria-current="page">Changelog</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>Changelog</h1>
+          <p>New · install fixes · retired — not a race against onorca.dev listing counts.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <h2 id="2026-11-08">Week of 2026-11-08</h2>
+        <h3>Added</h3>
+        <ul>
+          <li>Deep Orca harvest listed (~78 community plugins) after manifest validation.</li>
+          <li>Detail P0–P2: display names, Access, dual install paths, Featured, installs scrape, screenshots when manifests ship media.</li>
+          <li>Homepage narrative shift: install-when-missing-from-All; zh-CN guide hub started.</li>
+        </ul>
+        <h3>Changed</h3>
+        <ul>
+          <li>Categories aligned to Commands &amp; panels / Remote/VMs; legacy content-packs URLs redirect.</li>
+          <li>SERP title/description on home + About rewritten for install intent.</li>
+        </ul>
+        <h3>Retired / caution</h3>
+        <ul>
+          <li>No mass retire this week. Listings without a working install path stay out of discover batches.</li>
+          <li>Community packs default <strong>unreviewed</strong> — prefer pins; treat high-permission panels carefully.</li>
+        </ul>
+        <p class="source-line">
+          Feed for agents: <a href="/catalog.json">catalog.json</a> · <a href="/llms.txt">llms.txt</a>
+        </p>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="wrap-wide"><p><a href="/">← Market</a></p></div></footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

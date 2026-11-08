@@ -257,8 +257,8 @@ function thinPage(item) {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>${esc(item.name)} - ${esc(item.hero.slice(0, 48))} | ${esc(cfg.shop)}</title>
-    <meta name="description" content="${esc(`${item.name}: ${item.hero}`.slice(0, 155))}" />
+    <title>${esc(`${item.name} — ${cfg.keyword || cfg.shop.replace(" Market", "").toLowerCase()} install | ${cfg.shop}`.slice(0, 65))}</title>
+    <meta name="description" content="${esc(`${item.name}: ${item.hero}`.slice(0, 140))} Install via host plugin commands." />
     <link rel="canonical" href="https://${cfg.domain}/items/${item.owner}/${item.slug}/" />
 ${themeBoot}
     <link rel="stylesheet" href="/styles.css" />

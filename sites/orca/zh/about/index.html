@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>关于本站 | Orca Plugin Market</title>
+    <meta name="description" content="orca.aiaaii.com：社区整理的 Orca 插件安装说明与目录，非官方。" />
+    <link rel="canonical" href="https://orca.aiaaii.com/zh/about/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/about/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/about/" />
+    <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/zh/">
+            <span class="brand-name">Orca Plugin Market</span>
+            <span class="brand-domain">orca.aiaaii.com · 中文</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="主导航">
+              <a href="/zh/items/">插件目录</a>
+              <a href="/zh/guides/">指南</a>
+              <a href="/zh/changelog/">更新</a>
+              <a href="/zh/submit/">提交</a>
+              <a href="/zh/about/" aria-current="page">关于</a>
+              <a href="/">English</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="切换主题" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>关于本站</h1>
+          <p>社区 Orca 插件目录 —— 需要时再看安装说明。</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <p>
+          <strong>orca.aiaaii.com</strong> 属于
+          <a href="https://aiaaii.com/">Any AI（AI-AAII）</a>，
+          用来整理 Orca 插件的安装步骤与社区目录。
+          它不是官方商店，也不是
+          <a href="https://www.onorca.dev/plugins" rel="noopener noreferrer">onorca.dev</a> 的拷贝。
+        </p>
+        <h2>这里会提供什么</h2>
+        <ul>
+          <li>可直接复制的市场源地址，以及需要钉版本时的写法</li>
+          <li>常见报错怎么处理：源失败、要写版本号、主题装了却看不到</li>
+          <li>能核实的情况下，标注插件是否出现在端内列表</li>
+          <li>社区插件默认<strong>未审核</strong>，启用前请自己看源码</li>
+        </ul>
+        <h2>这里不会做什么</h2>
+        <ul>
+          <li>不和官方比收录数量</li>
+          <li>不收录装不上的仓库</li>
+          <li>不代表 Orca / Stably</li>
+        </ul>
+        <p>可以从首页的 <a href="/zh/#tasks">三步说明</a> 开始，或直接打开 <a href="/zh/items/">插件目录</a>。</p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="footer-row">
+          <div>
+            <a href="/zh/items/">插件目录</a>
+            <a href="/zh/guides/">指南</a>
+            <a href="/zh/about/">关于</a>
+            <a href="/about/">English</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI 总站</a>
+          </div>
+          <p>与 Orca / Stably 无关 · 实验性</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

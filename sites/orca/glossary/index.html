@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marketplace vs plugin URL — Any AI glossary | Orca Plugin Market</title>
+    <meta
+      name="description"
+      content="Shared install vocabulary across Amp, Orca, Droid, and Kimi markets on aiaaii.com: marketplace source vs plugin URL, pins, and host-specific commands."
+    />
+    <link rel="canonical" href="https://orca.aiaaii.com/glossary/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/glossary/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/glossary/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/"><span class="brand-name">Orca Plugin Market</span><span class="brand-domain">glossary</span></a>
+          <div class="header-end">
+            <nav class="nav"><a href="https://aiaaii.com/">Mall</a><a href="/guides/">Guides</a></nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme"><span class="theme-toggle-icon" aria-hidden="true"></span></button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>Install glossary</h1>
+          <p>Same ideas across Any AI host markets — different CLI / UI words.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <h2>Marketplace source vs plugin URL</h2>
+        <ul>
+          <li><strong>Marketplace / index</strong> — a Git repo that lists many plugins (catalog JSON). Add once as a source.</li>
+          <li><strong>Plugin URL</strong> — a single plugin repo. Often needs an explicit pin (<code>#tag</code> / <code>#commit</code>).</li>
+        </ul>
+        <h2>By host</h2>
+        <ul>
+          <li>
+            <a href="https://orca.aiaaii.com/guides/how-to-add-marketplace-source/">Orca</a>
+            — Settings → Plugins → Marketplace sources; Install plugin wants <code>#ref</code>.
+          </li>
+          <li>
+            <a href="https://amp.aiaaii.com/guides/amp-plugins-add/">Amp</a>
+            — <code>amp plugins add …</code>
+          </li>
+          <li>
+            <a href="https://droid.aiaaii.com/guides/droid-plugin-marketplace-add/">Droid</a>
+            — <code>droid plugin marketplace add</code> then <code>droid plugin install</code>
+          </li>
+          <li>
+            <a href="https://kimi.aiaaii.com/guides/how-to-install-kimi-plugin/">Kimi</a>
+            — <code>/plugins install</code> then often <code>/new</code>
+          </li>
+        </ul>
+        <p>Mall hub: <a href="https://aiaaii.com/">aiaaii.com</a></p>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="wrap-wide"><p>Any AI · not affiliated with host vendors</p></div></footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

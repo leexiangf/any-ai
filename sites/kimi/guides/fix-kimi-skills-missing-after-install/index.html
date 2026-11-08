@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fix: Kimi skills missing after /plugins install | Kimi Plugin Market</title>
+    <meta name="description" content="Fix Kimi plugins that install but leave skills missing: /reload, enable in /plugins, then /new for a fresh session." />
+    <link rel="canonical" href="https://kimi.aiaaii.com/guides/fix-kimi-skills-missing-after-install/" />
+        <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/">
+            <span class="brand-name">Kimi Plugin Market</span>
+            <span class="brand-domain">kimi.aiaaii.com · Any AI</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+            <a href="/items/">Plugins</a>
+            <a href="/guides/" aria-current="page">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+          </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>Skills missing after install</h1>
+          <p>Plugin shows Installed, but skills or agents do not appear.</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+<p>Kimi often registers a plugin before the current session loads its skills. Treat this as a session-apply issue first.</p>
+<ol class="steps">
+<li>Open <code>/plugins</code> and confirm the plugin is <strong>enabled</strong> (not only listed).</li>
+<li>Run reload:<div class="install-block"><span class="label">Reload</span><code>/reload</code></div></li>
+<li>Start a fresh session so skills bind:<div class="install-block"><span class="label">New session</span><code>/new</code></div></li>
+<li>If still empty, re-check the repo for <code>kimi.plugin.json</code> or <code>.kimi-plugin/plugin.json</code> — Claude-only trees need a Kimi manifest.</li>
+<li>Still stuck → <a href="/guides/how-to-troubleshoot-kimi-plugins/">troubleshoot hub</a>.</li>
+</ol>
+        <p class="source-line">Independent rewrite · Updated 2026-11-07 · Not affiliated with Moonshot AI / Kimi</p>
+        <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-kimi-plugins/">Troubleshoot hub</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="brand">
+          <span class="brand-name">Kimi Plugin Market</span>
+          <span class="brand-domain">kimi.aiaaii.com · Any AI (AI-AAII)</span>
+        </div>
+        <div class="footer-row">
+          <div>
+            <a href="/items/">Plugins</a>
+            <a href="/guides/">Guides</a>
+            <a href="/submit/">Submit</a>
+            <a href="/about/">About</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+          </div>
+          <p>Not affiliated with Moonshot AI / Kimi</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

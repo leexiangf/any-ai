@@ -3,8 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About — Orca Plugin Market | orca.aiaaii.com</title>
+    <title>About this market | Orca Plugin Market</title>
+    <meta
+      name="description"
+      content="orca.aiaaii.com is a community Orca plugin directory on Any AI. Not affiliated with Stably or onorca.dev."
+    />
     <link rel="canonical" href="https://orca.aiaaii.com/about/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/about/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/about/" />
         <script>
       (function () {
         try {
@@ -28,8 +34,14 @@
       <div class="wrap-wide">
         <div class="site-header">
           <a class="brand" href="/"><span class="brand-name">Orca Plugin Market</span><span class="brand-domain">orca.aiaaii.com</span></a>
-                    <div class="header-end">
-            <nav class="nav"><a href="https://aiaaii.com/">Home</a><a href="/items/">Plugins</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a></nav>
+          <div class="header-end">
+            <nav class="nav">
+              <a href="https://aiaaii.com/">Home</a>
+              <a href="/items/">Plugins</a>
+              <a href="/guides/">Guides</a>
+              <a href="/zh/">中文</a>
+              <a href="/submit/">Submit</a>
+            </nav>
             <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
               <span class="theme-toggle-icon" aria-hidden="true"></span>
             </button>
@@ -37,20 +49,48 @@
         </div>
       </div>
       <header class="page-hero">
-        <div class="wrap"><h1>About this market</h1><p>Community Orca plugin directory — Any AI (AI-AAII).</p></div>
+        <div class="wrap">
+          <h1>About this market</h1>
+          <p>A community directory of Orca plugins — with install paths when you need them.</p>
+        </div>
       </header>
     </div>
     <main class="section">
       <div class="wrap prose">
         <p>
-          <strong>orca.aiaaii.com</strong> indexes community Orca plugins and
-          marketplace sources. Orca/Stably build the ADE and official thin index;
-          this site is not official support. Plugin APIs are experimental.
+          <strong>orca.aiaaii.com</strong> is the Orca shop inside
+          <a href="https://aiaaii.com/">Any AI (AI-AAII)</a> — a community
+          <em>install index</em>, not an official marketplace and not a mirror of
+          <a href="https://www.onorca.dev/plugins" rel="noopener noreferrer">onorca.dev</a>.
         </p>
-        <p>Mall: <a href="https://aiaaii.com/">aiaaii.com</a></p>
+        <h2>What we optimize for</h2>
+        <ul>
+          <li>Real marketplace Git sources and plugin <code>#ref</code> pins</li>
+          <li>Guides for hidden categories, reserved ids, and source errors</li>
+          <li>Honest visibility labels (in-app · web/#ref · retired · unknown) when evidenced</li>
+          <li>Unreviewed community code by default — you still read the repo</li>
+        </ul>
+        <h2>What we do not do</h2>
+        <ul>
+          <li>Compete with the official catalog on “most listings”</li>
+          <li>List repos that cannot install</li>
+          <li>Claim affiliation with Orca / Stably</li>
+        </ul>
+        <p>
+          Start with the
+          <a href="/#tasks">three install jobs</a>
+          or the
+          <a href="/zh/">中文指南</a>.
+          Agent feed:
+          <a href="/llms.txt">llms.txt</a>
+          ·
+          <a href="/catalog.json">catalog.json</a>.
+        </p>
       </div>
     </main>
-    <footer class="site-footer"><div class="wrap-wide"><p>Not affiliated with Orca / Stably</p></div></footer>
-      <script src="/theme.js" defer></script>
+    <footer class="site-footer">
+      <div class="wrap-wide"><p>Not affiliated with Orca / Stably</p></div>
+    </footer>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

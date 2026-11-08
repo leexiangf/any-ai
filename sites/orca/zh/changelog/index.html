@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>更新日志 — Orca 插件目录 | Orca Plugin Market</title>
+    <meta name="description" content="Orca 插件目录本周新增、安装路径变更与下架说明。" />
+    <link rel="canonical" href="https://orca.aiaaii.com/zh/changelog/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/changelog/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/changelog/" />
+    <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/zh/">
+            <span class="brand-name">Orca Plugin Market</span>
+            <span class="brand-domain">orca.aiaaii.com · 中文</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="主导航">
+              <a href="/zh/items/">插件目录</a>
+              <a href="/zh/guides/">指南</a>
+              <a href="/zh/changelog/" aria-current="page">更新</a>
+              <a href="/zh/submit/">提交</a>
+              <a href="/zh/about/">关于</a>
+              <a href="/">English</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="切换主题" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>更新日志</h1>
+          <p>本周新收录、安装说明调整，以及需要留意的下架项。</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <h2 id="2026-11-08">2026-11-08 这一周</h2>
+        <h3>新增</h3>
+        <ul>
+          <li>新收录约 78 个社区插件（通过清单校验后上架）。</li>
+          <li>详情页补充显示名、权限、两种安装方式；有数据时展示精选、安装量与截图。</li>
+          <li>中文站页面补齐：首页、指南、目录与分类。</li>
+        </ul>
+        <h3>调整</h3>
+        <ul>
+          <li>分类改为「命令与面板」「远程 / 虚拟机」等；旧链接仍可跳转。</li>
+          <li>首页与关于页改成更贴近「怎么装」的说法。</li>
+        </ul>
+        <h3>注意</h3>
+        <ul>
+          <li>本周没有批量下架。装不上的仓库不会收录。</li>
+          <li>社区插件默认<strong>未审核</strong>。建议钉版本；权限较高的面板请谨慎开启。</li>
+        </ul>
+        <p class="source-line">数据文件：<a href="/catalog.json">catalog.json</a> · <a href="/llms.txt">llms.txt</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="footer-row">
+          <div>
+            <a href="/zh/items/">插件目录</a>
+            <a href="/zh/guides/">指南</a>
+            <a href="/zh/about/">关于</a>
+            <a href="/changelog/">English</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI 总站</a>
+          </div>
+          <p>与 Orca / Stably 无关 · 实验性</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

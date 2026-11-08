@@ -1,0 +1,33 @@
+{
+  "name": "mouse",
+  "version": "1.0.0",
+  "description": "**Any Agent Install Index** — community directories for niche AI agent hosts.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "refresh:stars": "node scripts/refresh-catalog-stars.mjs",
+    "refresh:stars:resolve": "node scripts/refresh-catalog-stars.mjs --resolve-source",
+    "enrich:catalog": "node scripts/enrich-items-catalog.mjs",
+    "marketplace:orca:build": "node scripts/build-orca-marketplace.mjs",
+    "marketplace:orca:build:tags": "node scripts/build-orca-marketplace.mjs --resolve-tags",
+    "marketplace:orca:sync": "node scripts/sync-orca-marketplace.mjs",
+    "marketplace:orca:sync:tags": "node scripts/sync-orca-marketplace.mjs --resolve-tags",
+    "verify:orca": "node scripts/verify-orca-installable.mjs",
+    "verify:orca:new": "node scripts/verify-orca-installable.mjs --only-unverified"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leexiangf/any-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/leexiangf/any-ai/issues"
+  },
+  "homepage": "https://github.com/leexiangf/any-ai#readme"
+}

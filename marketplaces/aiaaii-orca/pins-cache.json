@@ -1,0 +1,442 @@
+{
+  "a-lang/orca-traditional-chinese": {
+    "ref": "main",
+    "source": "default"
+  },
+  "albuquerquesz/orca-github-dark-theme": {
+    "ref": "main",
+    "source": "default"
+  },
+  "andoshin11/orca-agent-status-relay": {
+    "ref": "main",
+    "source": "default"
+  },
+  "andoshin11/orca-milestone": {
+    "ref": "main",
+    "source": "default"
+  },
+  "aspiers/ai-config": {
+    "ref": "main",
+    "source": "default"
+  },
+  "austinChappell/orca-clickup-plugin": {
+    "ref": "main",
+    "source": "default"
+  },
+  "awallsr/orca-beads": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Bandersnatch0x/orca-shared-memory": {
+    "ref": "main",
+    "source": "default"
+  },
+  "BautistaPessagno/orca-spotify": {
+    "ref": "main",
+    "source": "default"
+  },
+  "berkaysirtas/orca-turkish": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Bigsy/milko": {
+    "ref": "main",
+    "source": "default"
+  },
+  "cemalkilic/lima-orca-vm-recipes": {
+    "ref": "main",
+    "source": "default"
+  },
+  "chrisluo5311/orca-snippet": {
+    "ref": "main",
+    "source": "default"
+  },
+  "codeious/orca-boat-sandbox": {
+    "ref": "main",
+    "source": "default"
+  },
+  "coseto6125/ecp-orca-plugin": {
+    "ref": "main",
+    "source": "default"
+  },
+  "cylyl/PersonaOS": {
+    "ref": "main",
+    "source": "default"
+  },
+  "DawidWetzler/orca-cobalt2-theme": {
+    "ref": "main",
+    "source": "default"
+  },
+  "dbydd/onlyne": {
+    "ref": "main",
+    "source": "default"
+  },
+  "dera0520/orca-handback": {
+    "ref": "main",
+    "source": "default"
+  },
+  "diman0111/orca-russian": {
+    "ref": "main",
+    "source": "default"
+  },
+  "dohaidang/orca-theme-plugin": {
+    "ref": "main",
+    "source": "default"
+  },
+  "dohaidang/orca-vietnamese-plugin": {
+    "ref": "main",
+    "source": "default"
+  },
+  "eduardo02138/orca-pt-br": {
+    "ref": "main",
+    "source": "default"
+  },
+  "ehart004/orca-monokai-theme": {
+    "ref": "main",
+    "source": "default"
+  },
+  "eliasjnior/orca-script-runner": {
+    "ref": "main",
+    "source": "default"
+  },
+  "eliasjnior/orca-worktree-notes": {
+    "ref": "main",
+    "source": "default"
+  },
+  "emirrtopaloglu/orca-turkish": {
+    "ref": "main",
+    "source": "default"
+  },
+  "esykai/orca-catppuccin-exact": {
+    "ref": "main",
+    "source": "default"
+  },
+  "EternalNight996/memory-eternal": {
+    "ref": "main",
+    "source": "default"
+  },
+  "faisalmuhammad/orca-graphiql": {
+    "ref": "main",
+    "source": "default"
+  },
+  "faisalmuhammad/orca-monospace-icons": {
+    "ref": "main",
+    "source": "default"
+  },
+  "faisalmuhammad/orca-monospace-themes": {
+    "ref": "main",
+    "source": "default"
+  },
+  "faisalmuhammad/orca-sidequest": {
+    "ref": "main",
+    "source": "default"
+  },
+  "farrrr/orca-i18n-zh-tw": {
+    "ref": "main",
+    "source": "default"
+  },
+  "first-fluke/oh-my-agent": {
+    "ref": "main",
+    "source": "default"
+  },
+  "gek0v/orca-signature-themes": {
+    "ref": "main",
+    "source": "default"
+  },
+  "gentilfp/moss_theme": {
+    "ref": "main",
+    "source": "default"
+  },
+  "gentilfp/orca-snakAI": {
+    "ref": "main",
+    "source": "default"
+  },
+  "geraldsberongoy/orca-ram-guard": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Hadisd/moonlit-pastel": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Hadisd/quiet-pastel": {
+    "ref": "main",
+    "source": "default"
+  },
+  "hanyscz/orca-czech": {
+    "ref": "main",
+    "source": "default"
+  },
+  "ichikawacraice/kit-de-orquestracao": {
+    "ref": "main",
+    "source": "default"
+  },
+  "ItzYanick/yeelight-orca": {
+    "ref": "main",
+    "source": "default"
+  },
+  "j-dandelion/orca-rose-pine-moon": {
+    "ref": "main",
+    "source": "default"
+  },
+  "jadabyanza24/orca-discord-rich-presence": {
+    "ref": "main",
+    "source": "default"
+  },
+  "jarede/jstack": {
+    "ref": "main",
+    "source": "default"
+  },
+  "JargeZ/orca-recipes": {
+    "ref": "main",
+    "source": "default"
+  },
+  "jerrazuw/orca-gallery-panel": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Joao-Salvalagio/orca-ptbr": {
+    "ref": "main",
+    "source": "default"
+  },
+  "JoDaC/orca-git-controls": {
+    "ref": "main",
+    "source": "default"
+  },
+  "jondmarien/orca-discord-presence": {
+    "ref": "main",
+    "source": "default"
+  },
+  "jorauch/orca-spotlight": {
+    "ref": "main",
+    "source": "default"
+  },
+  "kevmansilla/orca-multi-repo-git": {
+    "ref": "main",
+    "source": "default"
+  },
+  "kolebayev/orca-md-layout": {
+    "ref": "main",
+    "source": "default"
+  },
+  "lamtuanvu/cv-hub-orca-plugin": {
+    "ref": "main",
+    "source": "default"
+  },
+  "lindoo67/drawio-plugin": {
+    "ref": "main",
+    "source": "default"
+  },
+  "llima/craftar-orca": {
+    "ref": "main",
+    "source": "default"
+  },
+  "LociStar/orca-env-switcher": {
+    "ref": "main",
+    "source": "default"
+  },
+  "luckury/orca-backlog-md": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Luis-Sejer/agent-orrery": {
+    "ref": "main",
+    "source": "default"
+  },
+  "LuticaCANARD/orca-discord-presence": {
+    "ref": "main",
+    "source": "default"
+  },
+  "mark22013333/orca-zh-tw": {
+    "ref": "main",
+    "source": "default"
+  },
+  "mathiscapart/claude-config": {
+    "ref": "main",
+    "source": "default"
+  },
+  "mattjohnson/orca-sbx-recipes": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Mbirepinte/Orca-asciidoc-viewer": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Meapri/orca-adaptive-team": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Meapri/orca-cocoindex-plugin": {
+    "ref": "main",
+    "source": "default"
+  },
+  "meryzennn/orca-discord-rpc": {
+    "ref": "main",
+    "source": "default"
+  },
+  "minhuw/pi-extensions": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Miragon/bpmn-modeler": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Miragon/modeler-suite": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Miragon/orca-modelers": {
+    "ref": "main",
+    "source": "default"
+  },
+  "moseoh/orca-git-history": {
+    "ref": "main",
+    "source": "default"
+  },
+  "nachodeluca/orca-discord-presence": {
+    "ref": "main",
+    "source": "default"
+  },
+  "narimanisakhanov-creator/orca-xlsx-editor": {
+    "ref": "main",
+    "source": "default"
+  },
+  "niusnet/orca-tmux-keys": {
+    "ref": "main",
+    "source": "default"
+  },
+  "nixlim/orca-matrix-theme": {
+    "ref": "main",
+    "source": "default"
+  },
+  "opencolin/orca-tenki-plugin": {
+    "ref": "main",
+    "source": "default"
+  },
+  "petercr/orca-entire-extension": {
+    "ref": "main",
+    "source": "default"
+  },
+  "prabowosd/orca-grok-themes": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Raajik/orca-github-tasks": {
+    "ref": "main",
+    "source": "default"
+  },
+  "randyellis-wealthberry/paperclip-adapter-orca": {
+    "ref": "main",
+    "source": "default"
+  },
+  "RobertoGoAm/nix-config": {
+    "ref": "main",
+    "source": "default"
+  },
+  "RonanCodes/orca-reminders": {
+    "ref": "main",
+    "source": "default"
+  },
+  "royklo/orca-rego": {
+    "ref": "main",
+    "source": "default"
+  },
+  "senadaruc/orca-grazr": {
+    "ref": "main",
+    "source": "default"
+  },
+  "shakedm100/orca-latex-preview": {
+    "ref": "main",
+    "source": "default"
+  },
+  "shakedm100/orca-parquet-viewer": {
+    "ref": "main",
+    "source": "default"
+  },
+  "smwbev/orca-russian": {
+    "ref": "main",
+    "source": "default"
+  },
+  "stepinus/orca-russian": {
+    "ref": "main",
+    "source": "default"
+  },
+  "superfly/orca-sprites": {
+    "ref": "main",
+    "source": "default"
+  },
+  "tan-yong-sheng/agent-notify": {
+    "ref": "main",
+    "source": "default"
+  },
+  "taranttoola-create/orca-russian": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Tautcius/orca-omp-agent-panel": {
+    "ref": "main",
+    "source": "default"
+  },
+  "Teck-Lab/Teck": {
+    "ref": "main",
+    "source": "default"
+  },
+  "thailoc-dev/orca-dev-toolbox": {
+    "ref": "main",
+    "source": "default"
+  },
+  "thailoc-dev/orca-pptx-viewer": {
+    "ref": "main",
+    "source": "default"
+  },
+  "thiagobotelhonet/orca-drawio": {
+    "ref": "main",
+    "source": "default"
+  },
+  "tieubao/orca-spacedown-theme": {
+    "ref": "main",
+    "source": "default"
+  },
+  "TW199501/orca-zh-hant": {
+    "ref": "main",
+    "source": "default"
+  },
+  "upstash/box-orca-plugin": {
+    "ref": "main",
+    "source": "default"
+  },
+  "vale-c/orca-catppuccin": {
+    "ref": "main",
+    "source": "default"
+  },
+  "vale-c/orca-tokyonight": {
+    "ref": "main",
+    "source": "default"
+  },
+  "vizuh/sabi": {
+    "ref": "main",
+    "source": "default"
+  },
+  "VukanCekic/orca-council": {
+    "ref": "main",
+    "source": "default"
+  },
+  "wiseiodev/orca-entire-trails": {
+    "ref": "main",
+    "source": "default"
+  },
+  "xinnyu/orca-notify": {
+    "ref": "main",
+    "source": "default"
+  },
+  "yamazaki-yuki-23/orca-breakout-panel": {
+    "ref": "main",
+    "source": "default"
+  },
+  "ysamjo/orca-plugin-harness-route": {
+    "ref": "main",
+    "source": "default"
+  }
+}

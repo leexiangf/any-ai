@@ -77,8 +77,45 @@
 
   apply(resolve());
 
+  function mountCopyButtons() {
+    document.querySelectorAll("[data-copy]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var root = btn.closest(".install-block, .marketplace-strip-block") || btn.parentElement;
+        var target = root && root.querySelector("[data-copy-target]");
+        var text = target ? target.textContent.trim() : "";
+        if (!text) return;
+        var done = function () {
+          var prev = btn.textContent;
+          btn.textContent = btn.getAttribute("data-copied-label") || "Copied";
+          btn.setAttribute("data-copied", "");
+          setTimeout(function () {
+            btn.textContent = prev;
+            btn.removeAttribute("data-copied");
+          }, 1400);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(done).catch(function () {});
+          return;
+        }
+        try {
+          var ta = document.createElement("textarea");
+          ta.value = text;
+          ta.setAttribute("readonly", "");
+          ta.style.position = "fixed";
+          ta.style.left = "-9999px";
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand("copy");
+          document.body.removeChild(ta);
+          done();
+        } catch (e) {}
+      });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     mountTopRail();
+    mountCopyButtons();
     apply(resolve());
     var btn = document.querySelector("[data-theme-toggle]");
     if (!btn) return;

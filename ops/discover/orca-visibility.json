@@ -1,0 +1,84 @@
+{
+  "updatedAt": "2026-11-08",
+  "notes": "Only stamp when evidenced. Default for unlisted keys is unknown.",
+  "statuses": {
+    "stablyai/orca-midnight-theme": {
+      "visibility": "in-app",
+      "review": "unreviewed",
+      "install": "catalog-search",
+      "recommendedPin": null,
+      "verifiedOrca": ">=1.4.245"
+    },
+    "stablyai/orca-excalidraw": {
+      "visibility": "in-app",
+      "review": "unreviewed",
+      "install": "catalog-search",
+      "recommendedPin": null,
+      "verifiedOrca": null
+    },
+    "stablyai/orca-docx": {
+      "visibility": "in-app",
+      "review": "unreviewed",
+      "install": "catalog-search",
+      "recommendedPin": null,
+      "verifiedOrca": ">=1.4.248"
+    },
+    "stablyai/orca-spreadsheet": {
+      "visibility": "in-app",
+      "review": "unreviewed",
+      "install": "catalog-search",
+      "recommendedPin": null,
+      "verifiedOrca": null
+    },
+    "stablyai/orca-catppuccin-theme": {
+      "visibility": "in-app",
+      "review": "unreviewed",
+      "install": "catalog-search",
+      "recommendedPin": null,
+      "verifiedOrca": null
+    },
+    "stablyai/orca-dracula-theme": {
+      "visibility": "in-app",
+      "review": "unreviewed",
+      "install": "catalog-search",
+      "recommendedPin": null,
+      "verifiedOrca": null
+    },
+    "stablyai/orca-plugins": {
+      "visibility": "in-app",
+      "review": "unreviewed",
+      "install": "marketplace-source",
+      "recommendedPin": null,
+      "verifiedOrca": null
+    },
+    "vale-c/orca-tokyonight": {
+      "visibility": "web-ref",
+      "review": "unreviewed",
+      "install": "marketplace-or-ref",
+      "recommendedPin": null,
+      "verifiedOrca": null,
+      "note": "Themes may be filtered in All depending on Orca build."
+    },
+    "vale-c/orca-catppuccin": {
+      "visibility": "web-ref",
+      "review": "unreviewed",
+      "install": "marketplace-or-ref",
+      "recommendedPin": null,
+      "verifiedOrca": null
+    },
+    "smwbev/orca-russian": {
+      "visibility": "web-ref",
+      "review": "unreviewed",
+      "install": "marketplace-or-ref",
+      "recommendedPin": "tag",
+      "verifiedOrca": null
+    },
+    "taranttoola-create/orca-russian": {
+      "visibility": "unknown",
+      "review": "unreviewed",
+      "install": "marketplace-or-ref",
+      "recommendedPin": null,
+      "verifiedOrca": null
+    }
+  }
+}

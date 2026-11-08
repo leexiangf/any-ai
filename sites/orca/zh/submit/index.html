@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>提交收录 | Orca Plugin Market</title>
+    <meta name="description" content="提交公开、可钉版本的 Orca 插件或市场索引到社区目录。" />
+    <link rel="canonical" href="https://orca.aiaaii.com/zh/submit/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/submit/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/submit/" />
+    <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/zh/">
+            <span class="brand-name">Orca Plugin Market</span>
+            <span class="brand-domain">orca.aiaaii.com · 中文</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="主导航">
+              <a href="/zh/items/">插件目录</a>
+              <a href="/zh/guides/">指南</a>
+              <a href="/zh/changelog/">更新</a>
+              <a href="/zh/submit/" aria-current="page">提交</a>
+              <a href="/zh/about/">关于</a>
+              <a href="/">English</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="切换主题" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>提交收录</h1>
+          <p>公开仓库、能钉版本、不要冒用官方身份。</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap prose">
+        <h2>提交前请确认</h2>
+        <ul>
+          <li>仓库公开可访问</li>
+          <li>含 <span class="acronym">orca-plugin.json</span> 或 <span class="acronym">orca-marketplace.json</span></li>
+          <li>别人能按说明装上（市场源，或带版本的插件地址）</li>
+          <li>不要使用 <span class="acronym">stablyai</span> / <span class="acronym">orca-</span> 这类保留身份</li>
+        </ul>
+        <h2>收录徽章</h2>
+        <p>
+          <img src="/badges/listed.svg" alt="Listed on orca.aiaaii.com" width="184" height="20" />
+        </p>
+        <div class="install-block">
+          <span class="label">Markdown</span>
+          <code>[![Listed on orca.aiaaii.com](https://orca.aiaaii.com/badges/listed.svg)](https://orca.aiaaii.com/items/{owner}/{slug})</code>
+        </div>
+        <h2>怎么提交</h2>
+        <p>
+          到 GitHub 新建 <strong>Listing request</strong>：宿主选 Orca，填上仓库或市场索引地址、建议版本，以及一句话介绍。
+        </p>
+        <p>
+          <a class="btn btn-primary" href="https://github.com/leexiangf/any-ai/issues/new?template=listing-request.yml">打开收录申请</a>
+        </p>
+        <p>
+          问题跟踪：
+          <a href="https://github.com/leexiangf/any-ai/issues" rel="noopener noreferrer">github.com/leexiangf/any-ai/issues</a>
+          · 总站提交页：
+          <a href="https://aiaaii.com/submit/">aiaaii.com/submit</a>
+        </p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="footer-row">
+          <div>
+            <a href="/zh/items/">插件目录</a>
+            <a href="/zh/guides/">指南</a>
+            <a href="/zh/about/">关于</a>
+            <a href="/submit/">English</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI 总站</a>
+          </div>
+          <p>与 Orca / Stably 无关 · 实验性</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>

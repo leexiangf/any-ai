@@ -1,0 +1,32 @@
+# Orca Plugin Market (orca.aiaaii.com)
+
+> Community install index for Orca (Stably ADE) plugins. Not affiliated with Stably / onorca.dev. Not Orca Note.
+
+## What this site is for
+- Web discovery + real install paths when the host All list hides a pack
+- Marketplace Git sources vs plugin URL#ref
+- Fix tree for #ref / source errors / reserved ids / hidden categories
+
+## Key URLs
+- Home: https://orca.aiaaii.com/
+- zh-CN hub: https://orca.aiaaii.com/zh/
+- Guides: https://orca.aiaaii.com/guides/
+- Troubleshoot map: https://orca.aiaaii.com/guides/how-to-troubleshoot-orca-plugins/#error-map
+- Changelog: https://orca.aiaaii.com/changelog/
+- Machine catalog: https://orca.aiaaii.com/catalog.json
+
+## Error → guide
+- "Add an explicit #ref" → https://orca.aiaaii.com/guides/fix-add-an-explicit-ref/
+- Marketplace source error → https://orca.aiaaii.com/guides/fix-marketplace-source-error/
+- Reserved stablyai/orca- id → https://orca.aiaaii.com/guides/fix-reserved-plugin-id/
+- Themes/skills missing from All → https://orca.aiaaii.com/guides/fix-orca-categories-hidden/
+- Plugin not showing → https://orca.aiaaii.com/guides/fix-orca-plugin-not-showing/
+
+## Catalog fields
+Each catalog.json item includes: id, gitUrl, recommendedPin, category, visibility (in-app|web-ref|retired|unknown), review (default unreviewed), installSteps, hiddenInUiHint.
+
+## Sister markets (same install-index idea)
+- https://amp.aiaaii.com/
+- https://droid.aiaaii.com/
+- https://kimi.aiaaii.com/
+- Glossary: https://orca.aiaaii.com/glossary/

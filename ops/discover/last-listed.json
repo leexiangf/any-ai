@@ -1,0 +1,1333 @@
+{
+  "at": "2026-11-08T01:46:34.899Z",
+  "count": 78,
+  "skipped": [],
+  "items": [
+    {
+      "host": "orca",
+      "owner": "VukanCekic",
+      "slug": "orca-council",
+      "name": "Council",
+      "hero": "Council community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/VukanCekic/orca-council",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/VukanCekic/orca-council"
+        }
+      ],
+      "stars": 13
+    },
+    {
+      "host": "orca",
+      "owner": "dbydd",
+      "slug": "onlyne",
+      "name": "Onlyne Sessions",
+      "hero": "Onlyne Sessions community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/dbydd/onlyne",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/dbydd/onlyne"
+        }
+      ],
+      "stars": 5
+    },
+    {
+      "host": "orca",
+      "owner": "aspiers",
+      "slug": "ai-config",
+      "name": "Attention Cycling",
+      "hero": "Config for various AI coding agents (Claude, Gemini, opencode etc.)",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/aspiers/ai-config",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/aspiers/ai-config"
+        }
+      ],
+      "stars": 14
+    },
+    {
+      "host": "orca",
+      "owner": "eliasjnior",
+      "slug": "orca-worktree-notes",
+      "name": "Notes",
+      "hero": "Orca plugin: Notion-style Markdown notes for each worktree, in the right sidebar.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/eliasjnior/orca-worktree-notes",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/eliasjnior/orca-worktree-notes"
+        }
+      ],
+      "stars": 4
+    },
+    {
+      "host": "orca",
+      "owner": "faisalmuhammad",
+      "slug": "orca-monospace-themes",
+      "name": "Monospace Themes",
+      "hero": "Monospace Light and Dark themes for Orca, with app colors, editor syntax highlighting, and matching terminal palettes. Ported from Keksi’s VS Code themes.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/faisalmuhammad/orca-monospace-themes",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/faisalmuhammad/orca-monospace-themes"
+        }
+      ],
+      "stars": 4
+    },
+    {
+      "host": "orca",
+      "owner": "Miragon",
+      "slug": "modeler-suite",
+      "name": "Wardley Maps Modeler",
+      "hero": "Miragon's diagram modelers in one repository: Wardley Maps, Event Storming, Team Topologies, Context Maps and Value Chain, with the shared modeler contract, she",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/Miragon/modeler-suite",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/Miragon/modeler-suite"
+        }
+      ],
+      "stars": 4
+    },
+    {
+      "host": "orca",
+      "owner": "dohaidang",
+      "slug": "orca-theme-plugin",
+      "name": "Living ASCII Themes",
+      "hero": "ASCII pixel-art themes with matching terminal palettes and icon themes for Orca.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/dohaidang/orca-theme-plugin",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/dohaidang/orca-theme-plugin"
+        }
+      ],
+      "stars": 3
+    },
+    {
+      "host": "orca",
+      "owner": "superfly",
+      "slug": "orca-sprites",
+      "name": "Fly.io Sprites",
+      "hero": "Run each Orca workspace on its own Sprite, a persistent Linux VM from Fly.io",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/superfly/orca-sprites",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/superfly/orca-sprites"
+        }
+      ],
+      "stars": 2
+    },
+    {
+      "host": "orca",
+      "owner": "jondmarien",
+      "slug": "orca-discord-presence",
+      "name": "Rich Presence for Discord",
+      "hero": "Orca plugin: Discord Rich Presence for workspace, branch, and agent state (opt-in fields). Plugin id jondmarien.discord-presence.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/jondmarien/orca-discord-presence",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/jondmarien/orca-discord-presence"
+        }
+      ],
+      "stars": 2
+    },
+    {
+      "host": "orca",
+      "owner": "petercr",
+      "slug": "orca-entire-extension",
+      "name": "Entire",
+      "hero": "Orca plugin that brings Entire trails, findings and checkpoints into Orca",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/petercr/orca-entire-extension",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/petercr/orca-entire-extension"
+        }
+      ],
+      "stars": 2
+    },
+    {
+      "host": "orca",
+      "owner": "Luis-Sejer",
+      "slug": "agent-orrery",
+      "name": "Agent Orrery",
+      "hero": "A live map of your Claude Code agents, and what's waiting on you",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/Luis-Sejer/agent-orrery",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/Luis-Sejer/agent-orrery"
+        }
+      ],
+      "stars": 2
+    },
+    {
+      "host": "orca",
+      "owner": "awallsr",
+      "slug": "orca-beads",
+      "name": "Beads",
+      "hero": "Orca plugin for beads (bd) task tracking: live sidebar panel, task board, and commands",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/awallsr/orca-beads",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/awallsr/orca-beads"
+        }
+      ],
+      "stars": 2
+    },
+    {
+      "host": "orca",
+      "owner": "minhuw",
+      "slug": "pi-extensions",
+      "name": "Pi Activity",
+      "hero": "Pi Activity community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/minhuw/pi-extensions",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/minhuw/pi-extensions"
+        }
+      ],
+      "stars": 2
+    },
+    {
+      "host": "orca",
+      "owner": "herman925",
+      "slug": "925-cc-plugins",
+      "name": "Team Orchestrator",
+      "hero": "Herman's Claude Code mods (marketplace herman-mods)",
+      "category": "marketplaces",
+      "status": "listed · community",
+      "source": "https://github.com/herman925/925-cc-plugins",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/herman925/925-cc-plugins"
+        }
+      ],
+      "stars": 2
+    },
+    {
+      "host": "orca",
+      "owner": "BautistaPessagno",
+      "slug": "orca-spotify",
+      "name": "Now Playing",
+      "hero": "Control the Spotify desktop app on your Mac from Orca: commands, shortcuts and a sidebar player.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/BautistaPessagno/orca-spotify",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/BautistaPessagno/orca-spotify"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "JoDaC",
+      "slug": "orca-git-controls",
+      "name": "Git Controls",
+      "hero": "Git branches panel and Git menu for Orca",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/JoDaC/orca-git-controls",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/JoDaC/orca-git-controls"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "codeious",
+      "slug": "orca-boat-sandbox",
+      "name": "Boat.dev Sandbox",
+      "hero": "Orca plugin: run a workspace in a fresh boat.dev sandbox",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/codeious/orca-boat-sandbox",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/codeious/orca-boat-sandbox"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "wiseiodev",
+      "slug": "orca-entire-trails",
+      "name": "Entire Trails",
+      "hero": "Orca side panel for Entire Trails: live runner scores, gates, CI checks, findings, and discussion, with approve, merge, comment, and ask-your-agent actions.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/wiseiodev/orca-entire-trails",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/wiseiodev/orca-entire-trails"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "tan-yong-sheng",
+      "slug": "agent-notify",
+      "name": "Agent Notify",
+      "hero": "Agent Notify community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/tan-yong-sheng/agent-notify",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/tan-yong-sheng/agent-notify"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "andoshin11",
+      "slug": "orca-milestone",
+      "name": "Milestone",
+      "hero": "Orca plugin scaffold for milestone features",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/andoshin11/orca-milestone",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/andoshin11/orca-milestone"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "Joao-Salvalagio",
+      "slug": "orca-ptbr",
+      "name": "Português do Brasil (completo)",
+      "hero": "Tradução completa da interface do Orca para o português do Brasil (pacote de idioma pt-BR).",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/Joao-Salvalagio/orca-ptbr",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/Joao-Salvalagio/orca-ptbr"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "lindoo67",
+      "slug": "drawio-plugin",
+      "name": "Draw.io",
+      "hero": "A drawio plugin for orca plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/lindoo67/drawio-plugin",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/lindoo67/drawio-plugin"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "Miragon",
+      "slug": "orca-modelers",
+      "name": "Wardley Maps Modeler",
+      "hero": "The Miragon modelers as Orca custom editors, and the catalog that lists them",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/Miragon/orca-modelers",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/Miragon/orca-modelers"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "mathiscapart",
+      "slug": "claude-config",
+      "name": "Context Bar",
+      "hero": "Context Bar community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/mathiscapart/claude-config",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/mathiscapart/claude-config"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "thiagobotelhonet",
+      "slug": "orca-drawio",
+      "name": "Draw.io for Orca",
+      "hero": "Native open-source Draw.io / diagrams.net integration for Orca ADE, bringing architecture diagrams, code navigation, workspace integration, and AI-assisted arch",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/thiagobotelhonet/orca-drawio",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/thiagobotelhonet/orca-drawio"
+        }
+      ],
+      "stars": 2
+    },
+    {
+      "host": "orca",
+      "owner": "shakedm100",
+      "slug": "orca-latex-preview",
+      "name": "LaTeX Preview",
+      "hero": "LaTeX for Orca: PDF and Editor | PDF views for .tex files, rebuilt as you type, with SyncTeX jumps, autocomplete and an outline.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/shakedm100/orca-latex-preview",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/shakedm100/orca-latex-preview"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "Hadisd",
+      "slug": "moonlit-pastel",
+      "name": "Moonlit Pastel",
+      "hero": "Moonlit Pastel: a dark, pale blue-violet theme with pastel accents and a matching terminal theme",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/Hadisd/moonlit-pastel",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/Hadisd/moonlit-pastel"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "royklo",
+      "slug": "orca-rego",
+      "name": "Rego Syntax",
+      "hero": "Orca plugin: syntax highlighting for Open Policy Agent Rego files",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/royklo/orca-rego",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/royklo/orca-rego"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "tieubao",
+      "slug": "orca-spacedown-theme",
+      "name": "Spacedown Light for Orca",
+      "hero": "Spacedown reading palette as an Orca theme plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/tieubao/orca-spacedown-theme",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/tieubao/orca-spacedown-theme"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "shakedm100",
+      "slug": "orca-parquet-viewer",
+      "name": "Parquet Viewer",
+      "hero": "Parquet viewer for Orca: a fast data grid with sort, filter and export, the schema, and per-column statistics.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/shakedm100/orca-parquet-viewer",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/shakedm100/orca-parquet-viewer"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "eliasjnior",
+      "slug": "orca-script-runner",
+      "name": "Scripts",
+      "hero": "Orca plugin: run your worktree's orca.yaml scripts from a sidebar panel.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/eliasjnior/orca-script-runner",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/eliasjnior/orca-script-runner"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "dera0520",
+      "slug": "orca-handback",
+      "name": "確認待ち",
+      "hero": "エージェントの確認待ちと PR を Orca のパネルで受けて返す（Orca プラグイン、CLI、Agent Skill）",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/dera0520/orca-handback",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/dera0520/orca-handback"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "chrisluo5311",
+      "slug": "orca-snippet",
+      "name": "Snippets",
+      "hero": "Snippets panel for Orca",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/chrisluo5311/orca-snippet",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/chrisluo5311/orca-snippet"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "albuquerquesz",
+      "slug": "orca-github-dark-theme",
+      "name": "GitHub Dark for Orca",
+      "hero": "GitHub Dark theme for Orca, paired with the curated GitHub Light palette.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/albuquerquesz/orca-github-dark-theme",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/albuquerquesz/orca-github-dark-theme"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "jorauch",
+      "slug": "orca-spotlight",
+      "name": "Spotlight",
+      "hero": "Orca plugin: mirror one worktree onto the repo root so a single dev environment serves any worktree",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/jorauch/orca-spotlight",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/jorauch/orca-spotlight"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "andoshin11",
+      "slug": "orca-agent-status-relay",
+      "name": "Agent Status Relay",
+      "hero": "Orca plugin that forwards agent status changes (turn done, waiting, blocked) to a URL, signed with Standard Webhooks",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/andoshin11/orca-agent-status-relay",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/andoshin11/orca-agent-status-relay"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "llima",
+      "slug": "craftar-orca",
+      "name": "craftar",
+      "hero": "An Orca plugin for craftar: a panel showing the Forge, the linked workspaces and the file flow",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/llima/craftar-orca",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/llima/craftar-orca"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "Bigsy",
+      "slug": "milko",
+      "name": "MilkO Markdown",
+      "hero": "Rich Markdown editing for Orca, with Mermaid diagrams, local proofing and careful source preservation.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/Bigsy/milko",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/Bigsy/milko"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "dohaidang",
+      "slug": "orca-vietnamese-plugin",
+      "name": "Tiếng Việt cho Orca",
+      "hero": "Tiếng Việt cho Orca community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/dohaidang/orca-vietnamese-plugin",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/dohaidang/orca-vietnamese-plugin"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "gentilfp",
+      "slug": "orca-snakAI",
+      "name": "snakAI",
+      "hero": "Orca snakAI: a tiny pixel art Snake plugin for the Orca panel. Eat coding agents, dodge the bugs.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/gentilfp/orca-snakAI",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/gentilfp/orca-snakAI"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "Hadisd",
+      "slug": "quiet-pastel",
+      "name": "Quiet Pastel",
+      "hero": "Quiet Pastel: a dark, pale blue-violet theme with pastel accents and a matching terminal theme",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/Hadisd/quiet-pastel",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/Hadisd/quiet-pastel"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "gek0v",
+      "slug": "orca-signature-themes",
+      "name": "Signature Themes & Terminal Presets",
+      "hero": "Bespoke dual-mode themes & matching ANSI terminal presets for Orca",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/gek0v/orca-signature-themes",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/gek0v/orca-signature-themes"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "kevmansilla",
+      "slug": "orca-multi-repo-git",
+      "name": "Multi Repo Git",
+      "hero": "Multi Repo Git community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/kevmansilla/orca-multi-repo-git",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/kevmansilla/orca-multi-repo-git"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "ehart004",
+      "slug": "orca-monokai-theme",
+      "name": "Monokai",
+      "hero": "Monokai color theme for Orca (app + terminal)",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/ehart004/orca-monokai-theme",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/ehart004/orca-monokai-theme"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "prabowosd",
+      "slug": "orca-grok-themes",
+      "name": "Grok Themes",
+      "hero": "Grok Night and Grok Day app and terminal themes for Orca",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/prabowosd/orca-grok-themes",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/prabowosd/orca-grok-themes"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "Teck-Lab",
+      "slug": "Teck.Orca",
+      "name": "Teck OMP Docker Sandbox",
+      "hero": "Teck OMP Docker Sandbox community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/Teck-Lab/Teck.Orca",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/Teck-Lab/Teck.Orca"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "jerrazuw",
+      "slug": "orca-gallery-panel",
+      "name": "Gallery Panel (demo)",
+      "hero": "Background images for the Orca agent IDE: a side panel with a rotating gallery of your own pictures, with slideshow, blur and Ken Burns.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/jerrazuw/orca-gallery-panel",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/jerrazuw/orca-gallery-panel"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "RonanCodes",
+      "slug": "orca-reminders",
+      "name": "Reminders",
+      "hero": "Remind me later for Orca: reminders tied to a workspace or tab, with notifications, snooze and move",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/RonanCodes/orca-reminders",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/RonanCodes/orca-reminders"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "nixlim",
+      "slug": "orca-matrix-theme",
+      "name": "Matrix",
+      "hero": "Matrix community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/nixlim/orca-matrix-theme",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/nixlim/orca-matrix-theme"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "austinChappell",
+      "slug": "orca-clickup-plugin",
+      "name": "ClickUp",
+      "hero": "ClickUp community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/austinChappell/orca-clickup-plugin",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/austinChappell/orca-clickup-plugin"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "LociStar",
+      "slug": "orca-env-switcher",
+      "name": "Env Switcher",
+      "hero": "Orca plugin: switch a worktree's .env / .env.local between named profiles (local, dev, prod), with backups, git safety checks and a local browser editor.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/LociStar/orca-env-switcher",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/LociStar/orca-env-switcher"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "geraldsberongoy",
+      "slug": "orca-ram-guard",
+      "name": "Orca RAM & Port Guard",
+      "hero": "Orca status-bar plugin and macOS launchd guard to monitor RAM, close idle AI agent terminals, and kill stray dev-server ports",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/geraldsberongoy/orca-ram-guard",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/geraldsberongoy/orca-ram-guard"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "stepinus",
+      "slug": "orca-russian",
+      "name": "Русский",
+      "hero": "Russian language pack for Orca",
+      "category": "languages",
+      "status": "listed · community",
+      "source": "https://github.com/stepinus/orca-russian",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/stepinus/orca-russian"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "moseoh",
+      "slug": "orca-git-history",
+      "name": "Git History",
+      "hero": "Git History community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/moseoh/orca-git-history",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/moseoh/orca-git-history"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "ysamjo",
+      "slug": "orca-plugin-harness-route",
+      "name": "Harness Route",
+      "hero": "Harness Route community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/ysamjo/orca-plugin-harness-route",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/ysamjo/orca-plugin-harness-route"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "stanleygomes",
+      "slug": "orca-plugins",
+      "name": "Noemi Theme",
+      "hero": "🗒️ My Orca IDE plugins",
+      "category": "marketplaces",
+      "status": "listed · community",
+      "source": "https://github.com/stanleygomes/orca-plugins",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/stanleygomes/orca-plugins"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "FullFran",
+      "slug": "orca-plugins",
+      "name": "Quota Pace",
+      "hero": "Personal Orca IDE plugins (shortcuts cheat sheet, more to come)",
+      "category": "marketplaces",
+      "status": "listed · community",
+      "source": "https://github.com/FullFran/orca-plugins",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/FullFran/orca-plugins"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "jarede",
+      "slug": "jstack",
+      "name": "jstack orchestrate",
+      "hero": "Minhas skills pessoais para Claude Code e opencode (inspirado no pstack da poteto)",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/jarede/jstack",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/jarede/jstack"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "RobertoGoAm",
+      "slug": "nix-config",
+      "name": "Agent keys",
+      "hero": "Agent keys community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/RobertoGoAm/nix-config",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/RobertoGoAm/nix-config"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "esykai",
+      "slug": "orca-catppuccin-exact",
+      "name": "Catppuccin Exact for Orca",
+      "hero": "Catppuccin Exact for Orca: #1e1e2e canvas, #181825 panels and composer, without Orca's extra surface tint.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/esykai/orca-catppuccin-exact",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/esykai/orca-catppuccin-exact"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "gentilfp",
+      "slug": "moss_theme",
+      "name": "MOSS",
+      "hero": "MOSS community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/gentilfp/moss_theme",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/gentilfp/moss_theme"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "ichikawacraice",
+      "slug": "kit-de-orquestracao",
+      "name": "Kit de orquestração",
+      "hero": "Kit de orquestração community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/ichikawacraice/kit-de-orquestracao",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/ichikawacraice/kit-de-orquestracao"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "randyellis-wealthberry",
+      "slug": "paperclip-adapter-orca",
+      "name": "Paperclip",
+      "hero": "Paperclip adapter + sync plugin: run agents in Orca worktrees, review in Orca",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/randyellis-wealthberry/paperclip-adapter-orca",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/randyellis-wealthberry/paperclip-adapter-orca"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "nachodeluca",
+      "slug": "orca-discord-presence",
+      "name": "Orca Discord Presence",
+      "hero": "Orca plugin that publishes workspace and agent status to Discord Rich Presence.",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/nachodeluca/orca-discord-presence",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/nachodeluca/orca-discord-presence"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "jadabyanza24",
+      "slug": "orca-discord-rich-presence",
+      "name": "Discord Rich Presence",
+      "hero": "Discord Rich Presence community plugin",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/jadabyanza24/orca-discord-rich-presence",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/jadabyanza24/orca-discord-rich-presence"
+        }
+      ],
+      "stars": 1
+    },
+    {
+      "host": "orca",
+      "owner": "TW199501",
+      "slug": "orca-zh-hant",
+      "name": "繁體中文（台灣）語言包",
+      "hero": "Traditional Chinese (Taiwan) UI language pack for Orca · Orca 繁體中文（台灣）語言包",
+      "category": "languages",
+      "status": "listed · community",
+      "source": "https://github.com/TW199501/orca-zh-hant",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/TW199501/orca-zh-hant"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "niusnet",
+      "slug": "orca-tmux-keys",
+      "name": "Tmux Keys",
+      "hero": "Tmux-style pane and tab keybindings for Orca, with a configurable prefix modifier",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/niusnet/orca-tmux-keys",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/niusnet/orca-tmux-keys"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "ItzYanick",
+      "slug": "yeelight-orca",
+      "name": "Yeelight Status Sync",
+      "hero": "Orca plugin that mirrors coding-agent status onto Yeelight smart lights over the LAN Control protocol",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/ItzYanick/yeelight-orca",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/ItzYanick/yeelight-orca"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "farrrr",
+      "slug": "orca-i18n-zh-tw",
+      "name": "繁體中文（台灣）",
+      "hero": "Traditional Chinese (Taiwan) language pack for Orca — zh-TW UI translations.",
+      "category": "languages",
+      "status": "listed · community",
+      "source": "https://github.com/farrrr/orca-i18n-zh-tw",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/farrrr/orca-i18n-zh-tw"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "emirrtopaloglu",
+      "slug": "orca-turkish",
+      "name": "Türkçe",
+      "hero": "Official Turkish (tr-TR) language pack for Orca",
+      "category": "languages",
+      "status": "listed · community",
+      "source": "https://github.com/emirrtopaloglu/orca-turkish",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/emirrtopaloglu/orca-turkish"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "Meapri",
+      "slug": "orca-cocoindex-plugin",
+      "name": "CocoIndex Code",
+      "hero": "CocoIndex Code sidebar plugin for Orca with one-step agent setup",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/Meapri/orca-cocoindex-plugin",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/Meapri/orca-cocoindex-plugin"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "Meapri",
+      "slug": "orca-adaptive-team",
+      "name": "Orca Adaptive Team",
+      "hero": "Skill-first multi-model orchestration for Orca using public CLI interfaces",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/Meapri/orca-adaptive-team",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/Meapri/orca-adaptive-team"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "eduardo02138",
+      "slug": "orca-pt-br",
+      "name": "Português do Brasil (completo)",
+      "hero": "Full Brazilian Portuguese (pt-BR) language pack for Orca - 9,732 translated strings, installable as an Orca plugin",
+      "category": "languages",
+      "status": "listed · community",
+      "source": "https://github.com/eduardo02138/orca-pt-br",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/eduardo02138/orca-pt-br"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "Tautcius",
+      "slug": "orca-omp-agent-panel",
+      "name": "omp Agent",
+      "hero": "Live omp todo list and subagent status in Orca's right sidebar (omp extension + Orca panel plugin), no upstream changes",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/Tautcius/orca-omp-agent-panel",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/Tautcius/orca-omp-agent-panel"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "berkaysirtas",
+      "slug": "orca-turkish",
+      "name": "Türkçe",
+      "hero": "Orca (stablyai/orca) arayüzü için Türkçe dil paketi eklentisi · Turkish language pack plugin for Orca",
+      "category": "languages",
+      "status": "listed · community",
+      "source": "https://github.com/berkaysirtas/orca-turkish",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/berkaysirtas/orca-turkish"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "Raajik",
+      "slug": "orca-github-tasks",
+      "name": "GitHub Tasks",
+      "hero": "Prototype Orca plugin: the selected project's open GitHub issues, with screenshots, in Orca's right sidebar",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/Raajik/orca-github-tasks",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/Raajik/orca-github-tasks"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "yamazaki-yuki-23",
+      "slug": "orca-breakout-panel",
+      "name": "Breakout Panel",
+      "hero": "Orca のサイドバーでブロック崩しが動くプラグイン。Orca プラグインのパネル実装サンプル。",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/yamazaki-yuki-23/orca-breakout-panel",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/yamazaki-yuki-23/orca-breakout-panel"
+        }
+      ],
+      "stars": 0
+    },
+    {
+      "host": "orca",
+      "owner": "opencolin",
+      "slug": "orca-tenki-plugin",
+      "name": "Tenki Sandboxes",
+      "hero": "Plan for integrating tenki.cloud sandboxes into orca (stablyai/orca) via environment recipes",
+      "category": "content-packs",
+      "status": "listed · community",
+      "source": "https://github.com/opencolin/orca-tenki-plugin",
+      "installs": [
+        {
+          "label": "Add marketplace source",
+          "code": "Settings → Plugins → Marketplace sources → add https://github.com/opencolin/orca-tenki-plugin"
+        }
+      ],
+      "stars": 0
+    }
+  ]
+}

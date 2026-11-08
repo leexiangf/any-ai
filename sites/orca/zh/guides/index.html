@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Orca 插件安装与排错指南（中文）| Orca Plugin Market</title>
+    <meta name="description" content="Orca 插件中文指南：添加市场源、钉版本、主题不显示、源报错与保留 ID。" />
+    <link rel="canonical" href="https://orca.aiaaii.com/zh/guides/" />
+    <link rel="alternate" hreflang="en" href="https://orca.aiaaii.com/guides/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://orca.aiaaii.com/zh/guides/" />
+    <script>
+      (function () {
+        try {
+          var k = "aiaaii-theme";
+          var t = localStorage.getItem(k);
+          if (t !== "light" && t !== "dark") {
+            var m = document.cookie.match(/(?:^|; )aiaaii-theme=(light|dark)/);
+            t = m ? m[1] : null;
+          }
+          if (t !== "light" && t !== "dark") {
+            t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="wrap-wide">
+        <div class="site-header">
+          <a class="brand" href="/zh/">
+            <span class="brand-name">Orca Plugin Market</span>
+            <span class="brand-domain">orca.aiaaii.com · 中文</span>
+          </a>
+          <div class="header-end">
+            <nav class="nav" aria-label="主导航">
+              <a href="/zh/items/">插件目录</a>
+              <a href="/zh/guides/" aria-current="page">指南</a>
+              <a href="/zh/changelog/">更新</a>
+              <a href="/zh/submit/">提交</a>
+              <a href="/zh/about/">关于</a>
+              <a href="/">English</a>
+            </nav>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="切换主题" title="Theme">
+              <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>Orca 插件指南</h1>
+          <p>先把插件装上，再处理报错。</p>
+        </div>
+      </header>
+    </div>
+    <main class="section">
+      <div class="wrap">
+        <div class="guide-tree">
+          <section>
+            <h2>安装</h2>
+            <div class="guide-list">
+              <a href="/zh/guides/what-is-an-orca-plugin/">什么是 Orca 插件<span>主题、编辑器、面板等扩展包</span></a>
+              <a href="/zh/guides/how-to-enable-orca-plugins/">如何打开插件功能<span>先启用 Plugins</span></a>
+              <a href="/zh/guides/how-to-add-marketplace-source/">如何添加市场源<span>在设置里粘贴 Git 地址</span></a>
+              <a href="/zh/guides/how-to-install-orca-plugin/">如何安装插件<span>目录搜索，或按版本直装</span></a>
+              <a href="/zh/guides/how-to-update-orca-plugins/">如何更新插件<span>刷新源，再升级已装包</span></a>
+            </div>
+          </section>
+          <section>
+            <h2>排错</h2>
+            <div class="guide-list">
+              <a href="/zh/guides/fix-add-an-explicit-ref/">提示要写版本号<span>别把市场目录贴进安装框</span></a>
+              <a href="/zh/guides/fix-marketplace-source-error/">市场源报错<span>地址或版本不对</span></a>
+              <a href="/zh/guides/fix-orca-plugin-not-showing/">装了却看不到<span>列表过滤与刷新</span></a>
+              <a href="/zh/guides/fix-orca-categories-hidden/">主题装了列表里没有<span>要到外观设置里选</span></a>
+              <a href="/zh/guides/fix-reserved-plugin-id/">保留身份被拒<span>别用 stablyai / orca- 冒充官方</span></a>
+              <a href="/zh/guides/how-to-troubleshoot-orca-plugins/">排错总览<span>按报错类型跳转</span></a>
+            </div>
+          </section>
+          <section>
+            <h2>发布</h2>
+            <div class="guide-list">
+              <a href="/zh/guides/how-to-publish-orca-marketplace/">如何发布市场索引<span>写好索引文件，再用自己的命名</span></a>
+            </div>
+          </section>
+        </div>
+        <p class="section-lead" style="margin-top:1.25rem;text-align:center;margin-inline:auto">
+          卡住时按这个顺序看：要写版本号 → 市场源报错 → 保留身份 → 主题不显示 → 完全找不到。
+        </p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <div class="footer-row">
+          <div>
+            <a href="/zh/items/">插件目录</a>
+            <a href="/zh/guides/">指南</a>
+            <a href="/zh/about/">关于</a>
+            <a href="/guides/">English</a>
+            <a class="mall-link" href="https://aiaaii.com/">Any AI 总站</a>
+          </div>
+          <p>与 Orca / Stably 无关 · 实验性</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
+  </body>
+</html>
