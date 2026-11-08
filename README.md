@@ -11,7 +11,7 @@ Official products ship the agent. We ship the **install index**: browse marketpl
 | Host | Add / discover | Install |
 | --- | --- | --- |
 | **Amp** | `amp plugins add <source>` | Amp plugin flows on [amp.aiaaii.com](https://amp.aiaaii.com) |
-| **Orca** | Add marketplace source / pin | [orca.aiaaii.com](https://orca.aiaaii.com) |
+| **Orca** | Add marketplace source / pin | [orca.aiaaii.com](https://orca.aiaaii.com) · see [Orca marketplace source](#orca-marketplace-source) |
 | **Droid** | `droid plugin marketplace add <git-url>` | `droid plugin install <plugin>@<marketplace> --scope user` → [droid.aiaaii.com](https://droid.aiaaii.com) |
 | **Kimi** | `/plugins marketplace [json-url]` | `/plugins install <github-url>` → [kimi.aiaaii.com](https://kimi.aiaaii.com) |
 
@@ -20,11 +20,34 @@ Official products ship the agent. We ship the **install index**: browse marketpl
 | Market | Listings | Site |
 | --- | ---: | --- |
 | **Amp Plugin Market** | 38 | [amp.aiaaii.com](https://amp.aiaaii.com) |
-| **Orca Plugin Market** | 71 | [orca.aiaaii.com](https://orca.aiaaii.com) |
+| **Orca Plugin Market** | 157 | [orca.aiaaii.com](https://orca.aiaaii.com) · [中文](https://orca.aiaaii.com/zh/) |
 | **Droid Plugin Market** | 61 | [droid.aiaaii.com](https://droid.aiaaii.com) |
 | **Kimi Plugin Market** | 46 | [kimi.aiaaii.com](https://kimi.aiaaii.com) |
 
 Each host has its own subdomain: directory · categories · detail pages · guides · submit. Detail pages are **independent rewrites** (not mirrored READMEs).
+
+## Orca marketplace source
+
+Community **Git marketplace** for Orca (in-app “Marketplace sources”), separate from the website directory.
+
+| | |
+| --- | --- |
+| **Repo** | [github.com/leexiangf/aiaaii-orca-marketplace](https://github.com/leexiangf/aiaaii-orca-marketplace) |
+| **Add URL** | `https://github.com/leexiangf/aiaaii-orca-marketplace.git` |
+| **Ref** | `main` |
+| **Purpose** | Index of community Orca plugins that passed shallow installable verify (`orca-plugin.json` readable). Plugin code stays in each upstream repo. |
+| **Scope** | Community packs only — official `stablyai` catalog entries are omitted (use Orca’s built-in / onorca.dev catalog for those). |
+| **Not** | Not a security audit, not a runtime guarantee, **not affiliated** with Orca / Stably. |
+
+### Add in Orca
+
+1. **Settings → Plugins → Marketplace sources** (Manage sources)
+2. **Add marketplace**
+3. Paste: `https://github.com/leexiangf/aiaaii-orca-marketplace.git`
+4. Ref: `main`
+5. After the source loads, install plugins from the list
+
+Monorepo copy used to build/sync this marketplace: [`marketplaces/aiaaii-orca/`](marketplaces/aiaaii-orca/). Website directory: [orca.aiaaii.com/items/](https://orca.aiaaii.com/items/) · guides: [how to add a marketplace source](https://orca.aiaaii.com/guides/how-to-add-marketplace-source/).
 
 ## For plugin authors
 
