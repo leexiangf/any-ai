@@ -22,7 +22,7 @@ Official products ship the agent. We ship the **install index**: browse marketpl
 | **Amp Plugin Market** | 38 | [amp.aiaaii.com](https://amp.aiaaii.com) |
 | **Orca Plugin Market** | 157 | [orca.aiaaii.com](https://orca.aiaaii.com) · [中文](https://orca.aiaaii.com/zh/) |
 | **Droid Plugin Market** | 61 | [droid.aiaaii.com](https://droid.aiaaii.com) |
-| **Kimi Plugin Market** | 46 | [kimi.aiaaii.com](https://kimi.aiaaii.com) |
+| **Kimi Plugin Market** | 64 | [kimi.aiaaii.com](https://kimi.aiaaii.com) |
 
 Each host has its own subdomain: directory · categories · detail pages · guides · submit. Detail pages are **independent rewrites** (not mirrored READMEs).
 
