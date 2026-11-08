@@ -121,10 +121,10 @@
       </section>
 
       <section class="section">
-        <div class="wrap prose">
+        <div class="wrap">
           <p class="section-label">Host</p>
           <h2>What is Amp?</h2>
-          <p>
+          <p class="section-copy">
             <strong>Amp</strong> is a frontier coding agent for terminal, editor,
             and orbs. Plugins are TypeScript or JavaScript modules that add
             tools, commands, events, UI, and skills.
@@ -230,14 +230,22 @@
       <section class="section">
         <div class="wrap">
           <p class="section-label">FAQ</p>
-          <h2 class="section-center">Amp plugin questions</h2>
+          <h2>Amp plugin questions</h2>
           <div class="faq">
             <details>
-              <summary>What is an Amp plugin?</summary>
+              <summary>amp plugins add failed — what now?</summary>
               <p>
-                A TypeScript or JavaScript module Amp loads to register tools,
-                commands, events, UI, or skills. See
-                <a href="/guides/what-is-an-amp-plugin/">What is an Amp plugin</a>.
+                Check the URL/package, auth, and install target, then verify with
+                <span class="acronym">amp plugins list</span>. Guide:
+                <a href="/guides/fix-amp-plugins-add-failed/">amp plugins add failed</a>.
+              </p>
+            </details>
+            <details>
+              <summary>amp: command not found</summary>
+              <p>
+                The shell cannot find the Amp CLI — fix install or PATH before any
+                plugin command.
+                <a href="/guides/fix-amp-command-not-found/">Fix command not found</a>.
               </p>
             </details>
             <details>
@@ -245,7 +253,26 @@
               <p>
                 Prefer <span class="acronym">amp plugins add &lt;url&gt;</span> for
                 machine-local installs, or import a Share URL in a thread. Guide:
-                <a href="/guides/how-to-install-amp-plugin/">How to install</a>.
+                <a href="/guides/how-to-install-amp-plugin/">How to install</a>
+                · command page:
+                <a href="/guides/amp-plugins-add/">amp plugins add</a>.
+              </p>
+            </details>
+            <details>
+              <summary>Installed but not showing?</summary>
+              <p>
+                List, reload, then check scope and surface.
+                <a href="/guides/fix-amp-plugin-not-showing/">Not showing</a>
+                · hub:
+                <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot</a>.
+              </p>
+            </details>
+            <details>
+              <summary>What is an Amp plugin?</summary>
+              <p>
+                A TypeScript or JavaScript module Amp loads to register tools,
+                commands, events, UI, or skills. See
+                <a href="/guides/what-is-an-amp-plugin/">What is an Amp plugin</a>.
               </p>
             </details>
             <details>
@@ -294,16 +321,16 @@
       </section>
 
       <section class="section section-alt">
-        <div class="wrap prose">
+        <div class="wrap">
           <p class="section-label">Trust</p>
           <h2>Updated with intent. Always sourced.</h2>
-          <p>
+          <p class="section-copy">
             Updated regularly. Human-reviewed when marked verified. Every entry
             links back to its source. Detail pages are independent rewrites.
           </p>
-          <p class="section-label" style="margin-top: 2rem">Why we exist</p>
+          <p class="section-label" style="margin-top: 2.75rem">Why we exist</p>
           <h2>Amp builds the agent. We index the community layer.</h2>
-          <p>
+          <p class="section-copy">
             Amp ships the plugin API and sharing flows. It does not run a public
             community plugin directory for SEO and discovery. We collect,
             categorize, and document community Amp plugins so people can find and

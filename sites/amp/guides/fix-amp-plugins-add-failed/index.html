@@ -4,11 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>amp plugins add failed — common fixes | Amp Plugin Market</title>
-    <meta name="description" content="Troubleshoot amp plugins add failures: bad URL, auth, network, or invalid plugin package." />
+    <meta
+      name="description"
+      content="Fix amp plugins add failures: bad URL, private repo, auth, wrong target, or invalid plugin package. Verify with amp plugins list."
+    />
     <link rel="canonical" href="https://amp.aiaaii.com/guides/fix-amp-plugins-add-failed/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/favicon.svg" />
-        <script>
+    <script>
       (function () {
         try {
           var k = "aiaaii-theme";
@@ -30,7 +33,10 @@
     <div class="page-shell">
       <div class="wrap-wide">
         <div class="site-header">
-          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <a class="brand" href="/"
+            ><span class="brand-name">Amp Plugin Market</span
+            ><span class="brand-domain">amp.aiaaii.com</span></a
+          >
           <div class="header-end">
             <nav class="nav" aria-label="Primary">
               <a href="https://aiaaii.com/">Home</a>
@@ -47,26 +53,173 @@
       <header class="page-hero">
         <div class="wrap">
           <h1>amp plugins add failed</h1>
-          <p>When the install command errors before the plugin appears in the list.</p>
+          <p>The Amp CLI ran, but install aborted before the plugin was registered.</p>
         </div>
       </header>
     </div>
     <main class="section">
-      <div class="wrap prose">
+      <div class="wrap prose guide-doc">
+        <p>
+          Use this page when you can run <code>amp</code>, but
+          <span class="acronym">amp plugins add</span> exits with an error, hangs on fetch, or
+          returns without listing the plugin afterward. If the shell says the command itself is
+          missing, start with
+          <a href="/guides/fix-amp-command-not-found/">amp: command not found</a> instead.
+        </p>
+
+        <div class="guide-symptom">
+          <span class="label">Typical messages</span>
+          <code>amp plugins add …</code>
+          <code>error: failed to fetch / 404 / not found</code>
+          <code>permission denied · authentication required · private repository</code>
+          <p>
+            Exact wording varies by Amp version. Treat any non-zero exit, or a success message that
+            is not followed by the plugin in <code>amp plugins list</code>, as an add failure.
+          </p>
+        </div>
+
+        <h2>Shortest path that usually works</h2>
         <ol class="steps">
-          <li>Re-check the URL — it must be a public Git repo or a documented package the Amp CLI accepts.</li>
-          <li>Clone or open the URL in a browser; 404 means the add will fail.</li>
-          <li>Confirm you are signed in to Amp and the CLI version is current.</li>
-          <li>Retry with a known-good listing from <a href="/items/">the directory</a>.</li>
-          <li>If add succeeds but nothing loads, see <a href="/guides/fix-amp-plugin-not-showing/">plugin not showing</a>.</li>
+          <li>
+            Confirm the CLI is alive in a fresh terminal:
+            <div class="install-block"><span class="label">Check</span><code>amp --version</code></div>
+          </li>
+          <li>
+            Open the install target in a browser. Prefer a listing from
+            <a href="/items/">the Amp directory</a> so you copy a known-good URL or package id —
+            for example
+            <a href="/items/ampcode/finder/">@amp/finder</a>.
+          </li>
+          <li>
+            Install with the documented CLI form:
+            <div class="install-block">
+              <span class="label">Machine-wide</span>
+              <code>amp plugins add @amp/finder</code>
+            </div>
+            Or for the current project’s <code>.amp/plugins/</code>:
+            <div class="install-block">
+              <span class="label">Project</span>
+              <code>amp plugins add @amp/finder --target workspace</code>
+            </div>
+          </li>
+          <li>
+            Verify registration:
+            <div class="install-block"><span class="label">Verify</span><code>amp plugins list</code></div>
+          </li>
+          <li>
+            If the plugin lists but tools or modes stay empty, leave this page and follow
+            <a href="/guides/fix-amp-plugin-not-showing/">installed but not showing</a>
+            (<span class="acronym">plugins: reload</span> / surface checks).
+          </li>
         </ol>
-        <h2>Still stuck</h2>
-        <p>Use the general <a href="/guides/how-to-troubleshoot-amp-plugins/">troubleshoot guide</a> for load-order and conflict isolation.</p>
-        <p class="source-line">Independent rewrite · Updated 2026-11-01 · Not affiliated with Amp</p>
+
+        <h2>Failure branches</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>URL or package id is wrong</strong>
+            <p>
+              A GitHub tree page, README blob, or private gist often 404s for the CLI. Use the
+              install string from the listing (package id like <code>@amp/…</code>, raw single-file
+              URL, or Share URL Amp documents). Open it in a logged-out browser window before
+              retrying.
+            </p>
+          </li>
+          <li>
+            <strong>Auth / private source</strong>
+            <p>
+              Private repos need credentials the Amp CLI can use. Sign in to Amp first; do not paste
+              a personal access token into a public thread. If the source must stay private, install
+              via a Share URL into personal plugins, or copy a reviewed <code>.ts</code> /
+              directory into <code>~/.config/amp/plugins/</code> or <code>.amp/plugins/</code>.
+            </p>
+          </li>
+          <li>
+            <strong>Wrong install surface</strong>
+            <p>
+              <code>amp plugins add</code> without <code>--target workspace</code> installs for the
+              machine (system/personal path Amp uses for URL adds). Project-only work should use
+              <code>--target workspace</code> so files land under <code>.amp/plugins/</code>. Mixing
+              those scopes looks like “add failed” when you check the other location.
+            </p>
+          </li>
+          <li>
+            <strong>Package is not a loadable plugin</strong>
+            <p>
+              Amp expects a single-file <code>.ts</code>/<code>.js</code> or a directory with
+              <code>index.ts</code>/<code>index.js</code>. A skill-only repo, empty tree, or
+              oversized personal/workspace repository package can push successfully elsewhere and
+              still never appear in Settings. Prefer a known listing, then re-check
+              <code>amp plugins list</code>.
+            </p>
+          </li>
+          <li>
+            <strong>Network / proxy / TLS</strong>
+            <p>
+              Corporate proxies and TLS inspection break fetches. Retry on a clean network, or clone
+              the source locally and point Amp at a path Amp accepts for add / file drop. If
+              <code>amp --version</code> works but every remote add fails, the problem is fetch, not
+              the plugin id.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Success criteria</h2>
+        <ul>
+          <li><code>amp plugins add …</code> exits without an error.</li>
+          <li><code>amp plugins list</code> shows the plugin name and source.</li>
+          <li>
+            After <span class="acronym">plugins: reload</span> (command palette, Ctrl+O) or a
+            restart, the tools / commands / modes the author documents are available in the Amp
+            surface you use.
+          </li>
+        </ul>
+
+        <h2>Related guides</h2>
+        <ul class="guide-related">
+          <li>
+            <a href="/guides/amp-plugins-add/">amp plugins add</a>
+            <span>Command reference and flags</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-install-amp-plugin/">How to install an Amp plugin</a>
+            <span>CLI, Share URL, and directory drop</span>
+          </li>
+          <li>
+            <a href="/guides/fix-amp-plugin-not-showing/">Installed but not showing</a>
+            <span>Add succeeded; UI still empty</span>
+          </li>
+          <li>
+            <a href="/items/ampcode/finder/">Example plugin: @amp/finder</a>
+            <span>Known install string from this directory</span>
+          </li>
+        </ul>
+
+        <div class="guide-cta">
+          <p>
+            Pick a listed plugin and retry install with its exact CLI block — start from the
+            directory rather than a random GitHub search result.
+          </p>
+          <a href="/items/">Browse Amp plugins →</a>
+        </div>
+
+        <p class="source-line">
+          Source:
+          <a href="https://ampcode.com/docs/customize/plugins" rel="noopener noreferrer"
+            >Amp Docs — Plugins</a
+          >
+          · Independent rewrite · Updated 2026-11-08 · Not affiliated with Amp
+        </p>
         <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot hub</a></p>
       </div>
     </main>
-    <footer class="site-footer"><div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp / Sourcegraph · <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></p></div></footer>
-      <script src="/theme.js" defer></script>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <p>
+          amp.aiaaii.com · Not affiliated with Amp ·
+          <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+        </p>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

@@ -4,11 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>plugins: reload — refresh Amp plugins without restart | Amp Plugin Market</title>
-    <meta name="description" content="Use the Amp command palette plugins: reload after amp plugins add or local edits." />
+    <meta
+      name="description"
+      content="Use Amp command palette plugins: reload after amp plugins add or local plugin edits. Pair with amp plugins list."
+    />
     <link rel="canonical" href="https://amp.aiaaii.com/guides/amp-plugins-reload/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/favicon.svg" />
-        <script>
+    <script>
       (function () {
         try {
           var k = "aiaaii-theme";
@@ -30,7 +33,10 @@
     <div class="page-shell">
       <div class="wrap-wide">
         <div class="site-header">
-          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <a class="brand" href="/"
+            ><span class="brand-name">Amp Plugin Market</span
+            ><span class="brand-domain">amp.aiaaii.com</span></a
+          >
           <div class="header-end">
             <nav class="nav" aria-label="Primary">
               <a href="https://aiaaii.com/">Home</a>
@@ -47,24 +53,146 @@
       <header class="page-hero">
         <div class="wrap">
           <h1>plugins: reload</h1>
-          <p>Command-palette action to reload Amp plugins after install or edit.</p>
+          <p>Command-palette action to reload Amp plugins after install or local edits.</p>
         </div>
       </header>
     </div>
     <main class="section">
-      <div class="wrap prose">
+      <div class="wrap prose guide-doc">
+        <p>
+          Search this when you just ran <span class="acronym">amp plugins add</span>, dropped a file
+          into <code>.amp/plugins/</code>, or edited a plugin and the current Amp session still
+          behaves like the old code. This page is only about
+          <strong>refreshing the running session</strong>. To inspect registration, use
+          <a href="/guides/amp-plugins-list/">amp plugins list</a>.
+        </p>
+
+        <div class="guide-symptom">
+          <span class="label">Palette action</span>
+          <code>plugins: reload</code>
+          <p>
+            Open the Amp command palette with <strong>Ctrl+O</strong>, type
+            <code>plugins: reload</code>, run it. Sibling action:
+            <span class="acronym">plugins: list</span> for an in-product view.
+          </p>
+        </div>
+
+        <h2>Shortest success path</h2>
         <ol class="steps">
-          <li>Open the Amp command palette.</li>
-          <li>Run <span class="acronym">plugins: reload</span>.</li>
-          <li>Retry the plugin’s command or tool.</li>
-          <li>If nothing changes, restart Amp, then run <span class="acronym">amp plugins list</span>.</li>
+          <li>Finish the install or save the plugin file you changed.</li>
+          <li>
+            In Amp, press <strong>Ctrl+O</strong> and run
+            <span class="acronym">plugins: reload</span>.
+          </li>
+          <li>Retry the plugin’s tool, command, or mode in the same thread (or a new one if the author requires it).</li>
+          <li>
+            Confirm with the shell when unsure:
+            <div class="install-block"><span class="label">Verify</span><code>amp plugins list</code></div>
+          </li>
+          <li>
+            Still stale? Restart Amp once, then reload again. If the plugin never appears in list,
+            the problem is install/scope — not reload.
+          </li>
         </ol>
-        <p>Pair with <a href="/guides/amp-plugins-add/">amp plugins add</a> after every new install.</p>
-        <p class="source-line">Independent rewrite · Updated 2026-11-01 · Not affiliated with Amp</p>
+
+        <h2>When reload is the right tool</h2>
+        <ul>
+          <li>After <a href="/guides/amp-plugins-add/">amp plugins add</a> when tools stay empty.</li>
+          <li>After editing <code>.amp/plugins/*.ts</code> or a directory plugin’s <code>index.ts</code>.</li>
+          <li>After Amp finishes a personal/workspace Share import and asks you to pick up changes.</li>
+        </ul>
+        <p>
+          Reload does not download updates by itself. For version bumps and import refresh, see
+          <a href="/guides/how-to-update-amp-plugins/">how to update Amp plugins</a>.
+        </p>
+
+        <h2>Failure branches</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>Nothing to reload (never installed)</strong>
+            <p>
+              <code>amp plugins list</code> missing the name means add or file drop never
+              registered. Fix via
+              <a href="/guides/fix-amp-plugins-add-failed/">add failed</a> or
+              <a href="/guides/how-to-install-amp-plugin/">install</a> — reload cannot invent a
+              plugin.
+            </p>
+          </li>
+          <li>
+            <strong>Reload runs, UI still empty</strong>
+            <p>
+              Wrong surface (looking for a mode when the plugin only registers a tool), precedence
+              collision, or hosted-repo size limits. Follow
+              <a href="/guides/fix-amp-plugin-not-showing/">not showing</a>.
+            </p>
+          </li>
+          <li>
+            <strong>Old code still executes after edit</strong>
+            <p>
+              You may be editing a non-winning copy. List the source path Amp loaded, edit that
+              path, reload again. Restart Amp if the session cached a prior build.
+            </p>
+          </li>
+          <li>
+            <strong>Palette command missing</strong>
+            <p>
+              Confirm you are in an Amp surface that exposes the command palette (Ctrl+O). Asking
+              Amp in-thread to “reload plugins” is also documented by Amp as a valid path when the
+              palette is awkward.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Success criteria</h2>
+        <ul>
+          <li><span class="acronym">plugins: reload</span> completes without an error toast.</li>
+          <li>New or edited tools / commands / modes become usable in the session.</li>
+          <li><code>amp plugins list</code> still shows the plugin afterward.</li>
+        </ul>
+
+        <h2>Related guides</h2>
+        <ul class="guide-related">
+          <li>
+            <a href="/guides/amp-plugins-list/">amp plugins list</a>
+            <span>Inspect registration (do not conflate with reload)</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-reload-and-list-plugins/">How to reload and list</a>
+            <span>Combined verify walkthrough</span>
+          </li>
+          <li>
+            <a href="/guides/amp-plugins-add/">amp plugins add</a>
+            <span>Install first, then reload</span>
+          </li>
+          <li>
+            <a href="/items/ampcode/oracle/">@amp/oracle</a>
+            <span>Small listing to practice add → reload → list</span>
+          </li>
+        </ul>
+
+        <div class="guide-cta">
+          <p>Practice on a known directory plugin so you can tell “needs reload” from “bad package.”</p>
+          <a href="/items/">Browse Amp plugins →</a>
+        </div>
+
+        <p class="source-line">
+          Source:
+          <a href="https://ampcode.com/docs/customize/plugins" rel="noopener noreferrer"
+            >Amp Docs — Plugins</a
+          >
+          · Independent rewrite · Updated 2026-11-08 · Not affiliated with Amp
+        </p>
         <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot hub</a></p>
       </div>
     </main>
-    <footer class="site-footer"><div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp / Sourcegraph · <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></p></div></footer>
-      <script src="/theme.js" defer></script>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <p>
+          amp.aiaaii.com · Not affiliated with Amp ·
+          <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+        </p>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

@@ -4,11 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>How to develop an Amp plugin | Amp Plugin Market</title>
-    <meta name="description" content="Start building an Amp plugin with the Amp Plugin API and kitchen-sink example." />
+    <meta
+      name="description"
+      content="Build a minimal Amp plugin: default-export PluginAPI entry, drop into .amp/plugins/, reload, then read the official Plugin API. Not a full API book."
+    />
     <link rel="canonical" href="https://amp.aiaaii.com/guides/how-to-develop-an-amp-plugin/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/favicon.svg" />
-        <script>
+    <script>
       (function () {
         try {
           var k = "aiaaii-theme";
@@ -30,9 +33,17 @@
     <div class="page-shell">
       <div class="wrap-wide">
         <div class="site-header">
-          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
-                    <div class="header-end">
-            <nav class="nav"><a href="https://aiaaii.com/">Home</a><a href="/guides/">Guides</a><a href="/submit/">Submit</a></nav>
+          <a class="brand" href="/"
+            ><span class="brand-name">Amp Plugin Market</span
+            ><span class="brand-domain">amp.aiaaii.com</span></a
+          >
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+              <a href="https://aiaaii.com/">Home</a>
+              <a href="/items/">Plugins</a>
+              <a href="/guides/">Guides</a>
+              <a href="/submit/">Submit</a>
+            </nav>
             <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
               <span class="theme-toggle-icon" aria-hidden="true"></span>
             </button>
@@ -42,27 +53,207 @@
       <header class="page-hero">
         <div class="wrap">
           <h1>How to develop an Amp plugin</h1>
-          <p>Author against Amp’s Plugin API, then list on this market.</p>
+          <p>Minimal runnable skeleton, then the official Plugin API — not a mirrored long book.</p>
         </div>
       </header>
     </div>
     <main class="section">
-      <div class="wrap prose">
+      <div class="wrap prose guide-doc">
+        <p>
+          Use this when you want to author a plugin, not just install one. Goal: a file Amp loads,
+          a reload that picks it up, and a pointer to Amp’s API reference for everything beyond the
+          skeleton. Concepts first?
+          <a href="/guides/what-is-an-amp-plugin/">What is an Amp plugin</a>.
+        </p>
+
+        <div class="guide-symptom">
+          <span class="label">Prerequisites</span>
+          <code>amp --version</code>
+          <p>
+            Amp CLI or app that can open a project; willingness to run third-party-shaped code on
+            your machine (your own code counts). Amp also ships a built-in skill that can help write
+            plugins — ask Amp if you prefer that path.
+          </p>
+        </div>
+
+        <h2>Shortest success path</h2>
         <ol class="steps">
-          <li>Read the <a href="https://ampcode.com/docs/plugin-api" rel="noopener noreferrer">Plugin API</a> and kitchen-sink example.</li>
-          <li>Create <span class="acronym">.amp/plugins/my-plugin.ts</span> (or a folder with supporting files).</li>
-          <li>Register only what you need: tools, commands, events, UI, skills.</li>
-          <li><a href="/guides/how-to-reload-and-list-plugins/">Reload and list</a>; exercise the happy path.</li>
-          <li>Publish a public repo or Share URL, then <a href="/submit/">Submit</a> to amp.aiaaii.com.</li>
+          <li>
+            Skim the official
+            <a href="https://ampcode.com/docs/plugin-api" rel="noopener noreferrer">Plugin API</a>
+            and Amp’s
+            <a href="https://ampcode.com/docs/customize/plugins" rel="noopener noreferrer"
+              >Plugins</a
+            >
+            guide so you know tools vs commands vs events.
+          </li>
+          <li>
+            Create a single-file plugin in the project load path:
+            <div class="install-block">
+              <span class="label">Path</span>
+              <code>.amp/plugins/hello-amp.ts</code>
+            </div>
+          </li>
+          <li>
+            Use Amp’s documented entry shape (types from <code>@ampcode/plugin</code>):
+            <div class="install-block">
+              <span class="label">Minimal entry</span>
+              <pre><code>import type { PluginAPI } from '@ampcode/plugin'
+
+export default function (amp: PluginAPI) {
+  amp.logger.log('hello-amp loaded')
+}</code></pre>
+            </div>
+          </li>
+          <li>
+            Reload and confirm:
+            command palette <strong>Ctrl+O</strong> →
+            <span class="acronym">plugins: reload</span>, then
+            <div class="install-block"><span class="label">Verify</span><code>amp plugins list</code></div>
+            Details:
+            <a href="/guides/how-to-reload-and-list-plugins/">reload and list</a>.
+          </li>
+          <li>
+            Add one real capability next (a command or tool) using samples from the Plugin API docs —
+            do not invent undocumented APIs here.
+          </li>
         </ol>
-        <h2>Success</h2>
-        <p>Plugin loads locally; README states install and trust notes.</p>
-        <h2>If it fails</h2>
-        <p>API mismatch → check Amp version. Want distribution → use personal plugin repo / Share flow Amp documents.</p>
-        <p class="source-line">Source: <a href="https://ampcode.com/docs/plugin-api" rel="noopener noreferrer">Amp Plugin API</a> · Updated 2026-10-22</p>
+
+        <h2>Single-file vs directory plugin</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>Single file</strong>
+            <p>
+              A <code>.ts</code> or <code>.js</code> directly under a plugin location. Fastest local
+              loop. Good for experiments and tiny tools.
+            </p>
+          </li>
+          <li>
+            <strong>Directory plugin</strong>
+            <p>
+              Folder with <code>index.ts</code> (or <code>index.js</code>; Amp prefers
+              <code>index.ts</code> if both exist) plus relative imports. Use this when you need
+              helpers, prompts, or bundled skills.
+            </p>
+          </li>
+          <li>
+            <strong>Bundled skills</strong>
+            <p>
+              Put a skill directory with <code>SKILL.md</code> under the plugin and call
+              <code>await amp.registerSkill({ path: 'skills/…' })</code>. Amp does not auto-scan
+              <code>skills/</code>. Full rules live in Amp’s Plugins doc — keep this page short.
+            </p>
+          </li>
+        </ul>
+
+        <h2>After it loads locally</h2>
+        <ol class="steps">
+          <li>Write a short README: what it does, install path, trust notes.</li>
+          <li>
+            Distribute the way Amp documents for your audience: project dir, Share URL into personal
+            plugins, or <a href="/guides/amp-plugins-add/">amp plugins add</a> for a fetchable
+            single-file URL / package id.
+          </li>
+          <li>
+            Optional: list on this community market via
+            <a href="/submit/">Submit</a> so installers can copy a real command block.
+          </li>
+        </ol>
+
+        <h2>Failure branches</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>File saved, list empty</strong>
+            <p>
+              Wrong directory (not under <code>.amp/plugins/</code> or another Amp load path), or
+              forgot reload. Follow
+              <a href="/guides/fix-amp-plugin-not-showing/">not showing</a>.
+            </p>
+          </li>
+          <li>
+            <strong>Types / API mismatch</strong>
+            <p>
+              Align with your Amp version and the current
+              <a href="https://ampcode.com/docs/plugin-api" rel="noopener noreferrer">Plugin API</a>.
+              Prefer Amp’s kitchen-sink / examples over blog copies.
+            </p>
+          </li>
+          <li>
+            <strong>Skill folder present but unused</strong>
+            <p>
+              Missing <code>registerSkill</code> call, or frontmatter <code>name</code> ≠ directory
+              name. Fix registration; do not expect auto-discovery.
+            </p>
+          </li>
+          <li>
+            <strong>Trying to ship a novel mode without reading mode docs</strong>
+            <p>
+              Custom agent modes are an advanced Plugin API surface. Start with a tool or command
+              plugin; graduate to modes only with Amp’s current examples.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Success criteria</h2>
+        <ul>
+          <li><code>amp plugins list</code> shows your plugin name/source after reload.</li>
+          <li>One registered tool or command behaves as you expect in a thread.</li>
+          <li>
+            You know where to deepen: official Plugin API — not this market’s guide as the API
+            source of truth.
+          </li>
+        </ul>
+
+        <h2>Related guides</h2>
+        <ul class="guide-related">
+          <li>
+            <a href="/guides/what-is-an-amp-plugin/">What is an Amp plugin</a>
+            <span>Plugin vs skill vs mode</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-install-amp-plugin/">How to install</a>
+            <span>How others will load your work</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-reload-and-list-plugins/">Reload and list</a>
+            <span>Local verify loop</span>
+          </li>
+          <li>
+            <a href="https://ampcode.com/docs/plugin-api" rel="noopener noreferrer">Amp Plugin API</a>
+            <span>Authoritative reference (external)</span>
+          </li>
+        </ul>
+
+        <div class="guide-cta">
+          <p>
+            When the local plugin is solid, compare install UX against listings in the directory —
+            then submit if you want discovery here.
+          </p>
+          <a href="/items/">Browse Amp plugins →</a>
+          ·
+          <a href="/submit/">Submit a listing</a>
+        </div>
+
+        <p class="source-line">
+          Source:
+          <a href="https://ampcode.com/docs/plugin-api" rel="noopener noreferrer">Amp Plugin API</a>
+          ·
+          <a href="https://ampcode.com/docs/customize/plugins" rel="noopener noreferrer"
+            >Amp Docs — Plugins</a
+          >
+          · Independent rewrite · Updated 2026-11-08 · Not affiliated with Amp
+        </p>
+        <p><a href="/guides/">← Guides</a> · <a href="/submit/">Submit</a></p>
       </div>
     </main>
-    <footer class="site-footer"><div class="wrap-wide"><p>Not affiliated with Amp</p></div></footer>
-      <script src="/theme.js" defer></script>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <p>
+          amp.aiaaii.com · Not affiliated with Amp ·
+          <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+        </p>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

@@ -4,11 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>amp plugins list — see installed Amp plugins | Amp Plugin Market</title>
-    <meta name="description" content="How to run amp plugins list and read project vs personal plugin precedence." />
+    <meta
+      name="description"
+      content="Run amp plugins list to see loaded Amp plugins, sources, and precedence. Distinct from plugins: reload."
+    />
     <link rel="canonical" href="https://amp.aiaaii.com/guides/amp-plugins-list/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/favicon.svg" />
-        <script>
+    <script>
       (function () {
         try {
           var k = "aiaaii-theme";
@@ -30,7 +33,10 @@
     <div class="page-shell">
       <div class="wrap-wide">
         <div class="site-header">
-          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <a class="brand" href="/"
+            ><span class="brand-name">Amp Plugin Market</span
+            ><span class="brand-domain">amp.aiaaii.com</span></a
+          >
           <div class="header-end">
             <nav class="nav" aria-label="Primary">
               <a href="https://aiaaii.com/">Home</a>
@@ -47,25 +53,156 @@
       <header class="page-hero">
         <div class="wrap">
           <h1>amp plugins list</h1>
-          <p>List installed Amp plugins and check which scope won.</p>
+          <p>Shell command to inspect what Amp loaded — sources, tools, and which scope won.</p>
         </div>
       </header>
     </div>
     <main class="section">
-      <div class="wrap prose">
-        <div class="install-block"><span class="label">CLI</span><code>amp plugins list</code></div>
+      <div class="wrap prose guide-doc">
+        <p>
+          Use this page when you need evidence that a plugin is registered, which directory or repo
+          it came from, and whether another copy is winning on precedence. This is the
+          <strong>inspect</strong> command. To refresh after an edit or install, use
+          <a href="/guides/amp-plugins-reload/">plugins: reload</a> instead — do not paste the same
+          walkthrough on both pages.
+        </p>
+
+        <div class="guide-symptom">
+          <span class="label">Command</span>
+          <code>amp plugins list</code>
+          <p>
+            In-product twin: command palette <strong>Ctrl+O</strong> →
+            <span class="acronym">plugins: list</span>. Prefer the shell form when you want a
+            copyable audit trail.
+          </p>
+        </div>
+
+        <h2>Shortest success path</h2>
         <ol class="steps">
-          <li>Open a terminal where the Amp CLI works.</li>
-          <li>Run <span class="acronym">amp plugins list</span>.</li>
-          <li>Note whether each plugin is project, system, personal, or workspace scoped — project usually wins.</li>
-          <li>If a plugin is missing after install, go to <a href="/guides/fix-amp-plugin-not-showing/">not showing</a>.</li>
+          <li>
+            Open a terminal where Amp’s CLI works:
+            <div class="install-block"><span class="label">Check</span><code>amp --version</code></div>
+          </li>
+          <li>
+            List loaded plugins:
+            <div class="install-block"><span class="label">CLI</span><code>amp plugins list</code></div>
+          </li>
+          <li>
+            For each entry, note name, source path or repository, and registered tools / commands /
+            events when Amp prints them.
+          </li>
+          <li>
+            Compare against the listing you meant to install (example:
+            <a href="/items/ampcode/finder/">@amp/finder</a>). If the name is absent, go back to
+            <a href="/guides/how-to-install-amp-plugin/">install</a> or
+            <a href="/guides/fix-amp-plugins-add-failed/">add failed</a>.
+          </li>
+          <li>
+            If the name is present but the UI is empty, leave this page and follow
+            <a href="/guides/fix-amp-plugin-not-showing/">not showing</a> (reload + surface).
+          </li>
         </ol>
-        <p>Also see <a href="/guides/how-to-reload-and-list-plugins/">reload and list</a> for the command-palette path.</p>
-        <p class="source-line">Independent rewrite · Updated 2026-11-01 · Not affiliated with Amp</p>
+
+        <h2>How to read the output</h2>
+        <p>
+          Amp loads plugins from personal, workspace, project (<code>.amp/plugins/</code>), and
+          system (<code>~/.config/amp/plugins/</code> or Windows equivalent) locations. When two
+          plugins share a name, precedence is
+          <strong>project → system → personal → workspace</strong>. A “missing” personal plugin is
+          often a same-named stub in the project directory winning the race.
+        </p>
+
+        <h2>Failure branches</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>amp: command not found</strong>
+            <p>
+              PATH / install problem —
+              <a href="/guides/fix-amp-command-not-found/">fix guide</a>. List cannot run until the
+              CLI resolves.
+            </p>
+          </li>
+          <li>
+            <strong>Empty list after a successful-looking add</strong>
+            <p>
+              Wrong scope (machine vs <code>--target workspace</code>), failed fetch that looked
+              quiet, or you are in a different project directory than the one you installed into.
+              Re-run add from
+              <a href="/guides/amp-plugins-add/">amp plugins add</a>, then list again from the same
+              cwd you care about.
+            </p>
+          </li>
+          <li>
+            <strong>Listed, but wrong source path</strong>
+            <p>
+              Precedence hid the copy you edited. Move or rename the winning stub, reload, then
+              list again. Details on
+              <a href="/guides/fix-amp-plugin-not-showing/">not showing</a>.
+            </p>
+          </li>
+          <li>
+            <strong>Palette list and shell list disagree</strong>
+            <p>
+              The shell reflects the CLI process environment; the palette reflects the Amp session
+              you opened. Reload that session, or restart Amp, then compare both. See the combined
+              walkthrough:
+              <a href="/guides/how-to-reload-and-list-plugins/">reload and list</a>.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Success criteria</h2>
+        <ul>
+          <li><code>amp plugins list</code> runs without error.</li>
+          <li>The expected plugin name appears with a source you recognize.</li>
+          <li>You can decide the next step: install, reload, or stop chasing a missing UI entry.</li>
+        </ul>
+
+        <h2>Related guides</h2>
+        <ul class="guide-related">
+          <li>
+            <a href="/guides/amp-plugins-reload/">plugins: reload</a>
+            <span>Refresh after install or file edits</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-reload-and-list-plugins/">How to reload and list</a>
+            <span>End-to-end verify flow (links both commands)</span>
+          </li>
+          <li>
+            <a href="/guides/fix-amp-plugin-not-showing/">Installed but not showing</a>
+            <span>Listed in CLI, missing in UI</span>
+          </li>
+          <li>
+            <a href="/items/">Amp plugin directory</a>
+            <span>Known names to look for in the list</span>
+          </li>
+        </ul>
+
+        <div class="guide-cta">
+          <p>
+            After list looks clean, pick a directory plugin and confirm its tools appear post-reload.
+          </p>
+          <a href="/items/">Browse Amp plugins →</a>
+        </div>
+
+        <p class="source-line">
+          Source:
+          <a href="https://ampcode.com/docs/customize/plugins" rel="noopener noreferrer"
+            >Amp Docs — Plugins</a
+          >
+          · Independent rewrite · Updated 2026-11-08 · Not affiliated with Amp
+        </p>
         <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot hub</a></p>
       </div>
     </main>
-    <footer class="site-footer"><div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp / Sourcegraph · <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></p></div></footer>
-      <script src="/theme.js" defer></script>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <p>
+          amp.aiaaii.com · Not affiliated with Amp ·
+          <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+        </p>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

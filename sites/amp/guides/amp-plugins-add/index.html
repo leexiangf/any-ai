@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>amp plugins add — install an Amp plugin | Amp Plugin Market</title>
-    <meta name="description" content="How to use amp plugins add with a Git URL or package. Real CLI install for Amp plugins." />
+    <title>amp plugins add — install an Amp plugin from the CLI | Amp Plugin Market</title>
+    <meta
+      name="description"
+      content="How to use amp plugins add with a package id or URL, --target workspace, and --auto-update. Verify with amp plugins list."
+    />
     <link rel="canonical" href="https://amp.aiaaii.com/guides/amp-plugins-add/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/favicon.svg" />
-        <script>
+    <script>
       (function () {
         try {
           var k = "aiaaii-theme";
@@ -30,7 +33,10 @@
     <div class="page-shell">
       <div class="wrap-wide">
         <div class="site-header">
-          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <a class="brand" href="/"
+            ><span class="brand-name">Amp Plugin Market</span
+            ><span class="brand-domain">amp.aiaaii.com</span></a
+          >
           <div class="header-end">
             <nav class="nav" aria-label="Primary">
               <a href="https://aiaaii.com/">Home</a>
@@ -47,29 +53,182 @@
       <header class="page-hero">
         <div class="wrap">
           <h1>amp plugins add</h1>
-          <p>Primary CLI command to install an Amp plugin on your machine.</p>
+          <p>Primary CLI command to install a single-file Amp plugin from a URL or package id.</p>
         </div>
       </header>
     </div>
     <main class="section">
-      <div class="wrap prose">
-        <p>Use <span class="acronym">amp plugins add</span> when you have a public plugin URL (GitHub repo or documented package). Prefer this over vague “import somehow” advice.</p>
-        <div class="install-block"><span class="label">CLI</span><code>amp plugins add &lt;url-or-package&gt;</code></div>
-        <div class="install-block"><span class="label">Example</span><code>amp plugins add https://github.com/ampcode/oracle</code></div>
+      <div class="wrap prose guide-doc">
+        <p>
+          Searchers land here for the exact command word
+          <span class="acronym">amp plugins add</span>. Use it when you already have Amp’s CLI on
+          PATH and a trusted install string from a listing or Amp docs — not as a substitute for
+          “paste any GitHub repo.”
+        </p>
+
+        <div class="guide-symptom">
+          <span class="label">Command shape</span>
+          <code>amp plugins add &lt;url-or-package&gt;</code>
+          <code>amp plugins add &lt;url-or-package&gt; --target workspace</code>
+          <code>amp plugins add --auto-update @amp/&lt;name&gt;</code>
+          <p>
+            Amp documents URL add for single-file plugins available to projects on the machine;
+            <code>--target workspace</code> writes into the current project’s
+            <code>.amp/plugins/</code> instead.
+          </p>
+        </div>
+
+        <h2>Shortest success path</h2>
         <ol class="steps">
-          <li>Install and sign in to Amp so the <span class="acronym">amp</span> CLI is available.</li>
-          <li>Copy the install URL from the plugin’s listing or README.</li>
-          <li>Run <span class="acronym">amp plugins add</span> with that URL.</li>
-          <li>Reload plugins (<span class="acronym">plugins: reload</span> in the command palette) if the new tools do not appear.</li>
-          <li>Confirm with <span class="acronym">amp plugins list</span>.</li>
+          <li>
+            Confirm the CLI:
+            <div class="install-block"><span class="label">Check</span><code>amp --version</code></div>
+            Missing? See <a href="/guides/fix-amp-command-not-found/">amp: command not found</a>.
+          </li>
+          <li>
+            Copy an install string from
+            <a href="/items/">the directory</a> — example
+            <a href="/items/ampcode/finder/">@amp/finder</a>:
+            <div class="install-block">
+              <span class="label">CLI</span>
+              <code>amp plugins add @amp/finder</code>
+            </div>
+          </li>
+          <li>
+            For project-local install:
+            <div class="install-block">
+              <span class="label">Project</span>
+              <code>amp plugins add @amp/finder --target workspace</code>
+            </div>
+          </li>
+          <li>
+            Reload if the new tools do not appear: command palette <strong>Ctrl+O</strong> →
+            <span class="acronym">plugins: reload</span>.
+          </li>
+          <li>
+            Verify:
+            <div class="install-block"><span class="label">Verify</span><code>amp plugins list</code></div>
+          </li>
         </ol>
-        <h2>Related</h2>
-        <p><a href="/guides/how-to-install-amp-plugin/">Full install guide</a> · <a href="/guides/fix-amp-plugins-add-failed/">add failed?</a> · <a href="/guides/fix-amp-plugin-not-showing/">installed but not showing?</a></p>
-        <p class="source-line">Independent rewrite · Updated 2026-11-01 · Not affiliated with Amp</p>
+
+        <h2>What this command is for (and not)</h2>
+        <p>
+          <span class="acronym">amp plugins add</span> is the shell path for installing a
+          <strong>single-file</strong> plugin from a URL or package id Amp accepts. Many day-to-day
+          “personal plugin” workflows instead paste a Share URL into a thread and ask Amp to import
+          into personal plugins — that path is covered in
+          <a href="/guides/how-to-install-amp-plugin/">How to install an Amp plugin</a>.
+        </p>
+        <p>
+          Directory plugins (folder with <code>index.ts</code>) are often dropped into
+          <code>.amp/plugins/</code> or managed via personal/workspace repositories. Do not invent
+          extra flags beyond what Amp documents for your version.
+        </p>
+
+        <h2>Useful variants</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>Machine-wide URL / package add</strong>
+            <p>
+              Default <code>amp plugins add …</code> installs for all projects on the machine (Amp’s
+              documented single-file URL flow). Use a public, fetchable target.
+            </p>
+          </li>
+          <li>
+            <strong>--target workspace</strong>
+            <p>
+              Installs into the current project’s <code>.amp/plugins/</code>. Prefer this when the
+              plugin should travel with the repo rather than your laptop profile.
+            </p>
+          </li>
+          <li>
+            <strong>--auto-update with @amp/… packages</strong>
+            <p>
+              Amp publishes some installable packages (for example classic mode plugins) that accept
+              <code>--auto-update</code> so Amp can keep them current. Drop the flag if you need a
+              pin. Always copy the exact package id from Amp or from a listing you trust.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Failure branches</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>Command not found</strong>
+            <p>
+              Shell PATH issue — follow
+              <a href="/guides/fix-amp-command-not-found/">amp: command not found</a>.
+            </p>
+          </li>
+          <li>
+            <strong>Fetch / auth / invalid package</strong>
+            <p>
+              Non-zero exit or missing list entry — follow
+              <a href="/guides/fix-amp-plugins-add-failed/">amp plugins add failed</a>.
+            </p>
+          </li>
+          <li>
+            <strong>Add ok, UI empty</strong>
+            <p>
+              Reload and scope checks —
+              <a href="/guides/fix-amp-plugin-not-showing/">installed but not showing</a>.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Success criteria</h2>
+        <ul>
+          <li>The add command exits cleanly.</li>
+          <li><code>amp plugins list</code> includes the plugin.</li>
+          <li>
+            After reload, the plugin’s tools, commands, or modes appear where the author says they
+            should.
+          </li>
+        </ul>
+
+        <h2>Related guides</h2>
+        <ul class="guide-related">
+          <li>
+            <a href="/guides/how-to-install-amp-plugin/">How to install an Amp plugin</a>
+            <span>CLI + Share URL + directory drop</span>
+          </li>
+          <li>
+            <a href="/guides/amp-plugins-list/">amp plugins list</a>
+            <span>Confirm registration</span>
+          </li>
+          <li>
+            <a href="/guides/fix-amp-plugins-add-failed/">amp plugins add failed</a>
+            <span>When this command errors</span>
+          </li>
+          <li>
+            <a href="/items/ampcode/finder/">@amp/finder listing</a>
+            <span>Example install string from this market</span>
+          </li>
+        </ul>
+
+        <div class="guide-cta">
+          <p>Copy a real CLI block from a directory listing instead of guessing a GitHub URL.</p>
+          <a href="/items/">Browse Amp plugins →</a>
+        </div>
+
+        <p class="source-line">
+          Source:
+          <a href="https://ampcode.com/docs/customize/plugins" rel="noopener noreferrer"
+            >Amp Docs — Plugins</a
+          >
+          · Independent rewrite · Updated 2026-11-08 · Not affiliated with Amp
+        </p>
         <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot hub</a></p>
       </div>
     </main>
-    <footer class="site-footer"><div class="wrap-wide"><p>amp.aiaaii.com · Not affiliated with Amp / Sourcegraph · <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></p></div></footer>
-      <script src="/theme.js" defer></script>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <p>
+          amp.aiaaii.com · Not affiliated with Amp ·
+          <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+        </p>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

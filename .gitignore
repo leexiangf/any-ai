@@ -8,7 +8,8 @@ sites/*/.wrangler/
 建站获流轮子.md
 dsh-plugin-获流案例拆解.md
 .cursor/
-docs/internal/
+docs/
+ops/amp-guides-thicken.md
 
 # OS / editor
 .DS_Store

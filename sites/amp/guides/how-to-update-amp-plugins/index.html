@@ -4,11 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>How to update Amp plugins | Amp Plugin Market</title>
-    <meta name="description" content="Update Amp plugins with amp plugins update and Amp’s import update flow." />
+    <meta
+      name="description"
+      content="Update Amp plugins with amp plugins update, Share imports, and --auto-update boundaries. Reload after files change."
+    />
     <link rel="canonical" href="https://amp.aiaaii.com/guides/how-to-update-amp-plugins/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/favicon.svg" />
-        <script>
+    <script>
       (function () {
         try {
           var k = "aiaaii-theme";
@@ -30,9 +33,17 @@
     <div class="page-shell">
       <div class="wrap-wide">
         <div class="site-header">
-          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
-                    <div class="header-end">
-            <nav class="nav"><a href="https://aiaaii.com/">Home</a><a href="/guides/">Guides</a></nav>
+          <a class="brand" href="/"
+            ><span class="brand-name">Amp Plugin Market</span
+            ><span class="brand-domain">amp.aiaaii.com</span></a
+          >
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+              <a href="https://aiaaii.com/">Home</a>
+              <a href="/items/">Plugins</a>
+              <a href="/guides/">Guides</a>
+              <a href="/submit/">Submit</a>
+            </nav>
             <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
               <span class="theme-toggle-icon" aria-hidden="true"></span>
             </button>
@@ -42,29 +53,171 @@
       <header class="page-hero">
         <div class="wrap">
           <h1>How to update Amp plugins</h1>
-          <p>Keep imports and CLI installs current without silent overwrites.</p>
+          <p>Refresh imports and CLI installs without confusing update with reload or blind overwrite.</p>
         </div>
       </header>
     </div>
     <main class="section">
-      <div class="wrap prose">
+      <div class="wrap prose guide-doc">
+        <p>
+          Open this when a plugin already works and you need a newer upstream revision — not when
+          tools are simply stale in the current session. Session refresh is
+          <a href="/guides/amp-plugins-reload/">plugins: reload</a>. This page covers
+          <span class="acronym">amp plugins update</span>, Share-import refresh, and where
+          <code>--auto-update</code> applies.
+        </p>
+
+        <div class="guide-symptom">
+          <span class="label">Update-related commands</span>
+          <code>amp plugins update &lt;name&gt;</code>
+          <code>amp plugins import …</code>
+          <code>amp plugins add --auto-update @amp/&lt;name&gt;</code>
+          <p>
+            Amp also documents asking in-thread whether imported personal/workspace plugins are out
+            of date. Review diffs before you push hosted plugin repositories.
+          </p>
+        </div>
+
+        <h2>Shortest success path</h2>
         <ol class="steps">
-          <li>For CLI installs, ask Amp to check imports or run:</li>
+          <li>
+            Identify how the plugin was installed: CLI add, Share import into personal/workspace
+            repos, or a local directory drop. List first:
+            <div class="install-block"><span class="label">Inspect</span><code>amp plugins list</code></div>
+          </li>
+          <li>
+            For managed imports / named updates Amp exposes on the CLI:
+            <div class="install-block">
+              <span class="label">CLI</span>
+              <code>amp plugins update &lt;name&gt;</code>
+            </div>
+            Or ask Amp: “Check if any of my imported plugins are out of date.”
+          </li>
+          <li>Review the proposed change. On hosted personal/workspace repositories, confirm commit/push when Amp asks.</li>
+          <li>
+            Reload the session:
+            <span class="acronym">plugins: reload</span> (Ctrl+O), then re-list. Walkthrough:
+            <a href="/guides/how-to-reload-and-list-plugins/">reload and list</a>.
+          </li>
+          <li>Smoke-test the plugin feature you care about before closing the thread.</li>
         </ol>
-        <div class="install-block"><span class="label">CLI</span><code>amp plugins update &lt;name&gt;</code></div>
-        <ol class="steps" start="2">
-          <li>For personal/workspace imports, ask Amp: “Check if any of my imported plugins are out of date.”</li>
-          <li>Review the diff, then commit/push if you use hosted plugin repositories.</li>
-          <li><a href="/guides/how-to-reload-and-list-plugins/">Reload</a> after updating files.</li>
-        </ol>
-        <h2>Success</h2>
-        <p>Version or commit moves forward; plugin still lists cleanly.</p>
-        <h2>If it fails</h2>
-        <p>Conflicts on import → resolve manually in the plugin repo. Auto-update flags only apply where Amp documents them.</p>
-        <p class="source-line">Source: Amp Docs — Global Plugins &amp; Skills · Updated 2026-10-22</p>
+
+        <h2>Update vs reload vs re-add</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>Reload</strong>
+            <p>Same files, new session load. No upstream fetch. Use after local edits or a finished import.</p>
+          </li>
+          <li>
+            <strong>Update / import refresh</strong>
+            <p>
+              Pulls newer shared import content Amp manages via
+              <code>amp plugins update</code> / import flows. Still reload afterward.
+            </p>
+          </li>
+          <li>
+            <strong>Re-run amp plugins add</strong>
+            <p>
+              Useful for package ids and URL installs when update is not the documented path. Prefer
+              the listing’s install block from
+              <a href="/items/">the directory</a> over inventing flags.
+            </p>
+          </li>
+          <li>
+            <strong>--auto-update</strong>
+            <p>
+              Documented on some <code>@amp/…</code> packages (for example classic mode plugins Amp
+              publishes). It keeps those packages current when Amp updates them; omit the flag to
+              pin. It is not a global “update everything I ever installed” switch.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Failure branches</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>Update command errors or name unknown</strong>
+            <p>
+              Wrong install channel — a bare file in <code>.amp/plugins/</code> is not an import Amp
+              can update for you. Replace the file manually or re-add from the listing, then reload.
+            </p>
+          </li>
+          <li>
+            <strong>Import conflict / dirty plugin repo</strong>
+            <p>
+              Resolve the conflict in the personal or workspace plugin repository Amp cloned
+              (<code>amp plugins repositories</code> / clone helpers). Do not force-push unless you
+              own the repo and understand the impact on teammates.
+            </p>
+          </li>
+          <li>
+            <strong>Updated but behavior unchanged</strong>
+            <p>
+              Forgot reload, or precedence still serves an older project copy. List sources, then
+              follow <a href="/guides/fix-amp-plugin-not-showing/">not showing</a>.
+            </p>
+          </li>
+          <li>
+            <strong>Expecting --auto-update on a random Git URL</strong>
+            <p>
+              Only use <code>--auto-update</code> where Amp documents it for that package id. For
+              community listings, re-run the published
+              <a href="/guides/amp-plugins-add/">amp plugins add</a> string when you intentionally
+              want a newer fetch.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Success criteria</h2>
+        <ul>
+          <li>Upstream or import revision moved forward (or Amp reported already current).</li>
+          <li><code>amp plugins list</code> still shows a healthy registration after reload.</li>
+          <li>The feature you updated still matches the author’s current docs.</li>
+        </ul>
+
+        <h2>Related guides</h2>
+        <ul class="guide-related">
+          <li>
+            <a href="/guides/amp-plugins-add/">amp plugins add</a>
+            <span>Fresh install / re-add path</span>
+          </li>
+          <li>
+            <a href="/guides/amp-plugins-reload/">plugins: reload</a>
+            <span>Required after files change</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-install-amp-plugin/">How to install</a>
+            <span>If update is the wrong tool and you need a clean install path</span>
+          </li>
+          <li>
+            <a href="/items/ampcode/finder/">@amp/finder</a>
+            <span>Example package id from this market</span>
+          </li>
+        </ul>
+
+        <div class="guide-cta">
+          <p>Prefer listings with clear install strings when you plan to re-add or track updates.</p>
+          <a href="/items/">Browse Amp plugins →</a>
+        </div>
+
+        <p class="source-line">
+          Source:
+          <a href="https://ampcode.com/docs/customize/plugins" rel="noopener noreferrer"
+            >Amp Docs — Plugins</a
+          >
+          · Independent rewrite · Updated 2026-11-08 · Not affiliated with Amp
+        </p>
+        <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot hub</a></p>
       </div>
     </main>
-    <footer class="site-footer"><div class="wrap-wide"><p>Not affiliated with Amp</p></div></footer>
-      <script src="/theme.js" defer></script>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <p>
+          amp.aiaaii.com · Not affiliated with Amp ·
+          <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+        </p>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

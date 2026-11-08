@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>amp: command not found — fix | Amp Plugin Market</title>
+    <title>amp: command not found — fix PATH and CLI install | Amp Plugin Market</title>
     <meta
       name="description"
-      content="Fix “amp: command not found” or amp is not recognized: install or update the Amp CLI, fix PATH, then retry amp plugins add."
+      content="Fix amp: command not found or amp is not recognized. Install the Amp CLI, fix PATH, verify amp --version, then retry amp plugins add."
     />
     <link rel="canonical" href="https://amp.aiaaii.com/guides/fix-amp-command-not-found/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/favicon.svg" />
-        <script>
+    <script>
       (function () {
         try {
           var k = "aiaaii-theme";
@@ -33,7 +33,10 @@
     <div class="page-shell">
       <div class="wrap-wide">
         <div class="site-header">
-          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
+          <a class="brand" href="/"
+            ><span class="brand-name">Amp Plugin Market</span
+            ><span class="brand-domain">amp.aiaaii.com</span></a
+          >
           <div class="header-end">
             <nav class="nav" aria-label="Primary">
               <a href="https://aiaaii.com/">Home</a>
@@ -50,62 +53,162 @@
       <header class="page-hero">
         <div class="wrap">
           <h1>amp: command not found</h1>
-          <p>The shell cannot find the Amp CLI — install it or fix PATH before amp plugins add.</p>
+          <p>The shell cannot find the Amp CLI — fix install or PATH before any plugin command.</p>
         </div>
       </header>
     </div>
     <main class="section">
-      <div class="wrap prose">
+      <div class="wrap prose guide-doc">
         <p>
-          Variants include <code>amp: command not found</code>,
-          <code>amp is not recognized</code> (Windows), or a similar message when
-          you run <span class="acronym">amp plugins add</span>. This is a CLI /
-          PATH problem, not a bad plugin URL.
+          You searched this page because a terminal rejected
+          <span class="acronym">amp plugins add</span>,
+          <span class="acronym">amp plugins list</span>, or even
+          <code>amp --version</code>. This is a host / PATH problem. It is not a bad plugin URL.
         </p>
+
+        <div class="guide-symptom">
+          <span class="label">Copyable symptoms</span>
+          <code>amp: command not found</code>
+          <code>'amp' is not recognized as an internal or external command</code>
+          <code>amp: No such file or directory</code>
+          <p>
+            IDE terminals, WSL, and PowerShell each keep their own PATH. A GUI Amp session can work
+            while the shell you opened still cannot see <code>amp</code>.
+          </p>
+        </div>
+
+        <h2>Shortest success path</h2>
         <ol class="steps">
           <li>
-            Confirm Amp is installed from the official Amp / Sourcegraph docs for
-            your OS. App-only installs sometimes omit the shell binary.
+            Install or reinstall the Amp CLI from Amp’s current install instructions (install script,
+            Homebrew tap, or Windows install script on
+            <a href="https://ampcode.com/" rel="noopener noreferrer">ampcode.com</a>). Prefer the
+            documented installer over an outdated npm package name.
           </li>
           <li>
-            Open a <strong>new</strong> terminal and run:
+            Close the terminal completely, open a <strong>new</strong> one, then run:
             <div class="install-block"><span class="label">Check</span><code>amp --version</code></div>
           </li>
           <li>
-            If that fails, locate the binary (install directory or package manager
-            path) and ensure it is on <code>PATH</code>. On Windows, restart the
-            terminal after changing environment variables.
+            If that prints a version, confirm plugin subcommands resolve:
+            <div class="install-block"><span class="label">Check</span><code>amp plugins list</code></div>
           </li>
           <li>
-            Retry a known listing:
+            Retry a known listing from this directory:
             <div class="install-block">
               <span class="label">Example</span>
-              <code>amp plugins add https://github.com/lox/amp-autoresearch</code>
+              <code>amp plugins add @amp/finder</code>
             </div>
+            Listing:
+            <a href="/items/ampcode/finder/">@amp/finder</a>.
           </li>
           <li>
-            When the command runs but install fails, switch to
+            When <code>amp</code> runs but add errors, switch to
             <a href="/guides/fix-amp-plugins-add-failed/">amp plugins add failed</a>.
           </li>
         </ol>
-        <h2>Success</h2>
-        <p>
-          <code>amp --version</code> prints a version, and
-          <a href="/guides/amp-plugins-list/">amp plugins list</a> works in the same shell.
+
+        <h2>Failure branches</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>CLI never installed (app-only or partial setup)</strong>
+            <p>
+              Some editor integrations assume a shell binary that was never placed on PATH. Run the
+              official Amp install for your OS, then verify with <code>amp --version</code> in the
+              same kind of terminal you use for plugin commands (PowerShell vs cmd vs WSL vs macOS
+              Terminal).
+            </p>
+          </li>
+          <li>
+            <strong>PATH not refreshed</strong>
+            <p>
+              Installers append to user or system PATH, but an already-open terminal keeps the old
+              environment. Quit the terminal app (not just the tab), reopen, and re-check. On
+              Windows, sign out or reboot if a new user PATH still does not appear in IDE-embedded
+              terminals.
+            </p>
+          </li>
+          <li>
+            <strong>Wrong environment (WSL vs Windows, nvm / asdf shims)</strong>
+            <p>
+              Installing Amp on Windows does not put <code>amp</code> inside WSL, and vice versa.
+              Version managers can shadow a global binary. Run <code>where amp</code> (Windows) or
+              <code>which amp</code> / <code>type -a amp</code> (Unix) and confirm the path matches
+              the install you just completed.
+            </p>
+          </li>
+          <li>
+            <strong>Stale package rename</strong>
+            <p>
+              Older write-ups mention historic npm package names. Use Amp’s current install path
+              from ampcode.com rather than inventing alternate global installs. After install,
+              <code>amp update</code> (when available in your build) keeps the CLI current.
+            </p>
+          </li>
+          <li>
+            <strong>CI / headless shells without login PATH</strong>
+            <p>
+              Non-interactive jobs often skip profile scripts that add Amp. Export the install
+              directory explicitly in the job, or invoke the absolute path to the binary. For
+              headless Amp usage, Amp documents access-token env vars separately from PATH.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Success criteria</h2>
+        <ul>
+          <li><code>amp --version</code> prints a version string in the same shell you will use next.</li>
+          <li><code>amp plugins list</code> runs (even if the list is empty).</li>
+          <li>
+            <code>amp plugins add …</code> is reachable; further install errors belong on the
+            <a href="/guides/fix-amp-plugins-add-failed/">add failed</a> guide.
+          </li>
+        </ul>
+
+        <h2>Related guides</h2>
+        <ul class="guide-related">
+          <li>
+            <a href="/guides/amp-plugins-add/">amp plugins add</a>
+            <span>Once the CLI is on PATH</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-install-amp-plugin/">How to install an Amp plugin</a>
+            <span>Full install entry (CLI + Share URL + dirs)</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot hub</a>
+            <span>Map of other Amp plugin failures</span>
+          </li>
+          <li>
+            <a href="/items/">Amp plugin directory</a>
+            <span>Copy a real install block after PATH works</span>
+          </li>
+        </ul>
+
+        <div class="guide-cta">
+          <p>
+            When <code>amp --version</code> works, install one known plugin from the directory to
+            prove the full path end-to-end.
+          </p>
+          <a href="/items/">Browse Amp plugins →</a>
+        </div>
+
+        <p class="source-line">
+          Source:
+          <a href="https://ampcode.com/docs/customize/plugins" rel="noopener noreferrer"
+            >Amp Docs — Plugins</a
+          >
+          · Independent rewrite · Updated 2026-11-08 · Not affiliated with Amp
         </p>
-        <h2>Related</h2>
-        <p>
-          <a href="/guides/amp-plugins-add/">amp plugins add</a>
-          · <a href="/guides/how-to-install-amp-plugin/">How to install</a>
-          · <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot hub</a>
-        </p>
-        <p class="source-line">Independent rewrite · Updated 2026-11-02 · Not affiliated with Amp / Sourcegraph</p>
         <p><a href="/guides/">← Guides</a> · <a href="/items/">Browse plugins</a></p>
       </div>
     </main>
     <footer class="site-footer">
       <div class="wrap-wide">
-        <p>amp.aiaaii.com · Not affiliated with Amp / Sourcegraph · <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a></p>
+        <p>
+          amp.aiaaii.com · Not affiliated with Amp ·
+          <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+        </p>
       </div>
     </footer>
     <script src="/theme.js" defer></script>

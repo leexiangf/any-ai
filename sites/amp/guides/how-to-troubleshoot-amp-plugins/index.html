@@ -4,11 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>How to troubleshoot Amp plugins | Amp Plugin Market</title>
-    <meta name="description" content="Troubleshoot Amp plugins that fail to load, conflict, or misbehave." />
+    <meta
+      name="description"
+      content="Amp plugin troubleshoot hub: map command-not-found, add failed, not showing, reload, list, and update to the right fix guide."
+    />
     <link rel="canonical" href="https://amp.aiaaii.com/guides/how-to-troubleshoot-amp-plugins/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/favicon.svg" />
-        <script>
+    <script>
       (function () {
         try {
           var k = "aiaaii-theme";
@@ -30,9 +33,17 @@
     <div class="page-shell">
       <div class="wrap-wide">
         <div class="site-header">
-          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
-                    <div class="header-end">
-            <nav class="nav"><a href="https://aiaaii.com/">Home</a><a href="/guides/">Guides</a></nav>
+          <a class="brand" href="/"
+            ><span class="brand-name">Amp Plugin Market</span
+            ><span class="brand-domain">amp.aiaaii.com</span></a
+          >
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+              <a href="https://aiaaii.com/">Home</a>
+              <a href="/items/">Plugins</a>
+              <a href="/guides/">Guides</a>
+              <a href="/submit/">Submit</a>
+            </nav>
             <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
               <span class="theme-toggle-icon" aria-hidden="true"></span>
             </button>
@@ -42,35 +53,165 @@
       <header class="page-hero">
         <div class="wrap">
           <h1>How to troubleshoot Amp plugins</h1>
-          <p>Isolate load path, precedence, and trust issues.</p>
+          <p>Hub: match the symptom, open the fix page — not another shallow checklist.</p>
         </div>
       </header>
     </div>
     <main class="section">
-      <div class="wrap prose">
-        <ol class="steps">
-          <li>Confirm the file path: project <span class="acronym">.amp/plugins/</span>, system config dir, or personal/workspace repo.</li>
-          <li>Run <span class="acronym">amp plugins list</span> and note precedence (project → system → personal → workspace).</li>
-          <li>Reload; if needed restart Amp.</li>
-          <li>Temporarily move other plugins aside to rule out name collisions.</li>
-          <li>Re-read the source README for env vars or Amp version needs.</li>
-        </ol>
-        <h2>Success</h2>
-        <p>Plugin lists; behavior matches the author’s docs.</p>
-        <h2>If it fails</h2>
-        <p>Syntax errors → fix TS/JS. Wrong Amp surface (e.g. Puck) → plugins need orb/CLI/runner. Untrusted code → uninstall.</p>
-        <h2>Command-word &amp; error pages</h2>
-        <ul>
-          <li><a href="/guides/amp-plugins-add/">amp plugins add</a></li>
-          <li><a href="/guides/fix-amp-command-not-found/">amp: command not found</a></li>
-          <li><a href="/guides/fix-amp-plugins-add-failed/">amp plugins add failed</a></li>
-          <li><a href="/guides/fix-amp-plugin-not-showing/">installed but not showing</a></li>
-          <li><a href="/guides/amp-plugins-reload/">plugins: reload</a></li>
+      <div class="wrap prose guide-doc">
+        <p>
+          This page is the index for Amp plugin failures on this market. Start with the symptom map,
+          jump to the dedicated guide, then come back only if you still need the generic isolation
+          steps at the bottom. We keep fix detail on the linked pages so this hub stays navigable.
+        </p>
+
+        <div class="guide-symptom">
+          <span class="label">First two checks</span>
+          <code>amp --version</code>
+          <code>amp plugins list</code>
+          <p>
+            If the CLI is missing, stop here and open
+            <a href="/guides/fix-amp-command-not-found/">command not found</a>. If the CLI works,
+            use the map below.
+          </p>
+        </div>
+
+        <h2 id="error-map">Symptom → guide map</h2>
+        <ul class="guide-related">
+          <li>
+            <a href="/guides/fix-amp-command-not-found/">amp: command not found</a>
+            <span>Shell cannot find amp — install or PATH</span>
+          </li>
+          <li>
+            <a href="/guides/fix-amp-plugins-add-failed/">amp plugins add failed</a>
+            <span>Add errors: URL, auth, target, invalid package</span>
+          </li>
+          <li>
+            <a href="/guides/fix-amp-plugin-not-showing/">Installed but not showing</a>
+            <span>List may be OK; UI/tools/modes empty</span>
+          </li>
+          <li>
+            <a href="/guides/amp-plugins-add/">amp plugins add</a>
+            <span>Command-word install reference</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-install-amp-plugin/">How to install an Amp plugin</a>
+            <span>CLI + Share URL + directory drop</span>
+          </li>
+          <li>
+            <a href="/guides/amp-plugins-reload/">plugins: reload</a>
+            <span>Session still on old code after a good install</span>
+          </li>
+          <li>
+            <a href="/guides/amp-plugins-list/">amp plugins list</a>
+            <span>Need evidence of source and precedence</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-reload-and-list-plugins/">Reload and list</a>
+            <span>Combined verify loop after install/edit</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-update-amp-plugins/">How to update Amp plugins</a>
+            <span>Imports, update, --auto-update boundaries</span>
+          </li>
         </ul>
-        <p class="source-line">Updated 2026-11-01 · <a href="/guides/">Guides</a></p>
+
+        <h2>Generic isolation (only after the map)</h2>
+        <ol class="steps">
+          <li>
+            Confirm scope: project <code>.amp/plugins/</code>, system config plugins dir, or
+            personal/workspace repository import.
+          </li>
+          <li>
+            Run <span class="acronym">amp plugins list</span> and note precedence
+            (project → system → personal → workspace).
+          </li>
+          <li>
+            Run <span class="acronym">plugins: reload</span>; restart Amp once if needed.
+          </li>
+          <li>Temporarily move other same-named plugins aside to rule out collisions.</li>
+          <li>
+            Re-read the listing / author docs for Amp version needs, env vars, or “new thread
+            required” notes. Prefer a known package from
+            <a href="/items/">the directory</a> when bisecting.
+          </li>
+        </ol>
+
+        <h2>Failure branches this hub does not invent</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>Syntax / runtime errors inside the plugin</strong>
+            <p>
+              Fix the TypeScript/JavaScript the author shipped, or remove the plugin. This market
+              does not mirror upstream source as the page body.
+            </p>
+          </li>
+          <li>
+            <strong>Untrusted code</strong>
+            <p>
+              Plugins execute in your environment. If you cannot review the source, do not install —
+              uninstall and pick another listing.
+            </p>
+          </li>
+          <li>
+            <strong>Wrong product surface</strong>
+            <p>
+              Looking for a mode in the tool list (or the reverse) looks like a load failure. Match
+              the author’s surface, then re-check
+              <a href="/guides/fix-amp-plugin-not-showing/">not showing</a>.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Success criteria</h2>
+        <ul>
+          <li>You landed on the symptom-specific guide that matches your error text.</li>
+          <li><code>amp plugins list</code> shows a healthy registration for the plugin you care about.</li>
+          <li>After reload, the documented feature works in the Amp surface you use.</li>
+        </ul>
+
+        <h2>Related</h2>
+        <ul class="guide-related">
+          <li>
+            <a href="/guides/">All Amp guides</a>
+            <span>Errors &amp; commands listed first</span>
+          </li>
+          <li>
+            <a href="/items/ampcode/finder/">@amp/finder</a>
+            <span>Known-good listing for bisects</span>
+          </li>
+          <li>
+            <a href="/items/ampcode/oracle/">@amp/oracle</a>
+            <span>Second known listing</span>
+          </li>
+        </ul>
+
+        <div class="guide-cta">
+          <p>
+            When install is healthy again, keep one directory plugin as your canary for future
+            PATH / reload regressions.
+          </p>
+          <a href="/items/">Browse Amp plugins →</a>
+        </div>
+
+        <p class="source-line">
+          Source:
+          <a href="https://ampcode.com/docs/customize/plugins" rel="noopener noreferrer"
+            >Amp Docs — Plugins</a
+          >
+          · Independent rewrite · Updated 2026-11-08 · Not affiliated with Amp
+        </p>
+        <p><a href="/guides/">← Guides</a> · <a href="/items/">Plugins</a></p>
       </div>
     </main>
-    <footer class="site-footer"><div class="wrap-wide"><p>Not affiliated with Amp</p></div></footer>
-      <script src="/theme.js" defer></script>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <p>
+          amp.aiaaii.com · Not affiliated with Amp ·
+          <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+        </p>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

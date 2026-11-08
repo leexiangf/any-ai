@@ -9,6 +9,9 @@ Sitemap：五站 `sitemap.xml`（www / amp / orca / droid / **kimi** — kimi �
 
 | 日期 | 操作 |
 | --- | --- |
+| 2026-11-08 | Amp guides **P2** 加厚完成：what-is（skill/mode 边界）+ develop（最小骨架）。下次额度：P0 → P1 → **Amp-P2**。 |
+| 2026-11-08 | Amp guides **P1** 加厚完成：list / reload / reload+list / update / troubleshoot hub；首页 FAQ 报错优先。下次额度：Amp-P0 后接 **Amp-P1**。 |
+| 2026-11-08 | Amp guides P0 加厚完成：五页正文重写 + `/guides/` 索引重排。下次额度优先 **重抓** Batch Amp-P0（下表）。 |
 | 2026-11-02 | 已申请 **第 1–9 条**（见下方 Batch A）。额度用尽。 |
 | 2026-11-03 | 仅申请 **#10–11**（Orca 两条命令词指南）。额度超额，其余顺延。 |
 | 2026-11-06 | 已申请 **15 条**：Kimi 新店 #33–37 + 顺延报错 #12–15 + #40；目录 #16–18 + #38、#49。 |
@@ -150,7 +153,36 @@ Sitemap：五站 `sitemap.xml`（www / amp / orca / droid / **kimi** — kimi �
 | zh-11 | https://orca.aiaaii.com/zh/about/ | todo |
 | zh-12 | https://orca.aiaaii.com/zh/glossary/ | todo |
 
-下次额度优先从 **zh-2** 起继续。顺延：#72 #21 #73 英文报错指南（若额度有余）。
+## Batch Amp-P0 — guides 加厚后重抓（2026-11-08）
+
+| # | URL | 状态 |
+| ---: | --- | --- |
+| amp-p0-1 | https://amp.aiaaii.com/guides/fix-amp-plugins-add-failed/ | todo · 加厚重抓 |
+| amp-p0-2 | https://amp.aiaaii.com/guides/fix-amp-command-not-found/ | todo · 加厚重抓 |
+| amp-p0-3 | https://amp.aiaaii.com/guides/fix-amp-plugin-not-showing/ | todo · 加厚重抓 |
+| amp-p0-4 | https://amp.aiaaii.com/guides/amp-plugins-add/ | todo · 加厚重抓 |
+| amp-p0-5 | https://amp.aiaaii.com/guides/how-to-install-amp-plugin/ | todo · 加厚重抓 |
+| amp-p0-6 | https://amp.aiaaii.com/guides/ | todo · 索引重排重抓 |
+
+## Batch Amp-P1 — guides 加厚后重抓（2026-11-08）
+
+| # | URL | 状态 |
+| ---: | --- | --- |
+| amp-p1-1 | https://amp.aiaaii.com/guides/amp-plugins-list/ | todo · 加厚重抓 |
+| amp-p1-2 | https://amp.aiaaii.com/guides/amp-plugins-reload/ | todo · 加厚重抓 |
+| amp-p1-3 | https://amp.aiaaii.com/guides/how-to-reload-and-list-plugins/ | todo · 加厚重抓 |
+| amp-p1-4 | https://amp.aiaaii.com/guides/how-to-update-amp-plugins/ | todo · 加厚重抓 |
+| amp-p1-5 | https://amp.aiaaii.com/guides/how-to-troubleshoot-amp-plugins/ | todo · hub 重抓 |
+| amp-p1-6 | https://amp.aiaaii.com/ | todo · FAQ 重排重抓 |
+
+## Batch Amp-P2 — guides 加厚后重抓（2026-11-08）
+
+| # | URL | 状态 |
+| ---: | --- | --- |
+| amp-p2-1 | https://amp.aiaaii.com/guides/what-is-an-amp-plugin/ | todo · 加厚重抓 |
+| amp-p2-2 | https://amp.aiaaii.com/guides/how-to-develop-an-amp-plugin/ | todo · 加厚重抓 |
+
+下次额度优先：**Amp-P0** → **Amp-P1** → **Amp-P2**，再继续 **zh-2**。顺延：#72 #21 #73 英文报错指南（若额度有余）。
 
 新上架（2026-11-08 · 17）：Kimi 10 · Droid 4 · Orca 3 → 总量 250。  
 Orca 深搜上架（2026-11-08 · 78）：P0 62 + P1 16 → Orca **157** · 全站 **328**。  

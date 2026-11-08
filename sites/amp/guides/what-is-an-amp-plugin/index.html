@@ -4,11 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>What is an Amp plugin | Amp Plugin Market</title>
-    <meta name="description" content="What an Amp plugin is, where it loads from, and how it differs from skills." />
+    <meta
+      name="description"
+      content="What an Amp plugin is: TS/JS modules that add tools, commands, events, and UI — and how they differ from skills and modes."
+    />
     <link rel="canonical" href="https://amp.aiaaii.com/guides/what-is-an-amp-plugin/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/favicon.svg" />
-        <script>
+    <script>
       (function () {
         try {
           var k = "aiaaii-theme";
@@ -30,9 +33,17 @@
     <div class="page-shell">
       <div class="wrap-wide">
         <div class="site-header">
-          <a class="brand" href="/"><span class="brand-name">Amp Plugin Market</span><span class="brand-domain">amp.aiaaii.com</span></a>
-                    <div class="header-end">
-            <nav class="nav"><a href="https://aiaaii.com/">Home</a><a href="/guides/">Guides</a><a href="/items/">Plugins</a></nav>
+          <a class="brand" href="/"
+            ><span class="brand-name">Amp Plugin Market</span
+            ><span class="brand-domain">amp.aiaaii.com</span></a
+          >
+          <div class="header-end">
+            <nav class="nav" aria-label="Primary">
+              <a href="https://aiaaii.com/">Home</a>
+              <a href="/items/">Plugins</a>
+              <a href="/guides/">Guides</a>
+              <a href="/submit/">Submit</a>
+            </nav>
             <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Theme">
               <span class="theme-toggle-icon" aria-hidden="true"></span>
             </button>
@@ -42,28 +53,200 @@
       <header class="page-hero">
         <div class="wrap">
           <h1>What is an Amp plugin</h1>
-          <p>TypeScript or JavaScript modules that extend Amp.</p>
+          <p>TypeScript or JavaScript modules Amp loads to extend the agent — with clear skill and mode boundaries.</p>
         </div>
       </header>
     </div>
     <main class="section">
-      <div class="wrap prose">
-        <p><strong>Prerequisites:</strong> Amp installed; optional familiarity with Node/TS.</p>
-        <h2>Steps</h2>
+      <div class="wrap prose guide-doc">
+        <p>
+          You land here when search or a listing says “Amp plugin” and you need a precise definition
+          before installing anything. An Amp plugin is code Amp executes in your environment. It is
+          not a marketplace SKU by itself, and it is not the same thing as a skill file or a built-in
+          agent mode — though a plugin can register skills or modes.
+        </p>
+
+        <div class="guide-symptom">
+          <span class="label">One-line definition</span>
+          <code>A .ts / .js module (or directory with index.ts) that Amp loads and runs</code>
+          <p>
+            Entry shape Amp documents: default-export a function that receives
+            <code>PluginAPI</code> from <code>@ampcode/plugin</code>.
+          </p>
+        </div>
+
+        <h2>What plugins can do</h2>
+        <p>Per Amp’s plugin docs, a plugin may:</p>
+        <ul>
+          <li>Handle lifecycle events (<code>amp.on(...)</code>) such as tool calls and results</li>
+          <li>Register custom tools (<code>amp.registerTool(...)</code>)</li>
+          <li>Call built-in, plugin, or MCP tools via context helpers</li>
+          <li>Bundle and register skills (<code>amp.registerSkill(...)</code>)</li>
+          <li>Add command-palette commands (<code>amp.registerCommand(...)</code>)</li>
+          <li>Show UI prompts and notifications</li>
+          <li>Use Amp AI helpers and thread labels</li>
+        </ul>
+        <p>
+          Concrete listings on this market (for example
+          <a href="/items/ampcode/finder/">@amp/finder</a> or
+          <a href="/items/ampcode/oracle/">@amp/oracle</a>) are plugins you install with documented
+          CLI or Share flows — see
+          <a href="/guides/how-to-install-amp-plugin/">how to install</a>.
+        </p>
+
+        <h2>Where plugins load from</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>Personal</strong>
+            <p>Managed in Personal Settings / personal plugin repository. Apply everywhere you use Amp.</p>
+          </li>
+          <li>
+            <strong>Workspace</strong>
+            <p>Managed by workspace admins. Apply to everyone in that workspace.</p>
+          </li>
+          <li>
+            <strong>Project</strong>
+            <p>Files or directories under <code>.amp/plugins/</code> at the repo root.</p>
+          </li>
+          <li>
+            <strong>System</strong>
+            <p>
+              <code>~/.config/amp/plugins/</code> (or Windows
+              <code>%USERPROFILE%\.config\amp\plugins\</code>; honor <code>XDG_CONFIG_HOME</code>).
+            </p>
+          </li>
+        </ul>
+        <p>
+          Same name → precedence is <strong>project → system → personal → workspace</strong>. Inspect
+          with <a href="/guides/amp-plugins-list/">amp plugins list</a>.
+        </p>
+
+        <h2>Plugin vs skill vs mode</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>Plugin</strong>
+            <p>
+              Executable module with a Plugin API entrypoint. Can register tools, commands, events,
+              UI, and optionally skills or custom agent modes. Runs as code — trust matters.
+            </p>
+          </li>
+          <li>
+            <strong>Skill</strong>
+            <p>
+              Instruction / resource package (typically a directory with <code>SKILL.md</code>). A
+              plugin can <em>bundle</em> skills and must call <code>registerSkill</code> — Amp does
+              not auto-scan a plugin’s <code>skills/</code> folder. A skill-only Git repo is not
+              automatically an Amp plugin; follow the listing’s install verb (some markets use
+              different commands).
+            </p>
+          </li>
+          <li>
+            <strong>Mode</strong>
+            <p>
+              An agent configuration surface (model, prompt, tool set). Amp ships built-in modes;
+              some additional modes ship as installable plugins (for example classic mode packages
+              via <code>amp plugins add --auto-update @amp/…</code>). Installing a mode plugin does
+              not turn every tool plugin into a mode — look for it in the mode picker after
+              <a href="/guides/amp-plugins-reload/">plugins: reload</a>.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Trust and this directory</h2>
+        <p>
+          Plugins run on your machine. This site is a community install index (Any AI / AI-AAII), not
+          Amp’s official marketplace and not a security audit. Prefer reviewing source, then
+          installing from a listing’s real command block.
+        </p>
+
+        <h2>Shortest path after you understand the term</h2>
         <ol class="steps">
-          <li>Know that plugins can register tools, commands, events, UI, skills, and AI helpers.</li>
-          <li>Know scopes: personal, workspace, project (<span class="acronym">.amp/plugins/</span>), system (<span class="acronym">~/.config/amp/plugins/</span>).</li>
-          <li>Treat plugins as code that runs on your machine — only load what you trust.</li>
+          <li>Browse <a href="/items/">listed plugins</a> and open one you trust.</li>
+          <li>
+            Install with the listing’s block — usually
+            <a href="/guides/amp-plugins-add/">amp plugins add</a> or a Share import (
+            <a href="/guides/how-to-install-amp-plugin/">full install guide</a>).
+          </li>
+          <li>
+            Verify with
+            <a href="/guides/how-to-reload-and-list-plugins/">reload and list</a>.
+          </li>
         </ol>
-        <h2>Success</h2>
-        <p>You can explain plugin vs skill, and name at least two load locations.</p>
-        <h2>If it fails</h2>
-        <p>Confused with skills → read Amp docs on global plugins &amp; skills. No files loading → check path spelling and <a href="/guides/how-to-reload-and-list-plugins/">reload</a>.</p>
-        <p class="source-line">Source: <a href="https://ampcode.com/docs/customize/plugins" rel="noopener noreferrer">Amp Docs — Plugins</a> · Updated 2026-10-22</p>
-        <p><a href="/guides/how-to-install-amp-plugin/">Next: Install →</a> · <a href="/guides/">All guides</a></p>
+
+        <h2>Failure branches (concept mix-ups)</h2>
+        <ul class="guide-branches">
+          <li>
+            <strong>“I cloned a skill repo and Amp did nothing”</strong>
+            <p>
+              Cloning is not registration. Use the install command on the listing, or place a real
+              plugin entry under a load path Amp documents.
+            </p>
+          </li>
+          <li>
+            <strong>“I installed a tool plugin but it is not in the mode picker”</strong>
+            <p>
+              Tools ≠ modes. Check the author docs for where the feature appears, then
+              <a href="/guides/fix-amp-plugin-not-showing/">not showing</a>.
+            </p>
+          </li>
+          <li>
+            <strong>“Personal plugin vanished in this repo”</strong>
+            <p>
+              Project-scoped same-name plugin wins. List sources and resolve precedence.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Success criteria</h2>
+        <ul>
+          <li>You can define an Amp plugin in one sentence without calling it a skill.</li>
+          <li>You can name at least two load locations and the precedence order.</li>
+          <li>You know the next page is install or develop, not more vocabulary.</li>
+        </ul>
+
+        <h2>Related guides</h2>
+        <ul class="guide-related">
+          <li>
+            <a href="/guides/how-to-install-amp-plugin/">How to install an Amp plugin</a>
+            <span>CLI, Share URL, directories</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-develop-an-amp-plugin/">How to develop an Amp plugin</a>
+            <span>Minimal skeleton + Plugin API link</span>
+          </li>
+          <li>
+            <a href="/guides/how-to-troubleshoot-amp-plugins/">Troubleshoot hub</a>
+            <span>When install or load fails</span>
+          </li>
+          <li>
+            <a href="/items/">Amp plugin directory</a>
+            <span>Concrete examples to open</span>
+          </li>
+        </ul>
+
+        <div class="guide-cta">
+          <p>Definition locked — pick a listing and install one known-good package.</p>
+          <a href="/items/">Browse Amp plugins →</a>
+        </div>
+
+        <p class="source-line">
+          Source:
+          <a href="https://ampcode.com/docs/customize/plugins" rel="noopener noreferrer"
+            >Amp Docs — Plugins</a
+          >
+          · Independent rewrite · Updated 2026-11-08 · Not affiliated with Amp
+        </p>
+        <p><a href="/guides/">← Guides</a> · <a href="/guides/how-to-install-amp-plugin/">Install →</a></p>
       </div>
     </main>
-    <footer class="site-footer"><div class="wrap-wide"><p>Not affiliated with Amp</p></div></footer>
-      <script src="/theme.js" defer></script>
+    <footer class="site-footer">
+      <div class="wrap-wide">
+        <p>
+          amp.aiaaii.com · Not affiliated with Amp ·
+          <a class="mall-link" href="https://aiaaii.com/">Any AI mall</a>
+        </p>
+      </div>
+    </footer>
+    <script src="/theme.js" defer></script>
   </body>
 </html>

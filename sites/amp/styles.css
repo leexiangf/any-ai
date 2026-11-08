@@ -376,6 +376,24 @@ code,
   max-width: 36em;
 }
 
+/* Body measure without re-centering the section column */
+.section-copy {
+  margin: 0 0 1.1rem;
+  max-width: 40rem;
+  font-size: 17px;
+  line-height: 1.55;
+  color: var(--ink-secondary);
+}
+
+.section-copy strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.wrap > .source-line {
+  margin-top: 0.35rem;
+}
+
 .section-center {
   text-align: center;
 }
@@ -507,11 +525,12 @@ h2.section-center {
   color: var(--blue);
 }
 
-/* FAQ */
+/* FAQ — same left edge as other .wrap sections */
 .faq {
-  margin: 0 auto;
+  margin: 1.25rem 0 0;
   padding: 0;
-  max-width: 680px;
+  max-width: none;
+  width: 100%;
 }
 
 .faq details {
@@ -736,14 +755,27 @@ h2.section-center {
   word-break: break-all;
 }
 
+.install-block pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.install-block pre code {
+  display: block;
+  word-break: break-word;
+}
+
 .feature-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem 1.5rem;
-  margin: 0 0 2rem;
+  column-gap: 2.5rem;
+  row-gap: 0;
+  margin: 1.5rem 0 0;
   padding: 0;
   list-style: none;
-  max-width: 40rem;
+  width: 100%;
+  max-width: none;
 }
 
 .feature-list li {
@@ -1101,6 +1133,201 @@ h2.section-center {
   font-size: 13px;
   color: var(--ink-tertiary);
   margin: 1rem 0 0;
+}
+
+/* Guide reading surface — scoped to .guide-doc; safe for item pages */
+.prose.guide-doc {
+  max-width: 40rem;
+}
+
+.prose.guide-doc > h2 {
+  margin: 2.6rem 0 0.85rem;
+  font-size: clamp(1.25rem, 2.4vw, 1.45rem);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+.prose.guide-doc > h3 {
+  margin: 1.75rem 0 0.55rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+.prose.guide-doc > p {
+  font-size: 17px;
+  line-height: 1.55;
+  max-width: 65ch;
+}
+
+.prose.guide-doc > ul {
+  margin: 0 0 1.25rem;
+  padding-left: 1.2rem;
+  color: var(--ink-secondary);
+  font-size: 17px;
+  line-height: 1.55;
+  max-width: 65ch;
+}
+
+.prose.guide-doc > ul li {
+  margin: 0.4rem 0;
+}
+
+.prose.guide-doc > ul li::marker {
+  color: var(--ink-tertiary);
+}
+
+.prose.guide-doc .steps {
+  margin: 0 0 0.25rem;
+}
+
+.prose.guide-doc .steps li {
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--ink-secondary);
+}
+
+.prose.guide-doc .steps li .install-block {
+  margin: 0.85rem 0 0.25rem;
+}
+
+.guide-symptom {
+  margin: 0 0 1.75rem;
+  padding: 1.15rem 1.25rem;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.guide-symptom .label {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-tertiary);
+}
+
+.guide-symptom code {
+  display: block;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ink);
+  word-break: break-word;
+}
+
+.guide-symptom p {
+  margin: 0.7rem 0 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--ink-secondary);
+}
+
+.guide-branches {
+  margin: 0 0 1.25rem;
+  padding: 0;
+  list-style: none;
+}
+
+.guide-branches > li {
+  padding: 1.05rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.guide-branches > li:first-child {
+  border-top: 1px solid var(--line);
+}
+
+.guide-branches strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 16px;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+
+.guide-branches p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--ink-secondary);
+  max-width: 65ch;
+}
+
+.guide-related {
+  margin: 0 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.guide-related li {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.guide-related a {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.015em;
+  text-decoration: none;
+}
+
+.guide-related a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.guide-related span {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--ink-secondary);
+}
+
+.guide-cta {
+  margin: 2.25rem 0 1.35rem;
+  padding: 1.35rem 1.4rem;
+  background: var(--bg);
+  border: 1px solid var(--line-strong);
+  border-radius: 16px;
+}
+
+.guide-cta p {
+  margin: 0 0 0.75rem;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--ink-secondary);
+  max-width: none;
+}
+
+.guide-cta a {
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+}
+
+.guide-list-group {
+  margin: 0 0 2.25rem;
+}
+
+.guide-list-group > h2 {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.2rem, 2.2vw, 1.35rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.guide-list-group > p {
+  margin: 0 0 0.35rem;
+  font-size: 15px;
+  color: var(--ink-secondary);
 }
 
 .mall-link {
