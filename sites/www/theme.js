@@ -69,6 +69,17 @@
     home.setAttribute("aria-label", "Home");
     rail.appendChild(home);
 
+    var gh = document.createElement("a");
+    gh.className = "fixed-home";
+    gh.href = "https://github.com/leexiangf/any-ai";
+    gh.target = "_blank";
+    gh.rel = "noopener noreferrer";
+    gh.textContent = "GitHub";
+    gh.setAttribute("aria-label", "Any AI on GitHub");
+    gh.title = "GitHub";
+    rail.appendChild(gh);
+
+
     var btn = document.querySelector("[data-theme-toggle]");
     if (btn) rail.appendChild(btn);
 
