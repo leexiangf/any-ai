@@ -10,6 +10,10 @@ dsh-plugin-获流案例拆解.md
 .cursor/
 docs/
 ops/amp-guides-thicken.md
+ops/orca-guides-thicken.md
+ops/droid-guides-thicken.md
+ops/kimi-guides-thicken.md
+ops/gsc-indexing-queue.md
 
 # OS / editor
 .DS_Store
